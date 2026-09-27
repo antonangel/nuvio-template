@@ -1,0 +1,1054 @@
+[
+  {
+    "id": "f08ce9d6-429d-4c75-83f8-1d4d5eae096e",
+    "title": "Discover",
+    "backdropImageUrl": null,
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "FOLLOW_HOME",
+    "showAllTab": false,
+    "folders": [
+      {
+        "id": "6bb2f5f4-5935-49f9-b8e8-1b5b80799816",
+        "title": "Latest Movies",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Latest-Movies.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.86934"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "960e48e7-39dc-453e-949e-48fc7d2e480c",
+        "title": "Latest Shows",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Latest-Shows.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "mdblist.86710"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "a0bde699-39ca-43a0-8bc9-d0d02348393b",
+        "title": "Trending Movies",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Trending-Movies.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.87667"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "23166298-ffde-4b91-86b7-a94039f423d7",
+        "title": "Trending Shows",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Trending-Shows.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "mdblist.88434"
+          }
+        ],
+        "_coverMode": "image"
+      }
+    ]
+  },
+  {
+    "id": "d2c67354-d395-4345-9901-d83e5f10e000",
+    "title": "Streaming Services",
+    "backdropImageUrl": null,
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "FOLLOW_HOME",
+    "showAllTab": false,
+    "folders": [
+      {
+        "id": "3b417ba7-118e-4b34-a98e-627dbce08975",
+        "title": "Netflix",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Netflix.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "pw.ers.netflix-catalog",
+            "type": "movie",
+            "catalogId": "nfx"
+          },
+          {
+            "addonId": "pw.ers.netflix-catalog",
+            "type": "series",
+            "catalogId": "nfx"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "fad8800d-bb1a-466e-a7f2-7607dde8c4b9",
+        "title": "Disney+",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Disney.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "pw.ers.netflix-catalog",
+            "type": "movie",
+            "catalogId": "dnp"
+          },
+          {
+            "addonId": "pw.ers.netflix-catalog",
+            "type": "series",
+            "catalogId": "dnp"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "8f1e1103-d5ad-43e6-b787-9cdb69ac378f",
+        "title": "Apple TV",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Apple-TV.png",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "pw.ers.netflix-catalog",
+            "type": "movie",
+            "catalogId": "atp"
+          },
+          {
+            "addonId": "pw.ers.netflix-catalog",
+            "type": "series",
+            "catalogId": "atp"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "8d848386-9c7b-4b99-9ef0-bffb21437b81",
+        "title": "Prime Video",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Prime-Video.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "pw.ers.netflix-catalog",
+            "type": "movie",
+            "catalogId": "amp"
+          },
+          {
+            "addonId": "pw.ers.netflix-catalog",
+            "type": "series",
+            "catalogId": "amp"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "97bcf552-69dd-4648-951e-cc55433bc5a4",
+        "title": "HBO Max",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/HBO-Max.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "pw.ers.netflix-catalog",
+            "type": "movie",
+            "catalogId": "hbm"
+          },
+          {
+            "addonId": "pw.ers.netflix-catalog",
+            "type": "series",
+            "catalogId": "hbm"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "081a4f41-f36f-4c1f-bbf4-6786efb5cdf0",
+        "title": "Hulu",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Hulu.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "pw.ers.netflix-catalog",
+            "type": "movie",
+            "catalogId": "hlu"
+          },
+          {
+            "addonId": "pw.ers.netflix-catalog",
+            "type": "series",
+            "catalogId": "hlu"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "95be0cb8-b8dd-401d-b982-f35b1fb5b08e",
+        "title": "Paramount+",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Paramount.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "pw.ers.netflix-catalog",
+            "type": "movie",
+            "catalogId": "pmp"
+          },
+          {
+            "addonId": "pw.ers.netflix-catalog",
+            "type": "series",
+            "catalogId": "pmp"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "06b05f4d-6a7b-4714-80a5-7ddea481aab1",
+        "title": "Peacock",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Peacock.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "pw.ers.netflix-catalog",
+            "catalogId": "pcp",
+            "type": "movie"
+          },
+          {
+            "addonId": "pw.ers.netflix-catalog",
+            "catalogId": "pcp",
+            "type": "series"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "00d53b63-fd21-4428-891b-e975e205236b",
+        "title": "Starz",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Starz.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "pw.ers.netflix-catalog",
+            "catalogId": "stz",
+            "type": "movie"
+          },
+          {
+            "addonId": "pw.ers.netflix-catalog",
+            "catalogId": "stz",
+            "type": "series"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "b31cd05a-eb2a-4289-99af-4faee46e0b40",
+        "title": "Shudder",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Shudder.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.8862",
+            "type": "movie"
+          },
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.8861",
+            "type": "series"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "bd92ee0e-33e2-47e4-adaa-7b0bd8c97d12",
+        "title": "Adult Swim",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/adult-swim.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.59779",
+            "type": "series"
+          }
+        ],
+        "_coverMode": "image"
+      }
+    ]
+  },
+  {
+    "id": "f5d85ab1-70ee-4ea4-9ba3-570006691f49",
+    "title": "Genres",
+    "backdropImageUrl": null,
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "FOLLOW_HOME",
+    "showAllTab": false,
+    "folders": [
+      {
+        "id": "fb1b44f7-441a-4c72-874d-b32b31eab572",
+        "title": "Action",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/action.png",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.91211"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "mdblist.91213"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "1c8f20af-b2fe-4afa-8511-88c0c605a686",
+        "title": "Comedy",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/comedy.png",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.91223"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "mdblist.91224"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "60b0411b-7925-4b34-a453-3685dbb3d8c5",
+        "title": "Sci-Fi",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/sci-fi.png",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.91220"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "mdblist.91221"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "a5e09c6d-41f8-48fb-b409-8920092bc0f4",
+        "title": "Crime",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/crime.png",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.3108"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "mdblist.3126"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "f953a671-ace5-450d-9c70-6e91a735864f",
+        "title": "Thriller",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/thriller.png",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.91893"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "mdblist.91894"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "19975918-d59a-426d-852a-fa30c2236ec1",
+        "title": "Drama",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/drama.png",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.91296"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "mdblist.91297"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "33467c13-23cc-4f78-92dd-3932598adc33",
+        "title": "Horror",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/horror.png",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.91215"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "mdblist.91217"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.102554"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "eacfc1c3-282c-4c49-8e07-03c5e7c16558",
+        "title": "Mystery",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/mystery.png",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.40490"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "mdblist.40804"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "9e0b6b44-e14e-4192-aded-79737a5b4d4a",
+        "title": "Mindfuck",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/mindfuck.png",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.114516"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "190240d4-244b-41bd-a6f1-fb7599702b9b",
+        "title": "Anime",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/anime.png",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "anime",
+            "catalogId": "anilist.trending"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "anime",
+            "catalogId": "mal.discover.anime.top_anime.mnxr57of"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "anime",
+            "catalogId": "mal.discover.anime.top_anime_movies.mnxr68mk"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "02f37dc8-973a-433e-ad90-f4522674aacf",
+        "title": "Documentary",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/documentary.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.128051",
+            "type": "movie"
+          },
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.128052",
+            "type": "series"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "95388292-6bc6-468c-945e-fbf21254ccd4",
+        "title": "Romance",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/romance.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.128262",
+            "type": "movie"
+          },
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.128265",
+            "type": "series"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "6c0d0dcf-2771-44be-879b-475270a664ba",
+        "title": "History",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/history.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.6638",
+            "type": "movie"
+          },
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.6608",
+            "type": "series"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "c8f990a6-c03b-4a42-97cf-6bdcd6fd87bc",
+        "title": "Animation",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/animation.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.121922",
+            "type": "movie"
+          },
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.121921",
+            "type": "series"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "0aad6f83-629b-4df1-bbb2-b5563a69c2fc",
+        "title": "Reality TV",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/reality-tv.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.128054",
+            "type": "series"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "67d04795-a2cd-434d-8018-c2ad6acd79f1",
+        "title": "Family",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/family.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.43249",
+            "type": "movie"
+          },
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.43251",
+            "type": "series"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "0c55ef69-5e0f-4191-9320-6be6f38b2902",
+        "title": "Nature",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/nature.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.113465",
+            "type": "series"
+          }
+        ],
+        "_coverMode": "image"
+      }
+    ]
+  },
+  {
+    "id": "940a3bf9-f385-4633-9bf8-07f9392facbd",
+    "title": "Decades",
+    "backdropImageUrl": null,
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "FOLLOW_HOME",
+    "showAllTab": false,
+    "folders": [
+      {
+        "id": "460733b4-88fd-412e-816a-2284327afc71",
+        "title": "20's Movies",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/20snew.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.91304"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "73fdc058-db97-438f-be2f-29f2f397a17a",
+        "title": "10's Movies",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/10snew.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.91303"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "b4ab8977-726b-4d5c-b0b3-599e5f49da9a",
+        "title": "00's Movies",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/00snew.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.91302"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "737f1d8b-07b0-45c4-bfe2-361689d5e246",
+        "title": "90's Movies",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/90snew.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.91300"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "29dd3993-05cd-4dc2-bdaa-afc5550a47f0",
+        "title": "80's Movies",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/80snew.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.91301"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "0371a3cc-f2be-4a9b-a05e-bb78f41188fb",
+        "title": "70's Movies",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/70snew.png",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.127962"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "ff9ed5da-1707-457a-8e0f-f729dcc705f1",
+        "title": "60's Movies",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/60snew.png",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.144321",
+            "type": "movie"
+          }
+        ],
+        "_coverMode": "image"
+      }
+    ]
+  },
+  {
+    "id": "1f105a34-b5dd-4820-8d1f-f2ce942700fc",
+    "title": "Collections",
+    "backdropImageUrl": null,
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "FOLLOW_HOME",
+    "showAllTab": false,
+    "folders": [
+      {
+        "id": "efc13898-6c6f-437a-b186-86e7679fc2a7",
+        "title": "Marvel",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Marvel.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "com.joaogonp.marveladdon.custom.marvel-mcu",
+            "type": "Marvel",
+            "catalogId": "marvel-mcu"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "9633671e-b30e-4b3c-9d4a-868bdbd7dc43",
+        "title": "DC Universe",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/DC.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "com.tapframe.dcaddon.custom.dc-chronological",
+            "type": "DC",
+            "catalogId": "dc-chronological"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "b0543d15-2352-4844-8149-da49211e09c9",
+        "title": "Star Wars",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Star-Wars.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "com.starwars.addon.custom.sw-movies-series-chronological",
+            "type": "StarWars",
+            "catalogId": "sw-movies-series-chronological"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "0884cd83-5abf-44d5-8088-33c7ee77c535",
+        "title": "James Bond",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/007.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.7947"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "2aefac91-f3ff-4632-98e1-b2a9fecebeee",
+        "title": "Harry Potter",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Harry-Potter.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.102972"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "b0cc838c-b0d0-4f58-96ff-42815f93e3ed",
+        "title": "Alien vs Predator",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/avp.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.101434",
+            "type": "all"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "d79176fd-356e-4079-a65e-b48e16f611a2",
+        "title": "Pirates of the Carribbean",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/pirates.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.82145",
+            "type": "movie"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "1f377e78-cbae-4eb9-86b8-dd9db457f813",
+        "title": "Terminator",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Terminator.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.125458",
+            "type": "all"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "26bc5a8c-c42e-49d7-aba2-a9bfbe7e18d1",
+        "title": "Mission Impossible",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/mission-impossible.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.42716",
+            "type": "movie"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "adb61e40-e63d-452b-8f27-4116d76cb040",
+        "title": "Jurassic Park",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/jurrasic-park.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.120197",
+            "type": "all"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "224762e8-6918-4730-b403-cf8564b68300",
+        "title": "The Matrix",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/matrix.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.125142",
+            "type": "movie"
+          }
+        ],
+        "_coverMode": "image"
+      },
+      {
+        "id": "571a550c-5cd2-43bd-b8dc-94f50546819a",
+        "title": "Lord of the Rings",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/lotr.jpg",
+        "focusGifUrl": null,
+        "coverEmoji": null,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.94304",
+            "type": "movie"
+          }
+        ],
+        "_coverMode": "image"
+      }
+    ]
+  }
+]
