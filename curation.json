@@ -12,7 +12,7 @@
     "Hulu": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/hulu-wide-transparent.png", "logo": "Hulu-titlelogo.webp", "hero": "Hulu-backdrop_1080p.webp" },
     "Paramount+": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/paramount-wide-transparent.png", "logo": "ParamountPlus-titlelogo.webp", "hero": "ParamountPlus-backdrop_1080p.webp" },
     "Peacock": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/peacock-wide-transparent.png", "logo": "Peacock-titlelogo.webp", "hero": "PeacockPlus-backdrop_1080p.webp" },
-    "Starz": { "cover": "Starz-coverimage.webp", "logo": "Starz-titlelogo.webp", "hero": "Starz-backdrop_1080p.webp" },
+    "Starz": { "cover": "Starz-backdrop_1080p.webp", "logo": "Starz-titlelogo.webp", "hero": "Starz-backdrop_1080p.webp" },
     "Shudder": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/color/shudder-wide-color.jpg", "logo": "Shudder-titlelogo.webp", "hero": "Shudder-backdrop_1080p.webp" },
     "Latest Movies": { "hero": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/latest%20bd.png" },
     "Latest Shows": { "hero": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/latest%20bd.png" },
