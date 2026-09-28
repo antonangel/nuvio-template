@@ -1,0 +1,761 @@
+[
+  {
+    "id": "tmdb.discover.movie.marvel.f58fc502",
+    "type": "movie",
+    "name": "Marvel — Movies",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "with_companies": "420"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.marvel-latest.8db8e9f9",
+    "type": "movie",
+    "name": "Marvel — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "primary_release_date.desc",
+          "with_companies": "420"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.marvel-toprated.5c45080f",
+    "type": "movie",
+    "name": "Marvel — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "with_companies": "420"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.marvel.29d0fac6",
+    "type": "series",
+    "name": "Marvel — Series",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "with_companies": "420"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.marvel-latest.947bc4cf",
+    "type": "series",
+    "name": "Marvel — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "first_air_date.desc",
+          "with_companies": "420"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.marvel-toprated.371258c9",
+    "type": "series",
+    "name": "Marvel — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "with_companies": "420"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.dc.686d4e79",
+    "type": "movie",
+    "name": "DC — Movies",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "with_companies": "429"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.dc-latest.e58994f9",
+    "type": "movie",
+    "name": "DC — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "primary_release_date.desc",
+          "with_companies": "429"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.dc-toprated.43c3027c",
+    "type": "movie",
+    "name": "DC — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "with_companies": "429"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.dc.3bb3bd43",
+    "type": "series",
+    "name": "DC — Series",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "with_companies": "429"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.dc-latest.dd30dffe",
+    "type": "series",
+    "name": "DC — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "first_air_date.desc",
+          "with_companies": "429"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.dc-toprated.e2d55e6e",
+    "type": "series",
+    "name": "DC — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "with_companies": "429"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.a24.a6bb085b",
+    "type": "movie",
+    "name": "A24 — Movies",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "with_companies": "41077"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.a24-latest.edac28d1",
+    "type": "movie",
+    "name": "A24 — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "primary_release_date.desc",
+          "with_companies": "41077"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.a24-toprated.1ca50a88",
+    "type": "movie",
+    "name": "A24 — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "with_companies": "41077"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.pixar.c83f1585",
+    "type": "movie",
+    "name": "Pixar — Movies",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "with_companies": "3"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.pixar-latest.eea9b825",
+    "type": "movie",
+    "name": "Pixar — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "primary_release_date.desc",
+          "with_companies": "3"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.pixar-toprated.4c4ded1c",
+    "type": "movie",
+    "name": "Pixar — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "with_companies": "3"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.studio-ghibli.c2acf6c0",
+    "type": "movie",
+    "name": "Studio Ghibli — Movies",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "with_companies": "10342"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.studio-ghibli-latest.68c07962",
+    "type": "movie",
+    "name": "Studio Ghibli — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "primary_release_date.desc",
+          "with_companies": "10342"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.studio-ghibli-toprated.560038ad",
+    "type": "movie",
+    "name": "Studio Ghibli — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "with_companies": "10342"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.blumhouse.ae44780e",
+    "type": "movie",
+    "name": "Blumhouse — Movies",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "with_companies": "3172"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.blumhouse-latest.7e162ae7",
+    "type": "movie",
+    "name": "Blumhouse — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "primary_release_date.desc",
+          "with_companies": "3172"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.blumhouse-toprated.ea437c6b",
+    "type": "movie",
+    "name": "Blumhouse — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "with_companies": "3172"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.blumhouse.b8be56f9",
+    "type": "series",
+    "name": "Blumhouse — Series",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "with_companies": "68884"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.blumhouse-latest.e5a7a094",
+    "type": "series",
+    "name": "Blumhouse — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "first_air_date.desc",
+          "with_companies": "68884"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.blumhouse-toprated.b104b1eb",
+    "type": "series",
+    "name": "Blumhouse — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "with_companies": "68884"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.dreamworks.20ff6431",
+    "type": "movie",
+    "name": "Dreamworks — Movies",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "with_companies": "7"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.dreamworks-latest.f910b79a",
+    "type": "movie",
+    "name": "Dreamworks — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "primary_release_date.desc",
+          "with_companies": "7"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.dreamworks-toprated.7268dd8e",
+    "type": "movie",
+    "name": "Dreamworks — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "with_companies": "7"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.dreamworks.d1c46f22",
+    "type": "series",
+    "name": "Dreamworks — Series",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "with_companies": "15258"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.dreamworks-latest.f04a0195",
+    "type": "series",
+    "name": "Dreamworks — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "first_air_date.desc",
+          "with_companies": "15258"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.dreamworks-toprated.1eea957a",
+    "type": "series",
+    "name": "Dreamworks — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "with_companies": "15258"
+        }
+      }
+    }
+  }
+]

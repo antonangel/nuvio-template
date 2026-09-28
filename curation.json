@@ -37,12 +37,16 @@
     "data/networks-catalogs.json",
     "data/franchises-catalogs.json",
     "data/actors-catalogs.json",
-    "data/awards-catalogs.json"
+    "data/awards-catalogs.json",
+    "data/aio-streaming-catalogs.json",
+    "data/aio-genres-catalogs.json",
+    "data/aio-decades-catalogs.json",
+    "data/aio-studios-catalogs.json"
   ],
   "collection_backdrops": {
     "Discover": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/downloaded%20bd.png"
   },
-  "source_overrides_file": "data/sources-xperience.json",
+  "source_overrides_file": "data/sources-aio.json",
   "collection_shapes": {
     "Streaming Services": "POSTER"
   },

@@ -237,11 +237,6 @@ def main():
     addon_id, manifest = None, None
     if "--manifest" in args:
         addon_id, manifest = load_manifest(args[args.index("--manifest") + 1])
-    xp = ROOT / "reference/xperience-manifest.json"
-    if xp.exists():
-        # Second addon, second manifest: a source is resolvable if either addon serves it.
-        _, xtriples = load_manifest(xp)
-        manifest = (manifest or set()) | xtriples
 
     base, setup_in, curation = load()
     collections, setup, notes, added = build(base, setup_in, curation)

@@ -101,70 +101,44 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "streaming_netflix_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.netflix.94489571"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "streaming_netflix_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "snoak_netflix_top10_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.netflix-latest.1bc0b35f"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "snoak_netflix_top10_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "fp_netflix_kids_top10_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.netflix-toprated.adc02d01"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "fp_netflix_kids_top10_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "snoak_latest_netflix_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.netflix-kids.0a3f2e6a"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "snoak_latest_netflix_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.netflix.42185b36"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "streaming_netflix_toprated_movies",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "streaming_netflix_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.netflix-latest.545c73ca"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "streaming_netflix_originals_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.netflix-toprated.33a16c06"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.netflix-kids.dd178ad0"
           }
         ],
         "_coverMode": "image",
@@ -181,58 +155,44 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "streaming_disney_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.disney.c3e5d8c6"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "streaming_disney_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "snoak_disney_top10_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.disney-latest.2e55736e"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "snoak_disney_top10_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "snoak_latest_disney_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.disney-toprated.50976511"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "snoak_latest_disney_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "streaming_disney_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.disney-kids.4ea63393"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "streaming_disney_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.disney.c3be9f3f"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "streaming_disney_originals_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.disney-latest.a37cdf7c"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.disney-toprated.bcf7088e"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.disney-kids.f79067c6"
           }
         ],
         "_coverMode": "image",
@@ -249,58 +209,44 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "streaming_apple_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.apple-tv.e1b2a232"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "streaming_apple_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "snoak_apple_top10_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.apple-tv-latest.c375a4e7"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "snoak_apple_top10_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "snoak_latest_apple_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.apple-tv-toprated.d9bd4240"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "snoak_latest_apple_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "streaming_apple_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.apple-tv-kids.fa6b79f0"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "streaming_apple_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.apple-tv.bc118253"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "streaming_apple_originals_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.apple-tv-latest.c8ab5ce8"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.apple-tv-toprated.ad1e5b14"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.apple-tv-kids.cc6f074c"
           }
         ],
         "_coverMode": "image",
@@ -317,58 +263,44 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "streaming_prime_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.prime-video.3d50174f"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "streaming_prime_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "snoak_prime_top10_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.prime-video-latest.81240f88"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "snoak_prime_top10_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "snoak_latest_prime_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.prime-video-toprated.8b0b156a"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "snoak_latest_prime_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "streaming_prime_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.prime-video-kids.9d2f9a1e"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "streaming_prime_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.prime-video.3ef9a62d"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "streaming_prime_originals_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.prime-video-latest.11898df6"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.prime-video-toprated.4caea2e0"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.prime-video-kids.86a4b2c9"
           }
         ],
         "_coverMode": "image",
@@ -385,58 +317,44 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "streaming_hbo_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.hbo-max.7a7e2abe"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "streaming_hbo_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "snoak_hbo_top10_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.hbo-max-latest.628ae1ad"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "snoak_hbo_top10_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "snoak_latest_hbo_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.hbo-max-toprated.5b14be12"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "snoak_latest_hbo_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "streaming_hbo_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.hbo-max-kids.c93680d1"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "streaming_hbo_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.hbo-max.da125adf"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "streaming_hbo_originals_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.hbo-max-latest.13d3c286"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.hbo-max-toprated.3b246808"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.hbo-max-kids.a42c38ce"
           }
         ],
         "_coverMode": "image",
@@ -453,58 +371,44 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "streaming_hulu_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.hulu.a4c7835f"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "streaming_hulu_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "fp_hulu_top10_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.hulu-latest.76ddcf05"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "fp_hulu_top10_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "snoak_latest_hulu_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.hulu-toprated.a9863a48"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "snoak_latest_hulu_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "streaming_hulu_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.hulu-kids.4a89e8f6"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "streaming_hulu_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.hulu.6e8e5da2"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "streaming_hulu_originals_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.hulu-latest.96301ae5"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.hulu-toprated.8370383e"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.hulu-kids.d3ffa70d"
           }
         ],
         "_coverMode": "image",
@@ -521,58 +425,44 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "streaming_paramount_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.paramount.de269106"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "streaming_paramount_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "snoak_paramount_top10_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.paramount-latest.0147b61c"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "snoak_paramount_top10_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "snoak_latest_paramount_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.paramount-toprated.61818523"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "snoak_latest_paramount_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "streaming_paramount_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.paramount-kids.9b5b54e5"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "streaming_paramount_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.paramount.0672dd12"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "streaming_paramount_originals_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.paramount-latest.9c56c9a8"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.paramount-toprated.bb68f5b5"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.paramount-kids.7b8db6a6"
           }
         ],
         "_coverMode": "image",
@@ -589,58 +479,44 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "streaming_peacock_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.peacock.1f6c0c06"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "streaming_peacock_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "fp_peacock_top10_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.peacock-latest.af45c3c0"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "kb_peacock_top50_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "streaming_peacock_latest_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.peacock-toprated.820d04b3"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "streaming_peacock_latest_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "streaming_peacock_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.peacock-kids.8c288792"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "streaming_peacock_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.peacock.450b3a7f"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "streaming_peacock_originals_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.peacock-latest.cf96747b"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.peacock-toprated.63ca9a3f"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.peacock-kids.26f47231"
           }
         ],
         "_coverMode": "image",
@@ -657,14 +533,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "pw.ers.netflix-catalog",
-            "catalogId": "stz",
-            "type": "movie"
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.starz.da5a6821"
           },
           {
-            "addonId": "pw.ers.netflix-catalog",
-            "catalogId": "stz",
-            "type": "series"
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.starz-latest.a5964964"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.starz-toprated.30862be0"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.starz.9bf0ef91"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.starz-latest.0c175535"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.starz-toprated.b678839e"
           }
         ],
         "_coverMode": "image",
@@ -681,34 +577,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "streaming_shudder_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.shudder.af22394d"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.shudder-latest.d09ca2a6"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.shudder-toprated.99c58006"
+          },
+          {
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "streaming_shudder_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.shudder.0effca78"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "kb_shudder_top50",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "streaming_shudder_latest_movies",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "streaming_shudder_latest_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.shudder-latest.bd9e038a"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.shudder-toprated.031abc9a"
           }
         ],
         "_coverMode": "image",
@@ -726,8 +622,33 @@
         "catalogSources": [
           {
             "addonId": "aio-metadata",
-            "catalogId": "mdblist.59779",
-            "type": "series"
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.adult-swim.c609caf6"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.adult-swim-latest.4706ca0a"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.adult-swim-toprated.d5409760"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.adult-swim.d02d0288"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.adult-swim-latest.612c8415"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.adult-swim-toprated.6629fb0a"
           }
         ],
         "_coverMode": "image"
@@ -753,40 +674,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_action_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.action.95aed613"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_action_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_action_latest_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.action-latest.0a78775f"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_action_latest_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_action_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.action-toprated.ed834732"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "genre_action_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.action.3e41ac6a"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.action-latest.605c1bd9"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.action-toprated.8bd848b2"
           }
         ],
         "_coverMode": "image"
@@ -801,40 +716,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_comedy_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.comedy.b58e8765"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_comedy_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_comedy_latest_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.comedy-latest.f83307b6"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_comedy_latest_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_comedy_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.comedy-toprated.12e38149"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "genre_comedy_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.comedy.571f0a55"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.comedy-latest.9bd1eabd"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.comedy-toprated.70004771"
           }
         ],
         "_coverMode": "image"
@@ -849,40 +758,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_scifi_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.sci-fi.a0224a0b"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_scifi_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_scifi_latest_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.sci-fi-latest.75a76a7d"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_scifi_latest_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_scifi_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.sci-fi-toprated.b868414a"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "genre_scifi_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.sci-fi.8dbdf255"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.sci-fi-latest.2b3e302d"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.sci-fi-toprated.659f346b"
           }
         ],
         "_coverMode": "image"
@@ -897,40 +800,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_crime_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.crime.351eddf8"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_crime_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_crime_latest_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.crime-latest.781ad07f"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_crime_latest_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_crime_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.crime-toprated.6c5d6985"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "genre_crime_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.crime.1e6ac061"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.crime-latest.95fa406a"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.crime-toprated.fa37de0d"
           }
         ],
         "_coverMode": "image"
@@ -945,34 +842,19 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_thriller_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.thriller.0f91fc60"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_thriller_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_thriller_latest_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.thriller-latest.3f8861ca"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_thriller_latest_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_thriller_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.thriller-toprated.f497cfb5"
           }
         ],
         "_coverMode": "image"
@@ -987,40 +869,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_drama_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.drama.c4e776d0"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_drama_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_drama_latest_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.drama-latest.fcfb4e6a"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_drama_latest_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_drama_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.drama-toprated.73821c69"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "genre_drama_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.drama.b7c9ac98"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.drama-latest.2870b304"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.drama-toprated.de593be3"
           }
         ],
         "_coverMode": "image"
@@ -1035,34 +911,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_horror_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.horror.9e02a182"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.horror-latest.11ae73ab"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.horror-toprated.eeb85c7a"
+          },
+          {
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "genre_horror_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.horror.efce15f7"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "genre_horror_latest_movies",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "genre_horror_latest_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.horror-latest.61b2964f"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "genre_horror_toprated_movies",
-            "genre": null
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.horror-toprated.d23a9558"
           }
         ],
         "_coverMode": "image"
@@ -1077,40 +953,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_mystery_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.mystery.5aa558d8"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_mystery_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_mystery_latest_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.mystery-latest.c1636cdc"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_mystery_latest_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_mystery_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.mystery-toprated.8a6c929e"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "genre_mystery_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.mystery.50965505"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.mystery-latest.03cf4033"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.mystery-toprated.10be1042"
           }
         ],
         "_coverMode": "image"
@@ -1142,16 +1012,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_anime_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.anime.9def1714"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.anime-latest.9bb2f074"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.anime-toprated.035596fe"
+          },
+          {
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "genre_anime_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.anime.eacdf8dc"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.anime-latest.74f158d4"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.anime-toprated.a68fbd05"
           }
         ],
         "_coverMode": "image"
@@ -1166,40 +1054,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_documentary_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.documentary.63482491"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_documentary_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_documentary_latest_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.documentary-latest.39ccc557"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_documentary_latest_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_documentary_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.documentary-toprated.6ca3e536"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "genre_documentary_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.documentary.ddae6163"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.documentary-latest.702d7fe0"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.documentary-toprated.13675ac8"
           }
         ],
         "_coverMode": "image"
@@ -1214,40 +1096,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_romance_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.romance.8776ec01"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_romance_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_romance_latest_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.romance-latest.4bed33ab"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_romance_latest_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_romance_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.romance-toprated.ca69a390"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "genre_romance_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.romance.dbd1a24b"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.romance-latest.382c637b"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.romance-toprated.ec8bb2a5"
           }
         ],
         "_coverMode": "image"
@@ -1262,28 +1138,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_history_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.history.bb804f83"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.history-latest.d5bcb12e"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.history-toprated.a1eb8977"
+          },
+          {
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "genre_limited_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.history.ab1e17bf"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "genre_history_latest_movies",
-            "genre": null
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.history-latest.b2482709"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "genre_history_toprated_movies",
-            "genre": null
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.history-toprated.0d503759"
           }
         ],
         "_coverMode": "image"
@@ -1298,40 +1180,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_animation_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.animation.9e938461"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_animation_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_animation_latest_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.animation-latest.9cd55812"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_animation_latest_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_animation_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.animation-toprated.a933979e"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "genre_animation_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.animation.3a11d3d3"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.animation-latest.bf96f2ae"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.animation-toprated.b5c19d34"
           }
         ],
         "_coverMode": "image"
@@ -1347,8 +1223,18 @@
         "catalogSources": [
           {
             "addonId": "aio-metadata",
-            "catalogId": "mdblist.128054",
-            "type": "series"
+            "type": "series",
+            "catalogId": "tmdb.discover.series.reality-tv.0e63bbe7"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.reality-tv-latest.d7d9e31e"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.reality-tv-toprated.64efb20f"
           }
         ],
         "_coverMode": "image"
@@ -1363,40 +1249,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_family_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.family.ba54d41e"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_family_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_family_latest_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.family-latest.3109fa75"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "genre_family_latest_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "genre_family_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.family-toprated.aaf9a2c0"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "genre_family_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.family.2b07e968"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.family-latest.4cb4e129"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.family-toprated.f5da74b4"
           }
         ],
         "_coverMode": "image"
@@ -1412,8 +1292,33 @@
         "catalogSources": [
           {
             "addonId": "aio-metadata",
-            "catalogId": "mdblist.113465",
-            "type": "series"
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.nature.1822f510"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.nature-latest.c5ead069"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.nature-toprated.2b1f19aa"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.nature.8def14c9"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.nature-latest.da4701fe"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.nature-toprated.d59ebb76"
           }
         ],
         "_coverMode": "image"
@@ -1439,28 +1344,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "decade_2020s_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.20-s-movies.eec339f0"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "decade_2020s_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "decade_2020s_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.20-s-movies-latest.49ea1b4f"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.20-s-movies-toprated.332de25e"
+          },
+          {
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "decade_2020s_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.20-s-movies.e90d1433"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.20-s-movies-latest.26a8071c"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.20-s-movies-toprated.ae96611f"
           }
         ],
         "_coverMode": "image"
@@ -1475,28 +1386,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "decade_2010s_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.10-s-movies.9de51714"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "decade_2010s_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "decade_2010s_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.10-s-movies-latest.aab40d6d"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.10-s-movies-toprated.745f7cf2"
+          },
+          {
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "decade_2010s_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.10-s-movies.556ae9b9"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.10-s-movies-latest.c39043f4"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.10-s-movies-toprated.7c198ae0"
           }
         ],
         "_coverMode": "image"
@@ -1511,28 +1428,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "decade_2000s_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.00-s-movies.11258aaf"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "decade_2000s_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "decade_2000s_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.00-s-movies-latest.7ab55101"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.00-s-movies-toprated.00916899"
+          },
+          {
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "decade_2000s_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.00-s-movies.e7cb20f3"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.00-s-movies-latest.cf552333"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.00-s-movies-toprated.e9870b3e"
           }
         ],
         "_coverMode": "image"
@@ -1547,28 +1470,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "decade_1990s_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.90-s-movies.007aeb18"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "decade_1990s_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "decade_1990s_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.90-s-movies-latest.3039d80d"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.90-s-movies-toprated.6b038b51"
+          },
+          {
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "decade_1990s_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.90-s-movies.71f7bc73"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.90-s-movies-latest.cf628bf6"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.90-s-movies-toprated.fc872234"
           }
         ],
         "_coverMode": "image"
@@ -1583,28 +1512,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "decade_1980s_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.80-s-movies.60e9e8dd"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "decade_1980s_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "decade_1980s_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.80-s-movies-latest.c2ac26ef"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.80-s-movies-toprated.572b9573"
+          },
+          {
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "decade_1980s_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.80-s-movies.6397d031"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.80-s-movies-latest.53e8303f"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.80-s-movies-toprated.008b5336"
           }
         ],
         "_coverMode": "image"
@@ -1619,28 +1554,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "decade_1970s_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.70-s-movies.4d536f69"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "decade_1970s_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "decade_1970s_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.70-s-movies-latest.cebe7b1e"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.70-s-movies-toprated.3f5f7685"
+          },
+          {
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "decade_1970s_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.70-s-movies.5ae56956"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.70-s-movies-latest.e88344d8"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.70-s-movies-toprated.5a2bc7c0"
           }
         ],
         "_coverMode": "image"
@@ -1655,28 +1596,34 @@
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "decade_1960s_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.60-s-movies.a8a67053"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "decade_1960s_series",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "decade_1960s_toprated_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.60-s-movies-latest.48286209"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.60-s-movies-toprated.7867253f"
+          },
+          {
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "decade_1960s_toprated_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.60-s-movies.022dd2bc"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.60-s-movies-latest.bf479d16"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.60-s-movies-toprated.161e9462"
           }
         ],
         "_coverMode": "image"
@@ -2786,64 +2733,34 @@
         "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/studios/marvel-studios.jpg",
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "studio_marvel_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.marvel.f58fc502"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.marvel-latest.8db8e9f9"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.marvel-toprated.5c45080f"
+          },
+          {
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "studio_marvel_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.marvel.29d0fac6"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "studio_marvel_toprated_movies",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "collection_mcu",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "studio_marvel_spiderman_movies",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "studio_marvel_xmen_movies",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "studio_marvel_avengers_movies",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "studio_marvel_animation_movies",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "studio_marvel_animation_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.marvel-latest.947bc4cf"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "studio_marvel_legacy_movies",
-            "genre": null
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.marvel-toprated.371258c9"
           }
         ]
       },
@@ -2856,64 +2773,34 @@
         "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/studios/dc.jpg",
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "studio_dc_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.dc.686d4e79"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.dc-latest.e58994f9"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.dc-toprated.43c3027c"
+          },
+          {
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "studio_dc_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.dc.3bb3bd43"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "studio_dc_toprated_movies",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "studio_dc_dceu_movies",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "studio_dcu_movies",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "studio_dcu_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.dc-latest.dd30dffe"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "studio_dc_batman_movies",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "studio_dc_superman_movies",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "movie",
-            "catalogId": "studio_dc_animation_movies",
-            "genre": null
-          },
-          {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "studio_dc_animation_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.dc-toprated.e2d55e6e"
           }
         ]
       },
@@ -2926,16 +2813,19 @@
         "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/studios/a24.jpg",
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "studio_a24_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.a24.a6bb085b"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "studio_a24_series",
-            "genre": null
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.a24-latest.edac28d1"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.a24-toprated.1ca50a88"
           }
         ]
       },
@@ -2948,16 +2838,19 @@
         "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/studios/pixar.jpg",
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "studio_pixar_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.pixar.c83f1585"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
-            "type": "series",
-            "catalogId": "studio_pixar_series",
-            "genre": null
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.pixar-latest.eea9b825"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.pixar-toprated.4c4ded1c"
           }
         ]
       },
@@ -2970,10 +2863,19 @@
         "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/studios/studio-ghibli.jpg",
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "studio_ghibli_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.studio-ghibli.c2acf6c0"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.studio-ghibli-latest.68c07962"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.studio-ghibli-toprated.560038ad"
           }
         ]
       },
@@ -2986,16 +2888,34 @@
         "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/studios/blumhouse.jpg",
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "studio_blumhouse_movies",
-            "genre": null
+            "catalogId": "tmdb.discover.movie.blumhouse.ae44780e"
           },
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.blumhouse-latest.7e162ae7"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.blumhouse-toprated.ea437c6b"
+          },
+          {
+            "addonId": "aio-metadata",
             "type": "series",
-            "catalogId": "studio_blumhouse_series",
-            "genre": null
+            "catalogId": "tmdb.discover.series.blumhouse.b8be56f9"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.blumhouse-latest.e5a7a094"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.blumhouse-toprated.b104b1eb"
           }
         ]
       },
@@ -3008,9 +2928,34 @@
         "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/studios/dreamworks.jpg",
         "catalogSources": [
           {
-            "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "studio_dreamworks_movies"
+            "catalogId": "tmdb.discover.movie.dreamworks.20ff6431"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.dreamworks-latest.f910b79a"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.dreamworks-toprated.7268dd8e"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.dreamworks.d1c46f22"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.dreamworks-latest.f04a0195"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.dreamworks-toprated.1eea957a"
           }
         ]
       }

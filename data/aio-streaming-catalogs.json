@@ -1,0 +1,2068 @@
+[
+  {
+    "id": "tmdb.discover.movie.netflix.94489571",
+    "type": "movie",
+    "name": "Netflix — Movies",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "8",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.netflix-latest.1bc0b35f",
+    "type": "movie",
+    "name": "Netflix — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "primary_release_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "8",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.netflix-toprated.adc02d01",
+    "type": "movie",
+    "name": "Netflix — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "8",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.netflix-kids.0a3f2e6a",
+    "type": "movie",
+    "name": "Netflix — Kids",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "8",
+          "with_watch_monetization_types": "flatrate",
+          "with_genres": "10751"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.netflix.42185b36",
+    "type": "series",
+    "name": "Netflix — Series",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "8",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.netflix-latest.545c73ca",
+    "type": "series",
+    "name": "Netflix — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "first_air_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "8",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.netflix-toprated.33a16c06",
+    "type": "series",
+    "name": "Netflix — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "8",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.netflix-kids.dd178ad0",
+    "type": "series",
+    "name": "Netflix — Kids",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "8",
+          "with_watch_monetization_types": "flatrate",
+          "with_genres": "10762"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.disney.c3e5d8c6",
+    "type": "movie",
+    "name": "Disney+ — Movies",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "337",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.disney-latest.2e55736e",
+    "type": "movie",
+    "name": "Disney+ — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "primary_release_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "337",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.disney-toprated.50976511",
+    "type": "movie",
+    "name": "Disney+ — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "337",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.disney-kids.4ea63393",
+    "type": "movie",
+    "name": "Disney+ — Kids",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "337",
+          "with_watch_monetization_types": "flatrate",
+          "with_genres": "10751"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.disney.c3be9f3f",
+    "type": "series",
+    "name": "Disney+ — Series",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "337",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.disney-latest.a37cdf7c",
+    "type": "series",
+    "name": "Disney+ — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "first_air_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "337",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.disney-toprated.bcf7088e",
+    "type": "series",
+    "name": "Disney+ — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "337",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.disney-kids.f79067c6",
+    "type": "series",
+    "name": "Disney+ — Kids",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "337",
+          "with_watch_monetization_types": "flatrate",
+          "with_genres": "10762"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.apple-tv.e1b2a232",
+    "type": "movie",
+    "name": "Apple TV — Movies",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "350",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.apple-tv-latest.c375a4e7",
+    "type": "movie",
+    "name": "Apple TV — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "primary_release_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "350",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.apple-tv-toprated.d9bd4240",
+    "type": "movie",
+    "name": "Apple TV — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "350",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.apple-tv-kids.fa6b79f0",
+    "type": "movie",
+    "name": "Apple TV — Kids",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "350",
+          "with_watch_monetization_types": "flatrate",
+          "with_genres": "10751"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.apple-tv.bc118253",
+    "type": "series",
+    "name": "Apple TV — Series",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "350",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.apple-tv-latest.c8ab5ce8",
+    "type": "series",
+    "name": "Apple TV — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "first_air_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "350",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.apple-tv-toprated.ad1e5b14",
+    "type": "series",
+    "name": "Apple TV — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "350",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.apple-tv-kids.cc6f074c",
+    "type": "series",
+    "name": "Apple TV — Kids",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "350",
+          "with_watch_monetization_types": "flatrate",
+          "with_genres": "10762"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.prime-video.3d50174f",
+    "type": "movie",
+    "name": "Prime Video — Movies",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "9",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.prime-video-latest.81240f88",
+    "type": "movie",
+    "name": "Prime Video — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "primary_release_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "9",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.prime-video-toprated.8b0b156a",
+    "type": "movie",
+    "name": "Prime Video — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "9",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.prime-video-kids.9d2f9a1e",
+    "type": "movie",
+    "name": "Prime Video — Kids",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "9",
+          "with_watch_monetization_types": "flatrate",
+          "with_genres": "10751"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.prime-video.3ef9a62d",
+    "type": "series",
+    "name": "Prime Video — Series",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "9",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.prime-video-latest.11898df6",
+    "type": "series",
+    "name": "Prime Video — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "first_air_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "9",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.prime-video-toprated.4caea2e0",
+    "type": "series",
+    "name": "Prime Video — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "9",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.prime-video-kids.86a4b2c9",
+    "type": "series",
+    "name": "Prime Video — Kids",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "9",
+          "with_watch_monetization_types": "flatrate",
+          "with_genres": "10762"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.hbo-max.7a7e2abe",
+    "type": "movie",
+    "name": "HBO Max — Movies",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "1899",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.hbo-max-latest.628ae1ad",
+    "type": "movie",
+    "name": "HBO Max — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "primary_release_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "1899",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.hbo-max-toprated.5b14be12",
+    "type": "movie",
+    "name": "HBO Max — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "1899",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.hbo-max-kids.c93680d1",
+    "type": "movie",
+    "name": "HBO Max — Kids",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "1899",
+          "with_watch_monetization_types": "flatrate",
+          "with_genres": "10751"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.hbo-max.da125adf",
+    "type": "series",
+    "name": "HBO Max — Series",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "1899",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.hbo-max-latest.13d3c286",
+    "type": "series",
+    "name": "HBO Max — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "first_air_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "1899",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.hbo-max-toprated.3b246808",
+    "type": "series",
+    "name": "HBO Max — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "1899",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.hbo-max-kids.a42c38ce",
+    "type": "series",
+    "name": "HBO Max — Kids",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "1899",
+          "with_watch_monetization_types": "flatrate",
+          "with_genres": "10762"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.hulu.a4c7835f",
+    "type": "movie",
+    "name": "Hulu — Movies",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "15",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.hulu-latest.76ddcf05",
+    "type": "movie",
+    "name": "Hulu — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "primary_release_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "15",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.hulu-toprated.a9863a48",
+    "type": "movie",
+    "name": "Hulu — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "15",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.hulu-kids.4a89e8f6",
+    "type": "movie",
+    "name": "Hulu — Kids",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "15",
+          "with_watch_monetization_types": "flatrate",
+          "with_genres": "10751"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.hulu.6e8e5da2",
+    "type": "series",
+    "name": "Hulu — Series",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "15",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.hulu-latest.96301ae5",
+    "type": "series",
+    "name": "Hulu — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "first_air_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "15",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.hulu-toprated.8370383e",
+    "type": "series",
+    "name": "Hulu — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "15",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.hulu-kids.d3ffa70d",
+    "type": "series",
+    "name": "Hulu — Kids",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "15",
+          "with_watch_monetization_types": "flatrate",
+          "with_genres": "10762"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.paramount.de269106",
+    "type": "movie",
+    "name": "Paramount+ — Movies",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "2303",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.paramount-latest.0147b61c",
+    "type": "movie",
+    "name": "Paramount+ — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "primary_release_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "2303",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.paramount-toprated.61818523",
+    "type": "movie",
+    "name": "Paramount+ — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "2303",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.paramount-kids.9b5b54e5",
+    "type": "movie",
+    "name": "Paramount+ — Kids",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "2303",
+          "with_watch_monetization_types": "flatrate",
+          "with_genres": "10751"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.paramount.0672dd12",
+    "type": "series",
+    "name": "Paramount+ — Series",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "2303",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.paramount-latest.9c56c9a8",
+    "type": "series",
+    "name": "Paramount+ — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "first_air_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "2303",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.paramount-toprated.bb68f5b5",
+    "type": "series",
+    "name": "Paramount+ — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "2303",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.paramount-kids.7b8db6a6",
+    "type": "series",
+    "name": "Paramount+ — Kids",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "2303",
+          "with_watch_monetization_types": "flatrate",
+          "with_genres": "10762"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.peacock.1f6c0c06",
+    "type": "movie",
+    "name": "Peacock — Movies",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "386",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.peacock-latest.af45c3c0",
+    "type": "movie",
+    "name": "Peacock — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "primary_release_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "386",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.peacock-toprated.820d04b3",
+    "type": "movie",
+    "name": "Peacock — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "386",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.peacock-kids.8c288792",
+    "type": "movie",
+    "name": "Peacock — Kids",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "386",
+          "with_watch_monetization_types": "flatrate",
+          "with_genres": "10751"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.peacock.450b3a7f",
+    "type": "series",
+    "name": "Peacock — Series",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "386",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.peacock-latest.cf96747b",
+    "type": "series",
+    "name": "Peacock — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "first_air_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "386",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.peacock-toprated.63ca9a3f",
+    "type": "series",
+    "name": "Peacock — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "386",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.peacock-kids.26f47231",
+    "type": "series",
+    "name": "Peacock — Kids",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "386",
+          "with_watch_monetization_types": "flatrate",
+          "with_genres": "10762"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.starz.da5a6821",
+    "type": "movie",
+    "name": "Starz — Movies",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "43",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.starz-latest.a5964964",
+    "type": "movie",
+    "name": "Starz — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "primary_release_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "43",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.starz-toprated.30862be0",
+    "type": "movie",
+    "name": "Starz — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "43",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.starz.9bf0ef91",
+    "type": "series",
+    "name": "Starz — Series",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "43",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.starz-latest.0c175535",
+    "type": "series",
+    "name": "Starz — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "first_air_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "43",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.starz-toprated.b678839e",
+    "type": "series",
+    "name": "Starz — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "43",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.shudder.af22394d",
+    "type": "movie",
+    "name": "Shudder — Movies",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "99",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.shudder-latest.d09ca2a6",
+    "type": "movie",
+    "name": "Shudder — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "primary_release_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "99",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.shudder-toprated.99c58006",
+    "type": "movie",
+    "name": "Shudder — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "99",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.shudder.0effca78",
+    "type": "series",
+    "name": "Shudder — Series",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "99",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.shudder-latest.bd9e038a",
+    "type": "series",
+    "name": "Shudder — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "first_air_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "99",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.shudder-toprated.031abc9a",
+    "type": "series",
+    "name": "Shudder — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "99",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.adult-swim.c609caf6",
+    "type": "movie",
+    "name": "Adult Swim — Movies",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "318",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.adult-swim-latest.4706ca0a",
+    "type": "movie",
+    "name": "Adult Swim — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "primary_release_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "318",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.movie.adult-swim-toprated.d5409760",
+    "type": "movie",
+    "name": "Adult Swim — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (movie)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "movie",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "318",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.adult-swim.d02d0288",
+    "type": "series",
+    "name": "Adult Swim — Series",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 50,
+          "sort_by": "popularity.desc",
+          "watch_region": "US",
+          "with_watch_providers": "318",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.adult-swim-latest.612c8415",
+    "type": "series",
+    "name": "Adult Swim — Latest",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 10,
+          "sort_by": "first_air_date.desc",
+          "watch_region": "US",
+          "with_watch_providers": "318",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  },
+  {
+    "id": "tmdb.discover.series.adult-swim-toprated.6629fb0a",
+    "type": "series",
+    "name": "Adult Swim — Top Rated",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "cacheTTL": 21600,
+    "metadata": {
+      "description": "TMDB Discover (series)",
+      "discover": {
+        "version": 2,
+        "source": "tmdb",
+        "mediaType": "tv",
+        "params": {
+          "include_adult": "false",
+          "vote_count.gte": 300,
+          "sort_by": "vote_average.desc",
+          "watch_region": "US",
+          "with_watch_providers": "318",
+          "with_watch_monetization_types": "flatrate"
+        }
+      }
+    }
+  }
+]
