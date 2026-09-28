@@ -117,6 +117,7 @@ def genre_catalogs():
                 continue
             for c in axes_for(title, kind, gid):
                 c["metadata"]["discover"]["params"]["with_genres"] = str(gid)
+                c["randomizePerPage"] = True  # AIO shuffles the served page on every fetch
                 per_kind.setdefault(kind, []).append(c)
         for i in range(3):
             for kind in ("movie", "series"):
@@ -130,6 +131,7 @@ def genre_catalogs():
         for kind in ("movie", "series"):
             for c in axes_for(title, kind, kw):
                 c["metadata"]["discover"]["params"]["with_keywords"] = kw
+                c["randomizePerPage"] = True
                 cats.append(c)
                 plist.append({"addonId": "aio-metadata", "type": kind, "catalogId": c["id"]})
         srcs[f"Genres/{title}"] = plist

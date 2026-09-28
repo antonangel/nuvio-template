@@ -20,7 +20,8 @@
           "with_genres": "28"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.action-new.31da310a",
@@ -43,7 +44,8 @@
           "with_genres": "10759"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.action.95aed613",
@@ -66,7 +68,8 @@
           "with_genres": "28"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.action.3e41ac6a",
@@ -89,7 +92,8 @@
           "with_genres": "10759"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.action-toprated.ed834732",
@@ -112,7 +116,8 @@
           "with_genres": "28"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.action-toprated.8bd848b2",
@@ -135,7 +140,8 @@
           "with_genres": "10759"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.animation-new.ae2101e4",
@@ -158,7 +164,8 @@
           "with_genres": "16"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.animation-new.0d28fc3b",
@@ -181,7 +188,8 @@
           "with_genres": "16"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.animation.9e938461",
@@ -204,7 +212,8 @@
           "with_genres": "16"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.animation.3a11d3d3",
@@ -227,7 +236,8 @@
           "with_genres": "16"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.animation-toprated.a933979e",
@@ -250,7 +260,8 @@
           "with_genres": "16"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.animation-toprated.b5c19d34",
@@ -273,7 +284,8 @@
           "with_genres": "16"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.comedy-new.e54f1978",
@@ -296,7 +308,8 @@
           "with_genres": "35"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.comedy-new.c4cc5d8b",
@@ -319,7 +332,8 @@
           "with_genres": "35"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.comedy.b58e8765",
@@ -342,7 +356,8 @@
           "with_genres": "35"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.comedy.571f0a55",
@@ -365,7 +380,8 @@
           "with_genres": "35"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.comedy-toprated.12e38149",
@@ -388,7 +404,8 @@
           "with_genres": "35"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.comedy-toprated.70004771",
@@ -411,7 +428,8 @@
           "with_genres": "35"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.crime-new.a9ce07e8",
@@ -434,7 +452,8 @@
           "with_genres": "80"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.crime-new.a77e0501",
@@ -457,7 +476,8 @@
           "with_genres": "80"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.crime.351eddf8",
@@ -480,7 +500,8 @@
           "with_genres": "80"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.crime.1e6ac061",
@@ -503,7 +524,8 @@
           "with_genres": "80"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.crime-toprated.6c5d6985",
@@ -526,7 +548,8 @@
           "with_genres": "80"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.crime-toprated.fa37de0d",
@@ -549,7 +572,8 @@
           "with_genres": "80"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.documentary-new.885f5e44",
@@ -572,7 +596,8 @@
           "with_genres": "99"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.documentary-new.77fecb47",
@@ -595,7 +620,8 @@
           "with_genres": "99"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.documentary.63482491",
@@ -618,7 +644,8 @@
           "with_genres": "99"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.documentary.ddae6163",
@@ -641,7 +668,8 @@
           "with_genres": "99"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.documentary-toprated.6ca3e536",
@@ -664,7 +692,8 @@
           "with_genres": "99"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.documentary-toprated.13675ac8",
@@ -687,7 +716,8 @@
           "with_genres": "99"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.drama-new.8ff83f73",
@@ -710,7 +740,8 @@
           "with_genres": "18"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.drama-new.8533c708",
@@ -733,7 +764,8 @@
           "with_genres": "18"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.drama.c4e776d0",
@@ -756,7 +788,8 @@
           "with_genres": "18"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.drama.b7c9ac98",
@@ -779,7 +812,8 @@
           "with_genres": "18"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.drama-toprated.73821c69",
@@ -802,7 +836,8 @@
           "with_genres": "18"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.drama-toprated.de593be3",
@@ -825,7 +860,8 @@
           "with_genres": "18"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.family-new.60649fa2",
@@ -848,7 +884,8 @@
           "with_genres": "10751"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.family-new.841954e5",
@@ -871,7 +908,8 @@
           "with_genres": "10751"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.family.ba54d41e",
@@ -894,7 +932,8 @@
           "with_genres": "10751"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.family.2b07e968",
@@ -917,7 +956,8 @@
           "with_genres": "10751"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.family-toprated.aaf9a2c0",
@@ -940,7 +980,8 @@
           "with_genres": "10751"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.family-toprated.f5da74b4",
@@ -963,7 +1004,8 @@
           "with_genres": "10751"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.history-new.5eabacb9",
@@ -986,7 +1028,8 @@
           "with_genres": "36"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.history-new.ffa9eaa3",
@@ -1009,7 +1052,8 @@
           "with_genres": "36"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.history.bb804f83",
@@ -1032,7 +1076,8 @@
           "with_genres": "36"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.history.ab1e17bf",
@@ -1055,7 +1100,8 @@
           "with_genres": "36"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.history-toprated.a1eb8977",
@@ -1078,7 +1124,8 @@
           "with_genres": "36"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.history-toprated.0d503759",
@@ -1101,7 +1148,8 @@
           "with_genres": "36"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.horror-new.b8bd78b5",
@@ -1124,7 +1172,8 @@
           "with_genres": "27"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.horror-new.d0ea270b",
@@ -1147,7 +1196,8 @@
           "with_genres": "27"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.horror.9e02a182",
@@ -1170,7 +1220,8 @@
           "with_genres": "27"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.horror.efce15f7",
@@ -1193,7 +1244,8 @@
           "with_genres": "27"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.horror-toprated.eeb85c7a",
@@ -1216,7 +1268,8 @@
           "with_genres": "27"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.horror-toprated.d23a9558",
@@ -1239,7 +1292,8 @@
           "with_genres": "27"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.mystery-new.06c845b2",
@@ -1262,7 +1316,8 @@
           "with_genres": "9648"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.mystery-new.2ce4057f",
@@ -1285,7 +1340,8 @@
           "with_genres": "9648"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.mystery.5aa558d8",
@@ -1308,7 +1364,8 @@
           "with_genres": "9648"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.mystery.50965505",
@@ -1331,7 +1388,8 @@
           "with_genres": "9648"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.mystery-toprated.8a6c929e",
@@ -1354,7 +1412,8 @@
           "with_genres": "9648"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.mystery-toprated.10be1042",
@@ -1377,7 +1436,8 @@
           "with_genres": "9648"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.romance-new.d9ead370",
@@ -1400,7 +1460,8 @@
           "with_genres": "10749"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.romance-new.35f3d0ec",
@@ -1423,7 +1484,8 @@
           "with_genres": "10749"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.romance.8776ec01",
@@ -1446,7 +1508,8 @@
           "with_genres": "10749"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.romance.dbd1a24b",
@@ -1469,7 +1532,8 @@
           "with_genres": "10749"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.romance-toprated.ca69a390",
@@ -1492,7 +1556,8 @@
           "with_genres": "10749"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.romance-toprated.ec8bb2a5",
@@ -1515,7 +1580,8 @@
           "with_genres": "10749"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.sci-fi-new.3d13f061",
@@ -1538,7 +1604,8 @@
           "with_genres": "878"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.sci-fi-new.398a8940",
@@ -1561,7 +1628,8 @@
           "with_genres": "10765"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.sci-fi.a0224a0b",
@@ -1584,7 +1652,8 @@
           "with_genres": "878"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.sci-fi.8dbdf255",
@@ -1607,7 +1676,8 @@
           "with_genres": "10765"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.sci-fi-toprated.b868414a",
@@ -1630,7 +1700,8 @@
           "with_genres": "878"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.sci-fi-toprated.659f346b",
@@ -1653,7 +1724,8 @@
           "with_genres": "10765"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.thriller-new.ad1237db",
@@ -1676,7 +1748,8 @@
           "with_genres": "53"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.thriller.0f91fc60",
@@ -1699,7 +1772,8 @@
           "with_genres": "53"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.thriller-toprated.f497cfb5",
@@ -1722,7 +1796,8 @@
           "with_genres": "53"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.reality-tv-new.5169ac9f",
@@ -1745,7 +1820,8 @@
           "with_genres": "10764"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.reality-tv.0e63bbe7",
@@ -1768,7 +1844,8 @@
           "with_genres": "10764"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.reality-tv-toprated.64efb20f",
@@ -1791,7 +1868,8 @@
           "with_genres": "10764"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.nature-new.fdc12acb",
@@ -1814,7 +1892,8 @@
           "with_genres": "99"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.nature-new.94a1658e",
@@ -1837,7 +1916,8 @@
           "with_genres": "99"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.nature.1822f510",
@@ -1860,7 +1940,8 @@
           "with_genres": "99"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.nature.8def14c9",
@@ -1883,7 +1964,8 @@
           "with_genres": "99"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.nature-toprated.2b1f19aa",
@@ -1906,7 +1988,8 @@
           "with_genres": "99"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.nature-toprated.d59ebb76",
@@ -1929,7 +2012,8 @@
           "with_genres": "99"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.anime-new.17418960",
@@ -1952,7 +2036,8 @@
           "with_keywords": "210024"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.anime.9def1714",
@@ -1975,7 +2060,8 @@
           "with_keywords": "210024"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.movie.anime-toprated.035596fe",
@@ -1998,7 +2084,8 @@
           "with_keywords": "210024"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.anime-new.53668a11",
@@ -2021,7 +2108,8 @@
           "with_keywords": "210024"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.anime.eacdf8dc",
@@ -2044,7 +2132,8 @@
           "with_keywords": "210024"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   },
   {
     "id": "tmdb.discover.series.anime-toprated.a68fbd05",
@@ -2067,6 +2156,7 @@
           "with_keywords": "210024"
         }
       }
-    }
+    },
+    "randomizePerPage": true
   }
 ]
