@@ -29,5 +29,20 @@
     "com.starwars.addon.custom.sw-movies-series-chronological|*|*",
     "aio-metadata|movie|mdblist.102554"
   ],
-  "extra_catalogs": []
+  "extra_catalogs": [],
+  "extra_catalogs_files": [
+    "data/networks-catalogs.json"
+  ],
+  "extra_collections": [
+    {
+      "id": "018f-networks",
+      "title": "Networks",
+      "backdropImageUrl": null,
+      "pinToTop": true,
+      "focusGlowEnabled": true,
+      "viewMode": "FOLLOW_LAYOUT",
+      "showAllTab": true,
+      "folders_file": "data/networks-folders.json"
+    }
+  ]
 }

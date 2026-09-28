@@ -63,13 +63,32 @@ def build(base, setup, curation):
         collections.sort(key=lambda c: idx.get(c["title"], len(idx)))
 
     config = setup["config"]
-    config["catalogs"] = config.get("catalogs", []) + curation.get("extra_catalogs", [])
+    extra = list(curation.get("extra_catalogs", []))
+    for path in curation.get("extra_catalogs_files", []):
+        extra += json.loads((ROOT / path).read_text())
+    have = {(c.get("type"), c.get("id")) for c in config.get("catalogs", [])}
+    added = []
+    for c in extra:
+        key = (c.get("type"), c.get("id"))
+        if key in have:
+            continue  # already in the base config — the curated entry wins
+        have.add(key)
+        added.append(c)
+    config["catalogs"] = config.get("catalogs", []) + added
+
+    for spec in curation.get("extra_collections", []):
+        entry = {k: v for k, v in spec.items() if k != "folders_file"}
+        if spec.get("folders_file"):
+            entry["folders"] = json.loads((ROOT / spec["folders_file"]).read_text())
+        collections.append(entry)
+        notes.append(f"added collection {entry.get('title')!r} ({len(entry.get('folders', []))} folders)")
+
     setup["version"] = curation.get("aio_version", setup.get("version"))
     setup["exportedAt"] = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     setup["metadata"]["apiKeysExcluded"] = True
     setup["metadata"]["totalCatalogs"] = len(config["catalogs"])
     setup["metadata"]["enabledCatalogs"] = sum(1 for c in config["catalogs"] if c.get("enabled") is not False)
-    return collections, setup, notes
+    return collections, setup, notes, added
 
 
 def verify(collections, setup, manifest=None, net=False, pending=()):
@@ -142,22 +161,25 @@ def matches(pattern, triple):
 
 
 def load_manifest(path):
-    """Manifest JSON -> {(addonId, type, catalogId)}. addonId is the manifest's own id,
+    """-> (addonId, {(addonId, type, catalogId)}). addonId is the manifest's own id,
     which is what the client keys sources off."""
     m = json.loads(Path(path).read_text())
-    return {(m["id"], c["type"], c["id"]) for c in m["catalogs"]}
+    return m["id"], {(m["id"], c["type"], c["id"]) for c in m["catalogs"]}
 
 
 def main():
     args = sys.argv[1:]
     check = "--check" in args
     net = "--net" in args
-    manifest = None
+    addon_id, manifest = None, None
     if "--manifest" in args:
-        manifest = load_manifest(args[args.index("--manifest") + 1])
+        addon_id, manifest = load_manifest(args[args.index("--manifest") + 1])
 
     base, setup_in, curation = load()
-    collections, setup, notes = build(base, setup_in, curation)
+    collections, setup, notes, added = build(base, setup_in, curation)
+    if manifest is not None and added:
+        # Catalogs this build is adding become resolvable on import, under the AIO addon id.
+        manifest |= {(addon_id, c["type"], c["id"]) for c in added}
     rows, problems, pending_hits = verify(collections, setup, manifest, net, curation.get("pending", []))
 
     folders = sum(len(c["folders"]) for c in collections)

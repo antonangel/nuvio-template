@@ -1070,5 +1070,685 @@
         "_coverMode": "image"
       }
     ]
+  },
+  {
+    "id": "018f-networks",
+    "title": "Networks",
+    "backdropImageUrl": null,
+    "pinToTop": true,
+    "focusGlowEnabled": true,
+    "viewMode": "FOLLOW_LAYOUT",
+    "showAllTab": true,
+    "folders": [
+      {
+        "id": "018f-net-nbc",
+        "title": "NBC",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.nbc.cd7343f9"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.nbc.65ba8d53"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4d3847a8.webp",
+        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7674b78f.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b7051a88.webp"
+      },
+      {
+        "id": "018f-net-cbs",
+        "title": "CBS",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.cbs.f2babd42"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.cbs.913360b7"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/9b1d1326.webp",
+        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4fddc3d8.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/8e7a4827.webp"
+      },
+      {
+        "id": "018f-net-abc",
+        "title": "ABC",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.abc.577571be"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.abc.23734cd5"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/87c328c8.webp",
+        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/9290f56c.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/182ca355.webp"
+      },
+      {
+        "id": "018f-net-fox",
+        "title": "FOX",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.fox.6cffbc98"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.fox.5a002bb5"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a7024a73.webp",
+        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/15425f58.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/6e8bfef0.webp"
+      },
+      {
+        "id": "018f-net-the-cw",
+        "title": "The CW",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.the-cw.2eabcdac"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.the-cw.8415bf17"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/e23a721e.webp",
+        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/fae4e02e.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/21e2eef8.webp"
+      },
+      {
+        "id": "018f-net-pbs",
+        "title": "PBS",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.pbs.ad634e29"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.pbs.28ed0863"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/84fc2c10.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/60ea0156.webp"
+      },
+      {
+        "id": "018f-net-hbo",
+        "title": "HBO",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.hbo.90fe04a2"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.hbo.21868f4a"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/aaf5b516.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/91cd7adb.webp"
+      },
+      {
+        "id": "018f-net-showtime",
+        "title": "Showtime",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.showtime.1086478d"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.showtime.aa742596"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/71d38c0d.webp",
+        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d8bcefbe.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ed356233.webp"
+      },
+      {
+        "id": "018f-net-starz",
+        "title": "STARZ",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.starz.ed6aaa4e"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.starz.e3bc4df4"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/fc06746f.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7e52a3f3.webp"
+      },
+      {
+        "id": "018f-net-fx",
+        "title": "FX",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.fx.1cdd6da5"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.fx.c6b8736b"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a4c103a3.webp",
+        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/6857bc3a.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4e7b3da8.webp"
+      },
+      {
+        "id": "018f-net-amc",
+        "title": "AMC",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.amc.244d3d9f"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.amc.18219ddb"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4b0653c0.webp",
+        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ee0ada76.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/e24289e5.webp"
+      },
+      {
+        "id": "018f-net-tnt",
+        "title": "TNT",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.tnt.544299e4"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.tnt.2fcdc22e"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a47a3699.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c210656e.webp"
+      },
+      {
+        "id": "018f-net-usa-network",
+        "title": "USA Network",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.usa-network.f29bb7cd"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.usa-network.6ab0c6ed"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4076b67f.webp",
+        "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/63fdbf3e.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a9900931.webp"
+      },
+      {
+        "id": "018f-net-syfy",
+        "title": "Syfy",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.syfy.7de82228"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.syfy.f87c7f0f"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/183b8146.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d7951f63.webp"
+      },
+      {
+        "id": "018f-net-tbs",
+        "title": "TBS",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.tbs.ffc6e8b2"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.tbs.e9baa544"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/fda899b1.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/6a9b95cb.webp"
+      },
+      {
+        "id": "018f-net-comedy-central",
+        "title": "Comedy Central",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.comedy-central.e0fa0ff9"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.comedy-central.3902dc36"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/e1e8bd50.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/43f276d8.webp"
+      },
+      {
+        "id": "018f-net-adult-swim",
+        "title": "Adult Swim",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.adult-swim.96e883b8"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.adult-swim.a7fd787a"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7f89a1fe.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3bc575c5.webp"
+      },
+      {
+        "id": "018f-net-cartoon-network",
+        "title": "Cartoon Network",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.cartoon-network.a3385f3a"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.cartoon-network.34fd9ac9"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/ed31433e.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b3ebba50.webp"
+      },
+      {
+        "id": "018f-net-nickelodeon",
+        "title": "Nickelodeon",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.nickelodeon.3ac7b14a"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.nickelodeon.df210822"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/562fa555.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/fa1b1902.webp"
+      },
+      {
+        "id": "018f-net-mtv",
+        "title": "MTV",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.mtv.7df9e943"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.mtv.bfaeb22b"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b39708e3.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/307c1d62.webp"
+      },
+      {
+        "id": "018f-net-disney-channel",
+        "title": "Disney Channel",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.disney-channel.0def23b0"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.disney-channel.cd2d0526"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d5d2d6f0.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/e6097be2.webp"
+      },
+      {
+        "id": "018f-net-history",
+        "title": "History",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.history.5ec6a1bb"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.history.31a180d5"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/401788ec.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/6021bfc1.webp"
+      },
+      {
+        "id": "018f-net-discovery",
+        "title": "Discovery",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.discovery.b825a3f3"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.discovery.44bc87d3"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f3d39dd3.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/45d0f154.webp"
+      },
+      {
+        "id": "018f-net-bravo",
+        "title": "Bravo",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.bravo.0fdf0ca6"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.bravo.45c58f00"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3aa2d1fb.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/85608855.webp"
+      },
+      {
+        "id": "018f-net-tlc",
+        "title": "TLC",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.tlc.959c86d3"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.tlc.3ef11b83"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f44ae53b.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/62c164b7.webp"
+      },
+      {
+        "id": "018f-net-a-e",
+        "title": "A&E",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.a-e.217b5e4f"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.a-e.29d3e97b"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/432bef0a.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/85777e72.webp"
+      },
+      {
+        "id": "018f-net-national-geographic",
+        "title": "National Geographic",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.national-geographic.2762e35f"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.national-geographic.b70bc485"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3f505473.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/01d7231d.webp"
+      },
+      {
+        "id": "018f-net-hgtv",
+        "title": "HGTV",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.hgtv.5d72acc6"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.hgtv.eea25645"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/59fe69b6.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/a38da022.webp"
+      },
+      {
+        "id": "018f-net-bbc-one",
+        "title": "BBC One",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.bbc-one.3f04c7b3"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.bbc-one.d1415cb6"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f82f16bb.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/43540448.webp"
+      },
+      {
+        "id": "018f-net-channel-4",
+        "title": "Channel 4",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.channel-4.b85c2121"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.channel-4.ca51d87d"
+          }
+        ],
+        "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/04b2f822.webp",
+        "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/92b8e782.webp"
+      }
+    ]
   }
 ]
