@@ -1,7 +1,7 @@
 [
   {
     "id": "018f-a-nightmare-on-elm-street",
-    "title": "A Nightmare on Elm Street",
+    "title": "A Nightmare On Elm Street",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -16,7 +16,7 @@
   },
   {
     "id": "018f-a-quiet-place",
-    "title": "A Quiet Place Collection",
+    "title": "A Quiet Place",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -61,7 +61,7 @@
   },
   {
     "id": "018f-are-you-afraid-of-the-dark",
-    "title": "Are You Afraid of the Dark?",
+    "title": "Are You Afraid Of The Dark",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -76,7 +76,7 @@
   },
   {
     "id": "018f-avatar",
-    "title": "Avatar Collection",
+    "title": "Avatar",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -91,7 +91,7 @@
   },
   {
     "id": "018f-back-to-the-future",
-    "title": "Back to the future",
+    "title": "Back To The Future",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -121,7 +121,7 @@
   },
   {
     "id": "018f-blair-witch",
-    "title": "Blair Witch Collection",
+    "title": "Blair Witch",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -241,7 +241,7 @@
   },
   {
     "id": "018f-eberhofer-krimis",
-    "title": "Eberhofer-Krimis",
+    "title": "Eberhofer Krimis",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -271,7 +271,7 @@
   },
   {
     "id": "018f-fast-furious",
-    "title": "Fast and Furious Collection",
+    "title": "Fast Furious",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -301,7 +301,7 @@
   },
   {
     "id": "018f-friday-the-13th",
-    "title": "Friday the 13th",
+    "title": "Friday The 13Th",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -346,7 +346,7 @@
   },
   {
     "id": "018f-halloween",
-    "title": "Halloween Collection",
+    "title": "Halloween",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -376,7 +376,7 @@
   },
   {
     "id": "018f-happy-death-day",
-    "title": "Happy Death Day Collection",
+    "title": "Happy Death Day",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -391,7 +391,7 @@
   },
   {
     "id": "018f-harry-potter",
-    "title": "Harry Potter Collection",
+    "title": "Harry Potter",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -436,7 +436,7 @@
   },
   {
     "id": "018f-it",
-    "title": "It Collection",
+    "title": "It",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -451,7 +451,7 @@
   },
   {
     "id": "018f-james-bond",
-    "title": "James Bond Movies",
+    "title": "James Bond",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -481,7 +481,7 @@
   },
   {
     "id": "018f-jurassic-world",
-    "title": "Jurassic Park",
+    "title": "Jurassic World",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -526,7 +526,7 @@
   },
   {
     "id": "018f-lord-of-the-rings-hobbit",
-    "title": "Lord of the Rings and Hobbit Collection",
+    "title": "Lord of the Rings",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -571,7 +571,7 @@
   },
   {
     "id": "018f-matrix",
-    "title": "Universe - The Matrix",
+    "title": "The Matrix",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -586,7 +586,7 @@
   },
   {
     "id": "018f-mission-impossible",
-    "title": "Mission Impossible Saga",
+    "title": "Mission Impossible",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -631,7 +631,7 @@
   },
   {
     "id": "018f-oceans",
-    "title": "Ocean's Collection",
+    "title": "Oceans",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -661,7 +661,7 @@
   },
   {
     "id": "018f-pirates-of-the-carribbean",
-    "title": "Pirates of the Caribbean Collection",
+    "title": "Pirates of the Caribbean",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -676,7 +676,7 @@
   },
   {
     "id": "018f-planet-of-the-apes",
-    "title": "Planet of The Apes",
+    "title": "Planet Of The Apes",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -706,7 +706,7 @@
   },
   {
     "id": "018f-predator",
-    "title": "Predator Collection",
+    "title": "Predator",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -736,7 +736,7 @@
   },
   {
     "id": "018f-quarantine",
-    "title": "Quarantine Collection",
+    "title": "Quarantine",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -856,7 +856,7 @@
   },
   {
     "id": "018f-star-wars",
-    "title": "Star Wars Collection",
+    "title": "Star Wars",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -886,7 +886,7 @@
   },
   {
     "id": "018f-terminator",
-    "title": "Universe - The Terminator",
+    "title": "Terminator",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -976,7 +976,7 @@
   },
   {
     "id": "018f-the-shining",
-    "title": "The Shining Collection",
+    "title": "The Shining",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",
@@ -1006,7 +1006,7 @@
   },
   {
     "id": "018f-xxx",
-    "title": "xXx Collection",
+    "title": "Xxx",
     "tileShape": "LANDSCAPE",
     "hideTitle": true,
     "_coverMode": "image",

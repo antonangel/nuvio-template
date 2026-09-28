@@ -1,0 +1,116 @@
+[
+  {
+    "id": "mdblist.211044",
+    "type": "movie",
+    "name": "BAFTA Winners",
+    "source": "mdblist",
+    "enabled": true,
+    "showInHome": false,
+    "sort": "default",
+    "order": "asc",
+    "cacheTTL": 86400,
+    "enableRatingPosters": true,
+    "genreSelection": "standard",
+    "metadata": {
+      "url": "https://mdblist.com/lists/mazzi77/bafta-winners",
+      "author": "mazzi77",
+      "itemCount": 80,
+      "mediatype": "movie"
+    }
+  },
+  {
+    "id": "mdblist.136523",
+    "type": "movie",
+    "name": "Cannes Winners",
+    "source": "mdblist",
+    "enabled": true,
+    "showInHome": false,
+    "sort": "default",
+    "order": "asc",
+    "cacheTTL": 86400,
+    "enableRatingPosters": true,
+    "genreSelection": "standard",
+    "metadata": {
+      "url": "https://mdblist.com/lists/levander051/cannes-winners",
+      "author": "levander051",
+      "itemCount": 182,
+      "mediatype": "movie"
+    }
+  },
+  {
+    "id": "mdblist.198804",
+    "type": "show",
+    "name": "Emmy winners",
+    "source": "mdblist",
+    "enabled": true,
+    "showInHome": false,
+    "sort": "default",
+    "order": "asc",
+    "cacheTTL": 86400,
+    "enableRatingPosters": true,
+    "genreSelection": "standard",
+    "metadata": {
+      "url": "https://mdblist.com/lists/brittiny.gonzalez/emmy-winners",
+      "author": "brittiny.gonzalez",
+      "itemCount": 856,
+      "mediatype": "show"
+    }
+  },
+  {
+    "id": "mdblist.146627",
+    "type": "movie",
+    "name": "Golden Globe Winners",
+    "source": "mdblist",
+    "enabled": true,
+    "showInHome": false,
+    "sort": "default",
+    "order": "asc",
+    "cacheTTL": 86400,
+    "enableRatingPosters": true,
+    "genreSelection": "standard",
+    "metadata": {
+      "url": "https://mdblist.com/lists/atalante421/golden-globe-winners",
+      "author": "atalante421",
+      "itemCount": 923,
+      "mediatype": "movie"
+    }
+  },
+  {
+    "id": "mdblist.151679",
+    "type": "movie",
+    "name": "Oscars",
+    "source": "mdblist",
+    "enabled": true,
+    "showInHome": false,
+    "sort": "default",
+    "order": "asc",
+    "cacheTTL": 86400,
+    "enableRatingPosters": true,
+    "genreSelection": "standard",
+    "metadata": {
+      "url": "https://mdblist.com/lists/adamburns1984/oscars",
+      "author": "adamburns1984",
+      "itemCount": 1088,
+      "mediatype": "movie"
+    }
+  },
+  {
+    "id": "mdblist.165970",
+    "type": "movie",
+    "name": "Venice Film Festival",
+    "source": "mdblist",
+    "enabled": true,
+    "showInHome": false,
+    "sort": "default",
+    "order": "asc",
+    "cacheTTL": 86400,
+    "enableRatingPosters": true,
+    "genreSelection": "standard",
+    "metadata": {
+      "url": "https://mdblist.com/lists/leone.vitalezamp/venice-film-festival",
+      "author": "leone.vitalezamp",
+      "itemCount": 1553,
+      "mediatype": "movie"
+    }
+  }
+]

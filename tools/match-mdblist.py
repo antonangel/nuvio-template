@@ -16,6 +16,15 @@ ROOT = Path(__file__).resolve().parent.parent
 ART = ROOT / "assets/collections"
 ART_BASE = "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/"
 CONFIDENT = 95
+# Slug -> folder title. Only for names the art's own slug gets wrong, or where the
+# kit already ships a folder by a different name (append_to merges on title).
+TITLE_OVERRIDES = {
+    "matrix": "The Matrix",
+    "dc-universe": "DC Universe",
+    "xxx-collection": "xXx",
+    "lord-of-the-rings-hobbit": "Lord of the Rings",
+    "pirates-of-the-carribbean": "Pirates of the Caribbean",
+}
 
 # Hand-picked after review: slug -> (list id, why, query used to fetch its metadata)
 OVERRIDES = {
@@ -178,7 +187,10 @@ def main():
         })
         collection.append({
             "id": f"018f-{slug}",
-            "title": pick["name"],
+            # The folder title is the art's own name (the slug), not the mdblist list
+            # name — list names drift ("Universe - The Matrix") and the tile carries a
+            # title logo anyway. TITLE_OVERRIDES aligns names with the kit's own folders.
+            "title": TITLE_OVERRIDES.get(slug, slug.replace("-", " ").title()),
             "tileShape": shape_for(ART / (slug + ".jpg")),
             "hideTitle": True,
             "_coverMode": "image",

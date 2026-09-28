@@ -2,7 +2,7 @@
   {
     "id": "f08ce9d6-429d-4c75-83f8-1d4d5eae096e",
     "title": "Discover",
-    "backdropImageUrl": null,
+    "backdropImageUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/downloaded%20bd.png",
     "pinToTop": false,
     "focusGlowEnabled": true,
     "viewMode": "FOLLOW_HOME",
@@ -23,7 +23,8 @@
             "catalogId": "mdblist.86934"
           }
         ],
-        "_coverMode": "image"
+        "_coverMode": "image",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/latest%20bd.png"
       },
       {
         "id": "960e48e7-39dc-453e-949e-48fc7d2e480c",
@@ -40,7 +41,8 @@
             "catalogId": "mdblist.86710"
           }
         ],
-        "_coverMode": "image"
+        "_coverMode": "image",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/latest%20bd.png"
       },
       {
         "id": "a0bde699-39ca-43a0-8bc9-d0d02348393b",
@@ -57,7 +59,8 @@
             "catalogId": "mdblist.87667"
           }
         ],
-        "_coverMode": "image"
+        "_coverMode": "image",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/trending%20bd.png"
       },
       {
         "id": "23166298-ffde-4b91-86b7-a94039f423d7",
@@ -74,7 +77,8 @@
             "catalogId": "mdblist.88434"
           }
         ],
-        "_coverMode": "image"
+        "_coverMode": "image",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/trending%20bd.png"
       }
     ]
   },
@@ -868,16 +872,16 @@
       {
         "id": "efc13898-6c6f-437a-b186-86e7679fc2a7",
         "title": "Marvel",
-        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Marvel.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/marvel.jpg",
         "focusGifUrl": null,
         "coverEmoji": null,
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "com.joaogonp.marveladdon.custom.marvel-mcu",
-            "type": "Marvel",
-            "catalogId": "marvel-mcu"
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.212608"
           }
         ],
         "_coverMode": "image"
@@ -885,16 +889,16 @@
       {
         "id": "9633671e-b30e-4b3c-9d4a-868bdbd7dc43",
         "title": "DC Universe",
-        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/DC.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/dc-universe.jpg",
         "focusGifUrl": null,
         "coverEmoji": null,
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "com.tapframe.dcaddon.custom.dc-chronological",
-            "type": "DC",
-            "catalogId": "dc-chronological"
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.100123"
           }
         ],
         "_coverMode": "image"
@@ -902,16 +906,16 @@
       {
         "id": "b0543d15-2352-4844-8149-da49211e09c9",
         "title": "Star Wars",
-        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Star-Wars.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/star-wars.jpg",
         "focusGifUrl": null,
         "coverEmoji": null,
         "tileShape": "LANDSCAPE",
         "hideTitle": true,
         "catalogSources": [
           {
-            "addonId": "com.starwars.addon.custom.sw-movies-series-chronological",
-            "type": "StarWars",
-            "catalogId": "sw-movies-series-chronological"
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.102975"
           }
         ],
         "_coverMode": "image"
@@ -919,7 +923,7 @@
       {
         "id": "0884cd83-5abf-44d5-8088-33c7ee77c535",
         "title": "James Bond",
-        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/007.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/james-bond.jpg",
         "focusGifUrl": null,
         "coverEmoji": null,
         "tileShape": "LANDSCAPE",
@@ -936,7 +940,7 @@
       {
         "id": "2aefac91-f3ff-4632-98e1-b2a9fecebeee",
         "title": "Harry Potter",
-        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Harry-Potter.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/harry-potter.jpg",
         "focusGifUrl": null,
         "coverEmoji": null,
         "tileShape": "LANDSCAPE",
@@ -969,8 +973,8 @@
       },
       {
         "id": "d79176fd-356e-4079-a65e-b48e16f611a2",
-        "title": "Pirates of the Carribbean",
-        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/pirates.jpg",
+        "title": "Pirates of the Caribbean",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/pirates-of-the-carribbean.jpg",
         "focusGifUrl": null,
         "coverEmoji": null,
         "tileShape": "LANDSCAPE",
@@ -978,8 +982,8 @@
         "catalogSources": [
           {
             "addonId": "aio-metadata",
-            "catalogId": "mdblist.82145",
-            "type": "movie"
+            "type": "movie",
+            "catalogId": "mdblist.82145"
           }
         ],
         "_coverMode": "image"
@@ -987,7 +991,7 @@
       {
         "id": "1f377e78-cbae-4eb9-86b8-dd9db457f813",
         "title": "Terminator",
-        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/Terminator.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/terminator.jpg",
         "focusGifUrl": null,
         "coverEmoji": null,
         "tileShape": "LANDSCAPE",
@@ -995,8 +999,8 @@
         "catalogSources": [
           {
             "addonId": "aio-metadata",
-            "catalogId": "mdblist.125458",
-            "type": "all"
+            "type": "movie",
+            "catalogId": "mdblist.125458"
           }
         ],
         "_coverMode": "image"
@@ -1004,7 +1008,7 @@
       {
         "id": "26bc5a8c-c42e-49d7-aba2-a9bfbe7e18d1",
         "title": "Mission Impossible",
-        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/mission-impossible.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/mission-impossible.jpg",
         "focusGifUrl": null,
         "coverEmoji": null,
         "tileShape": "LANDSCAPE",
@@ -1012,8 +1016,8 @@
         "catalogSources": [
           {
             "addonId": "aio-metadata",
-            "catalogId": "mdblist.42716",
-            "type": "movie"
+            "type": "movie",
+            "catalogId": "mdblist.42716"
           }
         ],
         "_coverMode": "image"
@@ -1038,7 +1042,7 @@
       {
         "id": "224762e8-6918-4730-b403-cf8564b68300",
         "title": "The Matrix",
-        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/matrix.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/matrix.jpg",
         "focusGifUrl": null,
         "coverEmoji": null,
         "tileShape": "LANDSCAPE",
@@ -1046,8 +1050,8 @@
         "catalogSources": [
           {
             "addonId": "aio-metadata",
-            "catalogId": "mdblist.125142",
-            "type": "movie"
+            "type": "movie",
+            "catalogId": "mdblist.125142"
           }
         ],
         "_coverMode": "image"
@@ -1055,7 +1059,7 @@
       {
         "id": "571a550c-5cd2-43bd-b8dc-94f50546819a",
         "title": "Lord of the Rings",
-        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/lotr.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/lord-of-the-rings-hobbit.jpg",
         "focusGifUrl": null,
         "coverEmoji": null,
         "tileShape": "LANDSCAPE",
@@ -1063,11 +1067,2133 @@
         "catalogSources": [
           {
             "addonId": "aio-metadata",
-            "catalogId": "mdblist.94304",
-            "type": "movie"
+            "type": "movie",
+            "catalogId": "mdblist.94304"
           }
         ],
         "_coverMode": "image"
+      },
+      {
+        "id": "018f-a-nightmare-on-elm-street",
+        "title": "A Nightmare On Elm Street",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/a-nightmare-on-elm-street.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.159500"
+          }
+        ]
+      },
+      {
+        "id": "018f-a-quiet-place",
+        "title": "A Quiet Place",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/a-quiet-place.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.153949"
+          }
+        ]
+      },
+      {
+        "id": "018f-alien",
+        "title": "Alien",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/alien.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.115486"
+          }
+        ]
+      },
+      {
+        "id": "018f-american-pie",
+        "title": "American Pie",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/american-pie.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.108518"
+          }
+        ]
+      },
+      {
+        "id": "018f-are-you-afraid-of-the-dark",
+        "title": "Are You Afraid Of The Dark",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/are-you-afraid-of-the-dark.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.154992"
+          }
+        ]
+      },
+      {
+        "id": "018f-avatar",
+        "title": "Avatar",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/avatar.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.102983"
+          }
+        ]
+      },
+      {
+        "id": "018f-back-to-the-future",
+        "title": "Back To The Future",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/back-to-the-future.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.24570"
+          }
+        ]
+      },
+      {
+        "id": "018f-bad-boys",
+        "title": "Bad Boys",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/bad-boys.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.59849"
+          }
+        ]
+      },
+      {
+        "id": "018f-blair-witch",
+        "title": "Blair Witch",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/blair-witch.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.154902"
+          }
+        ]
+      },
+      {
+        "id": "018f-bourne-collection",
+        "title": "Bourne Collection",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/bourne-collection.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.85229"
+          }
+        ]
+      },
+      {
+        "id": "018f-candyman",
+        "title": "Candyman",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/candyman.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.59619"
+          }
+        ]
+      },
+      {
+        "id": "018f-chucky",
+        "title": "Chucky",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/chucky.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.196673"
+          }
+        ]
+      },
+      {
+        "id": "018f-dexter",
+        "title": "Dexter",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/dexter.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.155013"
+          }
+        ]
+      },
+      {
+        "id": "018f-die-hard",
+        "title": "Die Hard",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/die-hard.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.59629"
+          }
+        ]
+      },
+      {
+        "id": "018f-dune",
+        "title": "Dune",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/dune.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.189347"
+          }
+        ]
+      },
+      {
+        "id": "018f-eberhofer-krimis",
+        "title": "Eberhofer Krimis",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/eberhofer-krimis.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.139107"
+          }
+        ]
+      },
+      {
+        "id": "018f-expendables",
+        "title": "Expendables",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/expendables.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.155359"
+          }
+        ]
+      },
+      {
+        "id": "018f-fast-furious",
+        "title": "Fast Furious",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/fast-furious.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.76743"
+          }
+        ]
+      },
+      {
+        "id": "018f-final-destination",
+        "title": "Final Destination",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/final-destination.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.76993"
+          }
+        ]
+      },
+      {
+        "id": "018f-friday-the-13th",
+        "title": "Friday The 13Th",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/friday-the-13th.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.155086"
+          }
+        ]
+      },
+      {
+        "id": "018f-ghostbusters",
+        "title": "Ghostbusters",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/ghostbusters.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.154827"
+          }
+        ]
+      },
+      {
+        "id": "018f-gremlins",
+        "title": "Gremlins",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/gremlins.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.183222"
+          }
+        ]
+      },
+      {
+        "id": "018f-halloween",
+        "title": "Halloween",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/halloween.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.153954"
+          }
+        ]
+      },
+      {
+        "id": "018f-hannibal-lecter",
+        "title": "Hannibal Lecter",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/hannibal-lecter.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.59784"
+          }
+        ]
+      },
+      {
+        "id": "018f-happy-death-day",
+        "title": "Happy Death Day",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/happy-death-day.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.155014"
+          }
+        ]
+      },
+      {
+        "id": "018f-hunger-games",
+        "title": "Hunger Games",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/hunger-games.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.136585"
+          }
+        ]
+      },
+      {
+        "id": "018f-indiana-jones",
+        "title": "Indiana Jones",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/indiana-jones.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.20714"
+          }
+        ]
+      },
+      {
+        "id": "018f-it",
+        "title": "It",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/it.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.153958"
+          }
+        ]
+      },
+      {
+        "id": "018f-john-wick",
+        "title": "John Wick",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/john-wick.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.181022"
+          }
+        ]
+      },
+      {
+        "id": "018f-jurassic-world",
+        "title": "Jurassic World",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/jurassic-world.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.120197"
+          }
+        ]
+      },
+      {
+        "id": "018f-karate-kid",
+        "title": "Karate Kid",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/karate-kid.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.59641"
+          }
+        ]
+      },
+      {
+        "id": "018f-kingsman",
+        "title": "Kingsman",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/kingsman.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.194561"
+          }
+        ]
+      },
+      {
+        "id": "018f-mad-max",
+        "title": "Mad Max",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/mad-max.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.120269"
+          }
+        ]
+      },
+      {
+        "id": "018f-monsterverse",
+        "title": "Monsterverse",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/monsterverse.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.156323"
+          }
+        ]
+      },
+      {
+        "id": "018f-now-you-see-me",
+        "title": "Now You See Me",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/now-you-see-me.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.199096"
+          }
+        ]
+      },
+      {
+        "id": "018f-oceans",
+        "title": "Oceans",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/oceans.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.59854"
+          }
+        ]
+      },
+      {
+        "id": "018f-paranormal-activity",
+        "title": "Paranormal Activity",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/paranormal-activity.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.59780"
+          }
+        ]
+      },
+      {
+        "id": "018f-planet-of-the-apes",
+        "title": "Planet Of The Apes",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/planet-of-the-apes.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.163760"
+          }
+        ]
+      },
+      {
+        "id": "018f-police-academy",
+        "title": "Police Academy",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/police-academy.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.159298"
+          }
+        ]
+      },
+      {
+        "id": "018f-predator",
+        "title": "Predator",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/predator.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.31302"
+          }
+        ]
+      },
+      {
+        "id": "018f-psycho",
+        "title": "Psycho",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/psycho.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.196596"
+          }
+        ]
+      },
+      {
+        "id": "018f-quarantine",
+        "title": "Quarantine",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/quarantine.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.153960"
+          }
+        ]
+      },
+      {
+        "id": "018f-rambo",
+        "title": "Rambo",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/rambo.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.31324"
+          }
+        ]
+      },
+      {
+        "id": "018f-resident-evil",
+        "title": "Resident Evil",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/resident-evil.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.155092"
+          }
+        ]
+      },
+      {
+        "id": "018f-rocky",
+        "title": "Rocky",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/rocky.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.119046"
+          }
+        ]
+      },
+      {
+        "id": "018f-saw",
+        "title": "Saw",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/saw.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.126900"
+          }
+        ]
+      },
+      {
+        "id": "018f-scream",
+        "title": "Scream",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/scream.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.154884"
+          }
+        ]
+      },
+      {
+        "id": "018f-sherlock-holmes",
+        "title": "Sherlock Holmes",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/sherlock-holmes.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.139809"
+          }
+        ]
+      },
+      {
+        "id": "018f-star-trek",
+        "title": "Star Trek",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/star-trek.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.184810"
+          }
+        ]
+      },
+      {
+        "id": "018f-taken",
+        "title": "Taken",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/taken.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.59652"
+          }
+        ]
+      },
+      {
+        "id": "018f-terrifier",
+        "title": "Terrifier",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/terrifier.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.199478"
+          }
+        ]
+      },
+      {
+        "id": "018f-the-conjuring-universe",
+        "title": "The Conjuring Universe",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/the-conjuring-universe.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.68164"
+          }
+        ]
+      },
+      {
+        "id": "018f-the-exorcist",
+        "title": "The Exorcist",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/the-exorcist.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.154826"
+          }
+        ]
+      },
+      {
+        "id": "018f-the-godfather",
+        "title": "The Godfather",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/the-godfather.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.76989"
+          }
+        ]
+      },
+      {
+        "id": "018f-the-purge",
+        "title": "The Purge",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/the-purge.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.166958"
+          }
+        ]
+      },
+      {
+        "id": "018f-the-shining",
+        "title": "The Shining",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/the-shining.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.154996"
+          }
+        ]
+      },
+      {
+        "id": "018f-transformers",
+        "title": "Transformers",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/transformers.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.120027"
+          }
+        ]
+      },
+      {
+        "id": "018f-xxx",
+        "title": "Xxx",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/xxx.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.153950"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "018f-actors",
+    "title": "Actors",
+    "backdropImageUrl": null,
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "FOLLOW_LAYOUT",
+    "showAllTab": true,
+    "folders": [
+      {
+        "id": "018f-ac-adam-sandler",
+        "title": "Adam Sandler",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-adam-sandler.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.adam-sandler.a8bf988b"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.adam-sandler.b6b44010"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-angelina-jolie",
+        "title": "Angelina Jolie",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-angelina-jolie.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.angelina-jolie.77edd045"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.angelina-jolie.7d75b973"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-anne-hathaway",
+        "title": "Anne Hathaway",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-anne-hathaway.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.anne-hathaway.570c50dd"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.anne-hathaway.af5868dc"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-arnold-schwarzenegger",
+        "title": "Arnold Schwarzenegger",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-arnold-schwarzenegger.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.arnold-schwarzenegger.537b6e86"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.arnold-schwarzenegger.f24fc762"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-ben-stiller",
+        "title": "Ben Stiller",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-ben-stiller.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.ben-stiller.ab32f3ed"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.ben-stiller.b173111e"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-benedict-cumberbatch",
+        "title": "Benedict Cumberbatch",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-benedict-cumberbatch.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.benedict-cumberbatch.4769b6d1"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.benedict-cumberbatch.c126e654"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-bill-murray",
+        "title": "Bill Murray",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-bill-murray.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.bill-murray.48d3a7ff"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.bill-murray.d4040834"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-brad-pitt",
+        "title": "Brad Pitt",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-brad-pitt.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.brad-pitt.c5a44bbb"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.brad-pitt.1b5a87e7"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-channing-tatum",
+        "title": "Channing Tatum",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-channing-tatum.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.channing-tatum.eeb09f92"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.channing-tatum.7f6a6e32"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-christian-bale",
+        "title": "Christian Bale",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-christian-bale.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.christian-bale.4ed8298a"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.christian-bale.d21a32ab"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-chuck-norris",
+        "title": "Chuck Norris",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-chuck-norris.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.chuck-norris.b87d582c"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.chuck-norris.26ac82e4"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-clint-eastwood",
+        "title": "Clint Eastwood",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-clint-eastwood.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.clint-eastwood.b6c714cb"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.clint-eastwood.072ad0af"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-daniel-craig",
+        "title": "Daniel Craig",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-daniel-craig.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.daniel-craig.8bc41838"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.daniel-craig.d69486c6"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-denzel-washington",
+        "title": "Denzel Washington",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-denzel-washington.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.denzel-washington.54f62371"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.denzel-washington.cb202a56"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-dwayne-johnson",
+        "title": "Dwayne Johnson",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-dwayne-johnson.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.dwayne-johnson.42f8dabd"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.dwayne-johnson.bae6c5a9"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-emma-stone",
+        "title": "Emma Stone",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-emma-stone.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.emma-stone.daa21179"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.emma-stone.e0983c2d"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-florence-pugh",
+        "title": "Florence Pugh",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-florence-pugh.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.florence-pugh.9010ae3c"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.florence-pugh.412ca1b2"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-george-clooney",
+        "title": "George Clooney",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-george-clooney.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.george-clooney.5702e6ed"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.george-clooney.b894885b"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-harrison-ford",
+        "title": "Harrison Ford",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-harrison-ford.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.harrison-ford.32b82a44"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.harrison-ford.5a4a0761"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-jack-black",
+        "title": "Jack Black",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-jack-black.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.jack-black.32252fce"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.jack-black.09cedd98"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-jackie-chan",
+        "title": "Jackie Chan",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-jackie-chan.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.jackie-chan.f1527193"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.jackie-chan.b0675082"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-jason-statham",
+        "title": "Jason Statham",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-jason-statham.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.jason-statham.71e45276"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.jason-statham.9ded9d2f"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-jenna-ortega",
+        "title": "Jenna Ortega",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-jenna-ortega.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.jenna-ortega.4866a2ed"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.jenna-ortega.29e4d4f4"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-jennifer-aniston",
+        "title": "Jennifer Aniston",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-jennifer-aniston.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.jennifer-aniston.04d2f6c9"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.jennifer-aniston.8efec341"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-jennifer-lawrence",
+        "title": "Jennifer Lawrence",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-jennifer-lawrence.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.jennifer-lawrence.ae4a5807"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.jennifer-lawrence.767f4d94"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-jim-carrey",
+        "title": "Jim Carrey",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-jim-carrey.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.jim-carrey.fdd16f9c"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.jim-carrey.d38832c2"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-johnny-depp",
+        "title": "Johnny Depp",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-johnny-depp.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.johnny-depp.0d13bb79"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.johnny-depp.4c044f39"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-jonah-hill",
+        "title": "Jonah Hill",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-jonah-hill.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.jonah-hill.6a5dc1f5"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.jonah-hill.3b19a757"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-julia-roberts",
+        "title": "Julia Roberts",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-julia-roberts.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.julia-roberts.fd1cd267"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.julia-roberts.e118980c"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-katherine-heigl",
+        "title": "Katherine Heigl",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-katherine-heigl.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.katherine-heigl.b76c1733"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.katherine-heigl.9928bcdf"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-leonardo-di-caprio",
+        "title": "Leonardo DiCaprio",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-leonardo-di-caprio.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.leonardo-di-caprio.dce5cb4f"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.leonardo-di-caprio.d347be8d"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-lily-collins",
+        "title": "Lily Collins",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-lily-collins.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.lily-collins.a478bab5"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.lily-collins.9c62cc0c"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-margot-robbie",
+        "title": "Margot Robbie",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-margot-robbie.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.margot-robbie.80c20bb8"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.margot-robbie.582aac2f"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-matt-damon",
+        "title": "Matt Damon",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-matt-damon.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.matt-damon.958a5316"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.matt-damon.a2ba5d8d"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-matthew-mcconaughey",
+        "title": "Matthew McConaughey",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-matthew-mcconaughey.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.matthew-mcconaughey.1b394bcb"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.matthew-mcconaughey.edc1feee"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-melissa-mccarthy",
+        "title": "Melissa McCarthy",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-melissa-mccarthy.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.melissa-mccarthy.b396f8c9"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.melissa-mccarthy.079f2e28"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-meryl-streep",
+        "title": "Meryl Streep",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-meryl-streep.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.meryl-streep.21ff1c24"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.meryl-streep.1f1aecae"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-michael-bully-herbig",
+        "title": "Michael Herbig",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-michael-bully-herbig.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.michael-bully-herbig.2c6c1219"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.michael-bully-herbig.5a6e38b6"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-mila-kunis",
+        "title": "Mila Kunis",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-mila-kunis.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.mila-kunis.2aa97db2"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.mila-kunis.eaef9d57"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-millie-bobby-brown",
+        "title": "Millie Bobby Brown",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-millie-bobby-brown.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.millie-bobby-brown.ee839670"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.millie-bobby-brown.d2c68fbc"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-morgan-freeman",
+        "title": "Morgan Freeman",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-morgan-freeman.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.morgan-freeman.965c9727"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.morgan-freeman.affe25d8"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-nicolas-cage",
+        "title": "Nicolas Cage",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-nicolas-cage.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.nicolas-cage.2fe0f033"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.nicolas-cage.cf77cfe5"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-nicole-kidman",
+        "title": "Nicole Kidman",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-nicole-kidman.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.nicole-kidman.08e58510"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.nicole-kidman.215b8e5c"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-owen-wilson",
+        "title": "Owen Wilson",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-owen-wilson.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.owen-wilson.f21d1253"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.owen-wilson.4edcc66a"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-reese-witherspoon",
+        "title": "Reese Witherspoon",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-reese-witherspoon.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.reese-witherspoon.e1da7d49"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.reese-witherspoon.7bdfa215"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-robert-downey-jr",
+        "title": "Robert Downey Jr.",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-robert-downey-jr.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.robert-downey-jr.17cab8b1"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.robert-downey-jr.586ecc8c"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-robin-williams",
+        "title": "Robin Williams",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-robin-williams.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.robin-williams.d5d7dba6"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.robin-williams.971a1c1e"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-ryan-reynolds",
+        "title": "Ryan Reynolds",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-ryan-reynolds.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.ryan-reynolds.a60d951f"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.ryan-reynolds.68bd68d8"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-samuel-l-jackson",
+        "title": "Samuel L. Jackson",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-samuel-l-jackson.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.samuel-l-jackson.15f6710e"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.samuel-l-jackson.e245c11c"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-sandra-bullock",
+        "title": "Sandra Bullock",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-sandra-bullock.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.sandra-bullock.8dd9cda7"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.sandra-bullock.272e6829"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-steve-carell",
+        "title": "Steve Carell",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-steve-carell.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.steve-carell.c9f613f3"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.steve-carell.a1cce668"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-sydney-sweeney",
+        "title": "Sydney Sweeney",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-sydney-sweeney.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.sydney-sweeney.4b73edb9"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.sydney-sweeney.c2cfd11c"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-sylvester-stallone",
+        "title": "Sylvester Stallone",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-sylvester-stallone.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.sylvester-stallone.9629c04c"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.sylvester-stallone.b6d20c77"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-timothee-chalamet",
+        "title": "Timothée Chalamet",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-timothee-chalamet.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.timothee-chalamet.ed83b91f"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.timothee-chalamet.3cb1dd20"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-tom-cruise",
+        "title": "Tom Cruise",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-tom-cruise.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.tom-cruise.bb1cce9d"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.tom-cruise.cfbe7b51"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-tom-holland",
+        "title": "Tom Holland",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-tom-holland.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.tom-holland.033e3590"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.tom-holland.20cede38"
+          }
+        ]
+      },
+      {
+        "id": "018f-ac-zendaya",
+        "title": "Zendaya",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/actors/ac-zendaya.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "tmdb.discover.movie.zendaya.7ad0b6e5"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "series",
+            "catalogId": "tmdb.discover.series.zendaya.7c75f89f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "018f-awards",
+    "title": "Awards",
+    "backdropImageUrl": null,
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "FOLLOW_LAYOUT",
+    "showAllTab": true,
+    "folders": [
+      {
+        "id": "018f-aw-bafta",
+        "title": "BAFTA Winners",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/aw-bafta.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.211044"
+          }
+        ]
+      },
+      {
+        "id": "018f-aw-cannes",
+        "title": "Cannes Winners",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/aw-cannes.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.136523"
+          }
+        ]
+      },
+      {
+        "id": "018f-aw-emmy",
+        "title": "Emmy winners",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/aw-emmy.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "show",
+            "catalogId": "mdblist.198804"
+          }
+        ]
+      },
+      {
+        "id": "018f-aw-golden-globes",
+        "title": "Golden Globe Winners",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/aw-golden-globes.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.146627"
+          }
+        ]
+      },
+      {
+        "id": "018f-aw-oscars",
+        "title": "Oscars",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/aw-oscars.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.151679"
+          }
+        ]
+      },
+      {
+        "id": "018f-aw-venice-film-festival",
+        "title": "Venice Film Festival",
+        "tileShape": "POSTER",
+        "hideTitle": true,
+        "_coverMode": "image",
+        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/aw-venice-film-festival.jpg",
+        "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.165970"
+          }
+        ]
       }
     ]
   },

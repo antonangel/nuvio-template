@@ -1,0 +1,92 @@
+[
+  {
+    "id": "018f-aw-bafta",
+    "title": "BAFTA Winners",
+    "tileShape": "POSTER",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/aw-bafta.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.211044"
+      }
+    ]
+  },
+  {
+    "id": "018f-aw-cannes",
+    "title": "Cannes Winners",
+    "tileShape": "POSTER",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/aw-cannes.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.136523"
+      }
+    ]
+  },
+  {
+    "id": "018f-aw-emmy",
+    "title": "Emmy winners",
+    "tileShape": "POSTER",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/aw-emmy.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "show",
+        "catalogId": "mdblist.198804"
+      }
+    ]
+  },
+  {
+    "id": "018f-aw-golden-globes",
+    "title": "Golden Globe Winners",
+    "tileShape": "POSTER",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/aw-golden-globes.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.146627"
+      }
+    ]
+  },
+  {
+    "id": "018f-aw-oscars",
+    "title": "Oscars",
+    "tileShape": "POSTER",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/aw-oscars.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.151679"
+      }
+    ]
+  },
+  {
+    "id": "018f-aw-venice-film-festival",
+    "title": "Venice Film Festival",
+    "tileShape": "POSTER",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/aw-venice-film-festival.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.165970"
+      }
+    ]
+  }
+]

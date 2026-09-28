@@ -77,11 +77,35 @@ def build(base, setup, curation):
     config["catalogs"] = config.get("catalogs", []) + added
 
     for spec in curation.get("extra_collections", []):
-        entry = {k: v for k, v in spec.items() if k != "folders_file"}
+        entry = {k: v for k, v in spec.items() if k not in ("folders_file", "append_to")}
         if spec.get("folders_file"):
             entry["folders"] = json.loads((ROOT / spec["folders_file"]).read_text())
+        target = next((c for c in collections if c.get("title") == spec.get("append_to")), None) if spec.get("append_to") else None
+        if target is not None:
+            have = {f.get("title"): f for f in target.get("folders", [])}
+            merged = 0
+            for f in entry["folders"]:
+                cur = have.get(f.get("title"))
+                if cur is None:
+                    target["folders"].append(f)
+                    continue
+                # Same folder, better art: swap the art fields and re-point the sources
+                # (the kit ships a few folders wired to addons this stack doesn't run).
+                for k in ("coverImageUrl", "titleLogoUrl", "heroBackdropUrl", "tileShape"):
+                    if f.get(k):
+                        cur[k] = f[k]
+                if f.get("catalogSources"):
+                    cur["catalogSources"] = f["catalogSources"]
+                merged += 1
+            notes.append(f"appended {len(entry['folders']) - merged} folders to {target['title']!r}, merged {merged} onto existing tiles")
+            continue
         collections.append(entry)
         notes.append(f"added collection {entry.get('title')!r} ({len(entry.get('folders', []))} folders)")
+
+    for title, url in (curation.get("collection_backdrops") or {}).items():
+        for c in collections:
+            if c.get("title") == title:
+                c["backdropImageUrl"] = url
 
     setup["version"] = curation.get("aio_version", setup.get("version"))
     setup["exportedAt"] = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")

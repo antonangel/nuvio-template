@@ -13,27 +13,60 @@
     "Paramount+": { "cover": "ParamountPlus-coverimage.webp", "logo": "ParamountPlus-titlelogo.webp", "hero": "ParamountPlus-backdrop_1080p.webp" },
     "Peacock": { "cover": "Peacock-coverimage.webp", "logo": "Peacock-titlelogo.webp", "hero": "PeacockPlus-backdrop_1080p.webp" },
     "Starz": { "cover": "Starz-coverimage.webp", "logo": "Starz-titlelogo.webp", "hero": "Starz-backdrop_1080p.webp" },
-    "Shudder": { "cover": "Shudder-coverimage.webp", "logo": "Shudder-titlelogo.webp", "hero": "Shudder-backdrop_1080p.webp" }
+    "Shudder": { "cover": "Shudder-coverimage.webp", "logo": "Shudder-titlelogo.webp", "hero": "Shudder-backdrop_1080p.webp" },
+    "Latest Movies": { "hero": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/latest%20bd.png" },
+    "Latest Shows": { "hero": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/latest%20bd.png" },
+    "Trending Movies": { "hero": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/trending%20bd.png" },
+    "Trending Shows": { "hero": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/trending%20bd.png" }
   },
   "edits": {
     "remove_collections": [],
     "remove_folders": [],
-    "rename_folders": {},
+    "rename_folders": {
+      "Pirates of the Carribbean": "Pirates of the Caribbean"
+    },
     "reorder_collections": []
   },
   "_pending_help": "Sources that are known-dead and deliberately left as-is until the open decision lands (addonId|type|catalogId, * = wildcard). A dead source NOT listed here fails the build.",
   "pending": [
     "pw.ers.netflix-catalog|*|*",
-    "com.joaogonp.marveladdon.custom.marvel-mcu|*|*",
-    "com.tapframe.dcaddon.custom.dc-chronological|*|*",
-    "com.starwars.addon.custom.sw-movies-series-chronological|*|*",
     "aio-metadata|movie|mdblist.102554"
   ],
   "extra_catalogs": [],
   "extra_catalogs_files": [
-    "data/networks-catalogs.json"
+    "data/networks-catalogs.json",
+    "data/franchises-catalogs.json",
+    "data/actors-catalogs.json",
+    "data/awards-catalogs.json"
   ],
+  "collection_backdrops": {
+    "Discover": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/downloaded%20bd.png"
+  },
   "extra_collections": [
+    {
+      "id": "018f-actors",
+      "title": "Actors",
+      "backdropImageUrl": null,
+      "pinToTop": false,
+      "focusGlowEnabled": true,
+      "viewMode": "FOLLOW_LAYOUT",
+      "showAllTab": true,
+      "folders_file": "data/actors-folders.json"
+    },
+    {
+      "id": "018f-awards",
+      "title": "Awards",
+      "backdropImageUrl": null,
+      "pinToTop": false,
+      "focusGlowEnabled": true,
+      "viewMode": "FOLLOW_LAYOUT",
+      "showAllTab": true,
+      "folders_file": "data/awards-folders.json"
+    },
+    {
+      "append_to": "Collections",
+      "folders_file": "data/franchises-folders.json"
+    },
     {
       "id": "018f-networks",
       "title": "Networks",
