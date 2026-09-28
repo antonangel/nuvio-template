@@ -5,18 +5,18 @@ Everything here is a verbatim export of a working setup — nothing is generated
 scripted, nothing is built. Import a file, or take the art and host your own.
 
 ```
-addons/    the four exports. import these.
-assets/    the folder/collection art library, one dir per family
+<addon>.json   the four exports, at the repo root. import these.
+images/        the folder/collection art library, one dir per family
 ```
 
 ## The four files
 
 | file | addon | what it is |
 |---|---|---|
-| `addons/aiometadata-collections.json` | AIOMetadata 3.2.3 | **main profile**: 351 catalogs, no streaming set, collections carried as catalogs |
-| `addons/aiometadata-no-collections.json` | AIOMetadata 3.2.3 | **Friends profile**: 46 catalogs (27 on), collections come from the Nuvio file instead |
-| `addons/nuvio-collections.json` | Nuvio client | the folder/collection layout: 6 top folders, 114 sub-folders, each wired to catalog sources |
-| `addons/aiostreams.json` | AIOStreams | Tamtaro partial SEL 3.0.4 + Vidhin ranked regexes, usenet `cacheAndPlay` |
+| `aiometadata-collections.json` | AIOMetadata 3.2.3 | **main profile**: 351 catalogs, no streaming set, collections carried as catalogs |
+| `aiometadata-no-collections.json` | AIOMetadata 3.2.3 | **Friends profile**: 46 catalogs (27 on), collections come from the Nuvio file instead |
+| `nuvio-collections.json` | Nuvio client | the folder/collection layout: 6 top folders, 114 sub-folders, each wired to catalog sources |
+| `aiostreams.json` | AIOStreams | Tamtaro partial SEL 3.0.4 + Vidhin ranked regexes, usenet `cacheAndPlay` |
 
 The two AIOMetadata files are **two different profiles, not two halves of one config** —
 different catalog sets, different manager accounts, different defaults. Import the one you want.
@@ -66,13 +66,14 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
 
 - BAFTA, Cannes, Emmy Awards, Golden Globes, Academy Awards, Venice Film Festival
 
-Art comes from `assets/` (live exports hotlink the same filenames from public repos:
-`itsitohere/nuvio-assets`, `illiyah/Images`, `itsrenoria/fusion-starter-kit`). Swap the URLs for
-your own hosting if you fork this.
+`images/` mirrors the layout the folders hotlink
+(`raw.githubusercontent.com/adamswlon/nuvio-collections-art/images/<family>/<name>`), alongside art
+from `itsitohere/nuvio-assets`, `illiyah/Images` and `itsrenoria/fusion-starter-kit`. Fork this, host
+`images/` yourself, and swap the host in the URLs.
 
 ## Catalogs
 
-### Main profile — `aiometadata-collections`
+### Main profile — `aiometadata-collections.json`
 
 351 catalogs, 351 enabled. Sources: recommendations 2, mdblist 168, anilist 1, mal 2, tmdb 178.
 
@@ -82,7 +83,7 @@ your own hosting if you fork this.
 - **mal** (2): Top Anime (`mal.discover.anime.top_anime.mnxr57of`, anime), Top Anime Movies (`mal.discover.anime.top_anime_movies.mnxr68mk`, anime)
 - **tmdb** (178): Netflix — New (movie), Netflix — New (series), Netflix — Popular (movie), Netflix — Popular (series), Netflix — Top Rated (movie), Netflix — Top Rated (series), Netflix — Originals (movie), Netflix — Originals (series), Disney+ — New (movie), Disney+ — New (series), Disney+ — Popular (movie), Disney+ — Popular (series), Disney+ — Top Rated (movie), Disney+ — Top Rated (series), Disney+ — Originals (series), Apple TV — New (movie), Apple TV — New (series), Apple TV — Popular (movie), Apple TV — Popular (series), Apple TV — Top Rated (movie), Apple TV — Top Rated (series), Apple TV — Originals (movie), Apple TV — Originals (series), Prime Video — New (movie), Prime Video — New (series), Prime Video — Popular (movie), Prime Video — Popular (series), Prime Video — Top Rated (movie), Prime Video — Top Rated (series), Prime Video — Originals (movie), Prime Video — Originals (series), HBO Max — New (movie), HBO Max — New (series), HBO Max — Popular (movie), HBO Max — Popular (series), HBO Max — Top Rated (movie), HBO Max — Top Rated (series), HBO Max — Originals (movie), HBO Max — Originals (series), Hulu — New (movie), Hulu — New (series), Hulu — Popular (movie), Hulu — Popular (series), Hulu — Top Rated (movie), Hulu — Top Rated (series), Hulu — Originals (series), Paramount+ — New (movie), Paramount+ — New (series), Paramount+ — Popular (movie), Paramount+ — Popular (series), Paramount+ — Top Rated (movie), Paramount+ — Top Rated (series), Paramount+ — Originals (series), Peacock — New (movie), Peacock — New (series), Peacock — Popular (movie), Peacock — Popular (series), Peacock — Top Rated (movie), Peacock — Top Rated (series), Peacock — Originals (series), Starz — New (movie), Starz — New (series), Starz — Popular (movie), Starz — Popular (series), Starz — Top Rated (movie), Starz — Top Rated (series), Starz — Originals (series), Shudder — New (movie), Shudder — New (series), Shudder — Popular (movie), Shudder — Popular (series), Shudder — Top Rated (movie), Shudder — Top Rated (series), Shudder — Originals (series), Adult Swim — New (movie), Adult Swim — New (series), Adult Swim — Popular (movie), Adult Swim — Popular (series), Adult Swim — Top Rated (movie), Adult Swim — Top Rated (series), Adult Swim — Originals (movie), Adult Swim — Originals (series), Action — New (movie), Action — New (series), Action — Popular (movie), Action — Popular (series), Action — Top Rated (movie), Action — Top Rated (series), Animation — New (movie), Animation — New (series), Animation — Popular (movie), Animation — Popular (series), Animation — Top Rated (movie), Animation — Top Rated (series), Comedy — New (movie), Comedy — New (series), Comedy — Popular (movie), Comedy — Popular (series), Comedy — Top Rated (movie), Comedy — Top Rated (series), Crime — New (movie), Crime — New (series), Crime — Popular (movie), Crime — Popular (series), Crime — Top Rated (movie), Crime — Top Rated (series), Documentary — New (movie), Documentary — New (series), Documentary — Popular (movie), Documentary — Popular (series), Documentary — Top Rated (movie), Documentary — Top Rated (series), Drama — New (movie), Drama — New (series), Drama — Popular (movie), Drama — Popular (series), Drama — Top Rated (movie), Drama — Top Rated (series), Family — New (movie), Family — New (series), Family — Popular (movie), Family — Popular (series), Family — Top Rated (movie), Family — Top Rated (series), History — New (movie), History — New (series), History — Popular (movie), History — Popular (series), History — Top Rated (movie), History — Top Rated (series), Horror — New (movie), Horror — New (series), Horror — Popular (movie), Horror — Popular (series), Horror — Top Rated (movie), Horror — Top Rated (series), Mystery — New (movie), Mystery — New (series), Mystery — Popular (movie), Mystery — Popular (series), Mystery — Top Rated (movie), Mystery — Top Rated (series), Romance — New (movie), Romance — New (series), Romance — Popular (movie), Romance — Popular (series), Romance — Top Rated (movie), Romance — Top Rated (series), Sci-Fi — New (movie), Sci-Fi — New (series), Sci-Fi — Popular (movie), Sci-Fi — Popular (series), Sci-Fi — Top Rated (movie), Sci-Fi — Top Rated (series), Thriller — New (movie), Thriller — Popular (movie), Thriller — Top Rated (movie), Reality TV — New (series), Reality TV — Popular (series), Reality TV — Top Rated (series), Nature — New (movie), Nature — New (series), Nature — Popular (movie), Nature — Popular (series), Nature — Top Rated (movie), Nature — Top Rated (series), Anime — New (movie), Anime — Popular (movie), Anime — Top Rated (movie), Anime — New (series), Anime — Popular (series), Anime — Top Rated (series), Trending Movies (movie), Trending Series (series), Popular Movies (movie), Popular Series (series), Top Rated Movies (movie), Top Rated Series (series)
 
-### Friends profile — `aiometadata-no-collections`
+### Friends profile — `aiometadata-no-collections.json`
 
 46 catalogs, 27 enabled. Sources: tmdb 10, tvdb 5, tvmaze 1, mal 18, streaming 12.
 
@@ -96,7 +97,7 @@ your own hosting if you fork this.
 
 This repo was `nuvio-settings`, which also carried the generator that produced an importable
 catalog setup from a curated overlay (`build.py`, `curation.json`, `base/`, `data/`, `dist/`,
-`tools/`, `reference/`). That pipeline was removed to leave a template; it is intact in git
-history at the commit before the cleanup — `git show <commit>^:build.py` and friends. Its last
-state built AIOMetadata **1.35.2** artifacts while the live instance had moved to **3.2.3**.
+`tools/`, `reference/`). That pipeline was removed to leave a template; it is intact at `869b975^`
+(`git show 869b975^:build.py`). Its last state built AIOMetadata **1.35.2** artifacts while the
+live instance had moved to **3.2.3**.
 
