@@ -88,8 +88,16 @@ def hex8(s):
     return hashlib.md5(s.encode()).hexdigest()[:8]
 
 
-def award_catalog(r):
-    return {"id": f"mdblist.{r['id']}", "type": r.get("mediatype") or "movie", "name": r["name"], "source": "mdblist",
+def list_type(x):
+    """mdblist mediatype -> the client's type enum. Emmy lists carry no mediatype, so
+    fall back to the name (…Outstanding Drama Series)."""
+    if x.get("mediatype") in ("show", "series") or re.search(r"\b(series|show|tv)\b", x["name"], re.I):
+        return "series"
+    return "movie"
+
+
+def award_catalog(r, type_):
+    return {"id": f"mdblist.{r['id']}", "type": type_, "name": r["name"], "source": "mdblist",
             "enabled": True, "showInHome": False, "sort": "default", "order": "asc", "cacheTTL": 86400,
             "enableRatingPosters": True, "genreSelection": "standard",
             "metadata": {"url": f"https://mdblist.com/lists/{r['user_name']}/{r.get('slug') or ''}",
@@ -133,10 +141,10 @@ def main():
     acats, afolders = [], []
     for slug in aw_slugs:
         title = AWARD_TITLES.get(slug, slug.replace("-", " ").title())
+        kw, seed = AWARD_FAMILIES.get(slug, (norm(title), title))
+        nkw = norm(kw)
         fam_lists, pinned = [], []
         if slug in AWARD_FAMILIES:
-            kw, seed = AWARD_FAMILIES[slug]
-            nkw = norm(kw)
             cands = {}
             for q in (seed, kw + " winners", kw + " award"):
                 for r in fetch(f"https://api.mdblist.com/lists/search?query={urllib.parse.quote(q)}&apikey={k['mdblist']}"):
@@ -162,17 +170,24 @@ def main():
             if ov is not None:
                 r = fetch(f"https://api.mdblist.com/lists/{ov[0]}?apikey={k['mdblist']}")
                 pinned = [r[0] if isinstance(r, list) else r]
-        if not fam_lists and not pinned:
+        # Nominations and "popular" lists as well as the family's winners: a hub tile
+        # wants both sides of the award.
+        nom = {}
+        for q in (seed + " nominees", seed + " nominations", seed + " nominated"):
+            for r in fetch(f"https://api.mdblist.com/lists/search?query={urllib.parse.quote(q)}&apikey={k['mdblist']}"):
+                n = norm(r["name"])
+                if ("nomin" in n or "nominee" in n) and (nkw in n or nkw[:6] in n):
+                    nom[r["id"]] = r
+        merged = {x["id"]: x for x in (fam_lists + sorted(nom.values(), key=lambda r: -r["items"]) + pinned)}
+        lists = list(merged.values())[:30]
+        if not lists:
             print(f"  awards: NO MATCH for {slug}")
             continue
-        lists = fam_lists + [p for p in pinned if p.get("id") not in {x["id"] for x in fam_lists}]
         for x in lists:
-            acats.append(award_catalog(x))
+            acats.append(award_catalog(x, list_type(x)))
         afolders.append(folder(slug, title, AWARDS_BASE, shape_for(ROOT / f"assets/awards/{slug}.jpg"),
-                               [{"addonId": "aio-metadata",
-                                 "type": "series" if (x.get("mediatype") in ("show", "series")
-                                                      or re.search(r"\b(series|show|tv)\b", x["name"], re.I)) else "movie",
-                                 "catalogId": f"mdblist.{x['id']}"} for x in lists], prefix="aw-"))
+                               [{"addonId": "aio-metadata", "type": list_type(x), "catalogId": f"mdblist.{x['id']}"}
+                                for x in lists], prefix="aw-"))
         for x in lists:
             rows.append({"family": "awards", "slug": slug, "catalogId": f"mdblist.{x['id']}", "name": x["name"],
                          "uid": x["user_name"], "items": x["items"], "score": 100,

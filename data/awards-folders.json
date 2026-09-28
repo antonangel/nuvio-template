@@ -71,6 +71,16 @@
         "addonId": "aio-metadata",
         "type": "movie",
         "catalogId": "mdblist.210147"
+      },
+      {
+        "addonId": "aio-metadata",
+        "type": "series",
+        "catalogId": "mdblist.88785"
+      },
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.130838"
       }
     ]
   },
@@ -151,6 +161,11 @@
         "addonId": "aio-metadata",
         "type": "movie",
         "catalogId": "mdblist.34481"
+      },
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.137024"
       },
       {
         "addonId": "aio-metadata",
@@ -266,6 +281,21 @@
         "addonId": "aio-metadata",
         "type": "movie",
         "catalogId": "mdblist.34446"
+      },
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.33184"
+      },
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.132856"
+      },
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.140082"
       }
     ]
   },

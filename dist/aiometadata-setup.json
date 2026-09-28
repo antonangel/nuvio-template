@@ -1,6 +1,6 @@
 {
   "version": "1.35.2",
-  "exportedAt": "2026-09-28T01:00:19.865220Z",
+  "exportedAt": "2026-09-28T01:02:47.361748Z",
   "config": {
     "mal": {
       "skipRecap": false,
@@ -6550,7 +6550,7 @@
       },
       {
         "id": "mdblist.202234",
-        "type": "movie",
+        "type": "series",
         "name": "Emmy Awards - Outstanding Comedy Series",
         "source": "mdblist",
         "enabled": true,
@@ -6569,7 +6569,7 @@
       },
       {
         "id": "mdblist.202235",
-        "type": "movie",
+        "type": "series",
         "name": "Emmy Awards - Outstanding Drama Series",
         "source": "mdblist",
         "enabled": true,
@@ -6602,6 +6602,44 @@
           "url": "https://mdblist.com/lists/johberg/emmy-awards-outstanding-miniseries",
           "author": "johberg",
           "itemCount": 46,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.88785",
+        "type": "series",
+        "name": "Emmy Nominees",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/haphu3b/emmy-nominees",
+          "author": "haphu3b",
+          "itemCount": 428,
+          "mediatype": "show"
+        }
+      },
+      {
+        "id": "mdblist.130838",
+        "type": "movie",
+        "name": "Emmy Nominees and Winners",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/sweetfly/emmy-nominees-and-winners",
+          "author": "sweetfly",
+          "itemCount": 151,
           "mediatype": "movie"
         }
       },
@@ -6868,6 +6906,25 @@
           "url": "https://mdblist.com/lists/qjao/golden-globe-award-best-supporting-actress-in-a-motion-picture",
           "author": "qjao",
           "itemCount": 81,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.137024",
+        "type": "movie",
+        "name": "Golden Globe Nominees 2026",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/amything/golden-globe-nominees-2026",
+          "author": "amything",
+          "itemCount": 71,
           "mediatype": "movie"
         }
       },
@@ -7271,6 +7328,63 @@
         }
       },
       {
+        "id": "mdblist.33184",
+        "type": "movie",
+        "name": "Academy Award Nominees",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/diimaan/academy-award-nominees",
+          "author": "diimaan",
+          "itemCount": 1428,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.132856",
+        "type": "movie",
+        "name": "Academy Award Nominees & Winners",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/marcuspopp/academy-awards-nominees-winners",
+          "author": "marcuspopp",
+          "itemCount": 45,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.140082",
+        "type": "movie",
+        "name": "Academy Award Nominees",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/oldmankestis/academy-award-nominees-0cyr6l3vjf",
+          "author": "oldmankestis",
+          "itemCount": 43,
+          "mediatype": "movie"
+        }
+      },
+      {
         "id": "mdblist.164354",
         "type": "movie",
         "name": "Venice Film Festival - All Films",
@@ -7353,7 +7467,7 @@
   },
   "metadata": {
     "apiKeysExcluded": true,
-    "totalCatalogs": 336,
-    "enabledCatalogs": 336
+    "totalCatalogs": 342,
+    "enabledCatalogs": 342
   }
 }
