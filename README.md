@@ -71,6 +71,11 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
 from `itsitohere/nuvio-assets`, `illiyah/Images` and `itsrenoria/fusion-starter-kit`. Fork this, host
 `images/` yourself, and swap the host in the URLs.
 
+Every file here is **WebP**, converted from the originals (PNG screen-grabs at 3840×2160, JPEG
+posters at 852×1280) down to tile size: **104.5 MB → 16.9 MB**. The mirror's names therefore end in
+`.webp` while the URLs above still point at upstream's `.png`/`.jpg` — a host swap means swapping
+those extensions too.
+
 ## Catalogs
 
 ### Main profile — `aiometadata-collections.json`
