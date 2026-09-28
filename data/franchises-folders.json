@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "018f-a-nightmare-on-elm-street",
+    "title": "A Nightmare on Elm Street",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/a-nightmare-on-elm-street.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.159500"
+      }
+    ]
+  },
+  {
+    "id": "018f-a-quiet-place",
+    "title": "A Quiet Place Collection",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/a-quiet-place.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.153949"
+      }
+    ]
+  },
+  {
+    "id": "018f-alien",
+    "title": "Alien",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/alien.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.115486"
+      }
+    ]
+  },
+  {
+    "id": "018f-american-pie",
+    "title": "American Pie",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/american-pie.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.108518"
+      }
+    ]
+  },
+  {
+    "id": "018f-are-you-afraid-of-the-dark",
+    "title": "Are You Afraid of the Dark?",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/are-you-afraid-of-the-dark.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.154992"
+      }
+    ]
+  },
+  {
+    "id": "018f-avatar",
+    "title": "Avatar Collection",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/avatar.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.102983"
+      }
+    ]
+  },
+  {
+    "id": "018f-back-to-the-future",
+    "title": "Back to the future",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/back-to-the-future.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.24570"
+      }
+    ]
+  },
+  {
+    "id": "018f-bad-boys",
+    "title": "Bad Boys",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/bad-boys.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.59849"
+      }
+    ]
+  },
+  {
+    "id": "018f-blair-witch",
+    "title": "Blair Witch Collection",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/blair-witch.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.154902"
+      }
+    ]
+  },
+  {
+    "id": "018f-bourne-collection",
+    "title": "Bourne Collection",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/bourne-collection.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.85229"
+      }
+    ]
+  },
+  {
+    "id": "018f-candyman",
+    "title": "Candyman",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/candyman.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.59619"
+      }
+    ]
+  },
+  {
+    "id": "018f-chucky",
+    "title": "Chucky",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/chucky.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.196673"
+      }
+    ]
+  },
+  {
+    "id": "018f-dc-universe",
+    "title": "DC Universe",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/dc-universe.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.100123"
+      }
+    ]
+  },
+  {
+    "id": "018f-dexter",
+    "title": "Dexter",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/dexter.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.155013"
+      }
+    ]
+  },
+  {
+    "id": "018f-die-hard",
+    "title": "Die Hard",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/die-hard.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.59629"
+      }
+    ]
+  },
+  {
+    "id": "018f-dune",
+    "title": "Dune",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/dune.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.189347"
+      }
+    ]
+  },
+  {
+    "id": "018f-eberhofer-krimis",
+    "title": "Eberhofer-Krimis",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/eberhofer-krimis.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.139107"
+      }
+    ]
+  },
+  {
+    "id": "018f-expendables",
+    "title": "Expendables",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/expendables.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.155359"
+      }
+    ]
+  },
+  {
+    "id": "018f-fast-furious",
+    "title": "Fast and Furious Collection",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/fast-furious.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.76743"
+      }
+    ]
+  },
+  {
+    "id": "018f-final-destination",
+    "title": "Final Destination",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/final-destination.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.76993"
+      }
+    ]
+  },
+  {
+    "id": "018f-friday-the-13th",
+    "title": "Friday the 13th",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/friday-the-13th.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.155086"
+      }
+    ]
+  },
+  {
+    "id": "018f-ghostbusters",
+    "title": "Ghostbusters",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/ghostbusters.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.154827"
+      }
+    ]
+  },
+  {
+    "id": "018f-gremlins",
+    "title": "Gremlins",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/gremlins.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.183222"
+      }
+    ]
+  },
+  {
+    "id": "018f-halloween",
+    "title": "Halloween Collection",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/halloween.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.153954"
+      }
+    ]
+  },
+  {
+    "id": "018f-hannibal-lecter",
+    "title": "Hannibal Lecter",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/hannibal-lecter.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.59784"
+      }
+    ]
+  },
+  {
+    "id": "018f-happy-death-day",
+    "title": "Happy Death Day Collection",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/happy-death-day.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.155014"
+      }
+    ]
+  },
+  {
+    "id": "018f-harry-potter",
+    "title": "Harry Potter Collection",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/harry-potter.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.102972"
+      }
+    ]
+  },
+  {
+    "id": "018f-hunger-games",
+    "title": "Hunger Games",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/hunger-games.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.136585"
+      }
+    ]
+  },
+  {
+    "id": "018f-indiana-jones",
+    "title": "Indiana Jones",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/indiana-jones.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.20714"
+      }
+    ]
+  },
+  {
+    "id": "018f-it",
+    "title": "It Collection",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/it.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.153958"
+      }
+    ]
+  },
+  {
+    "id": "018f-james-bond",
+    "title": "James Bond Movies",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/james-bond.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.7947"
+      }
+    ]
+  },
+  {
+    "id": "018f-john-wick",
+    "title": "John Wick",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/john-wick.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.181022"
+      }
+    ]
+  },
+  {
+    "id": "018f-jurassic-world",
+    "title": "Jurassic Park",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/jurassic-world.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.120197"
+      }
+    ]
+  },
+  {
+    "id": "018f-karate-kid",
+    "title": "Karate Kid",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/karate-kid.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.59641"
+      }
+    ]
+  },
+  {
+    "id": "018f-kingsman",
+    "title": "Kingsman",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/kingsman.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.194561"
+      }
+    ]
+  },
+  {
+    "id": "018f-lord-of-the-rings-hobbit",
+    "title": "Lord of the Rings and Hobbit Collection",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/lord-of-the-rings-hobbit.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.94304"
+      }
+    ]
+  },
+  {
+    "id": "018f-mad-max",
+    "title": "Mad Max",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/mad-max.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.120269"
+      }
+    ]
+  },
+  {
+    "id": "018f-marvel",
+    "title": "Marvel",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/marvel.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.212608"
+      }
+    ]
+  },
+  {
+    "id": "018f-matrix",
+    "title": "Universe - The Matrix",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/matrix.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.125142"
+      }
+    ]
+  },
+  {
+    "id": "018f-mission-impossible",
+    "title": "Mission Impossible Saga",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/mission-impossible.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.42716"
+      }
+    ]
+  },
+  {
+    "id": "018f-monsterverse",
+    "title": "Monsterverse",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/monsterverse.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.156323"
+      }
+    ]
+  },
+  {
+    "id": "018f-now-you-see-me",
+    "title": "Now You See Me",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/now-you-see-me.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.199096"
+      }
+    ]
+  },
+  {
+    "id": "018f-oceans",
+    "title": "Ocean's Collection",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/oceans.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.59854"
+      }
+    ]
+  },
+  {
+    "id": "018f-paranormal-activity",
+    "title": "Paranormal Activity",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/paranormal-activity.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.59780"
+      }
+    ]
+  },
+  {
+    "id": "018f-pirates-of-the-carribbean",
+    "title": "Pirates of the Caribbean Collection",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/pirates-of-the-carribbean.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.82145"
+      }
+    ]
+  },
+  {
+    "id": "018f-planet-of-the-apes",
+    "title": "Planet of The Apes",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/planet-of-the-apes.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.163760"
+      }
+    ]
+  },
+  {
+    "id": "018f-police-academy",
+    "title": "Police Academy",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/police-academy.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.159298"
+      }
+    ]
+  },
+  {
+    "id": "018f-predator",
+    "title": "Predator Collection",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/predator.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.31302"
+      }
+    ]
+  },
+  {
+    "id": "018f-psycho",
+    "title": "Psycho",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/psycho.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.196596"
+      }
+    ]
+  },
+  {
+    "id": "018f-quarantine",
+    "title": "Quarantine Collection",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/quarantine.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.153960"
+      }
+    ]
+  },
+  {
+    "id": "018f-rambo",
+    "title": "Rambo",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/rambo.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.31324"
+      }
+    ]
+  },
+  {
+    "id": "018f-resident-evil",
+    "title": "Resident Evil",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/resident-evil.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.155092"
+      }
+    ]
+  },
+  {
+    "id": "018f-rocky",
+    "title": "Rocky",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/rocky.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.119046"
+      }
+    ]
+  },
+  {
+    "id": "018f-saw",
+    "title": "Saw",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/saw.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.126900"
+      }
+    ]
+  },
+  {
+    "id": "018f-scream",
+    "title": "Scream",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/scream.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.154884"
+      }
+    ]
+  },
+  {
+    "id": "018f-sherlock-holmes",
+    "title": "Sherlock Holmes",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/sherlock-holmes.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.139809"
+      }
+    ]
+  },
+  {
+    "id": "018f-star-trek",
+    "title": "Star Trek",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/star-trek.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.184810"
+      }
+    ]
+  },
+  {
+    "id": "018f-star-wars",
+    "title": "Star Wars Collection",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/star-wars.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.102975"
+      }
+    ]
+  },
+  {
+    "id": "018f-taken",
+    "title": "Taken",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/taken.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.59652"
+      }
+    ]
+  },
+  {
+    "id": "018f-terminator",
+    "title": "Universe - The Terminator",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/terminator.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.125458"
+      }
+    ]
+  },
+  {
+    "id": "018f-terrifier",
+    "title": "Terrifier",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/terrifier.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.199478"
+      }
+    ]
+  },
+  {
+    "id": "018f-the-conjuring-universe",
+    "title": "The Conjuring Universe",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/the-conjuring-universe.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.68164"
+      }
+    ]
+  },
+  {
+    "id": "018f-the-exorcist",
+    "title": "The Exorcist",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/the-exorcist.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.154826"
+      }
+    ]
+  },
+  {
+    "id": "018f-the-godfather",
+    "title": "The Godfather",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/the-godfather.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.76989"
+      }
+    ]
+  },
+  {
+    "id": "018f-the-purge",
+    "title": "The Purge",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/the-purge.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.166958"
+      }
+    ]
+  },
+  {
+    "id": "018f-the-shining",
+    "title": "The Shining Collection",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/the-shining.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.154996"
+      }
+    ]
+  },
+  {
+    "id": "018f-transformers",
+    "title": "Transformers",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/transformers.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.120027"
+      }
+    ]
+  },
+  {
+    "id": "018f-xxx",
+    "title": "xXx Collection",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/xxx.jpg",
+    "catalogSources": [
+      {
+        "addonId": "aio-metadata",
+        "type": "movie",
+        "catalogId": "mdblist.153950"
+      }
+    ]
+  }
+]

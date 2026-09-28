@@ -13,11 +13,34 @@ curation.json     the overlay — art swaps, collection/folder edits, open items
 build.py          generator + gates (stdlib only, no deps)
 base/             upstream kit, vendored verbatim. NEVER EDIT.
 reference/        live snapshots used by the gates (AIO manifest)
+assets/           our art library, one dir per family:
+                    collections/ 68   actors/ 57   awards/ 7   discover/ 6
+data/             generated: franchises-folders.json, franchises-catalogs.json, match-report.csv
+tools/            match-mdblist.py — slug -> mdblist list matching, with the review table
 dist/             generated. NEVER EDIT.
   nuvio-collections.json    -> Nuvio client / AIO "Import collections"
   aiometadata-setup.json    -> AIO "Import Catalog Setup"
   mapping.csv               audit: every folder, its sources and its art
 ```
+
+## Franchises (68 collections)
+
+`tools/match-mdblist.py` matches each `assets/collections/*.jpg` slug to an mdblist list and
+writes `data/franchises-{folders,catalogs}.json` plus a review CSV:
+
+```bash
+python3 tools/match-mdblist.py --dry   # review table only
+python3 tools/match-mdblist.py         # regenerate data/
+```
+
+- Hand-picked ids live in `OVERRIDES` (each with the reason); auto-matching scores on name
+  equality and **anything under the confidence bar is printed for review, never silently trusted**.
+- Override metadata is fetched **by list id** (`GET /lists/{id}`); the search endpoint is
+  rate-limit-flaky and misses lists whose name differs from the slug (slug `jurassic-world` is
+  the list `Jurassic Park`). Search is only used for auto-matching.
+- A failed query aborts the run — a silently empty result is how a wrong catalog ships.
+- `tileShape` is read from the JPEG's real aspect ratio, not assumed.
+
 
 ## Workflow
 
