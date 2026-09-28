@@ -3,13 +3,16 @@
 
     python3 tools/aio-wire.py
 
-Writes, for streaming / genres / decades / studios:
+Writes, for streaming / genres / decades:
     data/aio-<family>-catalogs.json   AIO catalog entries (go into the setup export)
     data/sources-aio.json             {Collection/Folder: [catalogSources]} for the build
 
-Everything is a tmdb.discover catalog, which AIO serves itself: one mechanism, no
-Xperience, no mdblist. The reference setup's richness comes from stacking axes on the
-same provider/genre — base, latest, top-rated, kids — which is exactly what this does.
+Streaming and genres are tmdb.discover catalogs, which AIO serves itself. Decades are
+the nobnobz mdblist lists from the design (one per decade, movies).
+
+Note on ids: AIO's manifest renames its fixed tmdb catalogs by type — a config entry
+`tmdb.top` is served as `tmdb.top_movie` / `tmdb.top_series`. Collection sources must
+use the served (suffixed) ids, which is what data/discover-folders.json does.
 """
 import hashlib, json
 from pathlib import Path
@@ -34,13 +37,8 @@ GENRES = {  # our folder title -> (movie genre id, tv genre id)
     "Reality TV": (None, 10764), "Nature": (99, 99),
 }
 KEYWORDS = {"Anime": "210024"}  # TMDB keyword; no genre id covers anime
-DECADES = {"2020s": 2020, "2010s": 2010, "2000s": 2000, "1990s": 1990,
-           "1980s": 1980, "1970s": 1970, "1960s": 1960}
-STUDIOS = {  # title -> (movie company id, tv company id)
-    "Marvel": (420, 420), "DC": (429, 429), "A24": (41077, None), "Pixar": (3, None),
-    "Studio Ghibli": (10342, None), "Blumhouse": (3172, 68884), "Dreamworks": (7, 15258),
-}
-COLLECTION = {"Streaming Services": PROVIDERS, "Genres": GENRES, "Decades": DECADES, "Studios": STUDIOS}
+DECADES = {"20s Movies": 158796, "10s Movies": 158791, "00s Movies": 158792,
+           "90s Movies": 158793, "80s Movies": 158794, "70s Movies": 158795}
 
 
 def slug(s):
@@ -109,25 +107,6 @@ def provider_catalogs():
     return cats, srcs
 
 
-def network_catalogs():
-    """Series only, deliberately: TMDB's *movie* discover ignores with_networks (every id
-    returns the same 20k-result set), so a 'network movies' row would be a lie. The ids
-    come from the earlier network pass, which resolved them from the profile export."""
-    old = json.loads((ROOT / "data/networks-catalogs.json").read_text())
-    nets = {}
-    for c in old:
-        nets.setdefault(c["name"].split(" — ")[0], c["metadata"]["discover"]["params"]["with_networks"])
-    cats, srcs = [], {}
-    for title, nid in nets.items():
-        plist = []
-        for c in axes_for(title, "series", nid):
-            c["metadata"]["discover"]["params"]["with_networks"] = str(nid)
-            cats.append(c)
-            plist.append({"addonId": "aio-metadata", "type": "series", "catalogId": c["id"]})
-        srcs[f"Networks/{title}"] = plist
-    return cats, srcs
-
-
 def genre_catalogs():
     cats, srcs = [], {}
     for title, (mid, tid) in GENRES.items():
@@ -158,53 +137,22 @@ def genre_catalogs():
 
 
 def decade_catalogs():
-    """Four pills per decade, as specified: Popular movies, Popular series, Top rated
-    movies, Top rated series. Slugs split movies/shows so the catalog names read right."""
+    """One nobnobz mdblist list per decade (movies), per the design."""
     cats, srcs = [], {}
-    for title, start in DECADES.items():
-        plist = []
-        lo, hi = f"{start}-01-01", f"{start + 9}-12-31"
-        per_kind = {}
-        for kind in ("movie", "series"):
-            d1 = "primary_release_date" if kind == "movie" else "first_air_date"
-            media = "Movies" if kind == "movie" else "Shows"
-            stem = f"{slug(title)}-{'movies' if kind == 'movie' else 'shows'}"
-            pop = catalog(kind, stem, f"{title} — Popular {media}", base_params())
-            top = catalog(kind, stem + "-toprated", f"{title} — Top Rated {media}",
-                          dict(base_params(), sort_by="vote_average.desc", **{"vote_count.gte": 300}))
-            for c in (pop, top):
-                p = c["metadata"]["discover"]["params"]
-                p[f"{d1}.gte"], p[f"{d1}.lte"] = lo, hi
-            per_kind[kind] = [pop, top]
-        for i in range(2):
-            for kind in ("movie", "series"):
-                c = per_kind[kind][i]
-                cats.append(c)
-                plist.append({"addonId": "aio-metadata", "type": kind, "catalogId": c["id"]})
-        srcs[f"Decades/{title}"] = plist
-    return cats, srcs
-
-
-def studio_catalogs():
-    cats, srcs = [], {}
-    for title, (mid, tid) in STUDIOS.items():
-        plist = []
-        for kind, cid in (("movie", mid), ("series", tid)):
-            if cid is None:
-                continue
-            for c in axes_for(title, kind, cid):
-                c["metadata"]["discover"]["params"]["with_companies"] = str(cid)
-                cats.append(c)
-                plist.append({"addonId": "aio-metadata", "type": kind, "catalogId": c["id"]})
-        srcs[f"Studios/{title}"] = plist
+    for title, lid in DECADES.items():
+        c = {"id": f"mdblist.{lid}", "type": "movie", "name": title, "source": "mdblist",
+             "enabled": True, "showInHome": False, "sort": "default", "order": "asc", "cacheTTL": 86400,
+             "metadata": {"url": f"https://mdblist.com/lists/nobnobz/decades-{slug(title)}",
+                          "author": "nobnobz", "itemCount": 250, "mediatype": "movie"}}
+        cats.append(c)
+        srcs[f"Decades/{title}"] = [{"addonId": "aio-metadata", "type": "movie", "catalogId": c["id"]}]
     return cats, srcs
 
 
 def main():
     all_srcs = {}
     for family, fn in (("streaming", provider_catalogs), ("genres", genre_catalogs),
-                       ("decades", decade_catalogs), ("studios", studio_catalogs),
-                       ("networks", network_catalogs)):
+                       ("decades", decade_catalogs)):
         cats, srcs = fn()
         ids = [c["id"] for c in cats]
         assert len(ids) == len(set(ids)), f"duplicate catalog ids in {family}"

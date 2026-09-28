@@ -1,28 +1,13 @@
 [
   {
-    "id": "018f-discover-foryou",
-    "title": "For You",
-    "tileShape": "LANDSCAPE",
-    "coverImageUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/for%20you%20bd.png",
-    "heroBackdropUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/for%20you%20bd.png",
-    "catalogSources": [
-      { "addonId": "aio-metadata", "type": "movie", "catalogId": "recommendations.movies" },
-      { "addonId": "aio-metadata", "type": "series", "catalogId": "recommendations.series" },
-      { "addonId": "com.bimal.watchly", "type": "movie", "catalogId": "watchly.item.1" },
-      { "addonId": "com.bimal.watchly", "type": "series", "catalogId": "watchly.item.1" },
-      { "addonId": "com.bimal.watchly", "type": "movie", "catalogId": "watchly.theme.1" },
-      { "addonId": "com.bimal.watchly", "type": "series", "catalogId": "watchly.theme.1" }
-    ]
-  },
-  {
     "id": "018f-discover-trending",
     "title": "Trending",
     "tileShape": "LANDSCAPE",
     "coverImageUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/trending%20bd.png",
     "heroBackdropUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/trending%20bd.png",
     "catalogSources": [
-      { "addonId": "aio-metadata", "type": "movie", "catalogId": "tmdb.trending" },
-      { "addonId": "aio-metadata", "type": "series", "catalogId": "tmdb.trending" }
+      { "addonId": "aio-metadata", "type": "movie", "catalogId": "tmdb.trending_movie" },
+      { "addonId": "aio-metadata", "type": "series", "catalogId": "tmdb.trending_series" }
     ]
   },
   {
@@ -32,8 +17,8 @@
     "coverImageUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/popular%20bd.png",
     "heroBackdropUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/popular%20bd.png",
     "catalogSources": [
-      { "addonId": "aio-metadata", "type": "movie", "catalogId": "tmdb.top" },
-      { "addonId": "aio-metadata", "type": "series", "catalogId": "tmdb.top" }
+      { "addonId": "aio-metadata", "type": "movie", "catalogId": "tmdb.top_movie" },
+      { "addonId": "aio-metadata", "type": "series", "catalogId": "tmdb.top_series" }
     ]
   },
   {
@@ -43,8 +28,8 @@
     "coverImageUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/top%20bd.png",
     "heroBackdropUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/top%20bd.png",
     "catalogSources": [
-      { "addonId": "aio-metadata", "type": "movie", "catalogId": "tmdb.top_rated" },
-      { "addonId": "aio-metadata", "type": "series", "catalogId": "tmdb.top_rated" }
+      { "addonId": "aio-metadata", "type": "movie", "catalogId": "tmdb.top_rated_movie" },
+      { "addonId": "aio-metadata", "type": "series", "catalogId": "tmdb.top_rated_series" }
     ]
   },
   {

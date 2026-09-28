@@ -2,7 +2,7 @@
   "version": 1,
   "name": "angel-nuvio-settings",
   "art_base": "https://raw.githubusercontent.com/illiyah/Images/main/",
-  "_art_help": "cover -> folder.coverImageUrl, logo -> folder.titleLogoUrl, hero -> folder.heroBackdropUrl. Keys are folder titles; `null` clears a field.",
+  "_art_help": "cover -> folder.coverImageUrl, logo -> folder.titleLogoUrl, hero -> folder.heroBackdropUrl. Keys are folder titles (post-rename); `null` clears a field.",
   "art": {
     "Netflix": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/netflixred-wide-tinted.png", "logo": "Netflix-titlelogo.webp", "hero": "Netflix-backdrop_1080p.webp" },
     "Disney+": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/disney-wide-tinted.png", "logo": "DisneyPlus-titlelogo.webp", "hero": "DisneyPlus-backdrop_1080p.webp" },
@@ -31,40 +31,35 @@
     "Reality TV": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/reality-wide.png" },
     "Family": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/family-movie-night-wide.png" },
     "Nature": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/nature-wide.png" },
-    "2020s": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/2020s-wide.png", "hero": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/2020s-wide.png" },
-    "2010s": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/2010s-wide.png", "hero": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/2010s-wide.png" },
-    "2000s": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/2000s-wide.png", "hero": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/2000s-wide.png" },
-    "1990s": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1990s-wide.png", "hero": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1990s-wide.png" },
-    "1980s": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1980s-wide.png", "hero": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1980s-wide.png" },
-    "1970s": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1970s-wide.png", "hero": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1970s-wide.png" },
-    "1960s": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1960s-wide.png", "hero": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1960s-wide.png" }
+    "20s Movies": { "cover": "https://i.postimg.cc/L5jnk6gT/20s.png", "hero": "https://i.postimg.cc/L5jnk6gT/20s.png" },
+    "10s Movies": { "cover": "https://i.postimg.cc/br1s0NSR/10s.png", "hero": "https://i.postimg.cc/br1s0NSR/10s.png" },
+    "00s Movies": { "cover": "https://i.postimg.cc/RhwN1VJK/00s.png", "hero": "https://i.postimg.cc/RhwN1VJK/00s.png" },
+    "90s Movies": { "cover": "https://i.postimg.cc/J7XDCKYH/90s.png", "hero": "https://i.postimg.cc/J7XDCKYH/90s.png" },
+    "80s Movies": { "cover": "https://i.postimg.cc/qBKhHQDz/80s.png", "hero": "https://i.postimg.cc/qBKhHQDz/80s.png" },
+    "70s Movies": { "cover": "https://i.postimg.cc/VvXd9L0j/70s.png", "hero": "https://i.postimg.cc/VvXd9L0j/70s.png" }
   },
   "edits": {
     "remove_collections": [],
-    "remove_folders": ["Latest Movies", "Latest Shows", "Trending Movies", "Trending Shows"],
+    "remove_folders": ["Latest Movies", "Latest Shows", "Trending Movies", "Trending Shows", "60's Movies"],
     "rename_folders": {
       "Pirates of the Carribbean": "Pirates of the Caribbean",
-      "20's Movies": "2020s", "10's Movies": "2010s", "00's Movies": "2000s", "90's Movies": "1990s",
-      "80's Movies": "1980s", "70's Movies": "1970s", "60's Movies": "1960s"
+      "20's Movies": "20s Movies", "10's Movies": "10s Movies", "00's Movies": "00s Movies",
+      "90's Movies": "90s Movies", "80's Movies": "80s Movies", "70's Movies": "70s Movies"
     },
     "reorder_collections": []
   },
   "_pending_help": "Sources that are known-dead and deliberately left as-is until the open decision lands (addonId|type|catalogId, * = wildcard). A dead source NOT listed here fails the build.",
   "pending": [
     "pw.ers.netflix-catalog|*|*",
-    "aio-metadata|movie|mdblist.102554",
-    "com.bimal.watchly|*|*"
+    "aio-metadata|movie|mdblist.102554"
   ],
   "extra_catalogs": [],
   "extra_catalogs_files": [
     "data/franchises-catalogs.json",
-    "data/actors-catalogs.json",
     "data/awards-catalogs.json",
     "data/aio-streaming-catalogs.json",
     "data/aio-genres-catalogs.json",
     "data/aio-decades-catalogs.json",
-    "data/aio-studios-catalogs.json",
-    "data/aio-networks-catalogs.json",
     "data/aio-builtin-catalogs.json"
   ],
   "collection_backdrops": {
@@ -81,26 +76,6 @@
       "folders_file": "data/discover-folders.json"
     },
     {
-      "id": "018f-studios",
-      "title": "Studios",
-      "backdropImageUrl": null,
-      "pinToTop": false,
-      "focusGlowEnabled": true,
-      "viewMode": "FOLLOW_LAYOUT",
-      "showAllTab": true,
-      "folders_file": "data/studios-folders.json"
-    },
-    {
-      "id": "018f-actors",
-      "title": "Actors",
-      "backdropImageUrl": null,
-      "pinToTop": false,
-      "focusGlowEnabled": true,
-      "viewMode": "FOLLOW_LAYOUT",
-      "showAllTab": true,
-      "folders_file": "data/actors-folders.json"
-    },
-    {
       "id": "018f-awards",
       "title": "Awards",
       "backdropImageUrl": null,
@@ -113,16 +88,6 @@
     {
       "append_to": "Collections",
       "folders_file": "data/franchises-folders.json"
-    },
-    {
-      "id": "018f-networks",
-      "title": "Networks",
-      "backdropImageUrl": null,
-      "pinToTop": true,
-      "focusGlowEnabled": true,
-      "viewMode": "FOLLOW_LAYOUT",
-      "showAllTab": true,
-      "folders_file": "data/networks-folders.json"
     }
   ]
 }

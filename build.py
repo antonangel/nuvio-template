@@ -243,7 +243,14 @@ def main():
     collections, setup, notes, added = build(base, setup_in, curation)
     if manifest is not None and added and addon_id:
         # Catalogs this build is adding become resolvable on import, under the AIO addon id.
-        manifest |= {(addon_id, c["type"], c["id"]) for c in added}
+        # AIO's manifest renames its fixed tmdb catalogs by type (tmdb.top -> tmdb.top_movie),
+        # and collection sources must use the served id — so register both forms.
+        builtin_tmdb = {"tmdb.trending", "tmdb.top", "tmdb.top_rated", "tmdb.year",
+                        "tmdb.language", "tmdb.airing_today"}
+        for c in added:
+            manifest.add((addon_id, c["type"], c["id"]))
+            if c["id"] in builtin_tmdb:
+                manifest.add((addon_id, c["type"], f"{c['id']}_{'movie' if c['type'] == 'movie' else 'series'}"))
     rows, problems, pending_hits = verify(collections, setup, manifest, net, curation.get("pending", []))
 
     folders = sum(len(c["folders"]) for c in collections)
