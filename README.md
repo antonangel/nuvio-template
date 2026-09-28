@@ -13,7 +13,7 @@ curation.json     the overlay — art swaps, collection/folder edits, open items
 build.py          generator + gates (stdlib only, no deps)
 base/             upstream kit, vendored verbatim. NEVER EDIT.
 reference/        live snapshots used by the gates (AIO manifest)
-addons/           live exports of the two addons as configured now (restore material)
+addons/           the four live exports (2 addons + both AIOMetadata profiles)
 assets/           our art library, one dir per family:
                     collections/ 68   actors/ 57   awards/ 7   discover/ 6
 data/             generated: franchises-folders.json, franchises-catalogs.json, match-report.csv
@@ -74,22 +74,35 @@ and a full export in the Collections dialog is rejected — one file per dialog.
 
 ## Live addon configs (`addons/`)
 
-The two addons exactly as they are configured now, exported verbatim. Restore material —
-the generator does not read these.
+The four exports exactly as they are configured now, dumped verbatim. Restore material — the
+generator does not read these.
 
-- `aiometadata-no-collections.json` — AIOMetadata **full config export** (format version 3.2.3):
-  providers, art providers, search engines, streaming list, the 46 catalogs (27 enabled) and the
-  five AIO manager accounts. Collections are deliberately absent — those come from
-  `dist/nuvio-collections.json`.
-- `aiostreams.json` — AIOStreams config: Tamtaro partial SEL 3.0.4 + Vidhin ranked regexes,
-  TorBox only, `cacheAndPlay` for usenet, "Nuvio minimal + badges" formatter.
+- `aiostreams.json` — AIOStreams, `AIOStreams (A)`: Tamtaro partial SEL 3.0.4 + Vidhin ranked
+  regexes, TorBox only, `cacheAndPlay` for usenet, "Nuvio minimal + badges" formatter.
   Credentials are stripped from `services`, **but the TorBox API key sits inside the Comet and
   StremThru preset URLs** — keep this repo private, and redact those two URLs before ever sharing
   the file.
+- `aiometadata-collections.json` — AIOMetadata 3.2.3, **main profile**: 351 catalogs, all enabled,
+  no `addonName`, no streaming catalog set, one AIO manager account, mdblist watch tracking on,
+  `hideUnreleased*` on, `sfw` off.
+- `aiometadata-no-collections.json` — AIOMetadata 3.2.3, **Friends profile**: 46 catalogs
+  (27 enabled), the six streaming catalogs, five AIO manager accounts, `sfw` on,
+  `showDisabledCatalogs` on. Collections come from the Nuvio file instead of from catalogs.
+  Same export format, different profile — these two are **not** two halves of one config.
+- `nuvio-collections.json` — the Nuvio client's own export: 6 top folders / 114 sub-folders, the
+  same folder ids `dist/` emits, plus per-folder **`sources`** (308 entries) and
+  `focusGifEnabled`. `dist/nuvio-collections.json` carries neither; it carries `_coverMode`,
+  `coverEmoji` and `focusGifUrl`, which the live export no longer has. The client's schema has
+  moved past what the generator emits.
 
-Open item: `base/` and `dist/aiometadata-setup.json` still say `version: 1.35.2` (55 base
-catalogs) while the live instance and `addons/` are on 3.2.3 — the vendored base predates the
-current AIOMetadata. Re-base and regenerate, or keep the two apart, is still undecided.
+Open items:
+
+1. `base/` and `dist/aiometadata-setup.json` still say `version: 1.35.2` (55 base catalogs) while
+   the live instance and `addons/` are on 3.2.3 — the vendored base predates the current
+   AIOMetadata.
+2. `dist/nuvio-collections.json` has no folder `sources` at all while the live client export
+   carries 308, so either the client resolves them another way or importing the generated file
+   loses the wiring. Unverified.
 
 ## Art
 
