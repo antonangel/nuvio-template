@@ -115,45 +115,68 @@ def main():
     rows, cat_out, fol_out = [], {}, {}
 
     # ---- awards: mdblist lists -------------------------------------------------
+    # One winners list is not a hub. A curator's award *family* is: qjao's twenty
+    # "Academy Award for Best X" lists are what the Oscars tile should carry. So: find
+    # the curator with the most lists matching the award, pull their whole family, and
+    # fall back to the single best list when no family exists.
+    AWARD_FAMILIES = {
+        "oscars": ("academy award", "Academy Award"),
+        "bafta": ("bafta", "BAFTA"),
+        "cannes": ("cannes", "Cannes"),
+        "emmy": ("emmy", "Emmy"),
+        "golden-globes": ("golden globe", "Golden Globe"),
+        "venice-film-festival": ("venice", "Venice Film Festival"),
+    }
+    AWARD_TITLES = {"oscars": "Academy Awards", "emmy": "Emmy Awards", "golden-globes": "Golden Globes",
+                    "bafta": "BAFTA", "cannes": "Cannes", "venice-film-festival": "Venice Film Festival"}
     aw_slugs = sorted(p.stem for p in (ROOT / "assets/awards").glob("*.jpg"))
     acats, afolders = [], []
     for slug in aw_slugs:
-        title = slug.replace("-", " ")
+        title = AWARD_TITLES.get(slug, slug.replace("-", " ").title())
+        fam_lists, pinned = [], []
+        if slug in AWARD_FAMILIES:
+            kw, seed = AWARD_FAMILIES[slug]
+            nkw = norm(kw)
+            cands = {}
+            for q in (seed, kw + " winners", kw + " award"):
+                for r in fetch(f"https://api.mdblist.com/lists/search?query={urllib.parse.quote(q)}&apikey={k['mdblist']}"):
+                    cands[r["id"]] = r
+            fam = [r for r in cands.values() if nkw in norm(r["name"])]
+            counts = {}
+            for r in fam:
+                counts[r["user_name"]] = counts.get(r["user_name"], 0) + 1
+            top = max(counts, key=lambda u: counts[u]) if counts else None
+            if top and counts[top] >= 3:
+                r = fetch(f"https://api.mdblist.com/lists/user/{urllib.parse.quote(top)}?apikey={k['mdblist']}")
+                alluser = r if isinstance(r, list) else r.get("lists", [])
+                fam_lists = sorted((x for x in alluser if nkw in norm(x["name"])), key=lambda x: x["name"])
+            if len(fam_lists) < 2:
+                fam_lists = []
+                if fam:
+                    fam_lists = [max(fam, key=lambda r: r["items"])]
         if slug in AWARD_OVERRIDES:
             ov = AWARD_OVERRIDES[slug]
-            if ov is None:
+            if ov is None and not fam_lists:
                 print(f"  awards {slug:<22} -> skipped (no list worth pinning)")
                 continue
-            best = fetch(f"https://api.mdblist.com/lists/{ov[0]}?apikey={k['mdblist']}")
-            best = best[0] if isinstance(best, list) else best
-            if isinstance(best, dict) and "name" not in best:
-                best = {"id": ov[0], "name": slug.replace("-", " ").title(), "user_name": "?", "items": 0,
-                        "mediatype": "movie", "slug": ""}
-            print(f"  awards {slug:<22} -> {best['id']} {best['name'][:34]!r} items={best.get('items')} OVERRIDE ({ov[1]})")
-        else:
-            best = None
-        sc = None
-        if not best:
-            alts = []
-            for q in (title, title + " winners", title + " award"):
-                for r in fetch(f"https://api.mdblist.com/lists/search?query={urllib.parse.quote(q)}&apikey={k['mdblist']}"):
-                    alts.append(r)
-            cands = {r["id"]: r for r in alts}
-            ranked = sorted(cands.values(), key=lambda r: award_score(r, title), reverse=True)[:3]
-            best = ranked[0] if ranked else None
-            if best:
-                sc = round(award_score(best, title), 1)
-                print(f"  awards {slug:<22} -> {best['id']} {best['name'][:34]!r} items={best['items']} score={sc}")
-        if not best:
+            if ov is not None:
+                r = fetch(f"https://api.mdblist.com/lists/{ov[0]}?apikey={k['mdblist']}")
+                pinned = [r[0] if isinstance(r, list) else r]
+        if not fam_lists and not pinned:
             print(f"  awards: NO MATCH for {slug}")
             continue
-        score_v = 100 if slug in AWARD_OVERRIDES else (sc or 0)
-        acats.append(award_catalog(best))
-        afolders.append(folder(slug, best["name"], AWARDS_BASE, shape_for(ROOT / f"assets/awards/{slug}.jpg"),
-                               [{"addonId": "aio-metadata", "type": best.get("mediatype") or "movie", "catalogId": f"mdblist.{best['id']}"}], prefix="aw-"))
-        rows.append({"family": "awards", "slug": slug, "catalogId": f"mdblist.{best['id']}", "name": best["name"],
-                     "uid": best["user_name"], "items": best["items"], "score": round(score_v, 1),
-                     "review": "yes" if score_v < CONFIDENT else ""})
+        lists = fam_lists + [p for p in pinned if p.get("id") not in {x["id"] for x in fam_lists}]
+        for x in lists:
+            acats.append(award_catalog(x))
+        afolders.append(folder(slug, title, AWARDS_BASE, shape_for(ROOT / f"assets/awards/{slug}.jpg"),
+                               [{"addonId": "aio-metadata", "type": "series" if x.get("mediatype") in ("show", "series") else "movie",
+                                 "catalogId": f"mdblist.{x['id']}"} for x in lists], prefix="aw-"))
+        for x in lists:
+            rows.append({"family": "awards", "slug": slug, "catalogId": f"mdblist.{x['id']}", "name": x["name"],
+                         "uid": x["user_name"], "items": x["items"], "score": 100,
+                         "review": "yes" if x["items"] < 3 else ""})
+        print(f"  awards {slug:<22} -> {len(lists)} lists, top curator "
+              f"{lists[0]['user_name'] if lists else '-'}: {', '.join(x['name'][:26] for x in lists[:3])}...")
     cat_out["awards"], fol_out["awards"] = acats, afolders
 
     # ---- actors: TMDB people -> with_cast discover catalogs --------------------

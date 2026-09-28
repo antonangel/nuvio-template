@@ -1,6 +1,6 @@
 {
   "version": "1.35.2",
-  "exportedAt": "2026-09-28T00:52:05.373600Z",
+  "exportedAt": "2026-09-28T01:00:19.865220Z",
   "config": {
     "mal": {
       "skipRecap": false,
@@ -6435,9 +6435,9 @@
         }
       },
       {
-        "id": "mdblist.211044",
+        "id": "mdblist.32970",
         "type": "movie",
-        "name": "BAFTA Winners",
+        "name": "BAFTA Award Nominees",
         "source": "mdblist",
         "enabled": true,
         "showInHome": false,
@@ -6447,16 +6447,282 @@
         "enableRatingPosters": true,
         "genreSelection": "standard",
         "metadata": {
-          "url": "https://mdblist.com/lists/mazzi77/bafta-winners",
-          "author": "mazzi77",
+          "url": "https://mdblist.com/lists/internationalization22/bafta-award-nominees",
+          "author": "internationalization22",
+          "itemCount": 1671,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.134514",
+        "type": "movie",
+        "name": "Cannes 2000",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/flexor7/cannes-2000",
+          "author": "flexor7",
+          "itemCount": 52,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.134517",
+        "type": "movie",
+        "name": "Cannes 2001",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/flexor7/cannes-2001",
+          "author": "flexor7",
+          "itemCount": 55,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.168233",
+        "type": "movie",
+        "name": "Cannes Film Festival - 2005",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/flexor7/cannes-film-festival-2005",
+          "author": "flexor7",
+          "itemCount": 6756,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.164351",
+        "type": "movie",
+        "name": "Cannes Film Festival - All Films",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/flexor7/cannes-film-festival-all-films",
+          "author": "flexor7",
+          "itemCount": 6214,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.164484",
+        "type": "movie",
+        "name": "Cannes Film Festival Non-Retro Screenings 1946-2025",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/flexor7/cannes-film-festival-non-retro-screenings-1946-2025",
+          "author": "flexor7",
+          "itemCount": 5396,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.202234",
+        "type": "movie",
+        "name": "Emmy Awards - Outstanding Comedy Series",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/johberg/emmy-awards-outstanding-comedy-series-winners",
+          "author": "johberg",
+          "itemCount": 41,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.202235",
+        "type": "movie",
+        "name": "Emmy Awards - Outstanding Drama Series",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/johberg/emmy-awards-outstanding-drama-series-winners",
+          "author": "johberg",
+          "itemCount": 44,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.210147",
+        "type": "movie",
+        "name": "Emmy Awards - Outstanding Miniseries",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/johberg/emmy-awards-outstanding-miniseries",
+          "author": "johberg",
+          "itemCount": 46,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34477",
+        "type": "movie",
+        "name": "Golden Globe Award: Animated Feature Film",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/golden-globe-award-animated-feature-film",
+          "author": "qjao",
+          "itemCount": 17,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34484",
+        "type": "movie",
+        "name": "Golden Globe Award: Best Actor in a Motion Picture – Drama",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/golden-globe-award-best-actor-in-a-motion-picture-drama",
+          "author": "qjao",
+          "itemCount": 81,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34482",
+        "type": "movie",
+        "name": "Golden Globe Award: Best Actor in a Motion Picture – Musical or Comedy",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/golden-globe-award-best-actor-in-a-motion-picture-musical-or-comedy",
+          "author": "qjao",
+          "itemCount": 73,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34485",
+        "type": "movie",
+        "name": "Golden Globe Award: Best Actress in a Motion Picture – Drama",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/golden-globe-award-best-actress-in-a-motion-picture-drama",
+          "author": "qjao",
+          "itemCount": 82,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34483",
+        "type": "movie",
+        "name": "Golden Globe Award: Best Actress in a Motion Picture – Musical or Comedy",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/golden-globe-award-best-actress-in-a-motion-picture-musical-or-comedy",
+          "author": "qjao",
+          "itemCount": 73,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34479",
+        "type": "movie",
+        "name": "Golden Globe Award: Best Director – Motion Picture",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/golden-globe-award-best-director-motion-picture",
+          "author": "qjao",
           "itemCount": 80,
           "mediatype": "movie"
         }
       },
       {
-        "id": "mdblist.136523",
+        "id": "mdblist.34487",
         "type": "movie",
-        "name": "Cannes Winners",
+        "name": "Golden Globe Award: Best Motion Picture - Drama",
         "source": "mdblist",
         "enabled": true,
         "showInHome": false,
@@ -6466,16 +6732,16 @@
         "enableRatingPosters": true,
         "genreSelection": "standard",
         "metadata": {
-          "url": "https://mdblist.com/lists/levander051/cannes-winners",
-          "author": "levander051",
-          "itemCount": 182,
+          "url": "https://mdblist.com/lists/qjao/golden-globe-award-best-motion-picture-drama",
+          "author": "qjao",
+          "itemCount": 81,
           "mediatype": "movie"
         }
       },
       {
-        "id": "mdblist.198804",
-        "type": "show",
-        "name": "Emmy winners",
+        "id": "mdblist.34489",
+        "type": "movie",
+        "name": "Golden Globe Award: Best Motion Picture - Foreign Language",
         "source": "mdblist",
         "enabled": true,
         "showInHome": false,
@@ -6485,10 +6751,124 @@
         "enableRatingPosters": true,
         "genreSelection": "standard",
         "metadata": {
-          "url": "https://mdblist.com/lists/brittiny.gonzalez/emmy-winners",
-          "author": "brittiny.gonzalez",
-          "itemCount": 856,
-          "mediatype": "show"
+          "url": "https://mdblist.com/lists/qjao/golden-globe-award-best-motion-picture-foreign-language",
+          "author": "qjao",
+          "itemCount": 91,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34486",
+        "type": "movie",
+        "name": "Golden Globe Award: Best Motion Picture - Musical or Comedy",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/golden-globe-award-best-motion-picture-musical-or-comedy",
+          "author": "qjao",
+          "itemCount": 74,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34476",
+        "type": "movie",
+        "name": "Golden Globe Award: Best Original Score in a Motion Picture",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/golden-globe-award-best-original-score-in-a-motion-picture",
+          "author": "qjao",
+          "itemCount": 68,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34475",
+        "type": "movie",
+        "name": "Golden Globe Award: Best Original Song in a Motion Picture",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/golden-globe-award-best-original-song-in-a-motion-picture",
+          "author": "qjao",
+          "itemCount": 60,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34478",
+        "type": "movie",
+        "name": "Golden Globe Award: Best Screenplay in a Motion Picture",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/golden-globe-award-best-screenplay-in-a-motion-picture",
+          "author": "qjao",
+          "itemCount": 66,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34480",
+        "type": "movie",
+        "name": "Golden Globe Award: Best Supporting Actor in a Motion Picture",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/golden-globe-award-best-supporting-actor-in-a-motion-picture",
+          "author": "qjao",
+          "itemCount": 81,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34481",
+        "type": "movie",
+        "name": "Golden Globe Award: Best Supporting Actress in a Motion Picture",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/golden-globe-award-best-supporting-actress-in-a-motion-picture",
+          "author": "qjao",
+          "itemCount": 81,
+          "mediatype": "movie"
         }
       },
       {
@@ -6511,9 +6891,9 @@
         }
       },
       {
-        "id": "mdblist.151679",
+        "id": "mdblist.34454",
         "type": "movie",
-        "name": "Oscars",
+        "name": "Academy Award for Best Actor",
         "source": "mdblist",
         "enabled": true,
         "showInHome": false,
@@ -6523,16 +6903,16 @@
         "enableRatingPosters": true,
         "genreSelection": "standard",
         "metadata": {
-          "url": "https://mdblist.com/lists/adamburns1984/oscars",
-          "author": "adamburns1984",
-          "itemCount": 1088,
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-actor",
+          "author": "qjao",
+          "itemCount": 97,
           "mediatype": "movie"
         }
       },
       {
-        "id": "mdblist.165970",
+        "id": "mdblist.34456",
         "type": "movie",
-        "name": "Venice Film Festival",
+        "name": "Academy Award for Best Actress",
         "source": "mdblist",
         "enabled": true,
         "showInHome": false,
@@ -6542,9 +6922,370 @@
         "enableRatingPosters": true,
         "genreSelection": "standard",
         "metadata": {
-          "url": "https://mdblist.com/lists/leone.vitalezamp/venice-film-festival",
-          "author": "leone.vitalezamp",
-          "itemCount": 1553,
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-actress",
+          "author": "qjao",
+          "itemCount": 98,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34447",
+        "type": "movie",
+        "name": "Academy Award for Best Adapted Screenplay",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-adapted-screenplay",
+          "author": "qjao",
+          "itemCount": 95,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34460",
+        "type": "movie",
+        "name": "Academy Award for Best Animated Feature",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-animated-feature",
+          "author": "qjao",
+          "itemCount": 22,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34449",
+        "type": "movie",
+        "name": "Academy Award for Best Cinematography",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-cinematography",
+          "author": "qjao",
+          "itemCount": 125,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34443",
+        "type": "movie",
+        "name": "Academy Award for Best Costume Design",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-costume-design",
+          "author": "qjao",
+          "itemCount": 57,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34453",
+        "type": "movie",
+        "name": "Academy Award for Best Director",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-director",
+          "author": "qjao",
+          "itemCount": 96,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34451",
+        "type": "movie",
+        "name": "Academy Award for Best Documentary Feature Film",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-documentary-feature-film",
+          "author": "qjao",
+          "itemCount": 82,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34450",
+        "type": "movie",
+        "name": "Academy Award for Best Film Editing",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-film-editing",
+          "author": "qjao",
+          "itemCount": 89,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34440",
+        "type": "movie",
+        "name": "Academy Award for Best Foreign Language Film",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-foreign-language-film",
+          "author": "qjao",
+          "itemCount": 74,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34442",
+        "type": "movie",
+        "name": "Academy Award for Best Makeup and Hairstyling",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-makeup-and-hairstyling",
+          "author": "qjao",
+          "itemCount": 42,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34445",
+        "type": "movie",
+        "name": "Academy Award for Best Original Score",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-original-score",
+          "author": "qjao",
+          "itemCount": 137,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34441",
+        "type": "movie",
+        "name": "Academy Award for Best Original Screenplay",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-original-screenplay",
+          "author": "qjao",
+          "itemCount": 82,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34448",
+        "type": "movie",
+        "name": "Academy Award for Best Original Song",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-original-song",
+          "author": "qjao",
+          "itemCount": 89,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34452",
+        "type": "movie",
+        "name": "Academy Award for Best Picture",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-picture",
+          "author": "qjao",
+          "itemCount": 96,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34444",
+        "type": "movie",
+        "name": "Academy Award for Best Production Design",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-production-design",
+          "author": "qjao",
+          "itemCount": 121,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34461",
+        "type": "movie",
+        "name": "Academy Award for Best Sound",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-sound",
+          "author": "qjao",
+          "itemCount": 120,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34455",
+        "type": "movie",
+        "name": "Academy Award for Best Supporting Actor",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-supporting-actor",
+          "author": "qjao",
+          "itemCount": 87,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34457",
+        "type": "movie",
+        "name": "Academy Award for Best Supporting Actress",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-supporting-actress",
+          "author": "qjao",
+          "itemCount": 87,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.34446",
+        "type": "movie",
+        "name": "Academy Award for Best Visual Effects",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/qjao/academy-award-for-best-visual-effects",
+          "author": "qjao",
+          "itemCount": 83,
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.164354",
+        "type": "movie",
+        "name": "Venice Film Festival - All Films",
+        "source": "mdblist",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "enableRatingPosters": true,
+        "genreSelection": "standard",
+        "metadata": {
+          "url": "https://mdblist.com/lists/flexor7/venice-film-festival-all-films",
+          "author": "flexor7",
+          "itemCount": 4461,
           "mediatype": "movie"
         }
       }
@@ -6612,7 +7353,7 @@
   },
   "metadata": {
     "apiKeysExcluded": true,
-    "totalCatalogs": 297,
-    "enabledCatalogs": 297
+    "totalCatalogs": 336,
+    "enabledCatalogs": 336
   }
 }

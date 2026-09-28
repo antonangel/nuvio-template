@@ -3107,7 +3107,7 @@
     "folders": [
       {
         "id": "018f-aw-bafta",
-        "title": "BAFTA Winners",
+        "title": "BAFTA",
         "tileShape": "POSTER",
         "hideTitle": true,
         "_coverMode": "image",
@@ -3116,13 +3116,13 @@
           {
             "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "mdblist.211044"
+            "catalogId": "mdblist.32970"
           }
         ]
       },
       {
         "id": "018f-aw-cannes",
-        "title": "Cannes Winners",
+        "title": "Cannes",
         "tileShape": "POSTER",
         "hideTitle": true,
         "_coverMode": "image",
@@ -3131,13 +3131,33 @@
           {
             "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "mdblist.136523"
+            "catalogId": "mdblist.134514"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.134517"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.168233"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.164351"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.164484"
           }
         ]
       },
       {
         "id": "018f-aw-emmy",
-        "title": "Emmy winners",
+        "title": "Emmy Awards",
         "tileShape": "POSTER",
         "hideTitle": true,
         "_coverMode": "image",
@@ -3145,19 +3165,99 @@
         "catalogSources": [
           {
             "addonId": "aio-metadata",
-            "type": "show",
-            "catalogId": "mdblist.198804"
+            "type": "movie",
+            "catalogId": "mdblist.202234"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.202235"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.210147"
           }
         ]
       },
       {
         "id": "018f-aw-golden-globes",
-        "title": "Golden Globe Winners",
+        "title": "Golden Globes",
         "tileShape": "POSTER",
         "hideTitle": true,
         "_coverMode": "image",
         "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/golden-globes.jpg",
         "catalogSources": [
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34477"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34484"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34482"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34485"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34483"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34479"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34487"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34489"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34486"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34476"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34475"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34478"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34480"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34481"
+          },
           {
             "addonId": "aio-metadata",
             "type": "movie",
@@ -3167,7 +3267,7 @@
       },
       {
         "id": "018f-aw-oscars",
-        "title": "Oscars",
+        "title": "Academy Awards",
         "tileShape": "POSTER",
         "hideTitle": true,
         "_coverMode": "image",
@@ -3176,7 +3276,102 @@
           {
             "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "mdblist.151679"
+            "catalogId": "mdblist.34454"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34456"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34447"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34460"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34449"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34443"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34453"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34451"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34450"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34440"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34442"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34445"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34441"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34448"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34452"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34444"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34461"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34455"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34457"
+          },
+          {
+            "addonId": "aio-metadata",
+            "type": "movie",
+            "catalogId": "mdblist.34446"
           }
         ]
       },
@@ -3191,7 +3386,7 @@
           {
             "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "mdblist.165970"
+            "catalogId": "mdblist.164354"
           }
         ]
       }
