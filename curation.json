@@ -34,14 +34,14 @@
   ],
   "extra_catalogs": [],
   "extra_catalogs_files": [
-    "data/networks-catalogs.json",
     "data/franchises-catalogs.json",
     "data/actors-catalogs.json",
     "data/awards-catalogs.json",
     "data/aio-streaming-catalogs.json",
     "data/aio-genres-catalogs.json",
     "data/aio-decades-catalogs.json",
-    "data/aio-studios-catalogs.json"
+    "data/aio-studios-catalogs.json",
+    "data/aio-networks-catalogs.json"
   ],
   "collection_backdrops": {
     "Discover": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/downloaded%20bd.png"

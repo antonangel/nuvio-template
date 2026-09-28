@@ -19,7 +19,10 @@ REGION = "US"  # Hulu/Peacock don't exist in CA; the kit's providers are US cata
 
 PROVIDERS = {"Netflix": 8, "Disney+": 337, "Apple TV": 350, "Prime Video": 9, "HBO Max": 1899,
              "Hulu": 15, "Paramount+": 2303, "Peacock": 386, "Starz": 43, "Shudder": 99, "Adult Swim": 318}
-KIDS_PROVIDERS = {"Netflix", "Disney+", "Apple TV", "Prime Video", "HBO Max", "Hulu", "Paramount+", "Peacock"}
+# The provider's own network id, for "Originals" (its in-house slate). Verified against
+# TMDB: each returns that provider's shows, not a generic set.
+NETWORK_IDS = {"Netflix": 213, "Disney+": 2739, "Apple TV": 2552, "Prime Video": 1024, "HBO Max": 3186,
+               "Hulu": 453, "Paramount+": 4330, "Peacock": 3353, "Starz": 318, "Shudder": 2949, "Adult Swim": 80}
 GENRES = {  # our folder title -> (movie genre id, tv genre id)
     "Action": (28, 10759), "Animation": (16, 16), "Comedy": (35, 35),
     "Crime": (80, 80), "Documentary": (99, 99), "Drama": (18, 18), "Family": (10751, 10751),
@@ -58,15 +61,14 @@ def base_params():
 
 
 def axes_for(title, kind, seed, extra=""):
-    """The stacked axes: base, latest, top-rated (+ kids where it makes sense)."""
+    """New / Popular / Top-rated for one kind, in the order the pills should read."""
     kind_slug = slug(title) + extra
     out = []
-    p = base_params()
-    out.append(catalog(kind, kind_slug, f"{title} — {'Series' if kind == 'series' else 'Movies'}", dict(p)))
     q = base_params()
     q["sort_by"] = "first_air_date.desc" if kind == "series" else "primary_release_date.desc"
     q["vote_count.gte"] = 10
-    out.append(catalog(kind, kind_slug + "-latest", f"{title} — Latest", q))
+    out.append(catalog(kind, kind_slug + "-new", f"{title} — New", q))
+    out.append(catalog(kind, kind_slug, f"{title} — Popular", base_params()))
     r = base_params()
     r["sort_by"] = "vote_average.desc"
     r["vote_count.gte"] = 300
@@ -78,20 +80,42 @@ def provider_catalogs():
     cats, srcs = [], {}
     for title, pid in PROVIDERS.items():
         plist = []
-        for kind, media in (("movie", "movie"), ("series", "tv")):
-            for c in axes_for(title, kind, pid):
+        per_kind = {kind: axes_for(title, kind, pid) for kind in ("movie", "series")}
+        for i in range(3):  # interleave: New movies, New series, Popular movies, … as asked
+            for kind in ("movie", "series"):
+                c = per_kind[kind][i]
                 c["metadata"]["discover"]["params"].update(
                     {"watch_region": REGION, "with_watch_providers": str(pid), "with_watch_monetization_types": "flatrate"})
                 cats.append(c)
                 plist.append({"addonId": "aio-metadata", "type": kind, "catalogId": c["id"]})
-            if title in KIDS_PROVIDERS:
-                k = catalog(kind, slug(title) + "-kids", f"{title} — Kids",
-                            dict(base_params(), watch_region=REGION, with_watch_providers=str(pid),
-                                 with_watch_monetization_types="flatrate",
-                                 with_genres=str(10762 if kind == "series" else 10751)))
-                cats.append(k)
-                plist.append({"addonId": "aio-metadata", "type": kind, "catalogId": k["id"]})
+        nid = NETWORK_IDS.get(title)
+        if nid:
+            # Originals = the provider's own network, narrowed to what it streams itself.
+            o = catalog("series", slug(title) + "-originals", f"{title} — Originals",
+                        dict(base_params(), watch_region=REGION, with_watch_providers=str(pid),
+                             with_watch_monetization_types="flatrate", with_networks=str(nid)))
+            cats.append(o)
+            plist.append({"addonId": "aio-metadata", "type": "series", "catalogId": o["id"]})
         srcs[f"Streaming Services/{title}"] = plist
+    return cats, srcs
+
+
+def network_catalogs():
+    """Series only, deliberately: TMDB's *movie* discover ignores with_networks (every id
+    returns the same 20k-result set), so a 'network movies' row would be a lie. The ids
+    come from the earlier network pass, which resolved them from the profile export."""
+    old = json.loads((ROOT / "data/networks-catalogs.json").read_text())
+    nets = {}
+    for c in old:
+        nets.setdefault(c["name"].split(" — ")[0], c["metadata"]["discover"]["params"]["with_networks"])
+    cats, srcs = [], {}
+    for title, nid in nets.items():
+        plist = []
+        for c in axes_for(title, "series", nid):
+            c["metadata"]["discover"]["params"]["with_networks"] = str(nid)
+            cats.append(c)
+            plist.append({"addonId": "aio-metadata", "type": "series", "catalogId": c["id"]})
+        srcs[f"Networks/{title}"] = plist
     return cats, srcs
 
 
@@ -99,13 +123,18 @@ def genre_catalogs():
     cats, srcs = [], {}
     for title, (mid, tid) in GENRES.items():
         plist = []
+        per_kind = {}
         for kind, gid in (("movie", mid), ("series", tid)):
             if gid is None:
                 continue
             for c in axes_for(title, kind, gid):
                 c["metadata"]["discover"]["params"]["with_genres"] = str(gid)
-                cats.append(c)
-                plist.append({"addonId": "aio-metadata", "type": kind, "catalogId": c["id"]})
+                per_kind.setdefault(kind, []).append(c)
+        for i in range(3):
+            for kind in ("movie", "series"):
+                if kind in per_kind and i < len(per_kind[kind]):
+                    cats.append(per_kind[kind][i])
+                    plist.append({"addonId": "aio-metadata", "type": kind, "catalogId": per_kind[kind][i]["id"]})
         if plist:
             srcs[f"Genres/{title}"] = plist
     for title, kw in KEYWORDS.items():
@@ -154,7 +183,8 @@ def studio_catalogs():
 def main():
     all_srcs = {}
     for family, fn in (("streaming", provider_catalogs), ("genres", genre_catalogs),
-                       ("decades", decade_catalogs), ("studios", studio_catalogs)):
+                       ("decades", decade_catalogs), ("studios", studio_catalogs),
+                       ("networks", network_catalogs)):
         cats, srcs = fn()
         ids = [c["id"] for c in cats]
         assert len(ids) == len(set(ids)), f"duplicate catalog ids in {family}"
