@@ -32,6 +32,11 @@
     },
     {
       "addonId": "aio-metadata",
+      "type": "movie",
+      "catalogId": "tmdb.discover.movie.netflix-originals.d8aae8fc"
+    },
+    {
+      "addonId": "aio-metadata",
       "type": "series",
       "catalogId": "tmdb.discover.series.netflix-originals.5fb5aff8"
     }
@@ -106,6 +111,11 @@
     },
     {
       "addonId": "aio-metadata",
+      "type": "movie",
+      "catalogId": "tmdb.discover.movie.apple-tv-originals.ca459fc4"
+    },
+    {
+      "addonId": "aio-metadata",
       "type": "series",
       "catalogId": "tmdb.discover.series.apple-tv-originals.5dbc1879"
     }
@@ -143,6 +153,11 @@
     },
     {
       "addonId": "aio-metadata",
+      "type": "movie",
+      "catalogId": "tmdb.discover.movie.prime-video-originals.9e428710"
+    },
+    {
+      "addonId": "aio-metadata",
       "type": "series",
       "catalogId": "tmdb.discover.series.prime-video-originals.3f77b478"
     }
@@ -177,6 +192,11 @@
       "addonId": "aio-metadata",
       "type": "series",
       "catalogId": "tmdb.discover.series.hbo-max-toprated.3b246808"
+    },
+    {
+      "addonId": "aio-metadata",
+      "type": "movie",
+      "catalogId": "tmdb.discover.movie.hbo-max-originals.b58d4282"
     },
     {
       "addonId": "aio-metadata",
@@ -399,6 +419,11 @@
       "addonId": "aio-metadata",
       "type": "series",
       "catalogId": "tmdb.discover.series.adult-swim-toprated.6629fb0a"
+    },
+    {
+      "addonId": "aio-metadata",
+      "type": "movie",
+      "catalogId": "tmdb.discover.movie.adult-swim-originals.4ebae369"
     },
     {
       "addonId": "aio-metadata",

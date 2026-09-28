@@ -19,8 +19,11 @@ REGION = "US"  # Hulu/Peacock don't exist in CA; the kit's providers are US cata
 
 PROVIDERS = {"Netflix": 8, "Disney+": 337, "Apple TV": 350, "Prime Video": 9, "HBO Max": 1899,
              "Hulu": 15, "Paramount+": 2303, "Peacock": 386, "Starz": 43, "Shudder": 99, "Adult Swim": 318}
-# The provider's own network id, for "Originals" (its in-house slate). Verified against
-# TMDB: each returns that provider's shows, not a generic set.
+# "Originals" on the movie side: TMDB has no originals flag, so this is the provider's
+# own production arm (verified per id — the ones with a thin or wrong set are omitted
+# rather than shipped as a near-empty tile).
+ORIGINALS_COMPANY = {"Netflix": "178464|185004", "Prime Video": "210099", "Apple TV": "194232",
+                     "HBO Max": "7429", "Adult Swim": "6760"}
 NETWORK_IDS = {"Netflix": 213, "Disney+": 2739, "Apple TV": 2552, "Prime Video": 1024, "HBO Max": 3186,
                "Hulu": 453, "Paramount+": 4330, "Peacock": 3353, "Starz": 318, "Shudder": 2949, "Adult Swim": 80}
 GENRES = {  # our folder title -> (movie genre id, tv genre id)
@@ -89,6 +92,12 @@ def provider_catalogs():
                 cats.append(c)
                 plist.append({"addonId": "aio-metadata", "type": kind, "catalogId": c["id"]})
         nid = NETWORK_IDS.get(title)
+        ocid = ORIGINALS_COMPANY.get(title)
+        if ocid:
+            om = catalog("movie", slug(title) + "-originals", f"{title} — Originals",
+                         dict(base_params(), with_companies=ocid))
+            cats.append(om)
+            plist.append({"addonId": "aio-metadata", "type": "movie", "catalogId": om["id"]})
         if nid:
             # Originals = the provider's own network, narrowed to what it streams itself.
             o = catalog("series", slug(title) + "-originals", f"{title} — Originals",

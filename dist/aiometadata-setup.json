@@ -1,6 +1,6 @@
 {
   "version": "1.35.2",
-  "exportedAt": "2026-09-28T01:26:53.872447Z",
+  "exportedAt": "2026-09-28T01:30:14.366308Z",
   "config": {
     "mal": {
       "skipRecap": false,
@@ -6084,6 +6084,29 @@
         }
       },
       {
+        "id": "tmdb.discover.movie.netflix-originals.d8aae8fc",
+        "type": "movie",
+        "name": "Netflix — Originals",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": false,
+        "cacheTTL": 21600,
+        "metadata": {
+          "description": "TMDB Discover (movie)",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "movie",
+            "params": {
+              "include_adult": "false",
+              "vote_count.gte": 50,
+              "sort_by": "popularity.desc",
+              "with_companies": "178464|185004"
+            }
+          }
+        }
+      },
+      {
         "id": "tmdb.discover.series.netflix-originals.5fb5aff8",
         "type": "series",
         "name": "Netflix — Originals",
@@ -6436,6 +6459,29 @@
         }
       },
       {
+        "id": "tmdb.discover.movie.apple-tv-originals.ca459fc4",
+        "type": "movie",
+        "name": "Apple TV — Originals",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": false,
+        "cacheTTL": 21600,
+        "metadata": {
+          "description": "TMDB Discover (movie)",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "movie",
+            "params": {
+              "include_adult": "false",
+              "vote_count.gte": 50,
+              "sort_by": "popularity.desc",
+              "with_companies": "194232"
+            }
+          }
+        }
+      },
+      {
         "id": "tmdb.discover.series.apple-tv-originals.5dbc1879",
         "type": "series",
         "name": "Apple TV — Originals",
@@ -6612,6 +6658,29 @@
         }
       },
       {
+        "id": "tmdb.discover.movie.prime-video-originals.9e428710",
+        "type": "movie",
+        "name": "Prime Video — Originals",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": false,
+        "cacheTTL": 21600,
+        "metadata": {
+          "description": "TMDB Discover (movie)",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "movie",
+            "params": {
+              "include_adult": "false",
+              "vote_count.gte": 50,
+              "sort_by": "popularity.desc",
+              "with_companies": "210099"
+            }
+          }
+        }
+      },
+      {
         "id": "tmdb.discover.series.prime-video-originals.3f77b478",
         "type": "series",
         "name": "Prime Video — Originals",
@@ -6783,6 +6852,29 @@
               "watch_region": "US",
               "with_watch_providers": "1899",
               "with_watch_monetization_types": "flatrate"
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.movie.hbo-max-originals.b58d4282",
+        "type": "movie",
+        "name": "HBO Max — Originals",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": false,
+        "cacheTTL": 21600,
+        "metadata": {
+          "description": "TMDB Discover (movie)",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "movie",
+            "params": {
+              "include_adult": "false",
+              "vote_count.gte": 50,
+              "sort_by": "popularity.desc",
+              "with_companies": "7429"
             }
           }
         }
@@ -7839,6 +7931,29 @@
               "watch_region": "US",
               "with_watch_providers": "318",
               "with_watch_monetization_types": "flatrate"
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.movie.adult-swim-originals.4ebae369",
+        "type": "movie",
+        "name": "Adult Swim — Originals",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": false,
+        "cacheTTL": 21600,
+        "metadata": {
+          "description": "TMDB Discover (movie)",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "movie",
+            "params": {
+              "include_adult": "false",
+              "vote_count.gte": 50,
+              "sort_by": "popularity.desc",
+              "with_companies": "6760"
             }
           }
         }
@@ -13633,7 +13748,7 @@
   },
   "metadata": {
     "apiKeysExcluded": true,
-    "totalCatalogs": 605,
-    "enabledCatalogs": 605
+    "totalCatalogs": 610,
+    "enabledCatalogs": 610
   }
 }
