@@ -1,5 +1,27 @@
 [
   {
+    "id": "recommendations.movies",
+    "name": "For You Movies",
+    "type": "movie",
+    "source": "recommendations",
+    "enabled": true,
+    "showInHome": false,
+    "sort": "default",
+    "order": "asc",
+    "displayType": "movies"
+  },
+  {
+    "id": "recommendations.series",
+    "name": "For You Series",
+    "type": "series",
+    "source": "recommendations",
+    "enabled": true,
+    "showInHome": false,
+    "sort": "default",
+    "order": "asc",
+    "displayType": "series"
+  },
+  {
     "id": "tmdb.trending",
     "name": "TMDB Trending Movies",
     "type": "movie",

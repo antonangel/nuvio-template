@@ -17,7 +17,7 @@
         "catalogSources": [
           {
             "addonId": "aio-metadata",
-            "type": "movie",
+            "type": "movies",
             "catalogId": "tmdb.trending_movie"
           },
           {
@@ -36,7 +36,7 @@
         "catalogSources": [
           {
             "addonId": "aio-metadata",
-            "type": "movie",
+            "type": "movies",
             "catalogId": "tmdb.top_movie"
           },
           {
@@ -55,7 +55,7 @@
         "catalogSources": [
           {
             "addonId": "aio-metadata",
-            "type": "movie",
+            "type": "movies",
             "catalogId": "tmdb.top_rated_movie"
           },
           {

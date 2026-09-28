@@ -1,6 +1,6 @@
 {
   "version": "1.35.2",
-  "exportedAt": "2026-09-28T03:58:52.458100Z",
+  "exportedAt": "2026-09-28T04:02:24.073107Z",
   "config": {
     "mal": {
       "skipRecap": false,
@@ -7535,6 +7535,28 @@
         }
       },
       {
+        "id": "recommendations.movies",
+        "name": "For You Movies",
+        "type": "movie",
+        "source": "recommendations",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "displayType": "movies"
+      },
+      {
+        "id": "recommendations.series",
+        "name": "For You Series",
+        "type": "series",
+        "source": "recommendations",
+        "enabled": true,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc",
+        "displayType": "series"
+      },
+      {
         "id": "tmdb.trending",
         "name": "TMDB Trending Movies",
         "type": "movie",
@@ -7681,7 +7703,7 @@
   },
   "metadata": {
     "apiKeysExcluded": true,
-    "totalCatalogs": 353,
-    "enabledCatalogs": 353
+    "totalCatalogs": 355,
+    "enabledCatalogs": 355
   }
 }
