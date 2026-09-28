@@ -1,0 +1,1160 @@
+{
+  "Streaming Services/Netflix": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_netflix_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_netflix_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "snoak_netflix_top10_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "snoak_netflix_top10_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "fp_netflix_kids_top10_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "fp_netflix_kids_top10_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "snoak_latest_netflix_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "snoak_latest_netflix_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_netflix_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_netflix_toprated_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_netflix_originals_series",
+      "genre": null
+    }
+  ],
+  "Streaming Services/Disney+": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_disney_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_disney_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "snoak_disney_top10_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "snoak_disney_top10_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "snoak_latest_disney_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "snoak_latest_disney_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_disney_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_disney_toprated_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_disney_originals_series",
+      "genre": null
+    }
+  ],
+  "Streaming Services/Apple TV": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_apple_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_apple_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "snoak_apple_top10_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "snoak_apple_top10_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "snoak_latest_apple_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "snoak_latest_apple_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_apple_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_apple_toprated_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_apple_originals_series",
+      "genre": null
+    }
+  ],
+  "Streaming Services/Prime Video": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_prime_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_prime_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "snoak_prime_top10_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "snoak_prime_top10_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "snoak_latest_prime_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "snoak_latest_prime_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_prime_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_prime_toprated_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_prime_originals_series",
+      "genre": null
+    }
+  ],
+  "Streaming Services/HBO Max": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_hbo_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_hbo_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "snoak_hbo_top10_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "snoak_hbo_top10_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "snoak_latest_hbo_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "snoak_latest_hbo_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_hbo_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_hbo_toprated_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_hbo_originals_series",
+      "genre": null
+    }
+  ],
+  "Streaming Services/Hulu": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_hulu_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_hulu_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "fp_hulu_top10_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "fp_hulu_top10_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "snoak_latest_hulu_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "snoak_latest_hulu_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_hulu_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_hulu_toprated_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_hulu_originals_series",
+      "genre": null
+    }
+  ],
+  "Streaming Services/Paramount+": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_paramount_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_paramount_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "snoak_paramount_top10_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "snoak_paramount_top10_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "snoak_latest_paramount_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "snoak_latest_paramount_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_paramount_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_paramount_toprated_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_paramount_originals_series",
+      "genre": null
+    }
+  ],
+  "Streaming Services/Peacock": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_peacock_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_peacock_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "fp_peacock_top10_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "kb_peacock_top50_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_peacock_latest_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_peacock_latest_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_peacock_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_peacock_toprated_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_peacock_originals_series",
+      "genre": null
+    }
+  ],
+  "Streaming Services/Shudder": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_shudder_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_shudder_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "kb_shudder_top50",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "streaming_shudder_latest_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "streaming_shudder_latest_series",
+      "genre": null
+    }
+  ],
+  "Genres/Action": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_action_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_action_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_action_latest_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_action_latest_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_action_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_action_toprated_series",
+      "genre": null
+    }
+  ],
+  "Genres/Comedy": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_comedy_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_comedy_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_comedy_latest_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_comedy_latest_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_comedy_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_comedy_toprated_series",
+      "genre": null
+    }
+  ],
+  "Genres/Sci-Fi": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_scifi_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_scifi_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_scifi_latest_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_scifi_latest_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_scifi_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_scifi_toprated_series",
+      "genre": null
+    }
+  ],
+  "Genres/Crime": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_crime_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_crime_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_crime_latest_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_crime_latest_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_crime_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_crime_toprated_series",
+      "genre": null
+    }
+  ],
+  "Genres/Thriller": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_thriller_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_thriller_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_thriller_latest_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_thriller_latest_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_thriller_toprated_movies",
+      "genre": null
+    }
+  ],
+  "Genres/Drama": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_drama_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_drama_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_drama_latest_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_drama_latest_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_drama_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_drama_toprated_series",
+      "genre": null
+    }
+  ],
+  "Genres/Horror": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_horror_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_horror_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_horror_latest_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_horror_latest_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_horror_toprated_movies",
+      "genre": null
+    }
+  ],
+  "Genres/Mystery": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_mystery_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_mystery_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_mystery_latest_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_mystery_latest_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_mystery_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_mystery_toprated_series",
+      "genre": null
+    }
+  ],
+  "Genres/Anime": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_anime_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_anime_series",
+      "genre": null
+    }
+  ],
+  "Genres/Documentary": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_documentary_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_documentary_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_documentary_latest_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_documentary_latest_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_documentary_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_documentary_toprated_series",
+      "genre": null
+    }
+  ],
+  "Genres/Romance": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_romance_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_romance_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_romance_latest_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_romance_latest_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_romance_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_romance_toprated_series",
+      "genre": null
+    }
+  ],
+  "Genres/History": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_history_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_limited_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_history_latest_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_history_toprated_movies",
+      "genre": null
+    }
+  ],
+  "Genres/Animation": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_animation_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_animation_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_animation_latest_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_animation_latest_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_animation_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_animation_toprated_series",
+      "genre": null
+    }
+  ],
+  "Genres/Family": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_family_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_family_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_family_latest_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_family_latest_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "genre_family_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "genre_family_toprated_series",
+      "genre": null
+    }
+  ],
+  "Decades/20's Movies": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "decade_2020s_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "decade_2020s_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "decade_2020s_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "decade_2020s_toprated_series",
+      "genre": null
+    }
+  ],
+  "Decades/10's Movies": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "decade_2010s_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "decade_2010s_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "decade_2010s_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "decade_2010s_toprated_series",
+      "genre": null
+    }
+  ],
+  "Decades/00's Movies": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "decade_2000s_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "decade_2000s_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "decade_2000s_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "decade_2000s_toprated_series",
+      "genre": null
+    }
+  ],
+  "Decades/90's Movies": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "decade_1990s_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "decade_1990s_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "decade_1990s_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "decade_1990s_toprated_series",
+      "genre": null
+    }
+  ],
+  "Decades/80's Movies": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "decade_1980s_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "decade_1980s_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "decade_1980s_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "decade_1980s_toprated_series",
+      "genre": null
+    }
+  ],
+  "Decades/70's Movies": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "decade_1970s_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "decade_1970s_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "decade_1970s_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "decade_1970s_toprated_series",
+      "genre": null
+    }
+  ],
+  "Decades/60's Movies": [
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "decade_1960s_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "decade_1960s_series",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "movie",
+      "catalogId": "decade_1960s_toprated_movies",
+      "genre": null
+    },
+    {
+      "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+      "type": "series",
+      "catalogId": "decade_1960s_toprated_series",
+      "genre": null
+    }
+  ]
+}

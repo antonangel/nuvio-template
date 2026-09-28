@@ -1,0 +1,239 @@
+[
+  {
+    "id": "018f-st-marvel",
+    "title": "Marvel",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/studios/marvel-studios.jpg",
+    "catalogSources": [
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_marvel_movies",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "series",
+        "catalogId": "studio_marvel_series",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_marvel_toprated_movies",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "collection_mcu",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_marvel_spiderman_movies",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_marvel_xmen_movies",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_marvel_avengers_movies",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_marvel_animation_movies",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "series",
+        "catalogId": "studio_marvel_animation_series",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_marvel_legacy_movies",
+        "genre": null
+      }
+    ]
+  },
+  {
+    "id": "018f-st-dc",
+    "title": "DC",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/studios/dc.jpg",
+    "catalogSources": [
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_dc_movies",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "series",
+        "catalogId": "studio_dc_series",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_dc_toprated_movies",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_dc_dceu_movies",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_dcu_movies",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "series",
+        "catalogId": "studio_dcu_series",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_dc_batman_movies",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_dc_superman_movies",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_dc_animation_movies",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "series",
+        "catalogId": "studio_dc_animation_series",
+        "genre": null
+      }
+    ]
+  },
+  {
+    "id": "018f-st-a24",
+    "title": "A24",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/studios/a24.jpg",
+    "catalogSources": [
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_a24_movies",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "series",
+        "catalogId": "studio_a24_series",
+        "genre": null
+      }
+    ]
+  },
+  {
+    "id": "018f-st-pixar",
+    "title": "Pixar",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/studios/pixar.jpg",
+    "catalogSources": [
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_pixar_movies",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "series",
+        "catalogId": "studio_pixar_series",
+        "genre": null
+      }
+    ]
+  },
+  {
+    "id": "018f-st-studioghibli",
+    "title": "Studio Ghibli",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/studios/studio-ghibli.jpg",
+    "catalogSources": [
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_ghibli_movies",
+        "genre": null
+      }
+    ]
+  },
+  {
+    "id": "018f-st-blumhouse",
+    "title": "Blumhouse",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/studios/blumhouse.jpg",
+    "catalogSources": [
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_blumhouse_movies",
+        "genre": null
+      },
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "series",
+        "catalogId": "studio_blumhouse_series",
+        "genre": null
+      }
+    ]
+  },
+  {
+    "id": "018f-st-dreamworks",
+    "title": "Dreamworks",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "_coverMode": "image",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/studios/dreamworks.jpg",
+    "catalogSources": [
+      {
+        "addonId": "app.xperience.222b0274-6b6b-4e79-a693-e880da0d1799",
+        "type": "movie",
+        "catalogId": "studio_dreamworks_movies"
+      }
+    ]
+  }
+]

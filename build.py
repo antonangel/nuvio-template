@@ -107,6 +107,37 @@ def build(base, setup, curation):
             if c.get("title") == title:
                 c["backdropImageUrl"] = url
 
+    if curation.get("source_overrides_file"):
+        ov = json.loads((ROOT / curation["source_overrides_file"]).read_text())
+        counts = {}
+        for c in collections:
+            for f in c.get("folders", []):
+                counts[f.get("title")] = counts.get(f.get("title"), 0) + 1
+        hit, ambiguous = 0, []
+        for c in collections:
+            for f in c.get("folders", []):
+                key = f"{c.get('title')}/{f.get('title')}"
+                if key in ov:
+                    f["catalogSources"] = ov[key]
+                    hit += 1
+                elif f.get("title") in ov:
+                    # Bare-title key: only safe when the title is unique across collections.
+                    if counts[f.get("title")] == 1:
+                        f["catalogSources"] = ov[f["title"]]
+                        hit += 1
+                    else:
+                        ambiguous.append(key)
+        notes.append(f"re-pointed {hit} folders from {curation['source_overrides_file']}")
+        if ambiguous:
+            notes.append(f"AMBIGUOUS override keys ignored: {', '.join(ambiguous)}")
+
+    for title, shape in (curation.get("collection_shapes") or {}).items():
+        for c in collections:
+            if c.get("title") == title:
+                for f in c.get("folders", []):
+                    f["tileShape"] = shape
+                notes.append(f"{title}: tileShape -> {shape} on {len(c.get('folders', []))} folders")
+
     # The client validates viewMode strictly: the kit's own export carries FOLLOW_HOME,
     # which this version rejects ("invalid viewMode") for every collection it appears on.
     valid_viewmodes = {"TABBED_GRID", "ROWS", "FOLLOW_LAYOUT"}
@@ -206,10 +237,15 @@ def main():
     addon_id, manifest = None, None
     if "--manifest" in args:
         addon_id, manifest = load_manifest(args[args.index("--manifest") + 1])
+    xp = ROOT / "reference/xperience-manifest.json"
+    if xp.exists():
+        # Second addon, second manifest: a source is resolvable if either addon serves it.
+        _, xtriples = load_manifest(xp)
+        manifest = (manifest or set()) | xtriples
 
     base, setup_in, curation = load()
     collections, setup, notes, added = build(base, setup_in, curation)
-    if manifest is not None and added:
+    if manifest is not None and added and addon_id:
         # Catalogs this build is adding become resolvable on import, under the AIO addon id.
         manifest |= {(addon_id, c["type"], c["id"]) for c in added}
     rows, problems, pending_hits = verify(collections, setup, manifest, net, curation.get("pending", []))
