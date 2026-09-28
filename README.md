@@ -102,7 +102,11 @@ those extensions too.
 
 This repo was `nuvio-settings`, which also carried the generator that produced an importable
 catalog setup from a curated overlay (`build.py`, `curation.json`, `base/`, `data/`, `dist/`,
-`tools/`, `reference/`). That pipeline was removed to leave a template; it is intact at `869b975^`
-(`git show 869b975^:build.py`). Its last state built AIOMetadata **1.35.2** artifacts while the
+`tools/`, `reference/`). That pipeline was removed to leave a template; it is intact at `9fd89fb^`
+(`git show 9fd89fb^:build.py`). Its last state built AIOMetadata **1.35.2** artifacts while the
 live instance had moved to **3.2.3**.
+
+History has been rewritten twice — to purge a debrid key that an export carried, then to repack the
+art (114.9 MB → 21.0 MB) — so every pre-repack commit SHA is gone. Re-clone rather than pull if your
+copy predates that.
 
