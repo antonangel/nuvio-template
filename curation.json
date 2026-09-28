@@ -4,16 +4,16 @@
   "art_base": "https://raw.githubusercontent.com/illiyah/Images/main/",
   "_art_help": "cover -> folder.coverImageUrl, logo -> folder.titleLogoUrl, hero -> folder.heroBackdropUrl. Keys are folder titles; `null` clears a field.",
   "art": {
-    "Netflix": { "cover": "Netflix-coverimage.webp", "logo": "Netflix-titlelogo.webp", "hero": "Netflix-backdrop_1080p.webp" },
-    "Disney+": { "cover": "DisneyPlus-coverimage.webp", "logo": "DisneyPlus-titlelogo.webp", "hero": "DisneyPlus-backdrop_1080p.webp" },
-    "Apple TV": { "cover": "AppleTV-coverimage.webp", "logo": "AppleTV-titleimage.webp", "hero": "AppleTV-backdrop_1080p.webp" },
-    "Prime Video": { "cover": "Prime-coverimage.webp", "logo": "Prime-titlelogo.webp", "hero": "Prime-backdrop_1080p.webp" },
-    "HBO Max": { "cover": "HBOMax-coverimage.webp", "logo": "HBOMax-titlelogo.webp", "hero": "HBOMax-backdrop_1080p.webp" },
-    "Hulu": { "cover": "Hulu-coverimage.webp", "logo": "Hulu-titlelogo.webp", "hero": "Hulu-backdrop_1080p.webp" },
-    "Paramount+": { "cover": "ParamountPlus-coverimage.webp", "logo": "ParamountPlus-titlelogo.webp", "hero": "ParamountPlus-backdrop_1080p.webp" },
-    "Peacock": { "cover": "Peacock-coverimage.webp", "logo": "Peacock-titlelogo.webp", "hero": "PeacockPlus-backdrop_1080p.webp" },
+    "Netflix": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/netflix-wide-transparent.png", "logo": "Netflix-titlelogo.webp", "hero": "Netflix-backdrop_1080p.webp" },
+    "Disney+": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/disney-wide-transparent.png", "logo": "DisneyPlus-titlelogo.webp", "hero": "DisneyPlus-backdrop_1080p.webp" },
+    "Apple TV": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/appletv-wide-transparent.png", "logo": "AppleTV-titleimage.webp", "hero": "AppleTV-backdrop_1080p.webp" },
+    "Prime Video": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/primevideo-wide-transparent.png", "logo": "Prime-titlelogo.webp", "hero": "Prime-backdrop_1080p.webp" },
+    "HBO Max": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/hbomax-wide-transparent.png", "logo": "HBOMax-titlelogo.webp", "hero": "HBOMax-backdrop_1080p.webp" },
+    "Hulu": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/hulu-wide-transparent.png", "logo": "Hulu-titlelogo.webp", "hero": "Hulu-backdrop_1080p.webp" },
+    "Paramount+": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/paramount-wide-transparent.png", "logo": "ParamountPlus-titlelogo.webp", "hero": "ParamountPlus-backdrop_1080p.webp" },
+    "Peacock": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/peacock-wide-transparent.png", "logo": "Peacock-titlelogo.webp", "hero": "PeacockPlus-backdrop_1080p.webp" },
     "Starz": { "cover": "Starz-coverimage.webp", "logo": "Starz-titlelogo.webp", "hero": "Starz-backdrop_1080p.webp" },
-    "Shudder": { "cover": "Shudder-coverimage.webp", "logo": "Shudder-titlelogo.webp", "hero": "Shudder-backdrop_1080p.webp" },
+    "Shudder": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/color/shudder-wide-color.jpg", "logo": "Shudder-titlelogo.webp", "hero": "Shudder-backdrop_1080p.webp" },
     "Latest Movies": { "hero": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/latest%20bd.png" },
     "Latest Shows": { "hero": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/latest%20bd.png" },
     "Trending Movies": { "hero": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/trending%20bd.png" },
@@ -48,7 +48,7 @@
   },
   "source_overrides_file": "data/sources-aio.json",
   "collection_shapes": {
-    "Streaming Services": "POSTER"
+    "Streaming Services": "LANDSCAPE"
   },
   "extra_collections": [
     {
