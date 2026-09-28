@@ -33,7 +33,8 @@ def build(base, setup, curation):
     art, art_base = curation.get("art", {}), curation.get("art_base", "")
 
     titles = {f["title"] for c in base for f in c["folders"]}
-    unknown = sorted(set(art) - titles)
+    renamed = set(edits.get("rename_folders", {}).values())
+    unknown = sorted(set(art) - titles - renamed)
     if unknown:
         raise SystemExit(f"curation.json art keys are not folder titles: {unknown}")
 

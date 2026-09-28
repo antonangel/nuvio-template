@@ -913,228 +913,158 @@
       "catalogId": "tmdb.discover.series.anime-toprated.a68fbd05"
     }
   ],
-  "Decades/20's Movies": [
+  "Decades/2020s": [
     {
       "addonId": "aio-metadata",
       "type": "movie",
-      "catalogId": "tmdb.discover.movie.20-s-movies-new.6711e3c8"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "movie",
-      "catalogId": "tmdb.discover.movie.20-s-movies.eec339f0"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "movie",
-      "catalogId": "tmdb.discover.movie.20-s-movies-toprated.332de25e"
+      "catalogId": "tmdb.discover.movie.2020s-movies.eed47e95"
     },
     {
       "addonId": "aio-metadata",
       "type": "series",
-      "catalogId": "tmdb.discover.series.20-s-movies-new.671d237f"
+      "catalogId": "tmdb.discover.series.2020s-shows.d6ad4a65"
+    },
+    {
+      "addonId": "aio-metadata",
+      "type": "movie",
+      "catalogId": "tmdb.discover.movie.2020s-movies-toprated.cb1f6aff"
     },
     {
       "addonId": "aio-metadata",
       "type": "series",
-      "catalogId": "tmdb.discover.series.20-s-movies.e90d1433"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "series",
-      "catalogId": "tmdb.discover.series.20-s-movies-toprated.ae96611f"
+      "catalogId": "tmdb.discover.series.2020s-shows-toprated.28f03d33"
     }
   ],
-  "Decades/10's Movies": [
+  "Decades/2010s": [
     {
       "addonId": "aio-metadata",
       "type": "movie",
-      "catalogId": "tmdb.discover.movie.10-s-movies-new.659f052f"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "movie",
-      "catalogId": "tmdb.discover.movie.10-s-movies.9de51714"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "movie",
-      "catalogId": "tmdb.discover.movie.10-s-movies-toprated.745f7cf2"
+      "catalogId": "tmdb.discover.movie.2010s-movies.4606a9b7"
     },
     {
       "addonId": "aio-metadata",
       "type": "series",
-      "catalogId": "tmdb.discover.series.10-s-movies-new.3dc274e4"
+      "catalogId": "tmdb.discover.series.2010s-shows.b6e2ef6f"
+    },
+    {
+      "addonId": "aio-metadata",
+      "type": "movie",
+      "catalogId": "tmdb.discover.movie.2010s-movies-toprated.ecf73845"
     },
     {
       "addonId": "aio-metadata",
       "type": "series",
-      "catalogId": "tmdb.discover.series.10-s-movies.556ae9b9"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "series",
-      "catalogId": "tmdb.discover.series.10-s-movies-toprated.7c198ae0"
+      "catalogId": "tmdb.discover.series.2010s-shows-toprated.8f375e6f"
     }
   ],
-  "Decades/00's Movies": [
+  "Decades/2000s": [
     {
       "addonId": "aio-metadata",
       "type": "movie",
-      "catalogId": "tmdb.discover.movie.00-s-movies-new.78c50cdb"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "movie",
-      "catalogId": "tmdb.discover.movie.00-s-movies.11258aaf"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "movie",
-      "catalogId": "tmdb.discover.movie.00-s-movies-toprated.00916899"
+      "catalogId": "tmdb.discover.movie.2000s-movies.3117f2ff"
     },
     {
       "addonId": "aio-metadata",
       "type": "series",
-      "catalogId": "tmdb.discover.series.00-s-movies-new.5e43bb1a"
+      "catalogId": "tmdb.discover.series.2000s-shows.a5d5e423"
+    },
+    {
+      "addonId": "aio-metadata",
+      "type": "movie",
+      "catalogId": "tmdb.discover.movie.2000s-movies-toprated.aefc1e1b"
     },
     {
       "addonId": "aio-metadata",
       "type": "series",
-      "catalogId": "tmdb.discover.series.00-s-movies.e7cb20f3"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "series",
-      "catalogId": "tmdb.discover.series.00-s-movies-toprated.e9870b3e"
+      "catalogId": "tmdb.discover.series.2000s-shows-toprated.7d69c179"
     }
   ],
-  "Decades/90's Movies": [
+  "Decades/1990s": [
     {
       "addonId": "aio-metadata",
       "type": "movie",
-      "catalogId": "tmdb.discover.movie.90-s-movies-new.92e1a73b"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "movie",
-      "catalogId": "tmdb.discover.movie.90-s-movies.007aeb18"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "movie",
-      "catalogId": "tmdb.discover.movie.90-s-movies-toprated.6b038b51"
+      "catalogId": "tmdb.discover.movie.1990s-movies.d7c36986"
     },
     {
       "addonId": "aio-metadata",
       "type": "series",
-      "catalogId": "tmdb.discover.series.90-s-movies-new.4b26d6f9"
+      "catalogId": "tmdb.discover.series.1990s-shows.e1677745"
+    },
+    {
+      "addonId": "aio-metadata",
+      "type": "movie",
+      "catalogId": "tmdb.discover.movie.1990s-movies-toprated.072e208e"
     },
     {
       "addonId": "aio-metadata",
       "type": "series",
-      "catalogId": "tmdb.discover.series.90-s-movies.71f7bc73"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "series",
-      "catalogId": "tmdb.discover.series.90-s-movies-toprated.fc872234"
+      "catalogId": "tmdb.discover.series.1990s-shows-toprated.292b069b"
     }
   ],
-  "Decades/80's Movies": [
+  "Decades/1980s": [
     {
       "addonId": "aio-metadata",
       "type": "movie",
-      "catalogId": "tmdb.discover.movie.80-s-movies-new.7b17e441"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "movie",
-      "catalogId": "tmdb.discover.movie.80-s-movies.60e9e8dd"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "movie",
-      "catalogId": "tmdb.discover.movie.80-s-movies-toprated.572b9573"
+      "catalogId": "tmdb.discover.movie.1980s-movies.756541a1"
     },
     {
       "addonId": "aio-metadata",
       "type": "series",
-      "catalogId": "tmdb.discover.series.80-s-movies-new.e9a93740"
+      "catalogId": "tmdb.discover.series.1980s-shows.9deff19d"
+    },
+    {
+      "addonId": "aio-metadata",
+      "type": "movie",
+      "catalogId": "tmdb.discover.movie.1980s-movies-toprated.df3875ef"
     },
     {
       "addonId": "aio-metadata",
       "type": "series",
-      "catalogId": "tmdb.discover.series.80-s-movies.6397d031"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "series",
-      "catalogId": "tmdb.discover.series.80-s-movies-toprated.008b5336"
+      "catalogId": "tmdb.discover.series.1980s-shows-toprated.3c732b41"
     }
   ],
-  "Decades/70's Movies": [
+  "Decades/1970s": [
     {
       "addonId": "aio-metadata",
       "type": "movie",
-      "catalogId": "tmdb.discover.movie.70-s-movies-new.8f9ad448"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "movie",
-      "catalogId": "tmdb.discover.movie.70-s-movies.4d536f69"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "movie",
-      "catalogId": "tmdb.discover.movie.70-s-movies-toprated.3f5f7685"
+      "catalogId": "tmdb.discover.movie.1970s-movies.d70877ee"
     },
     {
       "addonId": "aio-metadata",
       "type": "series",
-      "catalogId": "tmdb.discover.series.70-s-movies-new.2a18781d"
+      "catalogId": "tmdb.discover.series.1970s-shows.e827ab35"
+    },
+    {
+      "addonId": "aio-metadata",
+      "type": "movie",
+      "catalogId": "tmdb.discover.movie.1970s-movies-toprated.337f97d5"
     },
     {
       "addonId": "aio-metadata",
       "type": "series",
-      "catalogId": "tmdb.discover.series.70-s-movies.5ae56956"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "series",
-      "catalogId": "tmdb.discover.series.70-s-movies-toprated.5a2bc7c0"
+      "catalogId": "tmdb.discover.series.1970s-shows-toprated.097cb577"
     }
   ],
-  "Decades/60's Movies": [
+  "Decades/1960s": [
     {
       "addonId": "aio-metadata",
       "type": "movie",
-      "catalogId": "tmdb.discover.movie.60-s-movies-new.e2330994"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "movie",
-      "catalogId": "tmdb.discover.movie.60-s-movies.a8a67053"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "movie",
-      "catalogId": "tmdb.discover.movie.60-s-movies-toprated.7867253f"
+      "catalogId": "tmdb.discover.movie.1960s-movies.a81e1cb6"
     },
     {
       "addonId": "aio-metadata",
       "type": "series",
-      "catalogId": "tmdb.discover.series.60-s-movies-new.39fbfa57"
+      "catalogId": "tmdb.discover.series.1960s-shows.4545030e"
+    },
+    {
+      "addonId": "aio-metadata",
+      "type": "movie",
+      "catalogId": "tmdb.discover.movie.1960s-movies-toprated.4b080d5a"
     },
     {
       "addonId": "aio-metadata",
       "type": "series",
-      "catalogId": "tmdb.discover.series.60-s-movies.022dd2bc"
-    },
-    {
-      "addonId": "aio-metadata",
-      "type": "series",
-      "catalogId": "tmdb.discover.series.60-s-movies-toprated.161e9462"
+      "catalogId": "tmdb.discover.series.1960s-shows-toprated.fb6c39ae"
     }
   ],
   "Studios/Marvel": [

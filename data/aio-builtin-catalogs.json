@@ -1,0 +1,107 @@
+[
+  {
+    "id": "recommendations.movies",
+    "name": "For You Movies",
+    "type": "movie",
+    "source": "recommendations",
+    "enabled": true,
+    "showInHome": false,
+    "sort": "default",
+    "order": "asc",
+    "displayType": "movies"
+  },
+  {
+    "id": "recommendations.series",
+    "name": "For You Series",
+    "type": "series",
+    "source": "recommendations",
+    "enabled": true,
+    "showInHome": false,
+    "sort": "default",
+    "order": "asc",
+    "displayType": "series"
+  },
+  {
+    "id": "tmdb.trending",
+    "name": "TMDB Trending Movies",
+    "type": "movie",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "sort": "default",
+    "order": "asc",
+    "displayType": "movies"
+  },
+  {
+    "id": "tmdb.trending",
+    "name": "TMDB Trending Series",
+    "type": "series",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "sort": "default",
+    "order": "asc",
+    "displayType": "series"
+  },
+  {
+    "id": "tmdb.top",
+    "name": "TMDB Popular Movies",
+    "type": "movie",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "sort": "default",
+    "order": "asc",
+    "displayType": "movies"
+  },
+  {
+    "id": "tmdb.top",
+    "name": "TMDB Popular Series",
+    "type": "series",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "sort": "default",
+    "order": "asc",
+    "displayType": "series"
+  },
+  {
+    "id": "tmdb.top_rated",
+    "name": "TMDB Top Rated Movies",
+    "type": "movie",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "sort": "default",
+    "order": "asc",
+    "displayType": "movies"
+  },
+  {
+    "id": "tmdb.top_rated",
+    "name": "TMDB Top Rated Series",
+    "type": "series",
+    "source": "tmdb",
+    "enabled": true,
+    "showInHome": false,
+    "sort": "default",
+    "order": "asc",
+    "displayType": "series"
+  },
+  {
+    "id": "mdblist.2194",
+    "name": "Latest TV Shows",
+    "type": "series",
+    "source": "mdblist",
+    "enabled": true,
+    "showInHome": false,
+    "sort": "default",
+    "order": "asc",
+    "cacheTTL": 86400,
+    "metadata": {
+      "url": "https://mdblist.com/lists/garycrawfordgc/latest-tv-shows",
+      "author": "garycrawfordgc",
+      "itemCount": 300,
+      "mediatype": "show"
+    }
+  }
+]

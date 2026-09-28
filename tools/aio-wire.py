@@ -34,8 +34,8 @@ GENRES = {  # our folder title -> (movie genre id, tv genre id)
     "Reality TV": (None, 10764), "Nature": (99, 99),
 }
 KEYWORDS = {"Anime": "210024"}  # TMDB keyword; no genre id covers anime
-DECADES = {"20's Movies": 2020, "10's Movies": 2010, "00's Movies": 2000, "90's Movies": 1990,
-           "80's Movies": 1980, "70's Movies": 1970, "60's Movies": 1960}
+DECADES = {"2020s": 2020, "2010s": 2010, "2000s": 2000, "1990s": 1990,
+           "1980s": 1980, "1970s": 1970, "1960s": 1960}
 STUDIOS = {  # title -> (movie company id, tv company id)
     "Marvel": (420, 420), "DC": (429, 429), "A24": (41077, None), "Pixar": (3, None),
     "Studio Ghibli": (10342, None), "Blumhouse": (3172, 68884), "Dreamworks": (7, 15258),
@@ -158,16 +158,27 @@ def genre_catalogs():
 
 
 def decade_catalogs():
+    """Four pills per decade, as specified: Popular movies, Popular series, Top rated
+    movies, Top rated series. Slugs split movies/shows so the catalog names read right."""
     cats, srcs = [], {}
     for title, start in DECADES.items():
         plist = []
-        lo = "1950-01-01" if start is None else f"{start}-01-01"
-        hi = "1959-12-31" if start is None else f"{start + 9}-12-31"
+        lo, hi = f"{start}-01-01", f"{start + 9}-12-31"
+        per_kind = {}
         for kind in ("movie", "series"):
             d1 = "primary_release_date" if kind == "movie" else "first_air_date"
-            for c in axes_for(title, kind, start or 1950):
+            media = "Movies" if kind == "movie" else "Shows"
+            stem = f"{slug(title)}-{'movies' if kind == 'movie' else 'shows'}"
+            pop = catalog(kind, stem, f"{title} — Popular {media}", base_params())
+            top = catalog(kind, stem + "-toprated", f"{title} — Top Rated {media}",
+                          dict(base_params(), sort_by="vote_average.desc", **{"vote_count.gte": 300}))
+            for c in (pop, top):
                 p = c["metadata"]["discover"]["params"]
                 p[f"{d1}.gte"], p[f"{d1}.lte"] = lo, hi
+            per_kind[kind] = [pop, top]
+        for i in range(2):
+            for kind in ("movie", "series"):
+                c = per_kind[kind][i]
                 cats.append(c)
                 plist.append({"addonId": "aio-metadata", "type": kind, "catalogId": c["id"]})
         srcs[f"Decades/{title}"] = plist

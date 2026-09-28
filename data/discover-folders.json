@@ -1,0 +1,61 @@
+[
+  {
+    "id": "018f-discover-foryou",
+    "title": "For You",
+    "tileShape": "LANDSCAPE",
+    "coverImageUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/for%20you%20bd.png",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/for%20you%20bd.png",
+    "catalogSources": [
+      { "addonId": "aio-metadata", "type": "movie", "catalogId": "recommendations.movies" },
+      { "addonId": "aio-metadata", "type": "series", "catalogId": "recommendations.series" },
+      { "addonId": "com.bimal.watchly", "type": "movie", "catalogId": "watchly.item.1" },
+      { "addonId": "com.bimal.watchly", "type": "series", "catalogId": "watchly.item.1" },
+      { "addonId": "com.bimal.watchly", "type": "movie", "catalogId": "watchly.theme.1" },
+      { "addonId": "com.bimal.watchly", "type": "series", "catalogId": "watchly.theme.1" }
+    ]
+  },
+  {
+    "id": "018f-discover-trending",
+    "title": "Trending",
+    "tileShape": "LANDSCAPE",
+    "coverImageUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/trending%20bd.png",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/trending%20bd.png",
+    "catalogSources": [
+      { "addonId": "aio-metadata", "type": "movie", "catalogId": "tmdb.trending" },
+      { "addonId": "aio-metadata", "type": "series", "catalogId": "tmdb.trending" }
+    ]
+  },
+  {
+    "id": "018f-discover-popular",
+    "title": "Popular",
+    "tileShape": "LANDSCAPE",
+    "coverImageUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/popular%20bd.png",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/popular%20bd.png",
+    "catalogSources": [
+      { "addonId": "aio-metadata", "type": "movie", "catalogId": "tmdb.top" },
+      { "addonId": "aio-metadata", "type": "series", "catalogId": "tmdb.top" }
+    ]
+  },
+  {
+    "id": "018f-discover-top",
+    "title": "Top",
+    "tileShape": "LANDSCAPE",
+    "coverImageUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/top%20bd.png",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/top%20bd.png",
+    "catalogSources": [
+      { "addonId": "aio-metadata", "type": "movie", "catalogId": "tmdb.top_rated" },
+      { "addonId": "aio-metadata", "type": "series", "catalogId": "tmdb.top_rated" }
+    ]
+  },
+  {
+    "id": "018f-discover-latest",
+    "title": "Latest",
+    "tileShape": "LANDSCAPE",
+    "coverImageUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/latest%20bd.png",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/latest%20bd.png",
+    "catalogSources": [
+      { "addonId": "aio-metadata", "type": "series", "catalogId": "mdblist.2194" },
+      { "addonId": "aio-metadata", "type": "movie", "catalogId": "mdblist.86934" }
+    ]
+  }
+]

@@ -4,33 +4,56 @@
   "art_base": "https://raw.githubusercontent.com/illiyah/Images/main/",
   "_art_help": "cover -> folder.coverImageUrl, logo -> folder.titleLogoUrl, hero -> folder.heroBackdropUrl. Keys are folder titles; `null` clears a field.",
   "art": {
-    "Netflix": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/netflix-wide-transparent.png", "logo": "Netflix-titlelogo.webp", "hero": "Netflix-backdrop_1080p.webp" },
-    "Disney+": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/disney-wide-transparent.png", "logo": "DisneyPlus-titlelogo.webp", "hero": "DisneyPlus-backdrop_1080p.webp" },
-    "Apple TV": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/appletv-wide-transparent.png", "logo": "AppleTV-titleimage.webp", "hero": "AppleTV-backdrop_1080p.webp" },
-    "Prime Video": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/primevideo-wide-transparent.png", "logo": "Prime-titlelogo.webp", "hero": "Prime-backdrop_1080p.webp" },
-    "HBO Max": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/hbomax-wide-transparent.png", "logo": "HBOMax-titlelogo.webp", "hero": "HBOMax-backdrop_1080p.webp" },
+    "Netflix": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/netflixred-wide-tinted.png", "logo": "Netflix-titlelogo.webp", "hero": "Netflix-backdrop_1080p.webp" },
+    "Disney+": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/disney-wide-tinted.png", "logo": "DisneyPlus-titlelogo.webp", "hero": "DisneyPlus-backdrop_1080p.webp" },
+    "Apple TV": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/appletv-wide-tinted.png", "logo": "AppleTV-titleimage.webp", "hero": "AppleTV-backdrop_1080p.webp" },
+    "Prime Video": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/primevideo-wide-tinted.png", "logo": "Prime-titlelogo.webp", "hero": "Prime-backdrop_1080p.webp" },
+    "HBO Max": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/hbomax-wide-tinted.png", "logo": "HBOMax-titlelogo.webp", "hero": "HBOMax-backdrop_1080p.webp" },
     "Hulu": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/hulu-wide-transparent.png", "logo": "Hulu-titlelogo.webp", "hero": "Hulu-backdrop_1080p.webp" },
-    "Paramount+": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/paramount-wide-transparent.png", "logo": "ParamountPlus-titlelogo.webp", "hero": "ParamountPlus-backdrop_1080p.webp" },
+    "Paramount+": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/paramount-wide-tinted.png", "logo": "ParamountPlus-titlelogo.webp", "hero": "ParamountPlus-backdrop_1080p.webp" },
     "Peacock": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/peacock-wide-transparent.png", "logo": "Peacock-titlelogo.webp", "hero": "PeacockPlus-backdrop_1080p.webp" },
     "Starz": { "cover": "Starz-backdrop_1080p.webp", "logo": "Starz-titlelogo.webp", "hero": "Starz-backdrop_1080p.webp" },
     "Shudder": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/color/shudder-wide-color.jpg", "logo": "Shudder-titlelogo.webp", "hero": "Shudder-backdrop_1080p.webp" },
-    "Latest Movies": { "hero": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/latest%20bd.png" },
-    "Latest Shows": { "hero": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/latest%20bd.png" },
-    "Trending Movies": { "hero": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/trending%20bd.png" },
-    "Trending Shows": { "hero": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/trending%20bd.png" }
+    "Action": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/action-wide.png" },
+    "Comedy": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/comedy-wide.png" },
+    "Sci-Fi": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/sci-fi-wide.png" },
+    "Crime": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/crime-wide.png" },
+    "Thriller": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/thriller-wide.png" },
+    "Drama": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/drama-wide.png" },
+    "Horror": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/horror-wide.png" },
+    "Mystery": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/whodunits-wide.png" },
+    "Mindfuck": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/psychological-terror-wide.png" },
+    "Anime": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/anime-wide.png" },
+    "Documentary": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/documentary-wide.png" },
+    "Romance": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/romance-wide.png" },
+    "History": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/historical-blockbusters-wide.png" },
+    "Animation": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/animation-wide.png" },
+    "Reality TV": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/reality-wide.png" },
+    "Family": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/family-movie-night-wide.png" },
+    "Nature": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/nature-wide.png" },
+    "2020s": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/2020s-wide.png", "hero": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/2020s-wide.png" },
+    "2010s": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/2010s-wide.png", "hero": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/2010s-wide.png" },
+    "2000s": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/2000s-wide.png", "hero": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/2000s-wide.png" },
+    "1990s": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1990s-wide.png", "hero": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1990s-wide.png" },
+    "1980s": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1980s-wide.png", "hero": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1980s-wide.png" },
+    "1970s": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1970s-wide.png", "hero": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1970s-wide.png" },
+    "1960s": { "cover": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1960s-wide.png", "hero": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/decades/wide/mousa.a/1960s-wide.png" }
   },
   "edits": {
     "remove_collections": [],
-    "remove_folders": [],
+    "remove_folders": ["Latest Movies", "Latest Shows", "Trending Movies", "Trending Shows"],
     "rename_folders": {
-      "Pirates of the Carribbean": "Pirates of the Caribbean"
+      "Pirates of the Carribbean": "Pirates of the Caribbean",
+      "20's Movies": "2020s", "10's Movies": "2010s", "00's Movies": "2000s", "90's Movies": "1990s",
+      "80's Movies": "1980s", "70's Movies": "1970s", "60's Movies": "1960s"
     },
     "reorder_collections": []
   },
   "_pending_help": "Sources that are known-dead and deliberately left as-is until the open decision lands (addonId|type|catalogId, * = wildcard). A dead source NOT listed here fails the build.",
   "pending": [
     "pw.ers.netflix-catalog|*|*",
-    "aio-metadata|movie|mdblist.102554"
+    "aio-metadata|movie|mdblist.102554",
+    "com.bimal.watchly|*|*"
   ],
   "extra_catalogs": [],
   "extra_catalogs_files": [
@@ -41,16 +64,22 @@
     "data/aio-genres-catalogs.json",
     "data/aio-decades-catalogs.json",
     "data/aio-studios-catalogs.json",
-    "data/aio-networks-catalogs.json"
+    "data/aio-networks-catalogs.json",
+    "data/aio-builtin-catalogs.json"
   ],
   "collection_backdrops": {
     "Discover": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/downloaded%20bd.png"
   },
   "source_overrides_file": "data/sources-aio.json",
   "collection_shapes": {
-    "Streaming Services": "LANDSCAPE"
+    "Streaming Services": "LANDSCAPE",
+    "Genres": "LANDSCAPE"
   },
   "extra_collections": [
+    {
+      "append_to": "Discover",
+      "folders_file": "data/discover-folders.json"
+    },
     {
       "id": "018f-studios",
       "title": "Studios",
