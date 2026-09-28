@@ -169,7 +169,9 @@ def main():
         for x in lists:
             acats.append(award_catalog(x))
         afolders.append(folder(slug, title, AWARDS_BASE, shape_for(ROOT / f"assets/awards/{slug}.jpg"),
-                               [{"addonId": "aio-metadata", "type": "series" if x.get("mediatype") in ("show", "series") else "movie",
+                               [{"addonId": "aio-metadata",
+                                 "type": "series" if (x.get("mediatype") in ("show", "series")
+                                                      or re.search(r"\b(series|show|tv)\b", x["name"], re.I)) else "movie",
                                  "catalogId": f"mdblist.{x['id']}"} for x in lists], prefix="aw-"))
         for x in lists:
             rows.append({"family": "awards", "slug": slug, "catalogId": f"mdblist.{x['id']}", "name": x["name"],

@@ -59,12 +59,12 @@
     "catalogSources": [
       {
         "addonId": "aio-metadata",
-        "type": "movie",
+        "type": "series",
         "catalogId": "mdblist.202234"
       },
       {
         "addonId": "aio-metadata",
-        "type": "movie",
+        "type": "series",
         "catalogId": "mdblist.202235"
       },
       {
