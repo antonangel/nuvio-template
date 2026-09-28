@@ -13,6 +13,7 @@ curation.json     the overlay — art swaps, collection/folder edits, open items
 build.py          generator + gates (stdlib only, no deps)
 base/             upstream kit, vendored verbatim. NEVER EDIT.
 reference/        live snapshots used by the gates (AIO manifest)
+addons/           live exports of the two addons as configured now (restore material)
 assets/           our art library, one dir per family:
                     collections/ 68   actors/ 57   awards/ 7   discover/ 6
 data/             generated: franchises-folders.json, franchises-catalogs.json, match-report.csv
@@ -70,6 +71,25 @@ every change a reviewable diff.
 
 A collections file in the Catalogs dialog fails with "Invalid configuration file format",
 and a full export in the Collections dialog is rejected — one file per dialog.
+
+## Live addon configs (`addons/`)
+
+The two addons exactly as they are configured now, exported verbatim. Restore material —
+the generator does not read these.
+
+- `aiometadata-no-collections.json` — AIOMetadata **full config export** (format version 3.2.3):
+  providers, art providers, search engines, streaming list, the 46 catalogs (27 enabled) and the
+  five AIO manager accounts. Collections are deliberately absent — those come from
+  `dist/nuvio-collections.json`.
+- `aiostreams.json` — AIOStreams config: Tamtaro partial SEL 3.0.4 + Vidhin ranked regexes,
+  TorBox only, `cacheAndPlay` for usenet, "Nuvio minimal + badges" formatter.
+  Credentials are stripped from `services`, **but the TorBox API key sits inside the Comet and
+  StremThru preset URLs** — keep this repo private, and redact those two URLs before ever sharing
+  the file.
+
+Open item: `base/` and `dist/aiometadata-setup.json` still say `version: 1.35.2` (55 base
+catalogs) while the live instance and `addons/` are on 3.2.3 — the vendored base predates the
+current AIOMetadata. Re-base and regenerate, or keep the two apart, is still undecided.
 
 ## Art
 
