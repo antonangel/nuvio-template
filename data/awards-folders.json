@@ -5,7 +5,7 @@
     "tileShape": "POSTER",
     "hideTitle": true,
     "_coverMode": "image",
-    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/aw-bafta.jpg",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/bafta.jpg",
     "catalogSources": [
       {
         "addonId": "aio-metadata",
@@ -20,7 +20,7 @@
     "tileShape": "POSTER",
     "hideTitle": true,
     "_coverMode": "image",
-    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/aw-cannes.jpg",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/cannes.jpg",
     "catalogSources": [
       {
         "addonId": "aio-metadata",
@@ -35,7 +35,7 @@
     "tileShape": "POSTER",
     "hideTitle": true,
     "_coverMode": "image",
-    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/aw-emmy.jpg",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/emmy.jpg",
     "catalogSources": [
       {
         "addonId": "aio-metadata",
@@ -50,7 +50,7 @@
     "tileShape": "POSTER",
     "hideTitle": true,
     "_coverMode": "image",
-    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/aw-golden-globes.jpg",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/golden-globes.jpg",
     "catalogSources": [
       {
         "addonId": "aio-metadata",
@@ -65,7 +65,7 @@
     "tileShape": "POSTER",
     "hideTitle": true,
     "_coverMode": "image",
-    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/aw-oscars.jpg",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/oscars.jpg",
     "catalogSources": [
       {
         "addonId": "aio-metadata",
@@ -80,7 +80,7 @@
     "tileShape": "POSTER",
     "hideTitle": true,
     "_coverMode": "image",
-    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/aw-venice-film-festival.jpg",
+    "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/venice-film-festival.jpg",
     "catalogSources": [
       {
         "addonId": "aio-metadata",

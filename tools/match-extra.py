@@ -104,8 +104,8 @@ def discover_catalog(kind, slug, label, params):
                                       "mediaType": "tv" if kind == "series" else "movie", "params": params}}}
 
 
-def folder(slug, title, base, shape, sources):
-    return {"id": f"018f-{slug}", "title": title, "tileShape": shape, "hideTitle": True, "_coverMode": "image",
+def folder(slug, title, base, shape, sources, prefix=""):
+    return {"id": f"018f-{prefix}{slug}", "title": title, "tileShape": shape, "hideTitle": True, "_coverMode": "image",
             "coverImageUrl": base + slug + ".jpg", "catalogSources": sources}
 
 
@@ -149,8 +149,8 @@ def main():
             continue
         score_v = 100 if slug in AWARD_OVERRIDES else (sc or 0)
         acats.append(award_catalog(best))
-        afolders.append(folder("aw-" + slug, best["name"], AWARDS_BASE, shape_for(ROOT / f"assets/awards/{slug}.jpg"),
-                               [{"addonId": "aio-metadata", "type": best.get("mediatype") or "movie", "catalogId": f"mdblist.{best['id']}"}]))
+        afolders.append(folder(slug, best["name"], AWARDS_BASE, shape_for(ROOT / f"assets/awards/{slug}.jpg"),
+                               [{"addonId": "aio-metadata", "type": best.get("mediatype") or "movie", "catalogId": f"mdblist.{best['id']}"}], prefix="aw-"))
         rows.append({"family": "awards", "slug": slug, "catalogId": f"mdblist.{best['id']}", "name": best["name"],
                      "uid": best["user_name"], "items": best["items"], "score": round(score_v, 1),
                      "review": "yes" if score_v < CONFIDENT else ""})
@@ -170,9 +170,9 @@ def main():
         base_params = {"with_cast": pick["id"], "sort_by": "popularity.desc", "vote_count.gte": 20, "include_adult": "false"}
         ccats.append(discover_catalog("movie", slug, f"{pick['name']} — Movies", dict(base_params)))
         ccats.append(discover_catalog("series", slug, f"{pick['name']} — Series", dict(base_params)))
-        cfolders.append(folder("ac-" + slug, pick["name"], ACTORS_BASE, shape_for(ROOT / f"assets/actors/{slug}.jpg"), [
+        cfolders.append(folder(slug, pick["name"], ACTORS_BASE, shape_for(ROOT / f"assets/actors/{slug}.jpg"), [
             {"addonId": "aio-metadata", "type": "movie", "catalogId": ccats[-2]["id"]},
-            {"addonId": "aio-metadata", "type": "series", "catalogId": ccats[-1]["id"]}]))
+            {"addonId": "aio-metadata", "type": "series", "catalogId": ccats[-1]["id"]}], prefix="ac-"))
         rows.append({"family": "actors", "slug": slug, "catalogId": ccats[-2]["id"], "name": pick["name"], "uid": pick["id"],
                      "items": pick.get("popularity"), "score": 100 if norm(pick["name"]) == norm(name) else 60,
                      "review": "" if norm(pick["name"]) == norm(name) else "yes"})

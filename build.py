@@ -107,6 +107,14 @@ def build(base, setup, curation):
             if c.get("title") == title:
                 c["backdropImageUrl"] = url
 
+    # The client validates viewMode strictly: the kit's own export carries FOLLOW_HOME,
+    # which this version rejects ("invalid viewMode") for every collection it appears on.
+    valid_viewmodes = {"TABBED_GRID", "ROWS", "FOLLOW_LAYOUT"}
+    for c in collections:
+        if c.get("viewMode") not in valid_viewmodes:
+            notes.append(f"viewMode {c.get('viewMode')!r} -> FOLLOW_LAYOUT on {c['title']!r}")
+            c["viewMode"] = "FOLLOW_LAYOUT"
+
     setup["version"] = curation.get("aio_version", setup.get("version"))
     setup["exportedAt"] = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     setup["metadata"]["apiKeysExcluded"] = True
