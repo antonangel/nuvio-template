@@ -71,10 +71,13 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
 from `itsitohere/nuvio-assets`, `illiyah/Images` and `itsrenoria/fusion-starter-kit`. Fork this, host
 `images/` yourself, and swap the host in the URLs.
 
-Every file here is **WebP**, converted from the originals (PNG screen-grabs at 3840×2160, JPEG
-posters at 852×1280) down to tile size: **104.5 MB → 16.9 MB**. The mirror's names therefore end in
-`.webp` while the URLs above still point at upstream's `.png`/`.jpg` — a host swap means swapping
-those extensions too.
+Every file here is **WebP** at **q90 and native resolution** — posters stay 852 wide, wide art keeps
+its 1920/2560 pixels: **104.5 MB of originals → 29.8 MB**. (The first repack at q78–82 with posters
+downscaled to 500 wide read as over-processed on a 4K TV and was superseded on 2026-09-28; the art is
+re-encoded from the upstream originals, since the local copies were deleted.) `images/genres/` is new:
+the 17 Genres rows now have local art instead of hotlinking `fusion-starter-kit`. The mirror's names end
+in `.webp` while the URLs still point at upstream's `.png`/`.jpg` — a host swap means swapping those
+extensions too.
 
 ## Catalogs
 
