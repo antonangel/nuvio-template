@@ -32,11 +32,13 @@ catalogs set to `released`/`desc` (release order, oldest first) — import v3 if
 `aiometadata-setup-2026-09-29-v4.json` (330 catalogs) is v3 without the Starz, Shudder and
 Adult Swim folders and their 22 catalogs.
 
-The `-v10` … `-v17` files are successive rewrites of the main profile from this same day; **v17 is
-current**: 473 catalogs and, unlike every earlier export, the five collections embedded in
-`config.collections` in AIO's own draft shape — so one **Catalogs → Import Configuration** gives you
-the catalogs *and* the collections. (Earlier exports carried no collections, which is why the Nuvio
-file had to be re-imported into the Collections tab after every catalog import.)
+The `-v10` … `-v18` files are successive rewrites of the main profile from this same day; **v18 is
+current**: 453 catalogs, **no `config.collections`**. `v17` briefly embedded the five collections in
+the config; AIO then publishes one `type: collection` catalog per collection
+(`aiom.collection.<id>`), which broke the Genres / Decades / Collections groups in Nuvio, so the
+export carries none again — the Nuvio file is the only source of the collections, imported through
+AIO's **Collections** tab when you want AIO to know about them. If a client that understands
+AIOStreams collection catalogs ever needs them served, re-embed them *and* accept the type.
 
 ## Importing
 
