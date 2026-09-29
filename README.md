@@ -32,6 +32,12 @@ catalogs set to `released`/`desc` (release order, oldest first) — import v3 if
 `aiometadata-setup-2026-09-29-v4.json` (330 catalogs) is v3 without the Starz, Shudder and
 Adult Swim folders and their 22 catalogs.
 
+The `-v10` … `-v17` files are successive rewrites of the main profile from this same day; **v17 is
+current**: 473 catalogs and, unlike every earlier export, the five collections embedded in
+`config.collections` in AIO's own draft shape — so one **Catalogs → Import Configuration** gives you
+the catalogs *and* the collections. (Earlier exports carried no collections, which is why the Nuvio
+file had to be re-imported into the Collections tab after every catalog import.)
+
 ## Importing
 
 - `aiometadata-collections.json` / `aiometadata-no-collections.json` → AIOMetadata → **Import config**.
@@ -51,12 +57,12 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
 
 ## Collections — what `nuvio-collections.json` builds
 
-5 top folders, 112 sub-folders, each with `coverImageUrl` and its catalog `sources`.
+5 top folders, 142 sub-folders, each with `coverImageUrl` and its catalog `sources`.
 
 
-**Streaming Services** — 11 folders, `FOLLOW_LAYOUT` view
+**Streaming Services** — 8 folders, `FOLLOW_LAYOUT` view
 
-- Netflix, Disney+, Apple TV, Prime Video, HBO Max, Hulu, Paramount+, Peacock, Starz, Shudder, Adult Swim
+- Netflix, Disney+, Apple TV, Prime Video, HBO Max, Hulu, Paramount+, Peacock
 
 **Genres** — 22 folders, `FOLLOW_LAYOUT` view
 
@@ -66,13 +72,18 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
 
 - 20s, 10s, 00s, 90s, 80s, 70s (each: movies + a per-decade popular-series catalog)
 
-**Collections** — 195 folders, `FOLLOW_LAYOUT` view
+**Collections** — 100 folders, `FOLLOW_LAYOUT` view
 
-- The top 200 TVDB lists ([thetvdb.com/lists](https://www.thetvdb.com/lists)), one folder per list;
-  each folder gets a `Movies` and/or `Series` source (`tvdb.list.<id>.movies` / `.series`) depending
-  on what the list contains. The 5 empty lists in the top 200 (Hotstar, LAWAL BEL SAF, Tmkuc, 第一季,
-  Spongebob) are skipped. Cover art is the list's own TVDB artwork, mirrored to `images/lists/<id>.webp`
-  (2 of the 195 lists have no artwork on TVDB).
+- TVDB lists ([thetvdb.com/lists](https://www.thetvdb.com/lists)), one folder per list; each folder
+  gets a `Movies` and/or `Series` source (`tvdb.list.<id>.movies` / `.series`) depending on what the
+  list contains — a list holding both gets both catalogs, as separate rows.
+- **Only lists that have their own poster are included**: the 100 kept folders are the first 100
+  TVDB lists (by list id) whose page carries artwork. Lists whose TVDB page serves the
+  `/images/missing/movie.jpg` placeholder are dropped — no fallback to a movie poster, and no
+  blank tiles. Cover art is that list poster
+  (`artworks.thetvdb.com/banners/v4/list/unknown/posters/<hash>.jpg`), mirrored to
+  `images/lists/<id>.webp`; horizontal posters do not exist for these, so all 100 are `POSTER`
+  tiles with `hideTitle` on. Tile order follows list id, which puts the curated Official Lists first.
 
 **Awards** — 6 folders, `FOLLOW_LAYOUT` view
 

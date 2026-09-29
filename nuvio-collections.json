@@ -864,8 +864,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.action-new.f615b30b",
-            "catalogName": "Action — New",
-            "title": "Action — New",
+            "catalogName": "Action \u2014 New",
+            "title": "Action \u2014 New",
             "genre": null
           },
           {
@@ -875,8 +875,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.action-new.31da310a",
-            "catalogName": "Action — New",
-            "title": "Action — New",
+            "catalogName": "Action \u2014 New",
+            "title": "Action \u2014 New",
             "genre": null
           },
           {
@@ -908,8 +908,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.action-toprated.ed834732",
-            "catalogName": "Action — Top Rated",
-            "title": "Action — Top Rated",
+            "catalogName": "Action \u2014 Top Rated",
+            "title": "Action \u2014 Top Rated",
             "genre": null
           },
           {
@@ -919,8 +919,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.action-toprated.8bd848b2",
-            "catalogName": "Action — Top Rated",
-            "title": "Action — Top Rated",
+            "catalogName": "Action \u2014 Top Rated",
+            "title": "Action \u2014 Top Rated",
             "genre": null
           }
         ],
@@ -971,8 +971,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.animation-new.ae2101e4",
-            "catalogName": "Animation — New",
-            "title": "Animation — New",
+            "catalogName": "Animation \u2014 New",
+            "title": "Animation \u2014 New",
             "genre": null
           },
           {
@@ -982,8 +982,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.animation-new.0d28fc3b",
-            "catalogName": "Animation — New",
-            "title": "Animation — New",
+            "catalogName": "Animation \u2014 New",
+            "title": "Animation \u2014 New",
             "genre": null
           },
           {
@@ -993,8 +993,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.animation.9e938461",
-            "catalogName": "Animation — Popular",
-            "title": "Animation — Popular",
+            "catalogName": "Animation \u2014 Popular",
+            "title": "Animation \u2014 Popular",
             "genre": null
           },
           {
@@ -1004,8 +1004,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.animation.3a11d3d3",
-            "catalogName": "Animation — Popular",
-            "title": "Animation — Popular",
+            "catalogName": "Animation \u2014 Popular",
+            "title": "Animation \u2014 Popular",
             "genre": null
           },
           {
@@ -1015,8 +1015,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.animation-toprated.a933979e",
-            "catalogName": "Animation — Top Rated",
-            "title": "Animation — Top Rated",
+            "catalogName": "Animation \u2014 Top Rated",
+            "title": "Animation \u2014 Top Rated",
             "genre": null
           },
           {
@@ -1026,8 +1026,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.animation-toprated.b5c19d34",
-            "catalogName": "Animation — Top Rated",
-            "title": "Animation — Top Rated",
+            "catalogName": "Animation \u2014 Top Rated",
+            "title": "Animation \u2014 Top Rated",
             "genre": null
           }
         ],
@@ -1078,8 +1078,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.anime-new.17418960",
-            "catalogName": "Anime — New",
-            "title": "Anime — New",
+            "catalogName": "Anime \u2014 New",
+            "title": "Anime \u2014 New",
             "genre": null
           },
           {
@@ -1089,8 +1089,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.anime-new.53668a11",
-            "catalogName": "Anime — New",
-            "title": "Anime — New",
+            "catalogName": "Anime \u2014 New",
+            "title": "Anime \u2014 New",
             "genre": null
           },
           {
@@ -1100,8 +1100,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.anime.9def1714",
-            "catalogName": "Anime — Popular",
-            "title": "Anime — Popular",
+            "catalogName": "Anime \u2014 Popular",
+            "title": "Anime \u2014 Popular",
             "genre": null
           },
           {
@@ -1111,8 +1111,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.anime.eacdf8dc",
-            "catalogName": "Anime — Popular",
-            "title": "Anime — Popular",
+            "catalogName": "Anime \u2014 Popular",
+            "title": "Anime \u2014 Popular",
             "genre": null
           },
           {
@@ -1122,8 +1122,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.anime-toprated.035596fe",
-            "catalogName": "Anime — Top Rated",
-            "title": "Anime — Top Rated",
+            "catalogName": "Anime \u2014 Top Rated",
+            "title": "Anime \u2014 Top Rated",
             "genre": null
           },
           {
@@ -1133,8 +1133,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.anime-toprated.a68fbd05",
-            "catalogName": "Anime — Top Rated",
-            "title": "Anime — Top Rated",
+            "catalogName": "Anime \u2014 Top Rated",
+            "title": "Anime \u2014 Top Rated",
             "genre": null
           }
         ],
@@ -1185,8 +1185,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.comedy-new.e54f1978",
-            "catalogName": "Comedy — New",
-            "title": "Comedy — New",
+            "catalogName": "Comedy \u2014 New",
+            "title": "Comedy \u2014 New",
             "genre": null
           },
           {
@@ -1196,8 +1196,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.comedy-new.c4cc5d8b",
-            "catalogName": "Comedy — New",
-            "title": "Comedy — New",
+            "catalogName": "Comedy \u2014 New",
+            "title": "Comedy \u2014 New",
             "genre": null
           },
           {
@@ -1229,8 +1229,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.comedy-toprated.12e38149",
-            "catalogName": "Comedy — Top Rated",
-            "title": "Comedy — Top Rated",
+            "catalogName": "Comedy \u2014 Top Rated",
+            "title": "Comedy \u2014 Top Rated",
             "genre": null
           },
           {
@@ -1240,8 +1240,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.comedy-toprated.70004771",
-            "catalogName": "Comedy — Top Rated",
-            "title": "Comedy — Top Rated",
+            "catalogName": "Comedy \u2014 Top Rated",
+            "title": "Comedy \u2014 Top Rated",
             "genre": null
           }
         ],
@@ -1292,8 +1292,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.crime-new.a9ce07e8",
-            "catalogName": "Crime — New",
-            "title": "Crime — New",
+            "catalogName": "Crime \u2014 New",
+            "title": "Crime \u2014 New",
             "genre": null
           },
           {
@@ -1303,8 +1303,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.crime-new.a77e0501",
-            "catalogName": "Crime — New",
-            "title": "Crime — New",
+            "catalogName": "Crime \u2014 New",
+            "title": "Crime \u2014 New",
             "genre": null
           },
           {
@@ -1336,8 +1336,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.crime-toprated.6c5d6985",
-            "catalogName": "Crime — Top Rated",
-            "title": "Crime — Top Rated",
+            "catalogName": "Crime \u2014 Top Rated",
+            "title": "Crime \u2014 Top Rated",
             "genre": null
           },
           {
@@ -1347,8 +1347,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.crime-toprated.fa37de0d",
-            "catalogName": "Crime — Top Rated",
-            "title": "Crime — Top Rated",
+            "catalogName": "Crime \u2014 Top Rated",
+            "title": "Crime \u2014 Top Rated",
             "genre": null
           }
         ],
@@ -1399,8 +1399,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.documentary-new.885f5e44",
-            "catalogName": "Documentary — New",
-            "title": "Documentary — New",
+            "catalogName": "Documentary \u2014 New",
+            "title": "Documentary \u2014 New",
             "genre": null
           },
           {
@@ -1410,8 +1410,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.documentary-new.77fecb47",
-            "catalogName": "Documentary — New",
-            "title": "Documentary — New",
+            "catalogName": "Documentary \u2014 New",
+            "title": "Documentary \u2014 New",
             "genre": null
           },
           {
@@ -1443,8 +1443,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.documentary-toprated.6ca3e536",
-            "catalogName": "Documentary — Top Rated",
-            "title": "Documentary — Top Rated",
+            "catalogName": "Documentary \u2014 Top Rated",
+            "title": "Documentary \u2014 Top Rated",
             "genre": null
           },
           {
@@ -1454,8 +1454,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.documentary-toprated.13675ac8",
-            "catalogName": "Documentary — Top Rated",
-            "title": "Documentary — Top Rated",
+            "catalogName": "Documentary \u2014 Top Rated",
+            "title": "Documentary \u2014 Top Rated",
             "genre": null
           }
         ],
@@ -1506,8 +1506,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.drama-new.8ff83f73",
-            "catalogName": "Drama — New",
-            "title": "Drama — New",
+            "catalogName": "Drama \u2014 New",
+            "title": "Drama \u2014 New",
             "genre": null
           },
           {
@@ -1517,8 +1517,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.drama-new.8533c708",
-            "catalogName": "Drama — New",
-            "title": "Drama — New",
+            "catalogName": "Drama \u2014 New",
+            "title": "Drama \u2014 New",
             "genre": null
           },
           {
@@ -1550,8 +1550,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.drama-toprated.73821c69",
-            "catalogName": "Drama — Top Rated",
-            "title": "Drama — Top Rated",
+            "catalogName": "Drama \u2014 Top Rated",
+            "title": "Drama \u2014 Top Rated",
             "genre": null
           },
           {
@@ -1561,8 +1561,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.drama-toprated.de593be3",
-            "catalogName": "Drama — Top Rated",
-            "title": "Drama — Top Rated",
+            "catalogName": "Drama \u2014 Top Rated",
+            "title": "Drama \u2014 Top Rated",
             "genre": null
           }
         ],
@@ -1656,8 +1656,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.horror-new.b8bd78b5",
-            "catalogName": "Horror — New",
-            "title": "Horror — New",
+            "catalogName": "Horror \u2014 New",
+            "title": "Horror \u2014 New",
             "genre": null
           },
           {
@@ -1667,8 +1667,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.horror-new.d0ea270b",
-            "catalogName": "Horror — New",
-            "title": "Horror — New",
+            "catalogName": "Horror \u2014 New",
+            "title": "Horror \u2014 New",
             "genre": null
           },
           {
@@ -1700,8 +1700,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.horror-toprated.eeb85c7a",
-            "catalogName": "Horror — Top Rated",
-            "title": "Horror — Top Rated",
+            "catalogName": "Horror \u2014 Top Rated",
+            "title": "Horror \u2014 Top Rated",
             "genre": null
           },
           {
@@ -1711,8 +1711,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.horror-toprated.d23a9558",
-            "catalogName": "Horror — Top Rated",
-            "title": "Horror — Top Rated",
+            "catalogName": "Horror \u2014 Top Rated",
+            "title": "Horror \u2014 Top Rated",
             "genre": null
           }
         ],
@@ -1790,8 +1790,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.nature-new.fdc12acb",
-            "catalogName": "Nature — New",
-            "title": "Nature — New",
+            "catalogName": "Nature \u2014 New",
+            "title": "Nature \u2014 New",
             "genre": null
           },
           {
@@ -1801,8 +1801,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.nature-new.94a1658e",
-            "catalogName": "Nature — New",
-            "title": "Nature — New",
+            "catalogName": "Nature \u2014 New",
+            "title": "Nature \u2014 New",
             "genre": null
           },
           {
@@ -1812,8 +1812,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.nature.1822f510",
-            "catalogName": "Nature — Popular",
-            "title": "Nature — Popular",
+            "catalogName": "Nature \u2014 Popular",
+            "title": "Nature \u2014 Popular",
             "genre": null
           },
           {
@@ -1823,8 +1823,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.nature.8def14c9",
-            "catalogName": "Nature — Popular",
-            "title": "Nature — Popular",
+            "catalogName": "Nature \u2014 Popular",
+            "title": "Nature \u2014 Popular",
             "genre": null
           },
           {
@@ -1834,8 +1834,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.nature-toprated.2b1f19aa",
-            "catalogName": "Nature — Top Rated",
-            "title": "Nature — Top Rated",
+            "catalogName": "Nature \u2014 Top Rated",
+            "title": "Nature \u2014 Top Rated",
             "genre": null
           },
           {
@@ -1845,8 +1845,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.nature-toprated.d59ebb76",
-            "catalogName": "Nature — Top Rated",
-            "title": "Nature — Top Rated",
+            "catalogName": "Nature \u2014 Top Rated",
+            "title": "Nature \u2014 Top Rated",
             "genre": null
           }
         ],
@@ -1897,8 +1897,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.reality-tv-new.5169ac9f",
-            "catalogName": "Reality TV — New",
-            "title": "Reality TV — New",
+            "catalogName": "Reality TV \u2014 New",
+            "title": "Reality TV \u2014 New",
             "genre": null
           },
           {
@@ -1919,8 +1919,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.reality-tv-toprated.64efb20f",
-            "catalogName": "Reality TV — Top Rated",
-            "title": "Reality TV — Top Rated",
+            "catalogName": "Reality TV \u2014 Top Rated",
+            "title": "Reality TV \u2014 Top Rated",
             "genre": null
           }
         ],
@@ -1995,8 +1995,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.romance-new.d9ead370",
-            "catalogName": "Romance — New",
-            "title": "Romance — New",
+            "catalogName": "Romance \u2014 New",
+            "title": "Romance \u2014 New",
             "genre": null
           },
           {
@@ -2006,8 +2006,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.romance-new.35f3d0ec",
-            "catalogName": "Romance — New",
-            "title": "Romance — New",
+            "catalogName": "Romance \u2014 New",
+            "title": "Romance \u2014 New",
             "genre": null
           },
           {
@@ -2039,8 +2039,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.romance-toprated.ca69a390",
-            "catalogName": "Romance — Top Rated",
-            "title": "Romance — Top Rated",
+            "catalogName": "Romance \u2014 Top Rated",
+            "title": "Romance \u2014 Top Rated",
             "genre": null
           },
           {
@@ -2050,8 +2050,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.romance-toprated.ec8bb2a5",
-            "catalogName": "Romance — Top Rated",
-            "title": "Romance — Top Rated",
+            "catalogName": "Romance \u2014 Top Rated",
+            "title": "Romance \u2014 Top Rated",
             "genre": null
           }
         ],
@@ -2102,8 +2102,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.sci-fi-new.3d13f061",
-            "catalogName": "Sci-Fi — New",
-            "title": "Sci-Fi — New",
+            "catalogName": "Sci-Fi \u2014 New",
+            "title": "Sci-Fi \u2014 New",
             "genre": null
           },
           {
@@ -2113,8 +2113,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.sci-fi-new.398a8940",
-            "catalogName": "Sci-Fi — New",
-            "title": "Sci-Fi — New",
+            "catalogName": "Sci-Fi \u2014 New",
+            "title": "Sci-Fi \u2014 New",
             "genre": null
           },
           {
@@ -2146,8 +2146,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.sci-fi-toprated.b868414a",
-            "catalogName": "Sci-Fi — Top Rated",
-            "title": "Sci-Fi — Top Rated",
+            "catalogName": "Sci-Fi \u2014 Top Rated",
+            "title": "Sci-Fi \u2014 Top Rated",
             "genre": null
           },
           {
@@ -2157,8 +2157,8 @@
             "addonName": "AIOMetadata",
             "type": "series",
             "catalogId": "tmdb.discover.series.sci-fi-toprated.659f346b",
-            "catalogName": "Sci-Fi — Top Rated",
-            "title": "Sci-Fi — Top Rated",
+            "catalogName": "Sci-Fi \u2014 Top Rated",
+            "title": "Sci-Fi \u2014 Top Rated",
             "genre": null
           }
         ],
@@ -2295,8 +2295,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.thriller-new.ad1237db",
-            "catalogName": "Thriller — New",
-            "title": "Thriller — New",
+            "catalogName": "Thriller \u2014 New",
+            "title": "Thriller \u2014 New",
             "genre": null
           },
           {
@@ -2328,8 +2328,8 @@
             "addonName": "AIOMetadata",
             "type": "movie",
             "catalogId": "tmdb.discover.movie.thriller-toprated.f497cfb5",
-            "catalogName": "Thriller — Top Rated",
-            "title": "Thriller — Top Rated",
+            "catalogName": "Thriller \u2014 Top Rated",
+            "title": "Thriller \u2014 Top Rated",
             "genre": null
           }
         ],
@@ -2857,87 +2857,6 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/4.webp"
-      },
-      {
-        "id": "tvdb-6",
-        "title": "Hermitcraft",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-10",
-        "title": "Naruto",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.10.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.10.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-11",
-        "title": "One Piece",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.11.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.11.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.11.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.11.series"
-          }
-        ]
       },
       {
         "id": "tvdb-12",
@@ -3540,64 +3459,6 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/40.webp"
       },
       {
-        "id": "tvdb-41",
-        "title": "SpongeBob",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.41.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.41.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.41.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.41.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-43",
-        "title": "Wise Life",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.43.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.43.series"
-          }
-        ]
-      },
-      {
         "id": "tvdb-44",
         "title": "Battlestar Galactica Reboot Franchise",
         "sources": [
@@ -3922,29 +3783,6 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/55.webp"
       },
       {
-        "id": "tvdb-56",
-        "title": "Dune (SyFy)",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.56.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.56.series"
-          }
-        ]
-      },
-      {
         "id": "tvdb-57",
         "title": "The Good Wife Franchise",
         "sources": [
@@ -3969,41 +3807,6 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/57.webp"
       },
       {
-        "id": "tvdb-58",
-        "title": "The Snow Queen",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.58.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.58.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.58.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.58.series"
-          }
-        ]
-      },
-      {
         "id": "tvdb-61",
         "title": "The Eastrail 177 Trilogy",
         "sources": [
@@ -4026,110 +3829,6 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/61.webp"
-      },
-      {
-        "id": "tvdb-62",
-        "title": "Emily's Favorite Content",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.62.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.62.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-64",
-        "title": "The Hunchback of Notre Dame",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.64.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.64.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-67",
-        "title": "Stuart Little",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.67.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.67.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.67.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.67.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-69",
-        "title": "Once Upon a Time",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.69.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.69.series"
-          }
-        ]
       },
       {
         "id": "tvdb-70",
@@ -4178,64 +3877,6 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/72.webp"
-      },
-      {
-        "id": "tvdb-74",
-        "title": "Dragon Ball",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.74.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.74.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-75",
-        "title": "Hunter x Hunter",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.75.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.75.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.75.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.75.series"
-          }
-        ]
       },
       {
         "id": "tvdb-76",
@@ -4308,29 +3949,6 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/77.webp"
-      },
-      {
-        "id": "tvdb-78",
-        "title": "Camping Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.78.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.78.movies"
-          }
-        ]
       },
       {
         "id": "tvdb-79",
@@ -4430,7 +4048,7 @@
       },
       {
         "id": "tvdb-82",
-        "title": "Based on Jane Austen’s Pride & Prejudice",
+        "title": "Based on Jane Austen\u2019s Pride & Prejudice",
         "sources": [
           {
             "type": "movie",
@@ -4466,7 +4084,7 @@
       },
       {
         "id": "tvdb-83",
-        "title": "Based on Jane Austen’s Emma",
+        "title": "Based on Jane Austen\u2019s Emma",
         "sources": [
           {
             "type": "movie",
@@ -4909,29 +4527,6 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/102.webp"
       },
       {
-        "id": "tvdb-103",
-        "title": "Transformers: Unicron Trilogy",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.103.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.103.series"
-          }
-        ]
-      },
-      {
         "id": "tvdb-104",
         "title": "Transformers: Film Franchise",
         "sources": [
@@ -4990,41 +4585,6 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/105.webp"
-      },
-      {
-        "id": "tvdb-106",
-        "title": "CSI Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.106.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.106.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.106.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.106.series"
-          }
-        ]
       },
       {
         "id": "tvdb-107",
@@ -5087,248 +4647,6 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/108.webp"
       },
       {
-        "id": "tvdb-109",
-        "title": "wanted",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.109.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.109.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-110",
-        "title": "All Elite Wrestling",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.110.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.110.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-112",
-        "title": "Vietnamese BL",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.112.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.112.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-113",
-        "title": "Myanmar BL",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.113.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.113.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-114",
-        "title": "Alarm für Cobra 11",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.114.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.114.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-115",
-        "title": "Watchlist",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.115.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.115.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.115.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.115.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-116",
-        "title": "SUNMI",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.116.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.116.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-117",
-        "title": "Series",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.117.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.117.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-118",
-        "title": "Series",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.118.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.118.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-119",
-        "title": "A House Through Time",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.119.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.119.series"
-          }
-        ]
-      },
-      {
         "id": "tvdb-121",
         "title": "Stargate Franchise",
         "sources": [
@@ -5387,41 +4705,6 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/123.webp"
-      },
-      {
-        "id": "tvdb-124",
-        "title": "Workout Series",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.124.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.124.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.124.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.124.series"
-          }
-        ]
       },
       {
         "id": "tvdb-6003",
@@ -5652,29 +4935,6 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6014.webp"
       },
       {
-        "id": "tvdb-6579",
-        "title": "Tai Chi Zero Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6579.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6579.movies"
-          }
-        ]
-      },
-      {
         "id": "tvdb-6580",
         "title": "Monsters Franchise",
         "sources": [
@@ -5699,121 +4959,6 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6580.webp"
       },
       {
-        "id": "tvdb-6581",
-        "title": "Eating Out Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6581.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6581.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6582",
-        "title": "Malevolence Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6582.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6582.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6583",
-        "title": "Somm Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6583.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6583.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6584",
-        "title": "V/H/S Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6584.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6584.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6585",
-        "title": "Fukrey Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6585.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6585.movies"
-          }
-        ]
-      },
-      {
         "id": "tvdb-6587",
         "title": "I Spit on Your Grave Franchise",
         "sources": [
@@ -5836,29 +4981,6 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6587.webp"
-      },
-      {
-        "id": "tvdb-6588",
-        "title": "Feast Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6588.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6588.movies"
-          }
-        ]
       },
       {
         "id": "tvdb-6596",
@@ -6005,52 +5127,6 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6604.webp"
       },
       {
-        "id": "tvdb-6605",
-        "title": "Bad Ass Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6605.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6605.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6606",
-        "title": "Fack ju Göhte Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6606.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6606.movies"
-          }
-        ]
-      },
-      {
         "id": "tvdb-6607",
         "title": "Santa Buddies Franchise",
         "sources": [
@@ -6073,75 +5149,6 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6607.webp"
-      },
-      {
-        "id": "tvdb-6608",
-        "title": "Basket Case Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6608.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6608.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6613",
-        "title": "My big fat American gypsy wedding",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6613.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6613.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6614",
-        "title": "Bears about the house",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6614.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6614.series"
-          }
-        ]
       },
       {
         "id": "tvdb-6616",
@@ -6190,29 +5197,6 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6617.webp"
-      },
-      {
-        "id": "tvdb-6618",
-        "title": "Universo de filmes animados da DC Comics",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6618.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6618.movies"
-          }
-        ]
       },
       {
         "id": "tvdb-6619",
@@ -6285,122 +5269,6 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6621.webp"
-      },
-      {
-        "id": "tvdb-6622",
-        "title": "Filmes de Quentin Tarantino",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6622.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6622.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6623",
-        "title": "Tales of Arcadia",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6623.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6623.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6623.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6623.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6624",
-        "title": "Ben 10",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6624.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6624.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6624.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6624.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6625",
-        "title": "Cube Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6625.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6625.movies"
-          }
-        ]
       },
       {
         "id": "tvdb-6626",
@@ -6559,64 +5427,6 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6634.webp"
       },
       {
-        "id": "tvdb-6635",
-        "title": "Wakfu",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6635.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6635.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6635.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6635.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6636",
-        "title": "lovers in paris",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6636.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6636.series"
-          }
-        ]
-      },
-      {
         "id": "tvdb-6637",
         "title": "Bill & Ted Franchise",
         "sources": [
@@ -6701,52 +5511,6 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6639.webp"
       },
       {
-        "id": "tvdb-6640",
-        "title": "A Chinese Ghost Story Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6640.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6640.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6641",
-        "title": "Aces Go Places Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6641.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6641.movies"
-          }
-        ]
-      },
-      {
         "id": "tvdb-6642",
         "title": "Armour of God Franchise",
         "sources": [
@@ -6769,29 +5533,6 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6642.webp"
-      },
-      {
-        "id": "tvdb-6643",
-        "title": "Project A Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6643.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6643.movies"
-          }
-        ]
       },
       {
         "id": "tvdb-6644",
@@ -6854,121 +5595,6 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6645.webp"
       },
       {
-        "id": "tvdb-6646",
-        "title": "Pentor",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6646.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6646.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6647",
-        "title": "Favorite Shows",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6647.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6647.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6648",
-        "title": "Suzumiya Haruhi Series",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6648.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6648.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6649",
-        "title": "Tv to watch",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6649.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6649.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6650",
-        "title": "Star Trek - New Timeline",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6650.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6650.movies"
-          }
-        ]
-      },
-      {
         "id": "tvdb-6651",
         "title": "DC Animated Universe",
         "sources": [
@@ -7003,1006 +5629,6 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6651.webp"
-      },
-      {
-        "id": "tvdb-6652",
-        "title": "One Chicago",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6652.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6652.series"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6652.webp"
-      },
-      {
-        "id": "tvdb-6653",
-        "title": "The Millenium Trilogy",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6653.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6653.movies"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6653.webp"
-      },
-      {
-        "id": "tvdb-6654",
-        "title": "Infernal Affairs Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6654.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6654.movies"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6654.webp"
-      },
-      {
-        "id": "tvdb-6655",
-        "title": "The Naked Gun Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6655.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6655.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6655.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6655.series"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6655.webp"
-      },
-      {
-        "id": "tvdb-6656",
-        "title": "Three Colours Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6656.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6656.movies"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6656.webp"
-      },
-      {
-        "id": "tvdb-6658",
-        "title": "In the Line of Duty Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6658.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6658.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6659",
-        "title": "Swordsman Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6659.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6659.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6660",
-        "title": "Fong Sai-yuk Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6660.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6660.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6661",
-        "title": "Drunken Master Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6661.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6661.movies"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6661.webp"
-      },
-      {
-        "id": "tvdb-6662",
-        "title": "Shah Rukh Khan & Kajol Movies",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6662.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6662.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6663",
-        "title": "tv",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6663.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6663.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6664",
-        "title": "Rock Hudson & Doris Day Movies",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6664.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6664.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6667",
-        "title": "Můj list",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6667.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6667.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6669",
-        "title": "en",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6669.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6669.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6670",
-        "title": "Doctor Who - TOS",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6670.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6670.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6671",
-        "title": "Xuxa Só Para Baixinhos",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6671.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6671.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6672",
-        "title": "Noticias",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6672.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6672.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6673",
-        "title": "odale",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6673.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6673.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6675",
-        "title": "Anime Movies +",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6675.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6675.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6676",
-        "title": "Nutty Professor Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6676.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6676.movies"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6676.webp"
-      },
-      {
-        "id": "tvdb-6677",
-        "title": "Rumik World",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6677.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6677.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6677.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6677.series"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6677.webp"
-      },
-      {
-        "id": "tvdb-6678",
-        "title": "My Additions",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6678.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6678.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6679",
-        "title": "Vivement la suite",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6679.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6679.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6681",
-        "title": "Brat TV",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6681.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6681.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6682",
-        "title": "to_watch",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6682.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6682.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6683",
-        "title": "Red Letter Media",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6683.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6683.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6685",
-        "title": "Contributed",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6685.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6685.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6686",
-        "title": "Dil Bechara",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6686.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6686.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6687",
-        "title": "Lieblingsshows",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6687.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6687.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6688",
-        "title": "Series",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6688.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6688.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6689",
-        "title": "Series",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6689.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6689.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6690",
-        "title": "The Witcher Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6690.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6690.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6690.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6690.series"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6690.webp"
-      },
-      {
-        "id": "tvdb-6691",
-        "title": "Ky",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6691.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6691.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6695",
-        "title": "Dropped",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6695.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6695.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6696",
-        "title": "Movies 101",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6696.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6696.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6697",
-        "title": "FAVORITAS 2",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6697.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6697.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6698",
-        "title": "TV list",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6698.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6698.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6698.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6698.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6699",
-        "title": "naked tv",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6699.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6699.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6700",
-        "title": "Upcoming",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6700.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6700.movies"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6701",
-        "title": "2020 WilliB's TV Show's",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6701.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6701.series"
-          }
-        ]
-      },
-      {
-        "id": "tvdb-6702",
-        "title": "فقث",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6702.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6702.movies"
-          }
-        ]
       }
     ],
     "pinToTop": false,
