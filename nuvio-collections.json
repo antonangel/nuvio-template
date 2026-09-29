@@ -1959,6 +1959,13 @@
             "catalogName": "Artificial Intelligence",
             "title": "Artificial Intelligence",
             "genre": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.robots-and-ai-series.1a0eefe51f1"
           }
         ],
         "catalogSources": [
@@ -1966,6 +1973,11 @@
             "addonId": "aio-metadata",
             "type": "movie",
             "catalogId": "mdblist.52490"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tmdb.discover.series.robots-and-ai-series.1a0eefe51f1"
           }
         ]
       },
@@ -2191,22 +2203,42 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/short-films.webp",
         "sources": [
           {
-            "provider": "addon",
-            "addonId": "aio-metadata",
-            "addonBaseUrl": null,
-            "addonName": "AIOMetadata",
             "type": "movie",
-            "catalogId": "mdblist.63121",
-            "catalogName": "Short Films",
-            "title": "Short Films",
-            "genre": null
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.4595"
+          },
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.149579"
+          },
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.149580"
           }
         ],
         "catalogSources": [
           {
-            "addonId": "aio-metadata",
             "type": "movie",
-            "catalogId": "mdblist.63121"
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.4595"
+          },
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.149579"
+          },
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.149580"
           }
         ]
       },
@@ -2227,6 +2259,13 @@
             "catalogName": "Spy & Espionage Movies",
             "title": "Spy & Espionage Movies",
             "genre": null
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.spies-series.1a0eefe51f1"
           }
         ],
         "catalogSources": [
@@ -2234,6 +2273,11 @@
             "addonId": "aio-metadata",
             "type": "movie",
             "catalogId": "mdblist.52489"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tmdb.discover.series.spies-series.1a0eefe51f1"
           }
         ]
       },
