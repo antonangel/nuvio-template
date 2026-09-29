@@ -2788,7 +2788,7 @@
       },
       {
         "id": "tvdb-17",
-        "title": "Star Wars Franchise",
+        "title": "Star Wars",
         "sources": [
           {
             "type": "movie",
@@ -2848,7 +2848,7 @@
       },
       {
         "id": "tvdb-6003",
-        "title": "James Bond Franchise",
+        "title": "James Bond",
         "sources": [
           {
             "type": "movie",
@@ -2872,7 +2872,7 @@
       },
       {
         "id": "tvdb-13",
-        "title": "Harry Potter Franchise",
+        "title": "Harry Potter",
         "sources": [
           {
             "type": "movie",
@@ -2896,7 +2896,7 @@
       },
       {
         "id": "tvdb-23",
-        "title": "Star Trek: Original Timeline",
+        "title": "Star Trek",
         "sources": [
           {
             "type": "movie",
@@ -2932,7 +2932,7 @@
       },
       {
         "id": "tvdb-3",
-        "title": "The Matrix Franchise",
+        "title": "The Matrix",
         "sources": [
           {
             "type": "movie",
@@ -2968,7 +2968,7 @@
       },
       {
         "id": "tvdb-81",
-        "title": "Back to the Future Franchise",
+        "title": "Back to the Future",
         "sources": [
           {
             "type": "movie",
@@ -3004,7 +3004,7 @@
       },
       {
         "id": "tvdb-38",
-        "title": "Alien Franchise",
+        "title": "Alien",
         "sources": [
           {
             "type": "movie",
@@ -3040,7 +3040,7 @@
       },
       {
         "id": "tvdb-40",
-        "title": "Indiana Jones Franchise",
+        "title": "Indiana Jones",
         "sources": [
           {
             "type": "movie",
@@ -3076,7 +3076,7 @@
       },
       {
         "id": "tvdb-6021",
-        "title": "Mission: Impossible Franchise",
+        "title": "Mission: Impossible",
         "sources": [
           {
             "type": "movie",
@@ -3100,7 +3100,7 @@
       },
       {
         "id": "tvdb-93",
-        "title": "X-Men Franchise",
+        "title": "X-Men",
         "sources": [
           {
             "type": "movie",
@@ -3124,7 +3124,7 @@
       },
       {
         "id": "tvdb-6005",
-        "title": "Spider-Man Franchise",
+        "title": "Spider-Man",
         "sources": [
           {
             "type": "movie",
@@ -3184,7 +3184,7 @@
       },
       {
         "id": "tvdb-6034",
-        "title": "Men in Black Franchise",
+        "title": "Men in Black",
         "sources": [
           {
             "type": "movie",
@@ -3208,7 +3208,7 @@
       },
       {
         "id": "tvdb-108",
-        "title": "The Fast & The Furious Franchise",
+        "title": "The Fast & The Furious",
         "sources": [
           {
             "type": "movie",
@@ -3232,7 +3232,7 @@
       },
       {
         "id": "tvdb-70",
-        "title": "The Walking Dead Franchise",
+        "title": "The Walking Dead",
         "sources": [
           {
             "type": "series",
@@ -3256,7 +3256,7 @@
       },
       {
         "id": "tvdb-104",
-        "title": "Transformers: Film Franchise",
+        "title": "Transformers: Film",
         "sources": [
           {
             "type": "movie",
@@ -3280,7 +3280,7 @@
       },
       {
         "id": "tvdb-79",
-        "title": "Breaking Bad Franchise",
+        "title": "Breaking Bad",
         "sources": [
           {
             "type": "movie",
@@ -3316,7 +3316,7 @@
       },
       {
         "id": "tvdb-6056",
-        "title": "Die Hard Franchise",
+        "title": "Die Hard",
         "sources": [
           {
             "type": "movie",
@@ -3340,7 +3340,7 @@
       },
       {
         "id": "tvdb-6087",
-        "title": "Deadpool Franchise",
+        "title": "Deadpool",
         "sources": [
           {
             "type": "movie",
@@ -3364,7 +3364,7 @@
       },
       {
         "id": "tvdb-87",
-        "title": "Predator Franchise",
+        "title": "Predator",
         "sources": [
           {
             "type": "movie",
@@ -3388,7 +3388,7 @@
       },
       {
         "id": "tvdb-90",
-        "title": "The Lord of the Rings Franchise",
+        "title": "The Lord of the Rings",
         "sources": [
           {
             "type": "movie",
@@ -3412,7 +3412,7 @@
       },
       {
         "id": "tvdb-61",
-        "title": "The Eastrail 177 Trilogy",
+        "title": "The Eastrail 177",
         "sources": [
           {
             "type": "movie",
@@ -3436,7 +3436,7 @@
       },
       {
         "id": "tvdb-6042",
-        "title": "Ghostbusters Franchise",
+        "title": "Ghostbusters",
         "sources": [
           {
             "type": "movie",
@@ -3472,7 +3472,7 @@
       },
       {
         "id": "tvdb-6634",
-        "title": "Marvel's Spider-Man Franchise",
+        "title": "Marvel's Spider-Man",
         "sources": [
           {
             "type": "movie",
@@ -3508,7 +3508,7 @@
       },
       {
         "id": "tvdb-6014",
-        "title": "Shrek Franchise",
+        "title": "Shrek",
         "sources": [
           {
             "type": "movie",
@@ -3544,7 +3544,7 @@
       },
       {
         "id": "tvdb-33",
-        "title": "Frozen Franchise",
+        "title": "Frozen",
         "sources": [
           {
             "type": "movie",
@@ -3580,7 +3580,7 @@
       },
       {
         "id": "tvdb-6645",
-        "title": "Captain America Franchise",
+        "title": "Captain America",
         "sources": [
           {
             "type": "movie",
@@ -3616,7 +3616,7 @@
       },
       {
         "id": "tvdb-31",
-        "title": "Toy Story Franchise",
+        "title": "Toy Story",
         "sources": [
           {
             "type": "movie",
@@ -3652,7 +3652,7 @@
       },
       {
         "id": "tvdb-15",
-        "title": "The Simpsons Franchise",
+        "title": "The Simpsons",
         "sources": [
           {
             "type": "movie",
@@ -3688,7 +3688,7 @@
       },
       {
         "id": "tvdb-49",
-        "title": "Jumanji Franchise",
+        "title": "Jumanji",
         "sources": [
           {
             "type": "movie",
@@ -3724,7 +3724,7 @@
       },
       {
         "id": "tvdb-6008",
-        "title": "Jurassic Park Franchise",
+        "title": "Jurassic Park",
         "sources": [
           {
             "type": "movie",
@@ -3760,7 +3760,7 @@
       },
       {
         "id": "tvdb-50",
-        "title": "It Franchise",
+        "title": "It",
         "sources": [
           {
             "type": "movie",
@@ -3795,44 +3795,8 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/50.webp"
       },
       {
-        "id": "tvdb-48",
-        "title": "To All the Boys Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.48.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.48.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.48.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.48.series"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/48.webp"
-      },
-      {
         "id": "tvdb-107",
-        "title": "John Wick Franchise",
+        "title": "John Wick",
         "sources": [
           {
             "type": "movie",
@@ -3904,7 +3868,7 @@
       },
       {
         "id": "tvdb-37",
-        "title": "Hotel Transylvania Franchise",
+        "title": "Hotel Transylvania",
         "sources": [
           {
             "type": "movie",
@@ -3940,7 +3904,7 @@
       },
       {
         "id": "tvdb-32",
-        "title": "Cars Franchise",
+        "title": "Cars",
         "sources": [
           {
             "type": "movie",
@@ -4012,7 +3976,7 @@
       },
       {
         "id": "tvdb-91",
-        "title": "Rocky Franchise",
+        "title": "Rocky",
         "sources": [
           {
             "type": "movie",
@@ -4048,7 +4012,7 @@
       },
       {
         "id": "tvdb-29",
-        "title": "Terminator Franchise",
+        "title": "Terminator",
         "sources": [
           {
             "type": "movie",
@@ -4083,44 +4047,8 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/29.webp"
       },
       {
-        "id": "tvdb-105",
-        "title": "Law & Order Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.105.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.105.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.105.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.105.series"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/105.webp"
-      },
-      {
         "id": "tvdb-98",
-        "title": "Jack Ryan Franchise",
+        "title": "Jack Ryan",
         "sources": [
           {
             "type": "movie",
@@ -4156,7 +4084,7 @@
       },
       {
         "id": "tvdb-52",
-        "title": "Blade Runner Franchise",
+        "title": "Blade Runner",
         "sources": [
           {
             "type": "movie",
@@ -4192,7 +4120,7 @@
       },
       {
         "id": "tvdb-121",
-        "title": "Stargate Franchise",
+        "title": "Stargate",
         "sources": [
           {
             "type": "movie",
@@ -4300,7 +4228,7 @@
       },
       {
         "id": "tvdb-16",
-        "title": "Free Willy Franchise",
+        "title": "Free Willy",
         "sources": [
           {
             "type": "movie",
@@ -4335,44 +4263,8 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/16.webp"
       },
       {
-        "id": "tvdb-6637",
-        "title": "Bill & Ted Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6637.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6637.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6637.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6637.series"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6637.webp"
-      },
-      {
         "id": "tvdb-26",
-        "title": "Babylon 5 Franchise",
+        "title": "Babylon 5",
         "sources": [
           {
             "type": "movie",
@@ -4408,7 +4300,7 @@
       },
       {
         "id": "tvdb-101",
-        "title": "Transformers: Generation 1 Franchise",
+        "title": "Transformers: Generation 1",
         "sources": [
           {
             "type": "movie",
@@ -4444,7 +4336,7 @@
       },
       {
         "id": "tvdb-14",
-        "title": "Despicable Me Franchise",
+        "title": "Despicable Me",
         "sources": [
           {
             "type": "movie",
@@ -4467,32 +4359,8 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/14.webp"
       },
       {
-        "id": "tvdb-21",
-        "title": "Matchmaker Mysteries",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.21.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.21.movies"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/21.webp"
-      },
-      {
         "id": "tvdb-44",
-        "title": "Battlestar Galactica Reboot Franchise",
+        "title": "Battlestar Galactica Reboot",
         "sources": [
           {
             "type": "series",
@@ -4540,7 +4408,7 @@
       },
       {
         "id": "tvdb-46",
-        "title": "Wreck-It Ralph Franchise",
+        "title": "Wreck-It Ralph",
         "sources": [
           {
             "type": "movie",
@@ -4612,7 +4480,7 @@
       },
       {
         "id": "tvdb-54",
-        "title": "Final Destination Franchise",
+        "title": "Final Destination",
         "sources": [
           {
             "type": "movie",
@@ -4636,7 +4504,7 @@
       },
       {
         "id": "tvdb-57",
-        "title": "The Good Wife Franchise",
+        "title": "The Good Wife",
         "sources": [
           {
             "type": "series",
@@ -4660,7 +4528,7 @@
       },
       {
         "id": "tvdb-72",
-        "title": "The Vampire Diaries Franchise",
+        "title": "The Vampire Diaries",
         "sources": [
           {
             "type": "series",
@@ -4707,30 +4575,6 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/84.webp"
       },
       {
-        "id": "tvdb-85",
-        "title": "Alex Cross",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.85.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.85.movies"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/85.webp"
-      },
-      {
         "id": "tvdb-86",
         "title": "Alien vs. Predator",
         "sources": [
@@ -4756,7 +4600,7 @@
       },
       {
         "id": "tvdb-92",
-        "title": "Ice Age Franchise",
+        "title": "Ice Age",
         "sources": [
           {
             "type": "movie",
@@ -4779,32 +4623,8 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/92.webp"
       },
       {
-        "id": "tvdb-96",
-        "title": "9-1-1 Franchise",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.96.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.96.series"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/96.webp"
-      },
-      {
         "id": "tvdb-97",
-        "title": "Mad Max Franchise",
+        "title": "Mad Max",
         "sources": [
           {
             "type": "movie",
@@ -4828,7 +4648,7 @@
       },
       {
         "id": "tvdb-102",
-        "title": "Transformers: Beast Wars Franchise",
+        "title": "Transformers: Beast Wars",
         "sources": [
           {
             "type": "series",
@@ -4876,7 +4696,7 @@
       },
       {
         "id": "tvdb-6004",
-        "title": "Batman Franchise",
+        "title": "Batman",
         "sources": [
           {
             "type": "movie",
@@ -4900,7 +4720,7 @@
       },
       {
         "id": "tvdb-6007",
-        "title": "Avengers Franchise",
+        "title": "Avengers",
         "sources": [
           {
             "type": "movie",
@@ -4924,7 +4744,7 @@
       },
       {
         "id": "tvdb-6012",
-        "title": "Superman Franchise",
+        "title": "Superman",
         "sources": [
           {
             "type": "movie",
@@ -4948,7 +4768,7 @@
       },
       {
         "id": "tvdb-6580",
-        "title": "Monsters Franchise",
+        "title": "Monsters",
         "sources": [
           {
             "type": "movie",
@@ -4972,7 +4792,7 @@
       },
       {
         "id": "tvdb-6587",
-        "title": "I Spit on Your Grave Franchise",
+        "title": "I Spit on Your Grave",
         "sources": [
           {
             "type": "movie",
@@ -4996,7 +4816,7 @@
       },
       {
         "id": "tvdb-6597",
-        "title": "Air Buddies Franchise",
+        "title": "Air Buddies",
         "sources": [
           {
             "type": "movie",
@@ -5020,7 +4840,7 @@
       },
       {
         "id": "tvdb-6601",
-        "title": "Sharknado Franchise",
+        "title": "Sharknado",
         "sources": [
           {
             "type": "movie",
@@ -5044,7 +4864,7 @@
       },
       {
         "id": "tvdb-6604",
-        "title": "Descendants Franchise",
+        "title": "Descendants",
         "sources": [
           {
             "type": "movie",
@@ -5068,7 +4888,7 @@
       },
       {
         "id": "tvdb-6607",
-        "title": "Santa Buddies Franchise",
+        "title": "Santa Buddies",
         "sources": [
           {
             "type": "movie",
@@ -5092,7 +4912,7 @@
       },
       {
         "id": "tvdb-6616",
-        "title": "Kickboxer Reboot Franchise",
+        "title": "Kickboxer",
         "sources": [
           {
             "type": "movie",
@@ -5116,7 +4936,7 @@
       },
       {
         "id": "tvdb-6617",
-        "title": "Death Race Franchise",
+        "title": "Death Race",
         "sources": [
           {
             "type": "movie",
@@ -5140,7 +4960,7 @@
       },
       {
         "id": "tvdb-6619",
-        "title": "Battlestar Galactica Franchise",
+        "title": "Battlestar Galactica",
         "sources": [
           {
             "type": "series",
@@ -5164,7 +4984,7 @@
       },
       {
         "id": "tvdb-6620",
-        "title": "Halloween (Rob Zombie) Franchise",
+        "title": "Halloween (Rob Zombie)",
         "sources": [
           {
             "type": "movie",
@@ -5188,7 +5008,7 @@
       },
       {
         "id": "tvdb-6621",
-        "title": "Planet of the Apes Reboot Franchise",
+        "title": "Planet of the Apes",
         "sources": [
           {
             "type": "movie",
@@ -5212,7 +5032,7 @@
       },
       {
         "id": "tvdb-6626",
-        "title": "Alvin and the Chipmunks Franchise",
+        "title": "Alvin and the Chipmunks",
         "sources": [
           {
             "type": "movie",
@@ -5235,32 +5055,8 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6626.webp"
       },
       {
-        "id": "tvdb-6627",
-        "title": "The Tonight Show Franchise",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6627.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6627.series"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6627.webp"
-      },
-      {
         "id": "tvdb-6631",
-        "title": "Man of Steel Franchise",
+        "title": "Man of Steel",
         "sources": [
           {
             "type": "movie",
@@ -5284,7 +5080,7 @@
       },
       {
         "id": "tvdb-6632",
-        "title": "Teenage Mutant Ninja Turtles Reboot Franchise",
+        "title": "Teenage Mutant Ninja Turtles",
         "sources": [
           {
             "type": "movie",
@@ -5308,7 +5104,7 @@
       },
       {
         "id": "tvdb-6633",
-        "title": "The Amazing Spider-Man Franchise",
+        "title": "The Amazing Spider-Man",
         "sources": [
           {
             "type": "movie",
@@ -5332,7 +5128,7 @@
       },
       {
         "id": "tvdb-6638",
-        "title": "Police Story Franchise",
+        "title": "Police Story",
         "sources": [
           {
             "type": "movie",
@@ -5356,7 +5152,7 @@
       },
       {
         "id": "tvdb-6639",
-        "title": "Lucky Stars Franchise",
+        "title": "Lucky Stars",
         "sources": [
           {
             "type": "movie",
@@ -5380,7 +5176,7 @@
       },
       {
         "id": "tvdb-6642",
-        "title": "Armour of God Franchise",
+        "title": "Armour of God",
         "sources": [
           {
             "type": "movie",
@@ -5404,7 +5200,7 @@
       },
       {
         "id": "tvdb-6644",
-        "title": "Once Upon a Time in China Franchise",
+        "title": "Once Upon a Time in China",
         "sources": [
           {
             "type": "movie",

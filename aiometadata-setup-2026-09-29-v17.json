@@ -1,6 +1,6 @@
 {
   "version": "3.2.3",
-  "exportedAt": "2026-09-29T22:57:26.628352Z",
+  "exportedAt": "2026-09-29T23:05:02.826788Z",
   "config": {
     "mal": {
       "skipRecap": false,
@@ -7462,18 +7462,6 @@
         }
       },
       {
-        "id": "tvdb.list.21.movies",
-        "type": "movie",
-        "name": "Matchmaker Mysteries - Movies",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (movie)"
-        }
-      },
-      {
         "id": "tvdb.list.23.movies",
         "type": "movie",
         "name": "Star Trek: Original Timeline - Movies",
@@ -7682,31 +7670,6 @@
         "metadata": {
           "description": "TVDB list (movie)"
         }
-      },
-      {
-        "id": "tvdb.list.48.movies",
-        "type": "movie",
-        "name": "To All the Boys Franchise - Movies",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (movie)"
-        }
-      },
-      {
-        "id": "tvdb.list.48.series",
-        "type": "series",
-        "name": "To All the Boys Franchise - Series",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (series)"
-        },
-        "displayType": "series"
       },
       {
         "id": "tvdb.list.49.movies",
@@ -7957,18 +7920,6 @@
         }
       },
       {
-        "id": "tvdb.list.85.movies",
-        "type": "movie",
-        "name": "Alex Cross - Movies",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (movie)"
-        }
-      },
-      {
         "id": "tvdb.list.86.movies",
         "type": "movie",
         "name": "Alien vs. Predator - Movies",
@@ -8054,19 +8005,6 @@
         }
       },
       {
-        "id": "tvdb.list.96.series",
-        "type": "series",
-        "name": "9-1-1 Franchise - Series",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (series)"
-        },
-        "displayType": "series"
-      },
-      {
         "id": "tvdb.list.97.movies",
         "type": "movie",
         "name": "Mad Max Franchise - Movies",
@@ -8139,31 +8077,6 @@
         "metadata": {
           "description": "TVDB list (movie)"
         }
-      },
-      {
-        "id": "tvdb.list.105.movies",
-        "type": "movie",
-        "name": "Law & Order Franchise - Movies",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (movie)"
-        }
-      },
-      {
-        "id": "tvdb.list.105.series",
-        "type": "series",
-        "name": "Law & Order Franchise - Series",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (series)"
-        },
-        "displayType": "series"
       },
       {
         "id": "tvdb.list.107.movies",
@@ -8495,19 +8408,6 @@
         }
       },
       {
-        "id": "tvdb.list.6627.series",
-        "type": "series",
-        "name": "The Tonight Show Franchise - Series",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (series)"
-        },
-        "displayType": "series"
-      },
-      {
         "id": "tvdb.list.6631.movies",
         "type": "movie",
         "name": "Man of Steel Franchise - Movies",
@@ -8559,31 +8459,6 @@
         "id": "tvdb.list.6634.series",
         "type": "series",
         "name": "Marvel's Spider-Man Franchise - Series",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (series)"
-        },
-        "displayType": "series"
-      },
-      {
-        "id": "tvdb.list.6637.movies",
-        "type": "movie",
-        "name": "Bill & Ted Franchise - Movies",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (movie)"
-        }
-      },
-      {
-        "id": "tvdb.list.6637.series",
-        "type": "series",
-        "name": "Bill & Ted Franchise - Series",
         "source": "tvdb",
         "enabled": true,
         "showInHome": false,
@@ -8694,7 +8569,7 @@
       {
         "id": "tvdb.list.6021.movies",
         "type": "movie",
-        "name": "Mission: Impossible Franchise - Movies",
+        "name": "Mission: Impossible - Movies",
         "source": "tvdb",
         "enabled": true,
         "showInHome": false,
@@ -8706,7 +8581,7 @@
       {
         "id": "tvdb.list.6034.movies",
         "type": "movie",
-        "name": "Men in Black Franchise - Movies",
+        "name": "Men in Black - Movies",
         "source": "tvdb",
         "enabled": true,
         "showInHome": false,
@@ -8718,7 +8593,7 @@
       {
         "id": "tvdb.list.6042.movies",
         "type": "movie",
-        "name": "Ghostbusters Franchise - Movies",
+        "name": "Ghostbusters - Movies",
         "source": "tvdb",
         "enabled": true,
         "showInHome": false,
@@ -8730,7 +8605,7 @@
       {
         "id": "tvdb.list.6042.series",
         "type": "series",
-        "name": "Ghostbusters Franchise - Series",
+        "name": "Ghostbusters - Series",
         "source": "tvdb",
         "enabled": true,
         "showInHome": false,
@@ -8743,7 +8618,7 @@
       {
         "id": "tvdb.list.6056.movies",
         "type": "movie",
-        "name": "Die Hard Franchise - Movies",
+        "name": "Die Hard - Movies",
         "source": "tvdb",
         "enabled": true,
         "showInHome": false,
@@ -8755,7 +8630,7 @@
       {
         "id": "tvdb.list.6087.movies",
         "type": "movie",
-        "name": "Deadpool Franchise - Movies",
+        "name": "Deadpool - Movies",
         "source": "tvdb",
         "enabled": true,
         "showInHome": false,
@@ -10609,7 +10484,7 @@
           },
           {
             "id": "tvdb-17",
-            "title": "Star Wars Franchise",
+            "title": "Star Wars",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/17.webp",
@@ -10660,7 +10535,7 @@
           },
           {
             "id": "tvdb-6003",
-            "title": "James Bond Franchise",
+            "title": "James Bond",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6003.webp",
@@ -10682,7 +10557,7 @@
           },
           {
             "id": "tvdb-13",
-            "title": "Harry Potter Franchise",
+            "title": "Harry Potter",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/13.webp",
@@ -10704,7 +10579,7 @@
           },
           {
             "id": "tvdb-23",
-            "title": "Star Trek: Original Timeline",
+            "title": "Star Trek",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/23.webp",
@@ -10733,7 +10608,7 @@
           },
           {
             "id": "tvdb-3",
-            "title": "The Matrix Franchise",
+            "title": "The Matrix",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/3.webp",
@@ -10762,7 +10637,7 @@
           },
           {
             "id": "tvdb-81",
-            "title": "Back to the Future Franchise",
+            "title": "Back to the Future",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/81.webp",
@@ -10791,7 +10666,7 @@
           },
           {
             "id": "tvdb-38",
-            "title": "Alien Franchise",
+            "title": "Alien",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/38.webp",
@@ -10820,7 +10695,7 @@
           },
           {
             "id": "tvdb-40",
-            "title": "Indiana Jones Franchise",
+            "title": "Indiana Jones",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/40.webp",
@@ -10849,7 +10724,7 @@
           },
           {
             "id": "tvdb-6021",
-            "title": "Mission: Impossible Franchise",
+            "title": "Mission: Impossible",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6021.webp",
@@ -10863,7 +10738,7 @@
               {
                 "catalogId": "tvdb.list.6021.movies",
                 "type": "movie",
-                "name": "Mission: Impossible Franchise - Movies",
+                "name": "Mission: Impossible - Movies",
                 "genre": null,
                 "baseType": "movie"
               }
@@ -10871,7 +10746,7 @@
           },
           {
             "id": "tvdb-93",
-            "title": "X-Men Franchise",
+            "title": "X-Men",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/93.webp",
@@ -10893,7 +10768,7 @@
           },
           {
             "id": "tvdb-6005",
-            "title": "Spider-Man Franchise",
+            "title": "Spider-Man",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6005.webp",
@@ -10944,7 +10819,7 @@
           },
           {
             "id": "tvdb-6034",
-            "title": "Men in Black Franchise",
+            "title": "Men in Black",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6034.webp",
@@ -10958,7 +10833,7 @@
               {
                 "catalogId": "tvdb.list.6034.movies",
                 "type": "movie",
-                "name": "Men in Black Franchise - Movies",
+                "name": "Men in Black - Movies",
                 "genre": null,
                 "baseType": "movie"
               }
@@ -10966,7 +10841,7 @@
           },
           {
             "id": "tvdb-108",
-            "title": "The Fast & The Furious Franchise",
+            "title": "The Fast & The Furious",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/108.webp",
@@ -10988,7 +10863,7 @@
           },
           {
             "id": "tvdb-70",
-            "title": "The Walking Dead Franchise",
+            "title": "The Walking Dead",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/70.webp",
@@ -11010,7 +10885,7 @@
           },
           {
             "id": "tvdb-104",
-            "title": "Transformers: Film Franchise",
+            "title": "Transformers: Film",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/104.webp",
@@ -11032,7 +10907,7 @@
           },
           {
             "id": "tvdb-79",
-            "title": "Breaking Bad Franchise",
+            "title": "Breaking Bad",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/79.webp",
@@ -11061,7 +10936,7 @@
           },
           {
             "id": "tvdb-6056",
-            "title": "Die Hard Franchise",
+            "title": "Die Hard",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6056.webp",
@@ -11075,7 +10950,7 @@
               {
                 "catalogId": "tvdb.list.6056.movies",
                 "type": "movie",
-                "name": "Die Hard Franchise - Movies",
+                "name": "Die Hard - Movies",
                 "genre": null,
                 "baseType": "movie"
               }
@@ -11083,7 +10958,7 @@
           },
           {
             "id": "tvdb-6087",
-            "title": "Deadpool Franchise",
+            "title": "Deadpool",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6087.webp",
@@ -11097,7 +10972,7 @@
               {
                 "catalogId": "tvdb.list.6087.movies",
                 "type": "movie",
-                "name": "Deadpool Franchise - Movies",
+                "name": "Deadpool - Movies",
                 "genre": null,
                 "baseType": "movie"
               }
@@ -11105,7 +10980,7 @@
           },
           {
             "id": "tvdb-87",
-            "title": "Predator Franchise",
+            "title": "Predator",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/87.webp",
@@ -11127,7 +11002,7 @@
           },
           {
             "id": "tvdb-90",
-            "title": "The Lord of the Rings Franchise",
+            "title": "The Lord of the Rings",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/90.webp",
@@ -11149,7 +11024,7 @@
           },
           {
             "id": "tvdb-61",
-            "title": "The Eastrail 177 Trilogy",
+            "title": "The Eastrail 177",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/61.webp",
@@ -11171,7 +11046,7 @@
           },
           {
             "id": "tvdb-6042",
-            "title": "Ghostbusters Franchise",
+            "title": "Ghostbusters",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6042.webp",
@@ -11185,14 +11060,14 @@
               {
                 "catalogId": "tvdb.list.6042.movies",
                 "type": "movie",
-                "name": "Ghostbusters Franchise - Movies",
+                "name": "Ghostbusters - Movies",
                 "genre": null,
                 "baseType": "movie"
               },
               {
                 "catalogId": "tvdb.list.6042.series",
                 "type": "series",
-                "name": "Ghostbusters Franchise - Series",
+                "name": "Ghostbusters - Series",
                 "genre": null,
                 "baseType": "series"
               }
@@ -11200,7 +11075,7 @@
           },
           {
             "id": "tvdb-6634",
-            "title": "Marvel's Spider-Man Franchise",
+            "title": "Marvel's Spider-Man",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6634.webp",
@@ -11229,7 +11104,7 @@
           },
           {
             "id": "tvdb-6014",
-            "title": "Shrek Franchise",
+            "title": "Shrek",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6014.webp",
@@ -11258,7 +11133,7 @@
           },
           {
             "id": "tvdb-33",
-            "title": "Frozen Franchise",
+            "title": "Frozen",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/33.webp",
@@ -11287,7 +11162,7 @@
           },
           {
             "id": "tvdb-6645",
-            "title": "Captain America Franchise",
+            "title": "Captain America",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6645.webp",
@@ -11316,7 +11191,7 @@
           },
           {
             "id": "tvdb-31",
-            "title": "Toy Story Franchise",
+            "title": "Toy Story",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/31.webp",
@@ -11345,7 +11220,7 @@
           },
           {
             "id": "tvdb-15",
-            "title": "The Simpsons Franchise",
+            "title": "The Simpsons",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/15.webp",
@@ -11374,7 +11249,7 @@
           },
           {
             "id": "tvdb-49",
-            "title": "Jumanji Franchise",
+            "title": "Jumanji",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/49.webp",
@@ -11403,7 +11278,7 @@
           },
           {
             "id": "tvdb-6008",
-            "title": "Jurassic Park Franchise",
+            "title": "Jurassic Park",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6008.webp",
@@ -11432,7 +11307,7 @@
           },
           {
             "id": "tvdb-50",
-            "title": "It Franchise",
+            "title": "It",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/50.webp",
@@ -11460,37 +11335,8 @@
             ]
           },
           {
-            "id": "tvdb-48",
-            "title": "To All the Boys Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/48.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.48.movies",
-                "type": "movie",
-                "name": "To All the Boys Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.48.series",
-                "type": "series",
-                "name": "To All the Boys Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
             "id": "tvdb-107",
-            "title": "John Wick Franchise",
+            "title": "John Wick",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/107.webp",
@@ -11548,7 +11394,7 @@
           },
           {
             "id": "tvdb-37",
-            "title": "Hotel Transylvania Franchise",
+            "title": "Hotel Transylvania",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/37.webp",
@@ -11577,7 +11423,7 @@
           },
           {
             "id": "tvdb-32",
-            "title": "Cars Franchise",
+            "title": "Cars",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/32.webp",
@@ -11635,7 +11481,7 @@
           },
           {
             "id": "tvdb-91",
-            "title": "Rocky Franchise",
+            "title": "Rocky",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/91.webp",
@@ -11664,7 +11510,7 @@
           },
           {
             "id": "tvdb-29",
-            "title": "Terminator Franchise",
+            "title": "Terminator",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/29.webp",
@@ -11692,37 +11538,8 @@
             ]
           },
           {
-            "id": "tvdb-105",
-            "title": "Law & Order Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/105.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.105.movies",
-                "type": "movie",
-                "name": "Law & Order Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.105.series",
-                "type": "series",
-                "name": "Law & Order Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
             "id": "tvdb-98",
-            "title": "Jack Ryan Franchise",
+            "title": "Jack Ryan",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/98.webp",
@@ -11751,7 +11568,7 @@
           },
           {
             "id": "tvdb-52",
-            "title": "Blade Runner Franchise",
+            "title": "Blade Runner",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/52.webp",
@@ -11780,7 +11597,7 @@
           },
           {
             "id": "tvdb-121",
-            "title": "Stargate Franchise",
+            "title": "Stargate",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/121.webp",
@@ -11867,7 +11684,7 @@
           },
           {
             "id": "tvdb-16",
-            "title": "Free Willy Franchise",
+            "title": "Free Willy",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/16.webp",
@@ -11895,37 +11712,8 @@
             ]
           },
           {
-            "id": "tvdb-6637",
-            "title": "Bill & Ted Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6637.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.6637.movies",
-                "type": "movie",
-                "name": "Bill & Ted Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.6637.series",
-                "type": "series",
-                "name": "Bill & Ted Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
             "id": "tvdb-26",
-            "title": "Babylon 5 Franchise",
+            "title": "Babylon 5",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/26.webp",
@@ -11954,7 +11742,7 @@
           },
           {
             "id": "tvdb-101",
-            "title": "Transformers: Generation 1 Franchise",
+            "title": "Transformers: Generation 1",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/101.webp",
@@ -11983,7 +11771,7 @@
           },
           {
             "id": "tvdb-14",
-            "title": "Despicable Me Franchise",
+            "title": "Despicable Me",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/14.webp",
@@ -12004,30 +11792,8 @@
             ]
           },
           {
-            "id": "tvdb-21",
-            "title": "Matchmaker Mysteries",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/21.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.21.movies",
-                "type": "movie",
-                "name": "Matchmaker Mysteries - Movies",
-                "genre": null,
-                "baseType": "movie"
-              }
-            ]
-          },
-          {
             "id": "tvdb-44",
-            "title": "Battlestar Galactica Reboot Franchise",
+            "title": "Battlestar Galactica Reboot",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/44.webp",
@@ -12071,7 +11837,7 @@
           },
           {
             "id": "tvdb-46",
-            "title": "Wreck-It Ralph Franchise",
+            "title": "Wreck-It Ralph",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/46.webp",
@@ -12137,7 +11903,7 @@
           },
           {
             "id": "tvdb-54",
-            "title": "Final Destination Franchise",
+            "title": "Final Destination",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/54.webp",
@@ -12159,7 +11925,7 @@
           },
           {
             "id": "tvdb-57",
-            "title": "The Good Wife Franchise",
+            "title": "The Good Wife",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/57.webp",
@@ -12181,7 +11947,7 @@
           },
           {
             "id": "tvdb-72",
-            "title": "The Vampire Diaries Franchise",
+            "title": "The Vampire Diaries",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/72.webp",
@@ -12224,28 +11990,6 @@
             ]
           },
           {
-            "id": "tvdb-85",
-            "title": "Alex Cross",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/85.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.85.movies",
-                "type": "movie",
-                "name": "Alex Cross - Movies",
-                "genre": null,
-                "baseType": "movie"
-              }
-            ]
-          },
-          {
             "id": "tvdb-86",
             "title": "Alien vs. Predator",
             "shape": "POSTER",
@@ -12269,7 +12013,7 @@
           },
           {
             "id": "tvdb-92",
-            "title": "Ice Age Franchise",
+            "title": "Ice Age",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/92.webp",
@@ -12290,30 +12034,8 @@
             ]
           },
           {
-            "id": "tvdb-96",
-            "title": "9-1-1 Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/96.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.96.series",
-                "type": "series",
-                "name": "9-1-1 Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
             "id": "tvdb-97",
-            "title": "Mad Max Franchise",
+            "title": "Mad Max",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/97.webp",
@@ -12335,7 +12057,7 @@
           },
           {
             "id": "tvdb-102",
-            "title": "Transformers: Beast Wars Franchise",
+            "title": "Transformers: Beast Wars",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/102.webp",
@@ -12379,7 +12101,7 @@
           },
           {
             "id": "tvdb-6004",
-            "title": "Batman Franchise",
+            "title": "Batman",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6004.webp",
@@ -12401,7 +12123,7 @@
           },
           {
             "id": "tvdb-6007",
-            "title": "Avengers Franchise",
+            "title": "Avengers",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6007.webp",
@@ -12423,7 +12145,7 @@
           },
           {
             "id": "tvdb-6012",
-            "title": "Superman Franchise",
+            "title": "Superman",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6012.webp",
@@ -12445,7 +12167,7 @@
           },
           {
             "id": "tvdb-6580",
-            "title": "Monsters Franchise",
+            "title": "Monsters",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6580.webp",
@@ -12467,7 +12189,7 @@
           },
           {
             "id": "tvdb-6587",
-            "title": "I Spit on Your Grave Franchise",
+            "title": "I Spit on Your Grave",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6587.webp",
@@ -12489,7 +12211,7 @@
           },
           {
             "id": "tvdb-6597",
-            "title": "Air Buddies Franchise",
+            "title": "Air Buddies",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6597.webp",
@@ -12511,7 +12233,7 @@
           },
           {
             "id": "tvdb-6601",
-            "title": "Sharknado Franchise",
+            "title": "Sharknado",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6601.webp",
@@ -12533,7 +12255,7 @@
           },
           {
             "id": "tvdb-6604",
-            "title": "Descendants Franchise",
+            "title": "Descendants",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6604.webp",
@@ -12555,7 +12277,7 @@
           },
           {
             "id": "tvdb-6607",
-            "title": "Santa Buddies Franchise",
+            "title": "Santa Buddies",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6607.webp",
@@ -12577,7 +12299,7 @@
           },
           {
             "id": "tvdb-6616",
-            "title": "Kickboxer Reboot Franchise",
+            "title": "Kickboxer",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6616.webp",
@@ -12599,7 +12321,7 @@
           },
           {
             "id": "tvdb-6617",
-            "title": "Death Race Franchise",
+            "title": "Death Race",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6617.webp",
@@ -12621,7 +12343,7 @@
           },
           {
             "id": "tvdb-6619",
-            "title": "Battlestar Galactica Franchise",
+            "title": "Battlestar Galactica",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6619.webp",
@@ -12643,7 +12365,7 @@
           },
           {
             "id": "tvdb-6620",
-            "title": "Halloween (Rob Zombie) Franchise",
+            "title": "Halloween (Rob Zombie)",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6620.webp",
@@ -12665,7 +12387,7 @@
           },
           {
             "id": "tvdb-6621",
-            "title": "Planet of the Apes Reboot Franchise",
+            "title": "Planet of the Apes",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6621.webp",
@@ -12687,7 +12409,7 @@
           },
           {
             "id": "tvdb-6626",
-            "title": "Alvin and the Chipmunks Franchise",
+            "title": "Alvin and the Chipmunks",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6626.webp",
@@ -12708,30 +12430,8 @@
             ]
           },
           {
-            "id": "tvdb-6627",
-            "title": "The Tonight Show Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6627.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.6627.series",
-                "type": "series",
-                "name": "The Tonight Show Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
             "id": "tvdb-6631",
-            "title": "Man of Steel Franchise",
+            "title": "Man of Steel",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6631.webp",
@@ -12753,7 +12453,7 @@
           },
           {
             "id": "tvdb-6632",
-            "title": "Teenage Mutant Ninja Turtles Reboot Franchise",
+            "title": "Teenage Mutant Ninja Turtles",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6632.webp",
@@ -12775,7 +12475,7 @@
           },
           {
             "id": "tvdb-6633",
-            "title": "The Amazing Spider-Man Franchise",
+            "title": "The Amazing Spider-Man",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6633.webp",
@@ -12797,7 +12497,7 @@
           },
           {
             "id": "tvdb-6638",
-            "title": "Police Story Franchise",
+            "title": "Police Story",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6638.webp",
@@ -12819,7 +12519,7 @@
           },
           {
             "id": "tvdb-6639",
-            "title": "Lucky Stars Franchise",
+            "title": "Lucky Stars",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6639.webp",
@@ -12841,7 +12541,7 @@
           },
           {
             "id": "tvdb-6642",
-            "title": "Armour of God Franchise",
+            "title": "Armour of God",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6642.webp",
@@ -12863,7 +12563,7 @@
           },
           {
             "id": "tvdb-6644",
-            "title": "Once Upon a Time in China Franchise",
+            "title": "Once Upon a Time in China",
             "shape": "POSTER",
             "hideTitle": true,
             "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6644.webp",
