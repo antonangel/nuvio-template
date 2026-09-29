@@ -66,14 +66,13 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
 
 - 20s, 10s, 00s, 90s, 80s, 70s (each: movies + a per-decade popular-series catalog)
 
-**Franchises** — 70 folders, `FOLLOW_LAYOUT` view
+**Collections** — 195 folders, `FOLLOW_LAYOUT` view
 
-- Marvel, DC Universe, Star Wars, James Bond, Harry Potter, Alien vs Predator, Pirates of the Caribbean, Terminator, Mission Impossible, Jurassic Park, The Matrix, Lord of the Rings, A Nightmare On Elm Street, A Quiet Place, Alien, American Pie, Are You Afraid Of The Dark, Avatar, Back To The Future, Bad Boys, Blair Witch, Bourne Collection, Candyman, Chucky, Dexter, Die Hard, Dune, Eberhofer Krimis, Expendables, Fast Furious, Final Destination, Friday The 13Th, Ghostbusters, Gremlins, Halloween, Hannibal Lecter, Happy Death Day, Hunger Games, Indiana Jones, It, John Wick, Jurassic World, Karate Kid, Kingsman, Mad Max, Monsterverse, Now You See Me, Oceans, Paranormal Activity, Planet Of The Apes, Police Academy, Predator, Psycho, Quarantine, Rambo, Resident Evil, Rocky, Saw, Scream, Sherlock Holmes, Star Trek, Taken, Terrifier, The Conjuring Universe, The Exorcist, The Godfather, The Purge, The Shining, Transformers, Xxx
-
-
-19 of the 70 folders carry a second `<Franchise> - Series` row where the franchise has
-series (TVDB curated lists for 15, MDBList for Dexter and Ghostbusters, TMDB keyword discover
-for DC Universe and Sherlock Holmes).
+- The top 200 TVDB lists ([thetvdb.com/lists](https://www.thetvdb.com/lists)), one folder per list;
+  each folder gets a `Movies` and/or `Series` source (`tvdb.list.<id>.movies` / `.series`) depending
+  on what the list contains. The 5 empty lists in the top 200 (Hotstar, LAWAL BEL SAF, Tmkuc, 第一季,
+  Spongebob) are skipped. Cover art is the list's own TVDB artwork, mirrored to `images/lists/<id>.webp`
+  (2 of the 195 lists have no artwork on TVDB).
 
 **Awards** — 6 folders, `FOLLOW_LAYOUT` view
 
