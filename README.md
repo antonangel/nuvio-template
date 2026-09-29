@@ -29,6 +29,8 @@ already merged into `nuvio-collections.json`.
 `aiometadata-setup-2026-09-29-v2.json` (352 catalogs) prunes the removed genre tiles' catalogs;
 `aiometadata-setup-2026-09-29-v3.json` is v2 with the Collections collection's 69 franchise
 catalogs set to `released`/`desc` (release order, oldest first) — import v3 if you want that too.
+`aiometadata-setup-2026-09-29-v4.json` (330 catalogs) is v3 without the Starz, Shudder and
+Adult Swim folders and their 22 catalogs.
 
 ## Importing
 
