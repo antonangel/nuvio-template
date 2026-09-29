@@ -2476,7 +2476,7 @@
     "folders": [
       {
         "id": "460733b4-88fd-412e-816a-2284327afc71",
-        "title": "20s Movies",
+        "title": "20s",
         "sources": [
           {
             "type": "movie",
@@ -2484,6 +2484,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.158796"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.20s-series.1a0eed5ce4b"
           }
         ],
         "hideTitle": true,
@@ -2494,6 +2501,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.158796"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tmdb.discover.series.20s-series.1a0eed5ce4b"
           }
         ],
         "focusGifEnabled": false,
@@ -2501,7 +2513,7 @@
       },
       {
         "id": "73fdc058-db97-438f-be2f-29f2f397a17a",
-        "title": "10s Movies",
+        "title": "10s",
         "sources": [
           {
             "type": "movie",
@@ -2509,6 +2521,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.158791"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.10s-series.1a0eed5ce4b"
           }
         ],
         "hideTitle": true,
@@ -2519,6 +2538,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.158791"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tmdb.discover.series.10s-series.1a0eed5ce4b"
           }
         ],
         "focusGifEnabled": false,
@@ -2526,7 +2550,7 @@
       },
       {
         "id": "b4ab8977-726b-4d5c-b0b3-599e5f49da9a",
-        "title": "00s Movies",
+        "title": "00s",
         "sources": [
           {
             "type": "movie",
@@ -2534,6 +2558,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.158792"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.00s-series.1a0eed5ce4b"
           }
         ],
         "hideTitle": true,
@@ -2544,6 +2575,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.158792"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tmdb.discover.series.00s-series.1a0eed5ce4b"
           }
         ],
         "focusGifEnabled": false,
@@ -2551,7 +2587,7 @@
       },
       {
         "id": "737f1d8b-07b0-45c4-bfe2-361689d5e246",
-        "title": "90s Movies",
+        "title": "90s",
         "sources": [
           {
             "type": "movie",
@@ -2559,6 +2595,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.158793"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.90s-series.1a0eed5ce4b"
           }
         ],
         "hideTitle": true,
@@ -2569,6 +2612,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.158793"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tmdb.discover.series.90s-series.1a0eed5ce4b"
           }
         ],
         "focusGifEnabled": false,
@@ -2576,7 +2624,7 @@
       },
       {
         "id": "29dd3993-05cd-4dc2-bdaa-afc5550a47f0",
-        "title": "80s Movies",
+        "title": "80s",
         "sources": [
           {
             "type": "movie",
@@ -2584,6 +2632,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.158794"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.80s-series.1a0eed5ce4b"
           }
         ],
         "hideTitle": true,
@@ -2594,6 +2649,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.158794"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tmdb.discover.series.80s-series.1a0eed5ce4b"
           }
         ],
         "focusGifEnabled": false,
@@ -2601,7 +2661,7 @@
       },
       {
         "id": "0371a3cc-f2be-4a9b-a05e-bb78f41188fb",
-        "title": "70s Movies",
+        "title": "70s",
         "sources": [
           {
             "type": "movie",
@@ -2609,6 +2669,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.158795"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.70s-series.1a0eed5ce4b"
           }
         ],
         "hideTitle": true,
@@ -2619,6 +2686,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.158795"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tmdb.discover.series.70s-series.1a0eed5ce4b"
           }
         ],
         "focusGifEnabled": false,
@@ -3431,7 +3503,7 @@
         "title": "Jurassic Park",
         "sources": [
           {
-            "type": "all",
+            "type": "movie",
             "genre": "",
             "addonId": "aio-metadata",
             "provider": "addon",
@@ -3443,7 +3515,7 @@
         "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/jurrasic-park.jpg",
         "catalogSources": [
           {
-            "type": "all",
+            "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.120197"
           }

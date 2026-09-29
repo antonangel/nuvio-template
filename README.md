@@ -64,7 +64,7 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
 
 **Decades** — 6 folders, `FOLLOW_LAYOUT` view
 
-- 20s Movies, 10s Movies, 00s Movies, 90s Movies, 80s Movies, 70s Movies
+- 20s, 10s, 00s, 90s, 80s, 70s (each: movies + a per-decade popular-series catalog)
 
 **Collections** — 70 folders, `FOLLOW_LAYOUT` view
 
