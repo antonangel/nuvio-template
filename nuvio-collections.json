@@ -3471,42 +3471,6 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6042.webp"
       },
       {
-        "id": "tvdb-76",
-        "title": "Culture LGBTQ+",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.76.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.76.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.76.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.76.series"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/76.webp"
-      },
-      {
         "id": "tvdb-6634",
         "title": "Marvel's Spider-Man Franchise",
         "sources": [
@@ -4047,42 +4011,6 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/55.webp"
       },
       {
-        "id": "tvdb-82",
-        "title": "Based on Jane Austen\u2019s Pride & Prejudice",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.82.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.82.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.82.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.82.series"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/82.webp"
-      },
-      {
         "id": "tvdb-91",
         "title": "Rocky Franchise",
         "sources": [
@@ -4189,42 +4117,6 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/105.webp"
-      },
-      {
-        "id": "tvdb-83",
-        "title": "Based on Jane Austen\u2019s Emma",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.83.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.83.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.83.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.83.series"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/83.webp"
       },
       {
         "id": "tvdb-98",
@@ -4369,42 +4261,6 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6651.webp"
-      },
-      {
-        "id": "tvdb-94",
-        "title": "Arthur and the Invisibles",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.94.movies"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.94.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.94.movies"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.94.series"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/94.webp"
       },
       {
         "id": "tvdb-77",
@@ -4611,54 +4467,6 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/14.webp"
       },
       {
-        "id": "tvdb-19",
-        "title": "Martha's Vineyard Mysteries",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.19.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.19.movies"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/19.webp"
-      },
-      {
-        "id": "tvdb-20",
-        "title": "Gourmet Detective",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.20.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.20.movies"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/20.webp"
-      },
-      {
         "id": "tvdb-21",
         "title": "Matchmaker Mysteries",
         "sources": [
@@ -4681,30 +4489,6 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/21.webp"
-      },
-      {
-        "id": "tvdb-27",
-        "title": "Reply Franchise",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.27.series"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.27.series"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/27.webp"
       },
       {
         "id": "tvdb-44",
@@ -4899,30 +4683,6 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/72.webp"
       },
       {
-        "id": "tvdb-80",
-        "title": "The Kissing Booth Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.80.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.80.movies"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/80.webp"
-      },
-      {
         "id": "tvdb-84",
         "title": "Lethal Weapon",
         "sources": [
@@ -4993,30 +4753,6 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/86.webp"
-      },
-      {
-        "id": "tvdb-89",
-        "title": "Romancing the Stone Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.89.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.89.movies"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/89.webp"
       },
       {
         "id": "tvdb-92",
@@ -5259,30 +4995,6 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6587.webp"
       },
       {
-        "id": "tvdb-6596",
-        "title": "Barbie Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6596.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6596.movies"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6596.webp"
-      },
-      {
         "id": "tvdb-6597",
         "title": "Air Buddies Franchise",
         "sources": [
@@ -5305,54 +5017,6 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6597.webp"
-      },
-      {
-        "id": "tvdb-6599",
-        "title": "Tinker Bell Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6599.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6599.movies"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6599.webp"
-      },
-      {
-        "id": "tvdb-6600",
-        "title": "Monster High Franchise",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tvdb.list.6600.movies"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "focusGifEnabled": false,
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "tvdb.list.6600.movies"
-          }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6600.webp"
       },
       {
         "id": "tvdb-6601",

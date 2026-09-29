@@ -57,7 +57,7 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
 
 ## Collections — what `nuvio-collections.json` builds
 
-5 top folders, 147 sub-folders, each with `coverImageUrl` and its catalog `sources`.
+5 top folders, 135 sub-folders, each with `coverImageUrl` and its catalog `sources`.
 
 
 **Streaming Services** — 8 folders, `FOLLOW_LAYOUT` view
@@ -72,7 +72,7 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
 
 - 20s, 10s, 00s, 90s, 80s, 70s (each: movies + a per-decade popular-series catalog)
 
-**Collections** — 105 folders, `FOLLOW_LAYOUT` view
+**Collections** — 93 folders, `FOLLOW_LAYOUT` view
 
 - TVDB lists ([thetvdb.com/lists](https://www.thetvdb.com/lists)), one folder per list; each folder
   gets a `Movies` and/or `Series` source (`tvdb.list.<id>.movies` / `.series`) depending on what the
@@ -90,9 +90,14 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
   (`/v4/lists/slug/<slug>`) and their catalogs were added to the export.
 - **Order** is popularity, not id: **25 folders carry a real TVDB ⭐** (the favorites count on
   thetvdb.com/lists, which TVDB renders server-side only for the Official Lists — MCU 282, Star Wars
-  116 … Ghostbusters 32) and lead in that order; then 31 folders ordered by the TVDB API's `score`
-  (popularity — many lists are unscored and score 0, so it is a weak key); the remaining 49 unscored
+  116 … Ghostbusters 32) and lead in that order; then 27 folders ordered by the TVDB API's `score`
+  (popularity — many lists are unscored and score 0, so it is a weak key); the remaining 41 unscored
   folders keep their file order. Re-sort by rewriting the ranking in the build, not by hand.
+- Six covers are pinned to a chosen poster rather than the page default (MCU, Star Wars, Arrowverse,
+  Harry Potter, Star Trek, The Matrix) — same URL grammar, same mirror.
+- 12 lists were dropped by request: Culture LGBTQ+, Based on Jane Austen's Pride & Prejudice, Based on
+  Jane Austen's Emma, Arthur and the Invisibles, Martha's Vineyard Mysteries, Gourmet Detective, Reply,
+  The Kissing Booth, Romancing the Stone, Barbie, Tinker Bell, Monster High.
 
 **Awards** — 6 folders, `FOLLOW_LAYOUT` view
 

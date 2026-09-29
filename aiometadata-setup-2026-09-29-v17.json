@@ -1,6 +1,6 @@
 {
   "version": "3.2.3",
-  "exportedAt": "2026-09-29T22:48:23.352889Z",
+  "exportedAt": "2026-09-29T22:57:26.628352Z",
   "config": {
     "mal": {
       "skipRecap": false,
@@ -7462,30 +7462,6 @@
         }
       },
       {
-        "id": "tvdb.list.19.movies",
-        "type": "movie",
-        "name": "Martha's Vineyard Mysteries - Movies",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (movie)"
-        }
-      },
-      {
-        "id": "tvdb.list.20.movies",
-        "type": "movie",
-        "name": "Gourmet Detective - Movies",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (movie)"
-        }
-      },
-      {
         "id": "tvdb.list.21.movies",
         "type": "movie",
         "name": "Matchmaker Mysteries - Movies",
@@ -7525,19 +7501,6 @@
         "id": "tvdb.list.26.series",
         "type": "series",
         "name": "Babylon 5 Franchise - Series",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (series)"
-        },
-        "displayType": "series"
-      },
-      {
-        "id": "tvdb.list.27.series",
-        "type": "series",
-        "name": "Reply Franchise - Series",
         "source": "tvdb",
         "enabled": true,
         "showInHome": false,
@@ -7920,31 +7883,6 @@
         "displayType": "series"
       },
       {
-        "id": "tvdb.list.76.movies",
-        "type": "movie",
-        "name": "Culture LGBTQ+ - Movies",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (movie)"
-        }
-      },
-      {
-        "id": "tvdb.list.76.series",
-        "type": "series",
-        "name": "Culture LGBTQ+ - Series",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (series)"
-        },
-        "displayType": "series"
-      },
-      {
         "id": "tvdb.list.77.movies",
         "type": "movie",
         "name": "Veronica Mars - Movies",
@@ -7995,18 +7933,6 @@
         "displayType": "series"
       },
       {
-        "id": "tvdb.list.80.movies",
-        "type": "movie",
-        "name": "The Kissing Booth Franchise - Movies",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (movie)"
-        }
-      },
-      {
         "id": "tvdb.list.81.movies",
         "type": "movie",
         "name": "Back to the Future Franchise - Movies",
@@ -8017,56 +7943,6 @@
         "metadata": {
           "description": "TVDB list (movie)"
         }
-      },
-      {
-        "id": "tvdb.list.82.movies",
-        "type": "movie",
-        "name": "Based on Jane Austen\u2019s Pride & Prejudice - Movies",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (movie)"
-        }
-      },
-      {
-        "id": "tvdb.list.82.series",
-        "type": "series",
-        "name": "Based on Jane Austen\u2019s Pride & Prejudice - Series",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (series)"
-        },
-        "displayType": "series"
-      },
-      {
-        "id": "tvdb.list.83.movies",
-        "type": "movie",
-        "name": "Based on Jane Austen\u2019s Emma - Movies",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (movie)"
-        }
-      },
-      {
-        "id": "tvdb.list.83.series",
-        "type": "series",
-        "name": "Based on Jane Austen\u2019s Emma - Series",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (series)"
-        },
-        "displayType": "series"
       },
       {
         "id": "tvdb.list.84.movies",
@@ -8108,18 +7984,6 @@
         "id": "tvdb.list.87.movies",
         "type": "movie",
         "name": "Predator Franchise - Movies",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (movie)"
-        }
-      },
-      {
-        "id": "tvdb.list.89.movies",
-        "type": "movie",
-        "name": "Romancing the Stone Franchise - Movies",
         "source": "tvdb",
         "enabled": true,
         "showInHome": false,
@@ -8188,31 +8052,6 @@
         "metadata": {
           "description": "TVDB list (movie)"
         }
-      },
-      {
-        "id": "tvdb.list.94.movies",
-        "type": "movie",
-        "name": "Arthur and the Invisibles - Movies",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (movie)"
-        }
-      },
-      {
-        "id": "tvdb.list.94.series",
-        "type": "series",
-        "name": "Arthur and the Invisibles - Series",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (series)"
-        },
-        "displayType": "series"
       },
       {
         "id": "tvdb.list.96.series",
@@ -8535,45 +8374,9 @@
         }
       },
       {
-        "id": "tvdb.list.6596.movies",
-        "type": "movie",
-        "name": "Barbie Franchise - Movies",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (movie)"
-        }
-      },
-      {
         "id": "tvdb.list.6597.movies",
         "type": "movie",
         "name": "Air Buddies Franchise - Movies",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (movie)"
-        }
-      },
-      {
-        "id": "tvdb.list.6599.movies",
-        "type": "movie",
-        "name": "Tinker Bell Franchise - Movies",
-        "source": "tvdb",
-        "enabled": true,
-        "showInHome": false,
-        "cacheTTL": 86400,
-        "metadata": {
-          "description": "TVDB list (movie)"
-        }
-      },
-      {
-        "id": "tvdb.list.6600.movies",
-        "type": "movie",
-        "name": "Monster High Franchise - Movies",
         "source": "tvdb",
         "enabled": true,
         "showInHome": false,
@@ -11396,35 +11199,6 @@
             ]
           },
           {
-            "id": "tvdb-76",
-            "title": "Culture LGBTQ+",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/76.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.76.movies",
-                "type": "movie",
-                "name": "Culture LGBTQ+ - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.76.series",
-                "type": "series",
-                "name": "Culture LGBTQ+ - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
             "id": "tvdb-6634",
             "title": "Marvel's Spider-Man Franchise",
             "shape": "POSTER",
@@ -11860,35 +11634,6 @@
             ]
           },
           {
-            "id": "tvdb-82",
-            "title": "Based on Jane Austen\u2019s Pride & Prejudice",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/82.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.82.movies",
-                "type": "movie",
-                "name": "Based on Jane Austen\u2019s Pride & Prejudice - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.82.series",
-                "type": "series",
-                "name": "Based on Jane Austen\u2019s Pride & Prejudice - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
             "id": "tvdb-91",
             "title": "Rocky Franchise",
             "shape": "POSTER",
@@ -11970,35 +11715,6 @@
                 "catalogId": "tvdb.list.105.series",
                 "type": "series",
                 "name": "Law & Order Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-83",
-            "title": "Based on Jane Austen\u2019s Emma",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/83.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.83.movies",
-                "type": "movie",
-                "name": "Based on Jane Austen\u2019s Emma - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.83.series",
-                "type": "series",
-                "name": "Based on Jane Austen\u2019s Emma - Series",
                 "genre": null,
                 "baseType": "series"
               }
@@ -12115,35 +11831,6 @@
                 "catalogId": "tvdb.list.6651.series",
                 "type": "series",
                 "name": "DC Animated Universe - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-94",
-            "title": "Arthur and the Invisibles",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/94.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.94.movies",
-                "type": "movie",
-                "name": "Arthur and the Invisibles - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.94.series",
-                "type": "series",
-                "name": "Arthur and the Invisibles - Series",
                 "genre": null,
                 "baseType": "series"
               }
@@ -12317,50 +12004,6 @@
             ]
           },
           {
-            "id": "tvdb-19",
-            "title": "Martha's Vineyard Mysteries",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/19.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.19.movies",
-                "type": "movie",
-                "name": "Martha's Vineyard Mysteries - Movies",
-                "genre": null,
-                "baseType": "movie"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-20",
-            "title": "Gourmet Detective",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/20.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.20.movies",
-                "type": "movie",
-                "name": "Gourmet Detective - Movies",
-                "genre": null,
-                "baseType": "movie"
-              }
-            ]
-          },
-          {
             "id": "tvdb-21",
             "title": "Matchmaker Mysteries",
             "shape": "POSTER",
@@ -12379,28 +12022,6 @@
                 "name": "Matchmaker Mysteries - Movies",
                 "genre": null,
                 "baseType": "movie"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-27",
-            "title": "Reply Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/27.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.27.series",
-                "type": "series",
-                "name": "Reply Franchise - Series",
-                "genre": null,
-                "baseType": "series"
               }
             ]
           },
@@ -12581,28 +12202,6 @@
             ]
           },
           {
-            "id": "tvdb-80",
-            "title": "The Kissing Booth Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/80.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.80.movies",
-                "type": "movie",
-                "name": "The Kissing Booth Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              }
-            ]
-          },
-          {
             "id": "tvdb-84",
             "title": "Lethal Weapon",
             "shape": "POSTER",
@@ -12663,28 +12262,6 @@
                 "catalogId": "tvdb.list.86.movies",
                 "type": "movie",
                 "name": "Alien vs. Predator - Movies",
-                "genre": null,
-                "baseType": "movie"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-89",
-            "title": "Romancing the Stone Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/89.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.89.movies",
-                "type": "movie",
-                "name": "Romancing the Stone Franchise - Movies",
                 "genre": null,
                 "baseType": "movie"
               }
@@ -12911,28 +12488,6 @@
             ]
           },
           {
-            "id": "tvdb-6596",
-            "title": "Barbie Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6596.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.6596.movies",
-                "type": "movie",
-                "name": "Barbie Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              }
-            ]
-          },
-          {
             "id": "tvdb-6597",
             "title": "Air Buddies Franchise",
             "shape": "POSTER",
@@ -12949,50 +12504,6 @@
                 "catalogId": "tvdb.list.6597.movies",
                 "type": "movie",
                 "name": "Air Buddies Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-6599",
-            "title": "Tinker Bell Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6599.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.6599.movies",
-                "type": "movie",
-                "name": "Tinker Bell Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-6600",
-            "title": "Monster High Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6600.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.6600.movies",
-                "type": "movie",
-                "name": "Monster High Franchise - Movies",
                 "genre": null,
                 "baseType": "movie"
               }
