@@ -83,6 +83,10 @@ the 17 Genres rows now have local art instead of hotlinking `fusion-starter-kit`
 in `.webp` while the URLs still point at upstream's `.png`/`.jpg` — a host swap means swapping those
 extensions too.
 
+`images/networks/` (69 files — 30 networks × cover/hero/logo) is the exception: those originals exist in no
+upstream repository, so it keeps the earlier q78/500-wide encode. Only two of the files are used at all —
+the Adult Swim cover and the Starz hero, both rebuilt from upstream.
+
 ## Catalogs
 
 ### Main profile — `aiometadata-collections.json`
