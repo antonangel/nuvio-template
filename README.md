@@ -21,6 +21,11 @@ images/        the folder/collection art library, one dir per family
 The two AIOMetadata files are **two different profiles, not two halves of one config** —
 different catalog sets, different manager accounts, different defaults. Import the one you want.
 
+Two later additions, same current state: `aiometadata-setup-2026-09-29.json` is the main profile
+re-exported after 45 MDBList catalogs were added (396 catalogs), and
+`genres-wide-dannyrutledge.nuvio.json` is the 52-tile Genres collection on its own — the same one
+already merged into `nuvio-collections.json`.
+
 ## Importing
 
 - `aiometadata-collections.json` / `aiometadata-no-collections.json` → AIOMetadata → **Import config**.
@@ -50,9 +55,9 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
 
 - Netflix, Disney+, Apple TV, Prime Video, HBO Max, Hulu, Paramount+, Peacock, Starz, Shudder, Adult Swim
 
-**Genres** — 17 folders, `FOLLOW_LAYOUT` view
+**Genres** — 52 folders, `FOLLOW_LAYOUT` view
 
-- Action, Comedy, Sci-Fi, Crime, Thriller, Drama, Horror, Mystery, Mindfuck, Anime, Documentary, Romance, History, Animation, Reality TV, Family, Nature
+- Action, Action Adventures, Action Thrillers, Adult Animation, Adventure, Aliens, Animation, Anime, Classics, Comedy, Creature Features, Crime, Dark Fantasy, Disaster Epics, Documentary, Drama, Dystopian Futures, Family Movie Night, Fantasy, Fantasy Adventures, Favorite Cartoons, Frontier Grit, High Seas Heroics, Historical Blockbusters, Horror, Independent, International, Kids, Learning Corner, Lovable Monsters, Music, Music Movies, Myths and Legends, Nature, Psychological Terror, Reality, Robots and AI, Romance, Sci-Fi, Short Films, Space Epics, Spies, Super Shocks, Superheroes, Techno Thrillers, Thriller, Treasure Hunts, VHS Era Frightmares, War Stories, Westerns, Whodunits, Zombie Orama
 
 **Decades** — 6 folders, `FOLLOW_LAYOUT` view
 
