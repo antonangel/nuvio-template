@@ -2902,8 +2902,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.10.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/10.webp"
+        ]
       },
       {
         "id": "tvdb-11",
@@ -2938,8 +2937,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.11.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/11.webp"
+        ]
       },
       {
         "id": "tvdb-12",
@@ -3574,8 +3572,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.41.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/41.webp"
+        ]
       },
       {
         "id": "tvdb-43",
@@ -3598,8 +3595,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.43.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/43.webp"
+        ]
       },
       {
         "id": "tvdb-44",
@@ -3946,8 +3942,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.56.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/56.webp"
+        ]
       },
       {
         "id": "tvdb-57",
@@ -4006,8 +4001,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.58.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/58.webp"
+        ]
       },
       {
         "id": "tvdb-61",
@@ -4054,8 +4048,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.62.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/62.webp"
+        ]
       },
       {
         "id": "tvdb-64",
@@ -4078,8 +4071,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.64.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/64.webp"
+        ]
       },
       {
         "id": "tvdb-67",
@@ -4114,8 +4106,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.67.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/67.webp"
+        ]
       },
       {
         "id": "tvdb-69",
@@ -4138,8 +4129,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.69.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/69.webp"
+        ]
       },
       {
         "id": "tvdb-70",
@@ -4210,8 +4200,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.74.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/74.webp"
+        ]
       },
       {
         "id": "tvdb-75",
@@ -4246,8 +4235,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.75.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/75.webp"
+        ]
       },
       {
         "id": "tvdb-76",
@@ -4342,8 +4330,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.78.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/78.webp"
+        ]
       },
       {
         "id": "tvdb-79",
@@ -4942,8 +4929,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.103.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/103.webp"
+        ]
       },
       {
         "id": "tvdb-104",
@@ -5038,8 +5024,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.106.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/106.webp"
+        ]
       },
       {
         "id": "tvdb-107",
@@ -5122,8 +5107,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.109.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/109.webp"
+        ]
       },
       {
         "id": "tvdb-110",
@@ -5146,8 +5130,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.110.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/110.webp"
+        ]
       },
       {
         "id": "tvdb-112",
@@ -5170,8 +5153,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.112.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/112.webp"
+        ]
       },
       {
         "id": "tvdb-113",
@@ -5194,8 +5176,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.113.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/113.webp"
+        ]
       },
       {
         "id": "tvdb-114",
@@ -5218,8 +5199,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.114.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/114.webp"
+        ]
       },
       {
         "id": "tvdb-115",
@@ -5254,8 +5234,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.115.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/115.webp"
+        ]
       },
       {
         "id": "tvdb-116",
@@ -5278,8 +5257,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.116.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/116.webp"
+        ]
       },
       {
         "id": "tvdb-117",
@@ -5302,8 +5280,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.117.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/117.webp"
+        ]
       },
       {
         "id": "tvdb-118",
@@ -5326,8 +5303,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.118.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/118.webp"
+        ]
       },
       {
         "id": "tvdb-119",
@@ -5350,8 +5326,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.119.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/119.webp"
+        ]
       },
       {
         "id": "tvdb-121",
@@ -5446,8 +5421,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.124.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/124.webp"
+        ]
       },
       {
         "id": "tvdb-6003",
@@ -5698,8 +5672,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6579.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6579.webp"
+        ]
       },
       {
         "id": "tvdb-6580",
@@ -5746,8 +5719,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6581.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6581.webp"
+        ]
       },
       {
         "id": "tvdb-6582",
@@ -5770,8 +5742,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6582.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6582.webp"
+        ]
       },
       {
         "id": "tvdb-6583",
@@ -5794,8 +5765,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6583.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6583.webp"
+        ]
       },
       {
         "id": "tvdb-6584",
@@ -5818,8 +5788,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6584.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6584.webp"
+        ]
       },
       {
         "id": "tvdb-6585",
@@ -5842,8 +5811,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6585.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6585.webp"
+        ]
       },
       {
         "id": "tvdb-6587",
@@ -5890,8 +5858,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6588.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6588.webp"
+        ]
       },
       {
         "id": "tvdb-6596",
@@ -6058,8 +6025,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6605.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6605.webp"
+        ]
       },
       {
         "id": "tvdb-6606",
@@ -6082,8 +6048,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6606.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6606.webp"
+        ]
       },
       {
         "id": "tvdb-6607",
@@ -6130,8 +6095,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6608.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6608.webp"
+        ]
       },
       {
         "id": "tvdb-6613",
@@ -6154,8 +6118,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6613.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6613.webp"
+        ]
       },
       {
         "id": "tvdb-6614",
@@ -6178,8 +6141,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6614.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6614.webp"
+        ]
       },
       {
         "id": "tvdb-6616",
@@ -6250,8 +6212,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6618.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6618.webp"
+        ]
       },
       {
         "id": "tvdb-6619",
@@ -6346,8 +6307,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6622.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6622.webp"
+        ]
       },
       {
         "id": "tvdb-6623",
@@ -6382,8 +6342,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6623.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6623.webp"
+        ]
       },
       {
         "id": "tvdb-6624",
@@ -6418,8 +6377,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6624.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6624.webp"
+        ]
       },
       {
         "id": "tvdb-6625",
@@ -6442,8 +6400,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6625.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6625.webp"
+        ]
       },
       {
         "id": "tvdb-6626",
@@ -6634,8 +6591,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6635.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6635.webp"
+        ]
       },
       {
         "id": "tvdb-6636",
@@ -6658,8 +6614,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6636.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6636.webp"
+        ]
       },
       {
         "id": "tvdb-6637",
@@ -6766,8 +6721,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6640.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6640.webp"
+        ]
       },
       {
         "id": "tvdb-6641",
@@ -6790,8 +6744,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6641.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6641.webp"
+        ]
       },
       {
         "id": "tvdb-6642",
@@ -6838,8 +6791,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6643.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6643.webp"
+        ]
       },
       {
         "id": "tvdb-6644",
@@ -6922,8 +6874,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6646.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6646.webp"
+        ]
       },
       {
         "id": "tvdb-6647",
@@ -6946,8 +6897,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6647.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6647.webp"
+        ]
       },
       {
         "id": "tvdb-6648",
@@ -6970,8 +6920,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6648.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6648.webp"
+        ]
       },
       {
         "id": "tvdb-6649",
@@ -6994,8 +6943,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6649.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6649.webp"
+        ]
       },
       {
         "id": "tvdb-6650",
@@ -7018,8 +6966,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6650.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6650.webp"
+        ]
       },
       {
         "id": "tvdb-6651",
@@ -7210,8 +7157,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6658.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6658.webp"
+        ]
       },
       {
         "id": "tvdb-6659",
@@ -7234,8 +7180,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6659.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6659.webp"
+        ]
       },
       {
         "id": "tvdb-6660",
@@ -7258,8 +7203,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6660.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6660.webp"
+        ]
       },
       {
         "id": "tvdb-6661",
@@ -7306,8 +7250,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6662.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6662.webp"
+        ]
       },
       {
         "id": "tvdb-6663",
@@ -7330,8 +7273,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6663.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6663.webp"
+        ]
       },
       {
         "id": "tvdb-6664",
@@ -7354,8 +7296,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6664.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6664.webp"
+        ]
       },
       {
         "id": "tvdb-6667",
@@ -7401,8 +7342,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6669.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6669.webp"
+        ]
       },
       {
         "id": "tvdb-6670",
@@ -7425,8 +7365,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6670.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6670.webp"
+        ]
       },
       {
         "id": "tvdb-6671",
@@ -7449,8 +7388,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6671.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6671.webp"
+        ]
       },
       {
         "id": "tvdb-6672",
@@ -7473,8 +7411,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6672.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6672.webp"
+        ]
       },
       {
         "id": "tvdb-6673",
@@ -7497,8 +7434,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6673.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6673.webp"
+        ]
       },
       {
         "id": "tvdb-6675",
@@ -7521,8 +7457,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6675.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6675.webp"
+        ]
       },
       {
         "id": "tvdb-6676",
@@ -7605,8 +7540,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6678.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6678.webp"
+        ]
       },
       {
         "id": "tvdb-6679",
@@ -7629,8 +7563,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6679.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6679.webp"
+        ]
       },
       {
         "id": "tvdb-6681",
@@ -7653,8 +7586,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6681.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6681.webp"
+        ]
       },
       {
         "id": "tvdb-6682",
@@ -7677,8 +7609,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6682.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6682.webp"
+        ]
       },
       {
         "id": "tvdb-6683",
@@ -7701,8 +7632,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6683.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6683.webp"
+        ]
       },
       {
         "id": "tvdb-6685",
@@ -7725,8 +7655,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6685.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6685.webp"
+        ]
       },
       {
         "id": "tvdb-6686",
@@ -7749,8 +7678,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6686.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6686.webp"
+        ]
       },
       {
         "id": "tvdb-6687",
@@ -7773,8 +7701,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6687.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6687.webp"
+        ]
       },
       {
         "id": "tvdb-6688",
@@ -7797,8 +7724,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6688.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6688.webp"
+        ]
       },
       {
         "id": "tvdb-6689",
@@ -7821,8 +7747,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6689.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6689.webp"
+        ]
       },
       {
         "id": "tvdb-6690",
@@ -7881,8 +7806,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6691.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6691.webp"
+        ]
       },
       {
         "id": "tvdb-6695",
@@ -7905,8 +7829,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6695.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6695.webp"
+        ]
       },
       {
         "id": "tvdb-6696",
@@ -7929,8 +7852,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6696.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6696.webp"
+        ]
       },
       {
         "id": "tvdb-6697",
@@ -7953,8 +7875,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6697.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6697.webp"
+        ]
       },
       {
         "id": "tvdb-6698",
@@ -7989,8 +7910,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6698.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6698.webp"
+        ]
       },
       {
         "id": "tvdb-6699",
@@ -8013,8 +7933,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6699.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6699.webp"
+        ]
       },
       {
         "id": "tvdb-6700",
@@ -8037,8 +7956,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6700.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6700.webp"
+        ]
       },
       {
         "id": "tvdb-6701",
@@ -8061,8 +7979,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6701.series"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6701.webp"
+        ]
       },
       {
         "id": "tvdb-6702",
@@ -8085,8 +8002,7 @@
             "addonId": "aio-metadata",
             "catalogId": "tvdb.list.6702.movies"
           }
-        ],
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6702.webp"
+        ]
       }
     ],
     "pinToTop": false,
