@@ -24,7 +24,7 @@
         ],
         "hideTitle": false,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/trending%20bd.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/discover/trending-bd.webp",
         "catalogSources": [
           {
             "type": "movies",
@@ -38,7 +38,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/trending%20bd.png"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/discover/trending-bd.webp"
       },
       {
         "id": "018f-discover-popular",
@@ -61,7 +61,7 @@
         ],
         "hideTitle": false,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/popular%20bd.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/discover/popular-bd.webp",
         "catalogSources": [
           {
             "type": "movies",
@@ -75,7 +75,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/popular%20bd.png"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/discover/popular-bd.webp"
       },
       {
         "id": "018f-discover-top",
@@ -98,7 +98,7 @@
         ],
         "hideTitle": false,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/top%20bd.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/discover/top-bd.webp",
         "catalogSources": [
           {
             "type": "movies",
@@ -112,7 +112,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/top%20bd.png"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/discover/top-bd.webp"
       },
       {
         "id": "018f-discover-latest",
@@ -135,7 +135,7 @@
         ],
         "hideTitle": false,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/latest%20bd.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/discover/latest-bd.webp",
         "catalogSources": [
           {
             "type": "series",
@@ -149,7 +149,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/latest%20bd.png"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/discover/latest-bd.webp"
       }
     ],
     "pinToTop": false,
@@ -226,7 +226,7 @@
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "titleLogoUrl": "https://raw.githubusercontent.com/illiyah/Images/main/Netflix-titlelogo.webp",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/netflixred-wide-tinted.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/streaming/netflix.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -270,7 +270,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/illiyah/Images/main/Netflix-backdrop_1080p.webp"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/streaming/netflix.webp"
       },
       {
         "id": "fad8800d-bb1a-466e-a7f2-7607dde8c4b9",
@@ -329,7 +329,7 @@
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "titleLogoUrl": "https://raw.githubusercontent.com/illiyah/Images/main/DisneyPlus-titlelogo.webp",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/disney-wide-tinted.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/streaming/disney.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -368,7 +368,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/illiyah/Images/main/DisneyPlus-backdrop_1080p.webp"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/streaming/disney.webp"
       },
       {
         "id": "8f1e1103-d5ad-43e6-b787-9cdb69ac378f",
@@ -434,7 +434,7 @@
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "titleLogoUrl": "https://raw.githubusercontent.com/illiyah/Images/main/AppleTV-titleimage.webp",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/appletv-wide-tinted.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/streaming/appletv.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -478,7 +478,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/illiyah/Images/main/AppleTV-backdrop_1080p.webp"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/streaming/appletv.webp"
       },
       {
         "id": "8d848386-9c7b-4b99-9ef0-bffb21437b81",
@@ -544,7 +544,7 @@
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "titleLogoUrl": "https://raw.githubusercontent.com/illiyah/Images/main/Prime-titlelogo.webp",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/primevideo-wide-tinted.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/streaming/primevideo.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -588,7 +588,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/illiyah/Images/main/Prime-backdrop_1080p.webp"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/streaming/primevideo.webp"
       },
       {
         "id": "97bcf552-69dd-4648-951e-cc55433bc5a4",
@@ -654,7 +654,7 @@
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "titleLogoUrl": "https://raw.githubusercontent.com/illiyah/Images/main/HBOMax-titlelogo.webp",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/hbomax-wide-tinted.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/streaming/hbomax.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -698,7 +698,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/illiyah/Images/main/HBOMax-backdrop_1080p.webp"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/streaming/hbomax.webp"
       },
       {
         "id": "081a4f41-f36f-4c1f-bbf4-6786efb5cdf0",
@@ -757,7 +757,7 @@
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "titleLogoUrl": "https://raw.githubusercontent.com/illiyah/Images/main/Hulu-titlelogo.webp",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/hulu-wide-transparent.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/streaming/hulu.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -796,7 +796,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/illiyah/Images/main/Hulu-backdrop_1080p.webp"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/streaming/hulu.webp"
       },
       {
         "id": "95be0cb8-b8dd-401d-b982-f35b1fb5b08e",
@@ -855,7 +855,7 @@
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "titleLogoUrl": "https://raw.githubusercontent.com/illiyah/Images/main/ParamountPlus-titlelogo.webp",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/tinted/paramount-wide-tinted.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/streaming/paramount.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -894,7 +894,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/illiyah/Images/main/ParamountPlus-backdrop_1080p.webp"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/streaming/paramount.webp"
       },
       {
         "id": "06b05f4d-6a7b-4714-80a5-7ddea481aab1",
@@ -953,7 +953,7 @@
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "titleLogoUrl": "https://raw.githubusercontent.com/illiyah/Images/main/Peacock-titlelogo.webp",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/transparent/peacock-wide-transparent.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/streaming/peacock.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -992,7 +992,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/illiyah/Images/main/PeacockPlus-backdrop_1080p.webp"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/streaming/peacock.webp"
       },
       {
         "id": "00d53b63-fd21-4428-891b-e975e205236b",
@@ -1051,7 +1051,7 @@
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "titleLogoUrl": "https://raw.githubusercontent.com/illiyah/Images/main/Starz-titlelogo.webp",
-        "coverImageUrl": "https://raw.githubusercontent.com/illiyah/Images/main/Starz-backdrop_1080p.webp",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/networks/starz-hero.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -1090,7 +1090,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/illiyah/Images/main/Starz-backdrop_1080p.webp"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/networks/starz-hero.webp"
       },
       {
         "id": "b31cd05a-eb2a-4289-99af-4faee46e0b40",
@@ -1149,7 +1149,7 @@
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
         "titleLogoUrl": "https://raw.githubusercontent.com/illiyah/Images/main/Shudder-titlelogo.webp",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/streaming/wide/rdnoni/color/shudder-wide-color.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/streaming/shudder.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -1188,7 +1188,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/illiyah/Images/main/Shudder-backdrop_1080p.webp"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/streaming/shudder.webp"
       },
       {
         "id": "bd92ee0e-33e2-47e4-adaa-7b0bd8c97d12",
@@ -1253,7 +1253,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/adult-swim.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/networks/adult-swim-cover.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -1357,7 +1357,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/action-wide.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/action.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -1441,7 +1441,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/comedy-wide.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/comedy.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -1525,7 +1525,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/sci-fi-wide.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/sci-fi.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -1609,7 +1609,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/crime-wide.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/crime.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -1672,7 +1672,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/thriller-wide.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/thriller.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -1741,7 +1741,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/drama-wide.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/drama.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -1825,7 +1825,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/horror-wide.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/horror.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -1909,7 +1909,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/whodunits-wide.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/whodunits.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -1958,7 +1958,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/psychological-terror-wide.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/psychological-terror.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2017,7 +2017,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/anime-wide.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/anime.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2101,7 +2101,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/documentary-wide.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/documentary.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2185,7 +2185,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/romance-wide.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/romance.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2269,7 +2269,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/historical-blockbusters-wide.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/historical-blockbusters.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2353,7 +2353,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/animation-wide.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/animation.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2416,7 +2416,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/reality-wide.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/reality.webp",
         "catalogSources": [
           {
             "type": "series",
@@ -2485,7 +2485,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/family-movie-night-wide.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/family-movie-night.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2569,7 +2569,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/itsrenoria/fusion-starter-kit/refs/heads/main/resources/widgets/genres/wide/dannyrutledge/nature-wide.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/nature.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2628,7 +2628,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://i.postimg.cc/L5jnk6gT/20s.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/decades/20s.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2637,7 +2637,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://i.postimg.cc/L5jnk6gT/20s.png"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/decades/20s.webp"
       },
       {
         "id": "73fdc058-db97-438f-be2f-29f2f397a17a",
@@ -2653,7 +2653,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://i.postimg.cc/br1s0NSR/10s.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/decades/10s.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2662,7 +2662,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://i.postimg.cc/br1s0NSR/10s.png"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/decades/10s.webp"
       },
       {
         "id": "b4ab8977-726b-4d5c-b0b3-599e5f49da9a",
@@ -2678,7 +2678,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://i.postimg.cc/RhwN1VJK/00s.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/decades/00s.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2687,7 +2687,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://i.postimg.cc/RhwN1VJK/00s.png"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/decades/00s.webp"
       },
       {
         "id": "737f1d8b-07b0-45c4-bfe2-361689d5e246",
@@ -2703,7 +2703,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://i.postimg.cc/J7XDCKYH/90s.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/decades/90s.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2712,7 +2712,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://i.postimg.cc/J7XDCKYH/90s.png"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/decades/90s.webp"
       },
       {
         "id": "29dd3993-05cd-4dc2-bdaa-afc5550a47f0",
@@ -2728,7 +2728,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://i.postimg.cc/qBKhHQDz/80s.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/decades/80s.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2737,7 +2737,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://i.postimg.cc/qBKhHQDz/80s.png"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/decades/80s.webp"
       },
       {
         "id": "0371a3cc-f2be-4a9b-a05e-bb78f41188fb",
@@ -2753,7 +2753,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://i.postimg.cc/VvXd9L0j/70s.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/decades/70s.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2762,7 +2762,7 @@
           }
         ],
         "focusGifEnabled": false,
-        "heroBackdropUrl": "https://i.postimg.cc/VvXd9L0j/70s.png"
+        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/decades/70s.webp"
       }
     ],
     "pinToTop": false,
@@ -2788,7 +2788,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/marvel.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/marvel.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2812,7 +2812,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/dc-universe.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/dc-universe.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2836,7 +2836,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/star-wars.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/star-wars.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2860,7 +2860,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/james-bond.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/james-bond.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2884,7 +2884,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/harry-potter.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/harry-potter.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2932,7 +2932,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/pirates-of-the-carribbean.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/pirates-of-the-carribbean.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2956,7 +2956,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/terminator.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/terminator.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -2980,7 +2980,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/mission-impossible.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/mission-impossible.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3028,7 +3028,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/matrix.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/matrix.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3052,7 +3052,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/lord-of-the-rings-hobbit.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/lord-of-the-rings-hobbit.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3076,7 +3076,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/a-nightmare-on-elm-street.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/a-nightmare-on-elm-street.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3100,7 +3100,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/a-quiet-place.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/a-quiet-place.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3124,7 +3124,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/alien.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/alien.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3148,7 +3148,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/american-pie.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/american-pie.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3172,7 +3172,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/are-you-afraid-of-the-dark.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/are-you-afraid-of-the-dark.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3196,7 +3196,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/avatar.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/avatar.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3220,7 +3220,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/back-to-the-future.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/back-to-the-future.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3244,7 +3244,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/bad-boys.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/bad-boys.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3268,7 +3268,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/blair-witch.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/blair-witch.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3292,7 +3292,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/bourne-collection.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/bourne-collection.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3316,7 +3316,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/candyman.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/candyman.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3340,7 +3340,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/chucky.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/chucky.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3364,7 +3364,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/dexter.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/dexter.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3388,7 +3388,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/die-hard.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/die-hard.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3412,7 +3412,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/dune.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/dune.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3436,7 +3436,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/eberhofer-krimis.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/eberhofer-krimis.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3460,7 +3460,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/expendables.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/expendables.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3484,7 +3484,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/fast-furious.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/fast-furious.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3508,7 +3508,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/final-destination.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/final-destination.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3532,7 +3532,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/friday-the-13th.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/friday-the-13th.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3556,7 +3556,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/ghostbusters.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/ghostbusters.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3580,7 +3580,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/gremlins.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/gremlins.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3604,7 +3604,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/halloween.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/halloween.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3628,7 +3628,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/hannibal-lecter.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/hannibal-lecter.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3652,7 +3652,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/happy-death-day.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/happy-death-day.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3676,7 +3676,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/hunger-games.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/hunger-games.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3700,7 +3700,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/indiana-jones.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/indiana-jones.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3724,7 +3724,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/it.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/it.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3748,7 +3748,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/john-wick.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/john-wick.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3772,7 +3772,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/jurassic-world.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/jurassic-world.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3796,7 +3796,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/karate-kid.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/karate-kid.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3820,7 +3820,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/kingsman.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/kingsman.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3844,7 +3844,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/mad-max.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/mad-max.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3868,7 +3868,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/monsterverse.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/monsterverse.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3892,7 +3892,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/now-you-see-me.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/now-you-see-me.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3916,7 +3916,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/oceans.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/oceans.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3940,7 +3940,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/paranormal-activity.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/paranormal-activity.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3964,7 +3964,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/planet-of-the-apes.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/planet-of-the-apes.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -3988,7 +3988,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/police-academy.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/police-academy.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4012,7 +4012,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/predator.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/predator.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4036,7 +4036,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/psycho.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/psycho.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4060,7 +4060,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/quarantine.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/quarantine.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4084,7 +4084,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/rambo.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/rambo.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4108,7 +4108,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/resident-evil.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/resident-evil.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4132,7 +4132,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/rocky.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/rocky.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4156,7 +4156,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/saw.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/saw.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4180,7 +4180,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/scream.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/scream.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4204,7 +4204,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/sherlock-holmes.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/sherlock-holmes.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4228,7 +4228,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/star-trek.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/star-trek.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4252,7 +4252,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/taken.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/taken.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4276,7 +4276,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/terrifier.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/terrifier.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4300,7 +4300,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/the-conjuring-universe.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/the-conjuring-universe.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4324,7 +4324,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/the-exorcist.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/the-exorcist.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4348,7 +4348,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/the-godfather.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/the-godfather.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4372,7 +4372,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/the-purge.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/the-purge.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4396,7 +4396,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/the-shining.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/the-shining.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4420,7 +4420,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/transformers.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/transformers.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4444,7 +4444,7 @@
         ],
         "hideTitle": true,
         "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/collections/xxx.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/xxx.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4478,7 +4478,7 @@
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/bafta.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/awards/bafta.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4530,7 +4530,7 @@
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/cannes.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/awards/cannes.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -4602,7 +4602,7 @@
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/emmy.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/awards/emmy.webp",
         "catalogSources": [
           {
             "type": "series",
@@ -4751,7 +4751,7 @@
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/golden-globes.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/awards/golden-globes.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -5004,7 +5004,7 @@
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/oscars.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/awards/oscars.webp",
         "catalogSources": [
           {
             "type": "movie",
@@ -5138,7 +5138,7 @@
         ],
         "hideTitle": true,
         "tileShape": "POSTER",
-        "coverImageUrl": "https://raw.githubusercontent.com/adamswlon/nuvio-collections-art/main/images/awards/venice-film-festival.jpg",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/awards/venice-film-festival.webp",
         "catalogSources": [
           {
             "type": "movie",

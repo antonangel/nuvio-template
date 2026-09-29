@@ -66,10 +66,14 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
 
 - BAFTA, Cannes, Emmy Awards, Golden Globes, Academy Awards, Venice Film Festival
 
-`images/` mirrors the layout the folders hotlink
-(`raw.githubusercontent.com/adamswlon/nuvio-collections-art/images/<family>/<name>`), alongside art
-from `itsitohere/nuvio-assets`, `illiyah/Images` and `itsrenoria/fusion-starter-kit`. Fork this, host
-`images/` yourself, and swap the host in the URLs.
+`images/` is mirrored publicly at [antonangel/nuvio-template](https://github.com/antonangel/nuvio-template)
+and `nuvio-collections.json` now points at it — `raw.githubusercontent.com/antonangel/nuvio-template/main/images/<family>/<name>.webp`
+for 112 of the 114 folders, so a TV client can fetch the tiles with no login (`git.angel.is` sits
+behind OIDC and 302s raw file reads to a login). The other two folders (Alien vs Predator, Jurassic
+Park) keep their `elucidationvortex-source/nuviotemplate` hotlinks: upstream has no original for them.
+The rest of the mirror's sources: `adamswlon/nuvio-collections-art`,
+`itsitohere/nuvio-assets`, `illiyah/Images`, `itsrenoria/fusion-starter-kit`, and postimg for the
+Decades art. Fork this, host `images/` yourself, and swap the host in the URLs.
 
 Every file here is **WebP** at **q90 and native resolution** — posters stay 852 wide, wide art keeps
 its 1920/2560 pixels: **104.5 MB of originals → 29.8 MB**. (The first repack at q78–82 with posters
