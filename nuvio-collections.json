@@ -1,164 +1,5 @@
 [
   {
-    "id": "f08ce9d6-429d-4c75-83f8-1d4d5eae096e",
-    "title": "Discover",
-    "folders": [
-      {
-        "id": "018f-discover-trending",
-        "title": "Trending",
-        "sources": [
-          {
-            "type": "movies",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tmdb.trending_movie"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tmdb.trending_series"
-          }
-        ],
-        "hideTitle": false,
-        "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/discover/trending-bd.webp",
-        "catalogSources": [
-          {
-            "type": "movies",
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.trending_movie"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.trending_series"
-          }
-        ],
-        "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/discover/trending-bd.webp"
-      },
-      {
-        "id": "018f-discover-popular",
-        "title": "Popular",
-        "sources": [
-          {
-            "type": "movies",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tmdb.top_movie"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tmdb.top_series"
-          }
-        ],
-        "hideTitle": false,
-        "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/discover/popular-bd.webp",
-        "catalogSources": [
-          {
-            "type": "movies",
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.top_movie"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.top_series"
-          }
-        ],
-        "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/discover/popular-bd.webp"
-      },
-      {
-        "id": "018f-discover-top",
-        "title": "Top",
-        "sources": [
-          {
-            "type": "movies",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tmdb.top_rated_movie"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "tmdb.top_rated_series"
-          }
-        ],
-        "hideTitle": false,
-        "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/discover/top-bd.webp",
-        "catalogSources": [
-          {
-            "type": "movies",
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.top_rated_movie"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.top_rated_series"
-          }
-        ],
-        "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/discover/top-bd.webp"
-      },
-      {
-        "id": "018f-discover-latest",
-        "title": "Latest",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.2194"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.86934"
-          }
-        ],
-        "hideTitle": false,
-        "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/discover/latest-bd.webp",
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.2194"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.86934"
-          }
-        ],
-        "focusGifEnabled": false,
-        "heroBackdropUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/discover/latest-bd.webp"
-      }
-    ],
-    "pinToTop": false,
-    "viewMode": "FOLLOW_LAYOUT",
-    "showAllTab": false,
-    "backdropImageUrl": "https://raw.githubusercontent.com/itsitohere/nuvio-assets/main/downloaded%20bd.png",
-    "focusGlowEnabled": true
-  },
-  {
     "id": "d2c67354-d395-4345-9901-d83e5f10e000",
     "title": "Streaming Services",
     "folders": [
@@ -4492,147 +4333,35 @@
             "genre": "",
             "addonId": "aio-metadata",
             "provider": "addon",
-            "catalogId": "mdblist.88147"
+            "catalogId": "mdblist.141192"
           },
           {
             "type": "movie",
             "genre": "",
             "addonId": "aio-metadata",
             "provider": "addon",
-            "catalogId": "mdblist.34454"
+            "catalogId": "mdblist.159412"
           },
           {
             "type": "movie",
             "genre": "",
             "addonId": "aio-metadata",
             "provider": "addon",
-            "catalogId": "mdblist.34456"
+            "catalogId": "mdblist.120058"
           },
           {
             "type": "movie",
             "genre": "",
             "addonId": "aio-metadata",
             "provider": "addon",
-            "catalogId": "mdblist.34447"
+            "catalogId": "mdblist.176179"
           },
           {
             "type": "movie",
             "genre": "",
             "addonId": "aio-metadata",
             "provider": "addon",
-            "catalogId": "mdblist.34460"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34449"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34443"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34453"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34451"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34450"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34440"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34442"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34445"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34441"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34448"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34452"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34444"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34461"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34455"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34457"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34446"
+            "catalogId": "mdblist.176180"
           },
           {
             "type": "movie",
@@ -4663,107 +4392,27 @@
           {
             "type": "movie",
             "addonId": "aio-metadata",
-            "catalogId": "mdblist.88147"
+            "catalogId": "mdblist.141192"
           },
           {
             "type": "movie",
             "addonId": "aio-metadata",
-            "catalogId": "mdblist.34454"
+            "catalogId": "mdblist.159412"
           },
           {
             "type": "movie",
             "addonId": "aio-metadata",
-            "catalogId": "mdblist.34456"
+            "catalogId": "mdblist.120058"
           },
           {
             "type": "movie",
             "addonId": "aio-metadata",
-            "catalogId": "mdblist.34447"
+            "catalogId": "mdblist.176179"
           },
           {
             "type": "movie",
             "addonId": "aio-metadata",
-            "catalogId": "mdblist.34460"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34449"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34443"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34453"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34451"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34450"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34440"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34442"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34445"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34441"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34448"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34452"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34444"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34461"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34455"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34457"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34446"
+            "catalogId": "mdblist.176180"
           },
           {
             "type": "movie",

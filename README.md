@@ -15,7 +15,7 @@ images/        the folder/collection art library, one dir per family
 |---|---|---|
 | `aiometadata-collections.json` | AIOMetadata 3.2.3 | **main profile**: 351 catalogs, no streaming set, collections carried as catalogs |
 | `aiometadata-no-collections.json` | AIOMetadata 3.2.3 | **Friends profile**: 46 catalogs (27 on), collections come from the Nuvio file instead |
-| `nuvio-collections.json` | Nuvio client | the folder/collection layout: 6 top folders, 114 sub-folders, each wired to catalog sources |
+| `nuvio-collections.json` | Nuvio client | the folder/collection layout: 5 top folders, 112 sub-folders, each wired to catalog sources |
 | `aiostreams.json` | AIOStreams | Tamtaro partial SEL 3.0.4 + Vidhin ranked regexes, usenet `cacheAndPlay` |
 
 The two AIOMetadata files are **two different profiles, not two halves of one config** —
@@ -51,11 +51,8 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
 
 ## Collections — what `nuvio-collections.json` builds
 
-6 top folders, 114 sub-folders, each with `coverImageUrl` and its catalog `sources`.
+5 top folders, 112 sub-folders, each with `coverImageUrl` and its catalog `sources`.
 
-**Discover** — 4 folders, `FOLLOW_LAYOUT` view
-
-- Trending, Popular, Top, Latest
 
 **Streaming Services** — 11 folders, `FOLLOW_LAYOUT` view
 
@@ -79,7 +76,7 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
 
 `images/` is mirrored publicly at [antonangel/nuvio-template](https://github.com/antonangel/nuvio-template)
 and `nuvio-collections.json` now points at it — `raw.githubusercontent.com/antonangel/nuvio-template/main/images/<family>/<name>.webp`
-for 112 of the 114 folders, so a TV client can fetch the tiles with no login (`git.angel.is` sits
+for 110 of the 112 folders, so a TV client can fetch the tiles with no login (`git.angel.is` sits
 behind OIDC and 302s raw file reads to a login). The other two folders (Alien vs Predator, Jurassic
 Park) keep their `elucidationvortex-source/nuviotemplate` hotlinks: upstream has no original for them.
 The rest of the mirror's sources: `adamswlon/nuvio-collections-art`,
