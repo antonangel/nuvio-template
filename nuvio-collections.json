@@ -3098,294 +3098,6 @@
     "title": "Collections",
     "folders": [
       {
-        "id": "efc13898-6c6f-437a-b186-86e7679fc2a7",
-        "title": "Marvel",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.212608"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/marvel.webp",
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.212608"
-          }
-        ],
-        "focusGifEnabled": false
-      },
-      {
-        "id": "9633671e-b30e-4b3c-9d4a-868bdbd7dc43",
-        "title": "DC Universe",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.100123"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/dc-universe.webp",
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.100123"
-          }
-        ],
-        "focusGifEnabled": false
-      },
-      {
-        "id": "b0543d15-2352-4844-8149-da49211e09c9",
-        "title": "Star Wars",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.102975"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/star-wars.webp",
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.102975"
-          }
-        ],
-        "focusGifEnabled": false
-      },
-      {
-        "id": "0884cd83-5abf-44d5-8088-33c7ee77c535",
-        "title": "James Bond",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.7947"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/james-bond.webp",
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.7947"
-          }
-        ],
-        "focusGifEnabled": false
-      },
-      {
-        "id": "2aefac91-f3ff-4632-98e1-b2a9fecebeee",
-        "title": "Harry Potter",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.102972"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/harry-potter.webp",
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.102972"
-          }
-        ],
-        "focusGifEnabled": false
-      },
-      {
-        "id": "b0cc838c-b0d0-4f58-96ff-42815f93e3ed",
-        "title": "Alien vs Predator",
-        "sources": [
-          {
-            "type": "all",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.101434"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/avp.jpg",
-        "catalogSources": [
-          {
-            "type": "all",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.101434"
-          }
-        ],
-        "focusGifEnabled": false
-      },
-      {
-        "id": "d79176fd-356e-4079-a65e-b48e16f611a2",
-        "title": "Pirates of the Caribbean",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.82145"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/pirates-of-the-carribbean.webp",
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.82145"
-          }
-        ],
-        "focusGifEnabled": false
-      },
-      {
-        "id": "1f377e78-cbae-4eb9-86b8-dd9db457f813",
-        "title": "Terminator",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.125458"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/terminator.webp",
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.125458"
-          }
-        ],
-        "focusGifEnabled": false
-      },
-      {
-        "id": "26bc5a8c-c42e-49d7-aba2-a9bfbe7e18d1",
-        "title": "Mission Impossible",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.42716"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/mission-impossible.webp",
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.42716"
-          }
-        ],
-        "focusGifEnabled": false
-      },
-      {
-        "id": "adb61e40-e63d-452b-8f27-4116d76cb040",
-        "title": "Jurassic Park",
-        "sources": [
-          {
-            "type": "all",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.120197"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/jurrasic-park.jpg",
-        "catalogSources": [
-          {
-            "type": "all",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.120197"
-          }
-        ],
-        "focusGifEnabled": false
-      },
-      {
-        "id": "224762e8-6918-4730-b403-cf8564b68300",
-        "title": "The Matrix",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.125142"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/matrix.webp",
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.125142"
-          }
-        ],
-        "focusGifEnabled": false
-      },
-      {
-        "id": "571a550c-5cd2-43bd-b8dc-94f50546819a",
-        "title": "Lord of the Rings",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.94304"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "LANDSCAPE",
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/lord-of-the-rings-hobbit.webp",
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.94304"
-          }
-        ],
-        "focusGifEnabled": false
-      },
-      {
         "id": "018f-a-nightmare-on-elm-street",
         "title": "A Nightmare On Elm Street",
         "sources": [
@@ -3453,6 +3165,30 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.115486"
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "b0cc838c-b0d0-4f58-96ff-42815f93e3ed",
+        "title": "Alien vs Predator",
+        "sources": [
+          {
+            "type": "all",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.101434"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/avp.jpg",
+        "catalogSources": [
+          {
+            "type": "all",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.101434"
           }
         ],
         "focusGifEnabled": false
@@ -3669,6 +3405,30 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.196673"
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "9633671e-b30e-4b3c-9d4a-868bdbd7dc43",
+        "title": "DC Universe",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.100123"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/dc-universe.webp",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.100123"
           }
         ],
         "focusGifEnabled": false
@@ -3986,6 +3746,30 @@
         "focusGifEnabled": false
       },
       {
+        "id": "2aefac91-f3ff-4632-98e1-b2a9fecebeee",
+        "title": "Harry Potter",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.102972"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/harry-potter.webp",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.102972"
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
         "id": "018f-hunger-games",
         "title": "Hunger Games",
         "sources": [
@@ -4058,6 +3842,30 @@
         "focusGifEnabled": false
       },
       {
+        "id": "0884cd83-5abf-44d5-8088-33c7ee77c535",
+        "title": "James Bond",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.7947"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/james-bond.webp",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.7947"
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
         "id": "018f-john-wick",
         "title": "John Wick",
         "sources": [
@@ -4077,6 +3885,30 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.181022"
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "adb61e40-e63d-452b-8f27-4116d76cb040",
+        "title": "Jurassic Park",
+        "sources": [
+          {
+            "type": "all",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.120197"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/elucidationvortex-source/nuviotemplate/refs/heads/main/images/jurrasic-park.jpg",
+        "catalogSources": [
+          {
+            "type": "all",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.120197"
           }
         ],
         "focusGifEnabled": false
@@ -4154,6 +3986,30 @@
         "focusGifEnabled": false
       },
       {
+        "id": "571a550c-5cd2-43bd-b8dc-94f50546819a",
+        "title": "Lord of the Rings",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.94304"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/lord-of-the-rings-hobbit.webp",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.94304"
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
         "id": "018f-mad-max",
         "title": "Mad Max",
         "sources": [
@@ -4173,6 +4029,54 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.120269"
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "efc13898-6c6f-437a-b186-86e7679fc2a7",
+        "title": "Marvel",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.212608"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/marvel.webp",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.212608"
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "26bc5a8c-c42e-49d7-aba2-a9bfbe7e18d1",
+        "title": "Mission Impossible",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.42716"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/mission-impossible.webp",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.42716"
           }
         ],
         "focusGifEnabled": false
@@ -4269,6 +4173,30 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.59780"
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "d79176fd-356e-4079-a65e-b48e16f611a2",
+        "title": "Pirates of the Caribbean",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.82145"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/pirates-of-the-carribbean.webp",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.82145"
           }
         ],
         "focusGifEnabled": false
@@ -4562,6 +4490,30 @@
         "focusGifEnabled": false
       },
       {
+        "id": "b0543d15-2352-4844-8149-da49211e09c9",
+        "title": "Star Wars",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.102975"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/star-wars.webp",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.102975"
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
         "id": "018f-taken",
         "title": "Taken",
         "sources": [
@@ -4581,6 +4533,30 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.59652"
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "1f377e78-cbae-4eb9-86b8-dd9db457f813",
+        "title": "Terminator",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.125458"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/terminator.webp",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.125458"
           }
         ],
         "focusGifEnabled": false
@@ -4677,6 +4653,30 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.76989"
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "224762e8-6918-4730-b403-cf8564b68300",
+        "title": "The Matrix",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.125142"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/collections/matrix.webp",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.125142"
           }
         ],
         "focusGifEnabled": false
