@@ -32,13 +32,18 @@ catalogs set to `released`/`desc` (release order, oldest first) — import v3 if
 `aiometadata-setup-2026-09-29-v4.json` (330 catalogs) is v3 without the Starz, Shudder and
 Adult Swim folders and their 22 catalogs.
 
-The `-v10` … `-v18` files are successive rewrites of the main profile from this same day; **v18 is
-current**: 453 catalogs, **no `config.collections`**. `v17` briefly embedded the five collections in
-the config; AIO then publishes one `type: collection` catalog per collection
-(`aiom.collection.<id>`), which broke the Genres / Decades / Collections groups in Nuvio, so the
-export carries none again — the Nuvio file is the only source of the collections, imported through
-AIO's **Collections** tab when you want AIO to know about them. If a client that understands
-AIOStreams collection catalogs ever needs them served, re-embed them *and* accept the type.
+The `-v10` … `-v19` files are successive rewrites of the main profile from this same day; **v19 is
+current**: 437 catalogs, built from his latest live export with the house rules applied — catalog names
+truncated to the franchise name, every catalog tagged with the collection group it serves (Collections /
+Genres / Decades / Awards palette), `displayType` set on all list catalogs, the duplicate MDBList pairs
+removed, and `customPosterUrlPattern` = `https://btttr.cc/poster/imdb/poster-default/{imdb_id}.jpg`
+with `posterRatingProvider: custom` (verified live by calling AIO's own `resolvePosterPattern`).
+`v17` briefly embedded the five collections in the config and was withdrawn: AIO then publishes one
+`type: collection` catalog per collection (`aiom.collection.<id>`), which broke the Genres / Decades /
+Collections groups in Nuvio, so the export carries none — the Nuvio file is the only source of the
+collections, imported through AIO's **Collections** tab when you want AIO to know about them. Rebuild
+from his latest export, never from an older file of ours: he changes dashboard settings (timezone,
+`hideUnreleased*`, `posterRatingProvider`) that an old file regresses on import.
 
 ## Importing
 
@@ -59,7 +64,7 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
 
 ## Collections — what `nuvio-collections.json` builds
 
-5 top folders, 128 sub-folders, each with `coverImageUrl` and its catalog `sources`.
+5 top folders, 118 sub-folders, each with `coverImageUrl` and its catalog `sources`.
 
 
 **Streaming Services** — 8 folders, `FOLLOW_LAYOUT` view
@@ -74,7 +79,7 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
 
 - 20s, 10s, 00s, 90s, 80s, 70s (each: movies + a per-decade popular-series catalog)
 
-**Collections** — 86 folders, `FOLLOW_LAYOUT` view
+**Collections** — 76 folders, `FOLLOW_LAYOUT` view
 
 - TVDB lists ([thetvdb.com/lists](https://www.thetvdb.com/lists)), one folder per list; each folder
   gets a `Movies` and/or `Series` source (`tvdb.list.<id>.movies` / `.series`) depending on what the
@@ -103,10 +108,12 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
   folders keep their file order. Re-sort by rewriting the ranking in the build, not by hand.
 - Six covers are pinned to a chosen poster rather than the page default (MCU, Star Wars, Arrowverse,
   Harry Potter, Star Trek, The Matrix) — same URL grammar, same mirror.
-- 19 lists were dropped by request: Culture LGBTQ+, Based on Jane Austen's Pride & Prejudice, Based on
+- 29 lists were dropped by request: Culture LGBTQ+, Based on Jane Austen's Pride & Prejudice, Based on
   Jane Austen's Emma, Arthur and the Invisibles, Martha's Vineyard Mysteries, Gourmet Detective, Reply,
   The Kissing Booth, Romancing the Stone, Barbie, Tinker Bell, Monster High, To All the Boys, Law &
-  Order, Bill & Ted, Matchmaker Mysteries, Alex Cross, 9-1-1, The Tonight Show.
+  Order, Bill & Ted, Matchmaker Mysteries, Alex Cross, 9-1-1, The Tonight Show, Scooby-Doo, Superman,
+  Monsters, Sharknado, Descendants, Santa Buddies, Battlestar Galactica, Halloween (Rob Zombie),
+  The Amazing Spider-Man, Marvel's Spider-Man (the last ten pruned from AIO first, then here).
 
 **Awards** — 6 folders, `FOLLOW_LAYOUT` view
 
