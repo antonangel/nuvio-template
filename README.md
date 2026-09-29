@@ -55,9 +55,9 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
 
 - Netflix, Disney+, Apple TV, Prime Video, HBO Max, Hulu, Paramount+, Peacock, Starz, Shudder, Adult Swim
 
-**Genres** — 52 folders, `FOLLOW_LAYOUT` view
+**Genres** — 22 folders, `FOLLOW_LAYOUT` view
 
-- Action, Action Adventures, Action Thrillers, Adult Animation, Adventure, Aliens, Animation, Anime, Classics, Comedy, Creature Features, Crime, Dark Fantasy, Disaster Epics, Documentary, Drama, Dystopian Futures, Family Movie Night, Fantasy, Fantasy Adventures, Favorite Cartoons, Frontier Grit, High Seas Heroics, Historical Blockbusters, Horror, Independent, International, Kids, Learning Corner, Lovable Monsters, Music, Music Movies, Myths and Legends, Nature, Psychological Terror, Reality, Robots and AI, Romance, Sci-Fi, Short Films, Space Epics, Spies, Super Shocks, Superheroes, Techno Thrillers, Thriller, Treasure Hunts, VHS Era Frightmares, War Stories, Westerns, Whodunits, Zombie Orama
+- Action, Animation, Anime, Comedy, Crime, Documentary, Drama, Fantasy, Horror, Myths and Legends, Nature, Reality, Robots and AI, Romance, Sci-Fi, Short Films, Spies, Thriller, War Stories, Westerns, Whodunits, Zombie Orama
 
 **Decades** — 6 folders, `FOLLOW_LAYOUT` view
 
