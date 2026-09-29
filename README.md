@@ -78,8 +78,9 @@ Decades art. Fork this, host `images/` yourself, and swap the host in the URLs.
 Every file here is **WebP** at **q90 and native resolution** — posters stay 852 wide, wide art keeps
 its 1920/2560 pixels: **104.5 MB of originals → 29.8 MB**. (The first repack at q78–82 with posters
 downscaled to 500 wide read as over-processed on a 4K TV and was superseded on 2026-09-28; the art is
-re-encoded from the upstream originals, since the local copies were deleted.) `images/genres/` is new:
-the 17 Genres rows now have local art instead of hotlinking `fusion-starter-kit`. The mirror's names end
+re-encoded from the upstream originals, since the local copies were deleted.) `images/genres/` holds all
+56 dannyrutledge wide tiles of the new Genres collection, re-encoded from the kit's own files (which
+ship as WebP bytes under `.png` names, 993×557 native). The mirror's names end
 in `.webp` while the URLs still point at upstream's `.png`/`.jpg` — a host swap means swapping those
 extensions too.
 
