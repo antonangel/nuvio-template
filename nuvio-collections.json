@@ -2748,7 +2748,7 @@
   },
   {
     "id": "1f105a34-b5dd-4820-8d1f-f2ce942700fc",
-    "title": "Collections",
+    "title": "Franchises",
     "folders": [
       {
         "id": "018f-a-nightmare-on-elm-street",
@@ -2808,6 +2808,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.115486"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.38.series"
           }
         ],
         "hideTitle": true,
@@ -2818,6 +2825,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.115486"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.38.series"
           }
         ],
         "focusGifEnabled": false
@@ -2928,6 +2940,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.24570"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.81.series"
           }
         ],
         "hideTitle": true,
@@ -2938,6 +2957,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.24570"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.81.series"
           }
         ],
         "focusGifEnabled": false
@@ -3072,6 +3096,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.100123"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.dc-universe-series.1a0ef110616"
           }
         ],
         "hideTitle": true,
@@ -3082,6 +3113,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.100123"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tmdb.discover.series.dc-universe-series.1a0ef110616"
           }
         ],
         "focusGifEnabled": false
@@ -3096,6 +3132,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.155013"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.190286"
           }
         ],
         "hideTitle": true,
@@ -3106,6 +3149,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.155013"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.190286"
           }
         ],
         "focusGifEnabled": false
@@ -3144,6 +3192,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.189347"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.13867.series"
           }
         ],
         "hideTitle": true,
@@ -3154,6 +3209,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.189347"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.13867.series"
           }
         ],
         "focusGifEnabled": false
@@ -3288,6 +3348,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.154827"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.200846"
           }
         ],
         "hideTitle": true,
@@ -3298,6 +3365,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.154827"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.200846"
           }
         ],
         "focusGifEnabled": false
@@ -3456,6 +3528,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.20714"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.40.series"
           }
         ],
         "hideTitle": true,
@@ -3466,6 +3545,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.20714"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.40.series"
           }
         ],
         "focusGifEnabled": false
@@ -3480,6 +3564,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.153958"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.50.series"
           }
         ],
         "hideTitle": true,
@@ -3490,6 +3581,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.153958"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.50.series"
           }
         ],
         "focusGifEnabled": false
@@ -3528,6 +3624,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.181022"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.107.series"
           }
         ],
         "hideTitle": true,
@@ -3538,6 +3641,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.181022"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.107.series"
           }
         ],
         "focusGifEnabled": false
@@ -3552,6 +3660,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.120197"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.6008.series"
           }
         ],
         "hideTitle": true,
@@ -3562,6 +3677,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.120197"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.6008.series"
           }
         ],
         "focusGifEnabled": false
@@ -3576,6 +3696,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.120197"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.6008.series"
           }
         ],
         "hideTitle": true,
@@ -3586,6 +3713,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.120197"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.6008.series"
           }
         ],
         "focusGifEnabled": false
@@ -3696,6 +3828,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.212608"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.4.series"
           }
         ],
         "hideTitle": true,
@@ -3706,6 +3845,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.212608"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.4.series"
           }
         ],
         "focusGifEnabled": false
@@ -3720,6 +3864,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.42716"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.15498.series"
           }
         ],
         "hideTitle": true,
@@ -3730,6 +3881,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.42716"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.15498.series"
           }
         ],
         "focusGifEnabled": false
@@ -4104,6 +4260,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.139809"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tmdb.discover.series.sherlock-holmes-series.1a0ef110616"
           }
         ],
         "hideTitle": true,
@@ -4114,6 +4277,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.139809"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tmdb.discover.series.sherlock-holmes-series.1a0ef110616"
           }
         ],
         "focusGifEnabled": false
@@ -4128,6 +4296,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.184810"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.23.series"
           }
         ],
         "hideTitle": true,
@@ -4138,6 +4313,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.184810"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.23.series"
           }
         ],
         "focusGifEnabled": false
@@ -4152,6 +4332,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.102975"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.17.series"
           }
         ],
         "hideTitle": true,
@@ -4162,6 +4349,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.102975"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.17.series"
           }
         ],
         "focusGifEnabled": false
@@ -4200,6 +4392,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.125458"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.29.series"
           }
         ],
         "hideTitle": true,
@@ -4210,6 +4409,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.125458"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.29.series"
           }
         ],
         "focusGifEnabled": false
@@ -4320,6 +4524,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.125142"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.3.series"
           }
         ],
         "hideTitle": true,
@@ -4330,6 +4541,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.125142"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.3.series"
           }
         ],
         "focusGifEnabled": false
@@ -4392,6 +4608,13 @@
             "addonId": "aio-metadata",
             "provider": "addon",
             "catalogId": "mdblist.120027"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.101.series"
           }
         ],
         "hideTitle": true,
@@ -4402,6 +4625,11 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.120027"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.101.series"
           }
         ],
         "focusGifEnabled": false
