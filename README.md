@@ -26,6 +26,10 @@ re-exported after 45 MDBList catalogs were added (396 catalogs), and
 `genres-wide-dannyrutledge.nuvio.json` is the 52-tile Genres collection on its own — the same one
 already merged into `nuvio-collections.json`.
 
+`aiometadata-setup-2026-09-29-v2.json` (352 catalogs) prunes the removed genre tiles' catalogs;
+`aiometadata-setup-2026-09-29-v3.json` is v2 with the Collections collection's 69 franchise
+catalogs set to `released`/`desc` (release order, oldest first) — import v3 if you want that too.
+
 ## Importing
 
 - `aiometadata-collections.json` / `aiometadata-no-collections.json` → AIOMetadata → **Import config**.
