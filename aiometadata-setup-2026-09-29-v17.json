@@ -1,6 +1,6 @@
 {
   "version": "3.2.3",
-  "exportedAt": "2026-09-29T22:23:01.489925Z",
+  "exportedAt": "2026-09-29T22:41:42.368503Z",
   "config": {
     "mal": {
       "skipRecap": false,
@@ -10703,11 +10703,11 @@
         "showAllTab": false,
         "folders": [
           {
-            "id": "tvdb-1",
-            "title": "Scooby-Doo",
+            "id": "tvdb-4",
+            "title": "Marvel Cinematic Universe",
             "shape": "POSTER",
             "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/1.webp",
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/4.webp",
             "coverEmoji": "",
             "focusGifUrl": "",
             "focusGifEnabled": false,
@@ -10716,16 +10716,140 @@
             "titleLogoUrl": "",
             "sources": [
               {
-                "catalogId": "tvdb.list.1.movies",
+                "catalogId": "tvdb.list.4.movies",
                 "type": "movie",
-                "name": "Scooby-Doo - Movies",
+                "name": "Marvel Cinematic Universe - Movies",
                 "genre": null,
                 "baseType": "movie"
               },
               {
-                "catalogId": "tvdb.list.1.series",
+                "catalogId": "tvdb.list.4.series",
                 "type": "series",
-                "name": "Scooby-Doo - Series",
+                "name": "Marvel - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-17",
+            "title": "Star Wars Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/17.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.17.movies",
+                "type": "movie",
+                "name": "Star Wars Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.17.series",
+                "type": "series",
+                "name": "Star Wars - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-12",
+            "title": "Arrowverse",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/12.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.12.series",
+                "type": "series",
+                "name": "Arrowverse - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-6003",
+            "title": "James Bond Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6003.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.6003.movies",
+                "type": "movie",
+                "name": "James Bond Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-13",
+            "title": "Harry Potter Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/13.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.13.movies",
+                "type": "movie",
+                "name": "Harry Potter Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-23",
+            "title": "Star Trek: Original Timeline",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/23.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.23.movies",
+                "type": "movie",
+                "name": "Star Trek: Original Timeline - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.23.series",
+                "type": "series",
+                "name": "Star Trek - Series",
                 "genre": null,
                 "baseType": "series"
               }
@@ -10761,11 +10885,11 @@
             ]
           },
           {
-            "id": "tvdb-4",
-            "title": "Marvel Cinematic Universe",
+            "id": "tvdb-81",
+            "title": "Back to the Future Franchise",
             "shape": "POSTER",
             "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/4.webp",
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/81.webp",
             "coverEmoji": "",
             "focusGifUrl": "",
             "focusGifEnabled": false,
@@ -10774,27 +10898,27 @@
             "titleLogoUrl": "",
             "sources": [
               {
-                "catalogId": "tvdb.list.4.movies",
+                "catalogId": "tvdb.list.81.movies",
                 "type": "movie",
-                "name": "Marvel Cinematic Universe - Movies",
+                "name": "Back to the Future Franchise - Movies",
                 "genre": null,
                 "baseType": "movie"
               },
               {
-                "catalogId": "tvdb.list.4.series",
+                "catalogId": "tvdb.list.81.series",
                 "type": "series",
-                "name": "Marvel - Series",
+                "name": "Back To The Future - Series",
                 "genre": null,
                 "baseType": "series"
               }
             ]
           },
           {
-            "id": "tvdb-12",
-            "title": "Arrowverse",
+            "id": "tvdb-38",
+            "title": "Alien Franchise",
             "shape": "POSTER",
             "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/12.webp",
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/38.webp",
             "coverEmoji": "",
             "focusGifUrl": "",
             "focusGifEnabled": false,
@@ -10803,20 +10927,27 @@
             "titleLogoUrl": "",
             "sources": [
               {
-                "catalogId": "tvdb.list.12.series",
+                "catalogId": "tvdb.list.38.movies",
+                "type": "movie",
+                "name": "Alien Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.38.series",
                 "type": "series",
-                "name": "Arrowverse - Series",
+                "name": "Alien - Series",
                 "genre": null,
                 "baseType": "series"
               }
             ]
           },
           {
-            "id": "tvdb-13",
-            "title": "Harry Potter Franchise",
+            "id": "tvdb-40",
+            "title": "Indiana Jones Franchise",
             "shape": "POSTER",
             "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/13.webp",
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/40.webp",
             "coverEmoji": "",
             "focusGifUrl": "",
             "focusGifEnabled": false,
@@ -10825,20 +10956,49 @@
             "titleLogoUrl": "",
             "sources": [
               {
-                "catalogId": "tvdb.list.13.movies",
+                "catalogId": "tvdb.list.40.movies",
                 "type": "movie",
-                "name": "Harry Potter Franchise - Movies",
+                "name": "Indiana Jones Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.40.series",
+                "type": "series",
+                "name": "Indiana Jones - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-93",
+            "title": "X-Men Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/93.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.93.movies",
+                "type": "movie",
+                "name": "X-Men Franchise - Movies",
                 "genre": null,
                 "baseType": "movie"
               }
             ]
           },
           {
-            "id": "tvdb-14",
-            "title": "Despicable Me Franchise",
+            "id": "tvdb-6005",
+            "title": "Spider-Man Franchise",
             "shape": "POSTER",
             "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/14.webp",
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6005.webp",
             "coverEmoji": "",
             "focusGifUrl": "",
             "focusGifEnabled": false,
@@ -10847,11 +11007,375 @@
             "titleLogoUrl": "",
             "sources": [
               {
-                "catalogId": "tvdb.list.14.movies",
+                "catalogId": "tvdb.list.6005.movies",
                 "type": "movie",
-                "name": "Despicable Me Franchise - Movies",
+                "name": "Spider-Man Franchise - Movies",
                 "genre": null,
                 "baseType": "movie"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-6010",
+            "title": "DC Extended Universe",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6010.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.6010.movies",
+                "type": "movie",
+                "name": "DC Extended Universe - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.6010.series",
+                "type": "series",
+                "name": "DC Extended Universe - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-108",
+            "title": "The Fast & The Furious Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/108.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.108.movies",
+                "type": "movie",
+                "name": "The Fast & The Furious Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-70",
+            "title": "The Walking Dead Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/70.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.70.series",
+                "type": "series",
+                "name": "The Walking Dead Franchise - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-104",
+            "title": "Transformers: Film Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/104.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.104.movies",
+                "type": "movie",
+                "name": "Transformers: Film Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-79",
+            "title": "Breaking Bad Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/79.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.79.movies",
+                "type": "movie",
+                "name": "Breaking Bad Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.79.series",
+                "type": "series",
+                "name": "Breaking Bad Franchise - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-87",
+            "title": "Predator Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/87.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.87.movies",
+                "type": "movie",
+                "name": "Predator Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-90",
+            "title": "The Lord of the Rings Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/90.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.90.movies",
+                "type": "movie",
+                "name": "The Lord of the Rings Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-61",
+            "title": "The Eastrail 177 Trilogy",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/61.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.61.movies",
+                "type": "movie",
+                "name": "The Eastrail 177 Trilogy - Movies",
+                "genre": null,
+                "baseType": "movie"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-76",
+            "title": "Culture LGBTQ+",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/76.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.76.movies",
+                "type": "movie",
+                "name": "Culture LGBTQ+ - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.76.series",
+                "type": "series",
+                "name": "Culture LGBTQ+ - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-6634",
+            "title": "Marvel's Spider-Man Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6634.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.6634.movies",
+                "type": "movie",
+                "name": "Marvel's Spider-Man Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.6634.series",
+                "type": "series",
+                "name": "Marvel's Spider-Man Franchise - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-6014",
+            "title": "Shrek Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6014.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.6014.movies",
+                "type": "movie",
+                "name": "Shrek Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.6014.series",
+                "type": "series",
+                "name": "Shrek Franchise - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-33",
+            "title": "Frozen Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/33.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.33.movies",
+                "type": "movie",
+                "name": "Frozen Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.33.series",
+                "type": "series",
+                "name": "Frozen Franchise - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-6645",
+            "title": "Captain America Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6645.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.6645.movies",
+                "type": "movie",
+                "name": "Captain America Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.6645.series",
+                "type": "series",
+                "name": "Captain America Franchise - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-31",
+            "title": "Toy Story Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/31.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.31.movies",
+                "type": "movie",
+                "name": "Toy Story Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.31.series",
+                "type": "series",
+                "name": "Toy Story Franchise - Series",
+                "genre": null,
+                "baseType": "series"
               }
             ]
           },
@@ -10879,6 +11403,586 @@
                 "catalogId": "tvdb.list.15.series",
                 "type": "series",
                 "name": "The Simpsons Franchise - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-49",
+            "title": "Jumanji Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/49.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.49.movies",
+                "type": "movie",
+                "name": "Jumanji Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.49.series",
+                "type": "series",
+                "name": "Jumanji Franchise - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-6008",
+            "title": "Jurassic Park Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6008.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.6008.movies",
+                "type": "movie",
+                "name": "Jurassic Park Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.6008.series",
+                "type": "series",
+                "name": "Jurassic Park - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-50",
+            "title": "It Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/50.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.50.movies",
+                "type": "movie",
+                "name": "It Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.50.series",
+                "type": "series",
+                "name": "It - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-48",
+            "title": "To All the Boys Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/48.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.48.movies",
+                "type": "movie",
+                "name": "To All the Boys Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.48.series",
+                "type": "series",
+                "name": "To All the Boys Franchise - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-107",
+            "title": "John Wick Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/107.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.107.movies",
+                "type": "movie",
+                "name": "John Wick Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.107.series",
+                "type": "series",
+                "name": "John Wick - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-1",
+            "title": "Scooby-Doo",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/1.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.1.movies",
+                "type": "movie",
+                "name": "Scooby-Doo - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.1.series",
+                "type": "series",
+                "name": "Scooby-Doo - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-37",
+            "title": "Hotel Transylvania Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/37.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.37.movies",
+                "type": "movie",
+                "name": "Hotel Transylvania Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.37.series",
+                "type": "series",
+                "name": "Hotel Transylvania Franchise - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-32",
+            "title": "Cars Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/32.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.32.movies",
+                "type": "movie",
+                "name": "Cars Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.32.series",
+                "type": "series",
+                "name": "Cars Franchise - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-55",
+            "title": "Duniverse",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/55.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.55.movies",
+                "type": "movie",
+                "name": "Duniverse - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.55.series",
+                "type": "series",
+                "name": "Duniverse - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-82",
+            "title": "Based on Jane Austen\u2019s Pride & Prejudice",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/82.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.82.movies",
+                "type": "movie",
+                "name": "Based on Jane Austen\u2019s Pride & Prejudice - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.82.series",
+                "type": "series",
+                "name": "Based on Jane Austen\u2019s Pride & Prejudice - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-91",
+            "title": "Rocky Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/91.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.91.movies",
+                "type": "movie",
+                "name": "Rocky Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.91.series",
+                "type": "series",
+                "name": "Rocky Franchise - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-29",
+            "title": "Terminator Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/29.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.29.movies",
+                "type": "movie",
+                "name": "Terminator Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.29.series",
+                "type": "series",
+                "name": "Terminator - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-105",
+            "title": "Law & Order Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/105.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.105.movies",
+                "type": "movie",
+                "name": "Law & Order Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.105.series",
+                "type": "series",
+                "name": "Law & Order Franchise - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-83",
+            "title": "Based on Jane Austen\u2019s Emma",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/83.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.83.movies",
+                "type": "movie",
+                "name": "Based on Jane Austen\u2019s Emma - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.83.series",
+                "type": "series",
+                "name": "Based on Jane Austen\u2019s Emma - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-98",
+            "title": "Jack Ryan Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/98.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.98.movies",
+                "type": "movie",
+                "name": "Jack Ryan Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.98.series",
+                "type": "series",
+                "name": "Jack Ryan Franchise - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-52",
+            "title": "Blade Runner Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/52.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.52.movies",
+                "type": "movie",
+                "name": "Blade Runner Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.52.series",
+                "type": "series",
+                "name": "Blade Runner Franchise - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-121",
+            "title": "Stargate Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/121.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.121.movies",
+                "type": "movie",
+                "name": "Stargate Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.121.series",
+                "type": "series",
+                "name": "Stargate Franchise - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-6651",
+            "title": "DC Animated Universe",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6651.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.6651.movies",
+                "type": "movie",
+                "name": "DC Animated Universe - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.6651.series",
+                "type": "series",
+                "name": "DC Animated Universe - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-94",
+            "title": "Arthur and the Invisibles",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/94.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.94.movies",
+                "type": "movie",
+                "name": "Arthur and the Invisibles - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.94.series",
+                "type": "series",
+                "name": "Arthur and the Invisibles - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-77",
+            "title": "Veronica Mars",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/77.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.77.movies",
+                "type": "movie",
+                "name": "Veronica Mars - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.77.series",
+                "type": "series",
+                "name": "Veronica Mars - Series",
                 "genre": null,
                 "baseType": "series"
               }
@@ -10914,11 +12018,11 @@
             ]
           },
           {
-            "id": "tvdb-17",
-            "title": "Star Wars Franchise",
+            "id": "tvdb-6637",
+            "title": "Bill & Ted Franchise",
             "shape": "POSTER",
             "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/17.webp",
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6637.webp",
             "coverEmoji": "",
             "focusGifUrl": "",
             "focusGifEnabled": false,
@@ -10927,18 +12031,98 @@
             "titleLogoUrl": "",
             "sources": [
               {
-                "catalogId": "tvdb.list.17.movies",
+                "catalogId": "tvdb.list.6637.movies",
                 "type": "movie",
-                "name": "Star Wars Franchise - Movies",
+                "name": "Bill & Ted Franchise - Movies",
                 "genre": null,
                 "baseType": "movie"
               },
               {
-                "catalogId": "tvdb.list.17.series",
+                "catalogId": "tvdb.list.6637.series",
                 "type": "series",
-                "name": "Star Wars - Series",
+                "name": "Bill & Ted Franchise - Series",
                 "genre": null,
                 "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-26",
+            "title": "Babylon 5 Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/26.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.26.movies",
+                "type": "movie",
+                "name": "Babylon 5 Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.26.series",
+                "type": "series",
+                "name": "Babylon 5 Franchise - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-101",
+            "title": "Transformers: Generation 1 Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/101.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.101.movies",
+                "type": "movie",
+                "name": "Transformers: Generation 1 Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.101.series",
+                "type": "series",
+                "name": "Transformers - Series",
+                "genre": null,
+                "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-14",
+            "title": "Despicable Me Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/14.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.14.movies",
+                "type": "movie",
+                "name": "Despicable Me Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
               }
             ]
           },
@@ -11009,64 +12193,6 @@
             ]
           },
           {
-            "id": "tvdb-23",
-            "title": "Star Trek: Original Timeline",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/23.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.23.movies",
-                "type": "movie",
-                "name": "Star Trek: Original Timeline - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.23.series",
-                "type": "series",
-                "name": "Star Trek - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-26",
-            "title": "Babylon 5 Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/26.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.26.movies",
-                "type": "movie",
-                "name": "Babylon 5 Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.26.series",
-                "type": "series",
-                "name": "Babylon 5 Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
             "id": "tvdb-27",
             "title": "Reply Franchise",
             "shape": "POSTER",
@@ -11083,209 +12209,6 @@
                 "catalogId": "tvdb.list.27.series",
                 "type": "series",
                 "name": "Reply Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-29",
-            "title": "Terminator Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/29.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.29.movies",
-                "type": "movie",
-                "name": "Terminator Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.29.series",
-                "type": "series",
-                "name": "Terminator - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-31",
-            "title": "Toy Story Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/31.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.31.movies",
-                "type": "movie",
-                "name": "Toy Story Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.31.series",
-                "type": "series",
-                "name": "Toy Story Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-32",
-            "title": "Cars Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/32.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.32.movies",
-                "type": "movie",
-                "name": "Cars Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.32.series",
-                "type": "series",
-                "name": "Cars Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-33",
-            "title": "Frozen Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/33.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.33.movies",
-                "type": "movie",
-                "name": "Frozen Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.33.series",
-                "type": "series",
-                "name": "Frozen Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-37",
-            "title": "Hotel Transylvania Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/37.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.37.movies",
-                "type": "movie",
-                "name": "Hotel Transylvania Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.37.series",
-                "type": "series",
-                "name": "Hotel Transylvania Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-38",
-            "title": "Alien Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/38.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.38.movies",
-                "type": "movie",
-                "name": "Alien Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.38.series",
-                "type": "series",
-                "name": "Alien - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-40",
-            "title": "Indiana Jones Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/40.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.40.movies",
-                "type": "movie",
-                "name": "Indiana Jones Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.40.series",
-                "type": "series",
-                "name": "Indiana Jones - Series",
                 "genre": null,
                 "baseType": "series"
               }
@@ -11358,93 +12281,6 @@
             ]
           },
           {
-            "id": "tvdb-48",
-            "title": "To All the Boys Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/48.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.48.movies",
-                "type": "movie",
-                "name": "To All the Boys Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.48.series",
-                "type": "series",
-                "name": "To All the Boys Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-49",
-            "title": "Jumanji Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/49.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.49.movies",
-                "type": "movie",
-                "name": "Jumanji Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.49.series",
-                "type": "series",
-                "name": "Jumanji Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-50",
-            "title": "It Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/50.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.50.movies",
-                "type": "movie",
-                "name": "It Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.50.series",
-                "type": "series",
-                "name": "It - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
             "id": "tvdb-51",
             "title": "Annabelle",
             "shape": "POSTER",
@@ -11463,35 +12299,6 @@
                 "name": "Annabelle - Movies",
                 "genre": null,
                 "baseType": "movie"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-52",
-            "title": "Blade Runner Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/52.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.52.movies",
-                "type": "movie",
-                "name": "Blade Runner Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.52.series",
-                "type": "series",
-                "name": "Blade Runner Franchise - Series",
-                "genre": null,
-                "baseType": "series"
               }
             ]
           },
@@ -11540,35 +12347,6 @@
             ]
           },
           {
-            "id": "tvdb-55",
-            "title": "Duniverse",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/55.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.55.movies",
-                "type": "movie",
-                "name": "Duniverse - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.55.series",
-                "type": "series",
-                "name": "Duniverse - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
             "id": "tvdb-57",
             "title": "The Good Wife Franchise",
             "shape": "POSTER",
@@ -11585,50 +12363,6 @@
                 "catalogId": "tvdb.list.57.series",
                 "type": "series",
                 "name": "The Good Wife Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-61",
-            "title": "The Eastrail 177 Trilogy",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/61.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.61.movies",
-                "type": "movie",
-                "name": "The Eastrail 177 Trilogy - Movies",
-                "genre": null,
-                "baseType": "movie"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-70",
-            "title": "The Walking Dead Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/70.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.70.series",
-                "type": "series",
-                "name": "The Walking Dead Franchise - Series",
                 "genre": null,
                 "baseType": "series"
               }
@@ -11657,93 +12391,6 @@
             ]
           },
           {
-            "id": "tvdb-76",
-            "title": "Culture LGBTQ+",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/76.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.76.movies",
-                "type": "movie",
-                "name": "Culture LGBTQ+ - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.76.series",
-                "type": "series",
-                "name": "Culture LGBTQ+ - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-77",
-            "title": "Veronica Mars",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/77.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.77.movies",
-                "type": "movie",
-                "name": "Veronica Mars - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.77.series",
-                "type": "series",
-                "name": "Veronica Mars - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-79",
-            "title": "Breaking Bad Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/79.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.79.movies",
-                "type": "movie",
-                "name": "Breaking Bad Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.79.series",
-                "type": "series",
-                "name": "Breaking Bad Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
             "id": "tvdb-80",
             "title": "The Kissing Booth Franchise",
             "shape": "POSTER",
@@ -11762,93 +12409,6 @@
                 "name": "The Kissing Booth Franchise - Movies",
                 "genre": null,
                 "baseType": "movie"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-81",
-            "title": "Back to the Future Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/81.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.81.movies",
-                "type": "movie",
-                "name": "Back to the Future Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.81.series",
-                "type": "series",
-                "name": "Back To The Future - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-82",
-            "title": "Based on Jane Austen\u2019s Pride & Prejudice",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/82.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.82.movies",
-                "type": "movie",
-                "name": "Based on Jane Austen\u2019s Pride & Prejudice - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.82.series",
-                "type": "series",
-                "name": "Based on Jane Austen\u2019s Pride & Prejudice - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-83",
-            "title": "Based on Jane Austen\u2019s Emma",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/83.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.83.movies",
-                "type": "movie",
-                "name": "Based on Jane Austen\u2019s Emma - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.83.series",
-                "type": "series",
-                "name": "Based on Jane Austen\u2019s Emma - Series",
-                "genre": null,
-                "baseType": "series"
               }
             ]
           },
@@ -11919,28 +12479,6 @@
             ]
           },
           {
-            "id": "tvdb-87",
-            "title": "Predator Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/87.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.87.movies",
-                "type": "movie",
-                "name": "Predator Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              }
-            ]
-          },
-          {
             "id": "tvdb-89",
             "title": "Romancing the Stone Franchise",
             "shape": "POSTER",
@@ -11963,57 +12501,6 @@
             ]
           },
           {
-            "id": "tvdb-90",
-            "title": "The Lord of the Rings Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/90.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.90.movies",
-                "type": "movie",
-                "name": "The Lord of the Rings Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-91",
-            "title": "Rocky Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/91.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.91.movies",
-                "type": "movie",
-                "name": "Rocky Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.91.series",
-                "type": "series",
-                "name": "Rocky Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
             "id": "tvdb-92",
             "title": "Ice Age Franchise",
             "shape": "POSTER",
@@ -12032,57 +12519,6 @@
                 "name": "Ice Age Franchise - Movies",
                 "genre": null,
                 "baseType": "movie"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-93",
-            "title": "X-Men Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/93.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.93.movies",
-                "type": "movie",
-                "name": "X-Men Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-94",
-            "title": "Arthur and the Invisibles",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/94.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.94.movies",
-                "type": "movie",
-                "name": "Arthur and the Invisibles - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.94.series",
-                "type": "series",
-                "name": "Arthur and the Invisibles - Series",
-                "genre": null,
-                "baseType": "series"
               }
             ]
           },
@@ -12131,64 +12567,6 @@
             ]
           },
           {
-            "id": "tvdb-98",
-            "title": "Jack Ryan Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/98.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.98.movies",
-                "type": "movie",
-                "name": "Jack Ryan Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.98.series",
-                "type": "series",
-                "name": "Jack Ryan Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-101",
-            "title": "Transformers: Generation 1 Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/101.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.101.movies",
-                "type": "movie",
-                "name": "Transformers: Generation 1 Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.101.series",
-                "type": "series",
-                "name": "Transformers - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
             "id": "tvdb-102",
             "title": "Transformers: Beast Wars Franchise",
             "shape": "POSTER",
@@ -12205,137 +12583,6 @@
                 "catalogId": "tvdb.list.102.series",
                 "type": "series",
                 "name": "Transformers: Beast Wars Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-104",
-            "title": "Transformers: Film Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/104.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.104.movies",
-                "type": "movie",
-                "name": "Transformers: Film Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-105",
-            "title": "Law & Order Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/105.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.105.movies",
-                "type": "movie",
-                "name": "Law & Order Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.105.series",
-                "type": "series",
-                "name": "Law & Order Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-107",
-            "title": "John Wick Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/107.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.107.movies",
-                "type": "movie",
-                "name": "John Wick Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.107.series",
-                "type": "series",
-                "name": "John Wick - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-108",
-            "title": "The Fast & The Furious Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/108.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.108.movies",
-                "type": "movie",
-                "name": "The Fast & The Furious Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-121",
-            "title": "Stargate Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/121.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.121.movies",
-                "type": "movie",
-                "name": "Stargate Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.121.series",
-                "type": "series",
-                "name": "Stargate Franchise - Series",
                 "genre": null,
                 "baseType": "series"
               }
@@ -12364,28 +12611,6 @@
             ]
           },
           {
-            "id": "tvdb-6003",
-            "title": "James Bond Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6003.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.6003.movies",
-                "type": "movie",
-                "name": "James Bond Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              }
-            ]
-          },
-          {
             "id": "tvdb-6004",
             "title": "Batman Franchise",
             "shape": "POSTER",
@@ -12402,28 +12627,6 @@
                 "catalogId": "tvdb.list.6004.movies",
                 "type": "movie",
                 "name": "Batman Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-6005",
-            "title": "Spider-Man Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6005.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.6005.movies",
-                "type": "movie",
-                "name": "Spider-Man Franchise - Movies",
                 "genre": null,
                 "baseType": "movie"
               }
@@ -12452,64 +12655,6 @@
             ]
           },
           {
-            "id": "tvdb-6008",
-            "title": "Jurassic Park Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6008.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.6008.movies",
-                "type": "movie",
-                "name": "Jurassic Park Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.6008.series",
-                "type": "series",
-                "name": "Jurassic Park - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-6010",
-            "title": "DC Extended Universe",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6010.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.6010.movies",
-                "type": "movie",
-                "name": "DC Extended Universe - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.6010.series",
-                "type": "series",
-                "name": "DC Extended Universe - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
             "id": "tvdb-6012",
             "title": "Superman Franchise",
             "shape": "POSTER",
@@ -12528,35 +12673,6 @@
                 "name": "Superman Franchise - Movies",
                 "genre": null,
                 "baseType": "movie"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-6014",
-            "title": "Shrek Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6014.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.6014.movies",
-                "type": "movie",
-                "name": "Shrek Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.6014.series",
-                "type": "series",
-                "name": "Shrek Franchise - Series",
-                "genre": null,
-                "baseType": "series"
               }
             ]
           },
@@ -12979,64 +13095,6 @@
             ]
           },
           {
-            "id": "tvdb-6634",
-            "title": "Marvel's Spider-Man Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6634.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.6634.movies",
-                "type": "movie",
-                "name": "Marvel's Spider-Man Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.6634.series",
-                "type": "series",
-                "name": "Marvel's Spider-Man Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-6637",
-            "title": "Bill & Ted Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6637.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.6637.movies",
-                "type": "movie",
-                "name": "Bill & Ted Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.6637.series",
-                "type": "series",
-                "name": "Bill & Ted Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
             "id": "tvdb-6638",
             "title": "Police Story Franchise",
             "shape": "POSTER",
@@ -13121,64 +13179,6 @@
                 "name": "Once Upon a Time in China Franchise - Movies",
                 "genre": null,
                 "baseType": "movie"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-6645",
-            "title": "Captain America Franchise",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6645.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.6645.movies",
-                "type": "movie",
-                "name": "Captain America Franchise - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.6645.series",
-                "type": "series",
-                "name": "Captain America Franchise - Series",
-                "genre": null,
-                "baseType": "series"
-              }
-            ]
-          },
-          {
-            "id": "tvdb-6651",
-            "title": "DC Animated Universe",
-            "shape": "POSTER",
-            "hideTitle": true,
-            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6651.webp",
-            "coverEmoji": "",
-            "focusGifUrl": "",
-            "focusGifEnabled": false,
-            "heroBackdropUrl": "",
-            "heroVideoUrl": "",
-            "titleLogoUrl": "",
-            "sources": [
-              {
-                "catalogId": "tvdb.list.6651.movies",
-                "type": "movie",
-                "name": "DC Animated Universe - Movies",
-                "genre": null,
-                "baseType": "movie"
-              },
-              {
-                "catalogId": "tvdb.list.6651.series",
-                "type": "series",
-                "name": "DC Animated Universe - Series",
-                "genre": null,
-                "baseType": "series"
               }
             ]
           }

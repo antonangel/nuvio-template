@@ -83,7 +83,12 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
   blank tiles. Cover art is that list poster
   (`artworks.thetvdb.com/banners/v4/list/unknown/posters/<hash>.jpg`), mirrored to
   `images/lists/<id>.webp`; horizontal posters do not exist for these, so all 100 are `POSTER`
-  tiles with `hideTitle` on. Tile order follows list id, which puts the curated Official Lists first.
+  tiles with `hideTitle` on.
+- **Order** is popularity, not id: 20 folders carry a real TVDB ⭐ (the favorites count on
+  thetvdb.com/lists, which TVDB only renders for the 25 Official Lists — MCU 282, Star Wars 116,
+  … Ghostbusters 32) and lead in that order; then 31 folders ordered by the TVDB API's `score`
+  (popularity — several lists are unscored and score 0, so it is a weak key); the remaining 49
+  unscored folders keep their file order. Re-sort by rewriting the ranking in the build, not by hand.
 
 **Awards** — 6 folders, `FOLLOW_LAYOUT` view
 
