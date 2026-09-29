@@ -4484,381 +4484,16 @@
     "title": "Awards",
     "folders": [
       {
-        "id": "018f-aw-bafta",
-        "title": "BAFTA",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.32970"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/awards/bafta.webp",
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.32970"
-          }
-        ],
-        "focusGifEnabled": false
-      },
-      {
-        "id": "018f-aw-cannes",
-        "title": "Cannes",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.134514"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.134517"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.168233"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.164351"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.164484"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/awards/cannes.webp",
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.134514"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.134517"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.168233"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.164351"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.164484"
-          }
-        ],
-        "focusGifEnabled": false
-      },
-      {
-        "id": "018f-aw-emmy",
-        "title": "Emmy Awards",
-        "sources": [
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.202234"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.202235"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.210147"
-          },
-          {
-            "type": "series",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.88785"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.130838"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/awards/emmy.webp",
-        "catalogSources": [
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.202234"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.202235"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.210147"
-          },
-          {
-            "type": "series",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.88785"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.130838"
-          }
-        ],
-        "focusGifEnabled": false
-      },
-      {
-        "id": "018f-aw-golden-globes",
-        "title": "Golden Globes",
-        "sources": [
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34477"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34484"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34482"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34485"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34483"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34479"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34487"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34489"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34486"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34476"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34475"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34478"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34480"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.34481"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.137024"
-          },
-          {
-            "type": "movie",
-            "genre": "",
-            "addonId": "aio-metadata",
-            "provider": "addon",
-            "catalogId": "mdblist.146627"
-          }
-        ],
-        "hideTitle": true,
-        "tileShape": "POSTER",
-        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/awards/golden-globes.webp",
-        "catalogSources": [
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34477"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34484"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34482"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34485"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34483"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34479"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34487"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34489"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34486"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34476"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34475"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34478"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34480"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.34481"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.137024"
-          },
-          {
-            "type": "movie",
-            "addonId": "aio-metadata",
-            "catalogId": "mdblist.146627"
-          }
-        ],
-        "focusGifEnabled": false
-      },
-      {
         "id": "018f-aw-oscars",
         "title": "Academy Awards",
         "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.88147"
+          },
           {
             "type": "movie",
             "genre": "",
@@ -5028,6 +4663,11 @@
           {
             "type": "movie",
             "addonId": "aio-metadata",
+            "catalogId": "mdblist.88147"
+          },
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
             "catalogId": "mdblist.34454"
           },
           {
@@ -5139,6 +4779,150 @@
             "type": "movie",
             "addonId": "aio-metadata",
             "catalogId": "mdblist.140082"
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "018f-aw-bafta",
+        "title": "BAFTA",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.160235"
+          },
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.32970"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "POSTER",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/awards/bafta.webp",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.160235"
+          },
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.32970"
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "018f-aw-cannes",
+        "title": "Cannes",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.160006"
+          },
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.164484"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "POSTER",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/awards/cannes.webp",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.160006"
+          },
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.164484"
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "018f-aw-emmy",
+        "title": "Emmy Awards",
+        "sources": [
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.159408"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.32714"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "POSTER",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/awards/emmy.webp",
+        "catalogSources": [
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.159408"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.32714"
+          }
+        ],
+        "focusGifEnabled": false
+      },
+      {
+        "id": "018f-aw-golden-globes",
+        "title": "Golden Globes",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.159385"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.34135"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "POSTER",
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/awards/golden-globes.webp",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.159385"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.34135"
           }
         ],
         "focusGifEnabled": false

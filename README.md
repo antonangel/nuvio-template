@@ -75,7 +75,7 @@ Substitute your own before importing, and expect the Comet/StremThru presets to 
 
 **Awards** — 6 folders, `FOLLOW_LAYOUT` view
 
-- BAFTA, Cannes, Emmy Awards, Golden Globes, Academy Awards, Venice Film Festival
+- Academy Awards (newest first), BAFTA, Cannes, Emmy Awards, Golden Globes, Venice Film Festival (newest first)
 
 `images/` is mirrored publicly at [antonangel/nuvio-template](https://github.com/antonangel/nuvio-template)
 and `nuvio-collections.json` now points at it — `raw.githubusercontent.com/antonangel/nuvio-template/main/images/<family>/<name>.webp`
