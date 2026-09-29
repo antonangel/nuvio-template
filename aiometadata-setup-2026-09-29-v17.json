@@ -1,6 +1,6 @@
 {
   "version": "3.2.3",
-  "exportedAt": "2026-09-29T22:41:42.368503Z",
+  "exportedAt": "2026-09-29T22:48:23.352889Z",
   "config": {
     "mal": {
       "skipRecap": false,
@@ -8887,6 +8887,79 @@
           "description": "TVDB list (series)"
         },
         "displayType": "series"
+      },
+      {
+        "id": "tvdb.list.6021.movies",
+        "type": "movie",
+        "name": "Mission: Impossible Franchise - Movies",
+        "source": "tvdb",
+        "enabled": true,
+        "showInHome": false,
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TVDB list (movie)"
+        }
+      },
+      {
+        "id": "tvdb.list.6034.movies",
+        "type": "movie",
+        "name": "Men in Black Franchise - Movies",
+        "source": "tvdb",
+        "enabled": true,
+        "showInHome": false,
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TVDB list (movie)"
+        }
+      },
+      {
+        "id": "tvdb.list.6042.movies",
+        "type": "movie",
+        "name": "Ghostbusters Franchise - Movies",
+        "source": "tvdb",
+        "enabled": true,
+        "showInHome": false,
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TVDB list (movie)"
+        }
+      },
+      {
+        "id": "tvdb.list.6042.series",
+        "type": "series",
+        "name": "Ghostbusters Franchise - Series",
+        "source": "tvdb",
+        "enabled": true,
+        "showInHome": false,
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TVDB list (series)"
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "tvdb.list.6056.movies",
+        "type": "movie",
+        "name": "Die Hard Franchise - Movies",
+        "source": "tvdb",
+        "enabled": true,
+        "showInHome": false,
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TVDB list (movie)"
+        }
+      },
+      {
+        "id": "tvdb.list.6087.movies",
+        "type": "movie",
+        "name": "Deadpool Franchise - Movies",
+        "source": "tvdb",
+        "enabled": true,
+        "showInHome": false,
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TVDB list (movie)"
+        }
       }
     ],
     "language": "en-US",
@@ -10972,6 +11045,28 @@
             ]
           },
           {
+            "id": "tvdb-6021",
+            "title": "Mission: Impossible Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6021.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.6021.movies",
+                "type": "movie",
+                "name": "Mission: Impossible Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              }
+            ]
+          },
+          {
             "id": "tvdb-93",
             "title": "X-Men Franchise",
             "shape": "POSTER",
@@ -11041,6 +11136,28 @@
                 "name": "DC Extended Universe - Series",
                 "genre": null,
                 "baseType": "series"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-6034",
+            "title": "Men in Black Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6034.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.6034.movies",
+                "type": "movie",
+                "name": "Men in Black Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
               }
             ]
           },
@@ -11140,6 +11257,50 @@
             ]
           },
           {
+            "id": "tvdb-6056",
+            "title": "Die Hard Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6056.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.6056.movies",
+                "type": "movie",
+                "name": "Die Hard Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-6087",
+            "title": "Deadpool Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6087.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.6087.movies",
+                "type": "movie",
+                "name": "Deadpool Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              }
+            ]
+          },
+          {
             "id": "tvdb-87",
             "title": "Predator Franchise",
             "shape": "POSTER",
@@ -11202,6 +11363,35 @@
                 "name": "The Eastrail 177 Trilogy - Movies",
                 "genre": null,
                 "baseType": "movie"
+              }
+            ]
+          },
+          {
+            "id": "tvdb-6042",
+            "title": "Ghostbusters Franchise",
+            "shape": "POSTER",
+            "hideTitle": true,
+            "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6042.webp",
+            "coverEmoji": "",
+            "focusGifUrl": "",
+            "focusGifEnabled": false,
+            "heroBackdropUrl": "",
+            "heroVideoUrl": "",
+            "titleLogoUrl": "",
+            "sources": [
+              {
+                "catalogId": "tvdb.list.6042.movies",
+                "type": "movie",
+                "name": "Ghostbusters Franchise - Movies",
+                "genre": null,
+                "baseType": "movie"
+              },
+              {
+                "catalogId": "tvdb.list.6042.series",
+                "type": "series",
+                "name": "Ghostbusters Franchise - Series",
+                "genre": null,
+                "baseType": "series"
               }
             ]
           },

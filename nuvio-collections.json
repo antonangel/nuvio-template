@@ -3075,6 +3075,30 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/40.webp"
       },
       {
+        "id": "tvdb-6021",
+        "title": "Mission: Impossible Franchise",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.6021.movies"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "POSTER",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.6021.movies"
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6021.webp"
+      },
+      {
         "id": "tvdb-93",
         "title": "X-Men Franchise",
         "sources": [
@@ -3157,6 +3181,30 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6010.webp"
+      },
+      {
+        "id": "tvdb-6034",
+        "title": "Men in Black Franchise",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.6034.movies"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "POSTER",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.6034.movies"
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6034.webp"
       },
       {
         "id": "tvdb-108",
@@ -3267,6 +3315,54 @@
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/79.webp"
       },
       {
+        "id": "tvdb-6056",
+        "title": "Die Hard Franchise",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.6056.movies"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "POSTER",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.6056.movies"
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6056.webp"
+      },
+      {
+        "id": "tvdb-6087",
+        "title": "Deadpool Franchise",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.6087.movies"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "POSTER",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.6087.movies"
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6087.webp"
+      },
+      {
         "id": "tvdb-87",
         "title": "Predator Franchise",
         "sources": [
@@ -3337,6 +3433,42 @@
           }
         ],
         "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/61.webp"
+      },
+      {
+        "id": "tvdb-6042",
+        "title": "Ghostbusters Franchise",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.6042.movies"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tvdb.list.6042.series"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "POSTER",
+        "focusGifEnabled": false,
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.6042.movies"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "tvdb.list.6042.series"
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/lists/6042.webp"
       },
       {
         "id": "tvdb-76",
