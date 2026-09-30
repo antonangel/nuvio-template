@@ -16,7 +16,7 @@ images/        the folder/collection art library, one dir per family
 | `aiometadata-collections.json` | AIOMetadata 3.2.3 | **main profile** — 423 catalogs, all enabled, collections carried as catalogs |
 | `aiometadata-no-collections.json` | AIOMetadata 3.2.3 | **Friends profile** — 46 catalogs (27 on), collections come from the Nuvio file instead |
 | `nuvio-collections.json` | Nuvio client | the folder/collection layout: 4 top folders, 112 sub-folders, each wired to catalog sources |
-| `xperience-badges.json` | Nuvio / Xperience | the stream-badge pack: 7 groups, 38 filters (30 on), 34 with art |
+| `badges.json` | Nuvio / Xperience | the stream-badge pack: 7 groups, 38 filters (30 on), 34 with art |
 | `aiostreams.json` | AIOStreams | Tamtaro partial SEL 3.0.4 + Vidhin ranked regexes, usenet `cacheAndPlay` |
 
 The two AIOMetadata files are **two different profiles, not two halves of one config** — different
@@ -62,7 +62,7 @@ catalog sets, different manager accounts, different defaults. Import the one you
 - Tiles: 36 `LANDSCAPE` (Streaming Services, Genres, Decades) and 76 `POSTER` (Collections), every
   folder `FOLLOW_LAYOUT` with `focusGlowEnabled` and a cover; no `pinToTop`.
 
-**`xperience-badges.json`** — the stream-badge pack (Xperience's `colorful_concise` set), the
+**`badges.json`** — the stream-badge pack (Xperience's `colorful_concise` set), the
 coloured chips each stream row carries.
 
 - 7 groups: Quality, Visual, Resolution, Audio, Channels, Streaming, Encoder.
@@ -83,7 +83,7 @@ coloured chips each stream row carries.
   This **replaces the whole config**, and carries no API keys — add your own TMDB/TVDB/etc. keys after.
 - `nuvio-collections.json` → Nuvio client → **Import collections**, or AIO → Collections → Import collections.
 - `aiostreams.json` → AIOStreams → **Import config**.
-- `xperience-badges.json` → the badge/filter import of whichever client renders the pack. Its
+- `badges.json` → the badge/filter import of whichever client renders the pack. Its
   `imageURL`s point at this repo, so it works as-is.
 
 A collections file in the Catalogs dialog fails with *Invalid configuration file format*, and a
