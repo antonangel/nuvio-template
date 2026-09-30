@@ -1,21 +1,22 @@
 # nuvio-template
 
-A Nuvio + AIOMetadata setup as four importable files plus the art library they point at.
+A Nuvio + AIOMetadata setup as five importable files plus the art library they point at.
 Everything here is a verbatim export of a working setup — nothing is generated, nothing is
 scripted, nothing is built. Import a file, or take the art and host your own.
 
 ```
-<addon>.json   the four exports, at the repo root. import these.
+<addon>.json   the five exports, at the repo root. import these.
 images/        the folder/collection art library, one dir per family
 ```
 
-## The four files
+## The five files
 
 | file | addon | what it is |
 |---|---|---|
 | `aiometadata-collections.json` | AIOMetadata 3.2.3 | **main profile** — 423 catalogs, all enabled, collections carried as catalogs |
 | `aiometadata-no-collections.json` | AIOMetadata 3.2.3 | **Friends profile** — 46 catalogs (27 on), collections come from the Nuvio file instead |
 | `nuvio-collections.json` | Nuvio client | the folder/collection layout: 4 top folders, 112 sub-folders, each wired to catalog sources |
+| `xperience-badges.json` | Nuvio / Xperience | the stream-badge pack: 7 groups, 38 filters (30 on), 34 with art |
 | `aiostreams.json` | AIOStreams | Tamtaro partial SEL 3.0.4 + Vidhin ranked regexes, usenet `cacheAndPlay` |
 
 The two AIOMetadata files are **two different profiles, not two halves of one config** — different
@@ -61,12 +62,29 @@ catalog sets, different manager accounts, different defaults. Import the one you
 - Tiles: 36 `LANDSCAPE` (Streaming Services, Genres, Decades) and 76 `POSTER` (Collections), every
   folder `FOLLOW_LAYOUT` with `focusGlowEnabled` and a cover; no `pinToTop`.
 
+**`xperience-badges.json`** — the stream-badge pack (Xperience's `colorful_concise` set), the
+coloured chips each stream row carries.
+
+- 7 groups: Quality, Visual, Resolution, Audio, Channels, Streaming, Encoder.
+- 38 filters, 30 enabled. Each is a name plus a `pattern` regex matched against the stream title:
+  Remux, BluRay, WEB-DL, WEBRip, HDTV, HDRip, DVDRip (Quality); IMAX Enhanced, IMAX, DV, HDR10+,
+  HDR10, HDR, SDR (Visual); 4K, 1080p, 720p (Resolution); Atmos, DTS:X, TrueHD, DTS-HD MA, DTS-HD,
+  DD+, DTS, DD (Audio); 7.1, 5.1 (Channels); NETFLIX, PRIME VIDEO, APPLE TV+, DISNEY+, HBO MAX,
+  HULU, PEACOCK, PARAMOUNT+, CRUNCHYROLL (Streaming); H265 HEVC, H264 AVC (Encoder).
+- 34 carry `imageURL`; the four SD-source filters (WEBRip, HDTV, HDRip, DVDRip) have no art and fall
+  back to the painted tag — `tagStyle: "filled and bordered"` with per-filter `tagColor`,
+  `borderColor`, `textColor`.
+- Every `imageURL` was rewritten to this repo's mirror
+  (`…/main/images/badges/<id>.webp`); upstream is `cdn.xperience-app.com/badges/colorful_concise/<id>.webp`.
+
 ## Importing
 
 - `aiometadata-collections.json` / `aiometadata-no-collections.json` → AIOMetadata → **Import config**.
   This **replaces the whole config**, and carries no API keys — add your own TMDB/TVDB/etc. keys after.
 - `nuvio-collections.json` → Nuvio client → **Import collections**, or AIO → Collections → Import collections.
 - `aiostreams.json` → AIOStreams → **Import config**.
+- `xperience-badges.json` → the badge/filter import of whichever client renders the pack. Its
+  `imageURL`s point at this repo, so it works as-is.
 
 A collections file in the Catalogs dialog fails with *Invalid configuration file format*, and a
 catalog export in the Collections dialog is rejected — one file per dialog.
@@ -79,7 +97,8 @@ side. Re-import the Nuvio file into the Collections tab after any catalog import
 Nothing here holds a working credential. Both AIOMetadata exports are `apiKeysExcluded` with every
 `apiKeys` entry empty, the AIOStreams `services[].credentials` are empty on all 18 services, and the
 Nuvio file's `addonBaseUrl` is `null`. The only URLs left across the three are the art host and the
-manager instance (`aiomanager.angel.is`). Substitute your own keys before importing.
+manager instance (`aiomanager.angel.is`). The badges file holds no credentials either — regex patterns, colours and the mirrored art URLs
+only. Substitute your own keys before importing.
 
 ## Art
 
@@ -88,6 +107,9 @@ and `nuvio-collections.json` points at it —
 `raw.githubusercontent.com/antonangel/nuvio-template/main/images/<family>/<name>.webp` for all 112
 folders, so a TV client can fetch the tiles with no login (`git.angel.is` sits behind OIDC and 302s
 raw file reads to a login). Fork this, host `images/` yourself, and swap the host in the URLs.
+
+`images/badges/` is the 34-file badge pack (351 KB, same `<filter id>.webp` names the file
+references); upstream serves it as WebP already, so it is mirrored byte-for-byte.
 
 Every file is **WebP at q90 and native resolution** — posters stay 852 wide, wide art keeps its
 1920/2560 pixels: 104.5 MB of originals → 29.8 MB. `images/genres/` holds all 56 wide tiles of the
