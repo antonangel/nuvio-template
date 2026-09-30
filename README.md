@@ -95,14 +95,6 @@ Genres collection; `images/networks/` (69 files, 30 networks × cover/hero/logo)
 keeps an earlier q78/500-wide encode. `images/awards/` (7 files) is unused since the Awards
 collection was dropped — it stays as art you can reuse if you build that collection back.
 
-## The older files
-
-`aiometadata-setup-2026-09-29.json`, `aiometadata-setup-2026-09-29-v2…v20.json` and
-`genres-wide-dannyrutledge.nuvio.json` are superseded drafts from the day the four current files
-were built — the dated one is the main profile after 45 MDBList catalogs were added (396 catalogs),
-`v20` is the previous main profile (437 catalogs), and the `genres-wide` file is the 52-tile Genres
-collection on its own. Nothing in the current set depends on them; they stay for history.
-
 ## Provenance
 
 This repo was `nuvio-settings`, which also carried the generator that produced an importable
