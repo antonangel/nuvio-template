@@ -1,6 +1,6 @@
 {
   "version": "3.2.3",
-  "exportedAt": "2026-09-28T08:00:55.695Z",
+  "exportedAt": "2026-09-30T05:12:31.058Z",
   "config": {
     "language": "en-US",
     "addonName": "AIOMetadata (Friends)",
@@ -12,9 +12,9 @@
     "displayAgeRating": false,
     "showDisabledCatalogs": true,
     "sfw": true,
-    "hideUnreleasedDigital": false,
+    "hideUnreleasedDigital": true,
     "hideUnreleasedDigitalSearch": false,
-    "hideUnreleasedShows": false,
+    "hideUnreleasedShows": true,
     "hideUnreleasedShowsSearch": false,
     "hideWatchedTrakt": false,
     "hideWatchedAnilist": false,
@@ -436,135 +436,147 @@
       },
       {
         "id": "streaming.nfx",
-        "name": "Netflix (Movies)",
+        "name": "Netflix",
         "type": "movie",
         "source": "streaming",
         "enabled": true,
         "showInHome": true,
         "sort": "default",
         "order": "asc",
-        "sortDirection": "desc"
+        "sortDirection": "desc",
+        "displayType": "movie"
       },
       {
         "id": "streaming.nfx",
-        "name": "Netflix (Series)",
+        "name": "Netflix",
         "type": "series",
         "source": "streaming",
         "enabled": true,
         "showInHome": true,
         "sort": "default",
         "order": "asc",
-        "sortDirection": "desc"
+        "sortDirection": "desc",
+        "displayType": "series"
       },
       {
         "id": "streaming.hbm",
-        "name": "HBO Max (Movies)",
+        "name": "HBO Max",
         "type": "movie",
         "source": "streaming",
         "enabled": true,
         "showInHome": true,
         "sort": "default",
         "order": "asc",
-        "sortDirection": "desc"
+        "sortDirection": "desc",
+        "displayType": "movie"
       },
       {
         "id": "streaming.hbm",
-        "name": "HBO Max (Series)",
+        "name": "HBO Max",
         "type": "series",
         "source": "streaming",
         "enabled": true,
         "showInHome": true,
         "sort": "default",
         "order": "asc",
-        "sortDirection": "desc"
+        "sortDirection": "desc",
+        "displayType": "series"
       },
       {
         "id": "streaming.dnp",
-        "name": "Disney+ (Movies)",
+        "name": "Disney+",
         "type": "movie",
         "source": "streaming",
         "enabled": true,
         "showInHome": true,
         "sort": "default",
         "order": "asc",
-        "sortDirection": "desc"
+        "sortDirection": "desc",
+        "displayType": "movie"
       },
       {
         "id": "streaming.dnp",
-        "name": "Disney+ (Series)",
+        "name": "Disney+",
         "type": "series",
         "source": "streaming",
         "enabled": true,
         "showInHome": true,
         "sort": "default",
         "order": "asc",
-        "sortDirection": "desc"
+        "sortDirection": "desc",
+        "displayType": "series"
       },
       {
         "id": "streaming.amp",
-        "name": "Prime Video (Movies)",
+        "name": "Prime Video",
         "type": "movie",
         "source": "streaming",
         "enabled": true,
         "showInHome": true,
         "sort": "default",
         "order": "asc",
-        "sortDirection": "desc"
+        "sortDirection": "desc",
+        "displayType": "movie"
       },
       {
         "id": "streaming.amp",
-        "name": "Prime Video (Series)",
+        "name": "Prime Video",
         "type": "series",
         "source": "streaming",
         "enabled": true,
         "showInHome": true,
         "sort": "default",
         "order": "asc",
-        "sortDirection": "desc"
+        "sortDirection": "desc",
+        "displayType": "series"
       },
       {
         "id": "streaming.atp",
-        "name": "Apple TV+ (Movies)",
+        "name": "Apple TV+",
         "type": "movie",
         "source": "streaming",
         "enabled": true,
         "showInHome": true,
         "sort": "default",
         "order": "asc",
-        "sortDirection": "desc"
+        "sortDirection": "desc",
+        "displayType": "movie"
       },
       {
         "id": "streaming.atp",
-        "name": "Apple TV+ (Series)",
+        "name": "Apple TV+",
         "type": "series",
         "source": "streaming",
         "enabled": true,
         "showInHome": true,
         "sort": "default",
         "order": "asc",
-        "sortDirection": "desc"
+        "sortDirection": "desc",
+        "displayType": "series"
       },
       {
         "id": "streaming.crv",
-        "name": "Crave (Movies)",
+        "name": "Crave",
         "type": "movie",
         "source": "streaming",
         "enabled": true,
         "showInHome": true,
         "sort": "default",
         "order": "asc",
-        "sortDirection": "desc"
+        "sortDirection": "desc",
+        "displayType": "movie"
       },
       {
         "id": "streaming.crv",
-        "name": "Crave (Series)",
+        "name": "Crave",
         "type": "series",
         "source": "streaming",
         "enabled": true,
         "showInHome": true,
         "sort": "default",
         "order": "asc",
-        "sortDirection": "desc"
+        "sortDirection": "desc",
+        "displayType": "series"
       }
     ],
     "search": {
@@ -630,7 +642,7 @@
         "instanceUrl": "https://aiomanager.angel.is",
         "profileTags": [],
         "autoSync": true,
-        "lastSyncedAt": "2026-09-28T06:09:01.095Z"
+        "lastSyncedAt": "2026-09-30T05:12:19.628Z"
       },
       {
         "id": "18b75005-1011-49d1-a169-11648501c092",
@@ -639,7 +651,7 @@
         "instanceUrl": "https://aiomanager.angel.is",
         "profileTags": [],
         "autoSync": true,
-        "lastSyncedAt": "2026-09-28T06:09:01.845Z"
+        "lastSyncedAt": "2026-09-30T05:12:20.366Z"
       },
       {
         "id": "deb9ae8c-b581-419b-94be-591ebb06a13e",
@@ -648,7 +660,7 @@
         "instanceUrl": "https://aiomanager.angel.is",
         "profileTags": [],
         "autoSync": true,
-        "lastSyncedAt": "2026-09-28T06:09:02.593Z"
+        "lastSyncedAt": "2026-09-30T05:12:21.109Z"
       },
       {
         "id": "feabaacf-2083-4e6f-be1b-97ad0533b1d2",
@@ -657,7 +669,7 @@
         "instanceUrl": "https://aiomanager.angel.is",
         "profileTags": [],
         "autoSync": true,
-        "lastSyncedAt": "2026-09-28T06:09:03.337Z"
+        "lastSyncedAt": "2026-09-30T05:12:21.847Z"
       },
       {
         "id": "9da96ccd-57fb-4501-8c25-ed755f3a7ffd",
@@ -666,12 +678,12 @@
         "instanceUrl": "https://aiomanager.angel.is",
         "profileTags": [],
         "autoSync": true,
-        "lastSyncedAt": "2026-09-28T06:09:04.076Z"
+        "lastSyncedAt": "2026-09-30T05:12:22.587Z"
       }
     ],
-    "lastModified": 1790575600355,
-    "configVersion": 1790575600356,
-    "configHash": "07df1bb469948161"
+    "lastModified": 1790733017401,
+    "configVersion": 1790733017402,
+    "configHash": "f0ef52756700d002"
   },
   "metadata": {
     "apiKeysExcluded": true,

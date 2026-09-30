@@ -13,41 +13,53 @@ images/        the folder/collection art library, one dir per family
 
 | file | addon | what it is |
 |---|---|---|
-| `aiometadata-collections.json` | AIOMetadata 3.2.3 | **main profile**: 351 catalogs, no streaming set, collections carried as catalogs |
-| `aiometadata-no-collections.json` | AIOMetadata 3.2.3 | **Friends profile**: 46 catalogs (27 on), collections come from the Nuvio file instead |
-| `nuvio-collections.json` | Nuvio client | the folder/collection layout: 5 top folders, 112 sub-folders, each wired to catalog sources |
+| `aiometadata-collections.json` | AIOMetadata 3.2.3 | **main profile** — 423 catalogs, all enabled, collections carried as catalogs |
+| `aiometadata-no-collections.json` | AIOMetadata 3.2.3 | **Friends profile** — 46 catalogs (27 on), collections come from the Nuvio file instead |
+| `nuvio-collections.json` | Nuvio client | the folder/collection layout: 4 top folders, 112 sub-folders, each wired to catalog sources |
 | `aiostreams.json` | AIOStreams | Tamtaro partial SEL 3.0.4 + Vidhin ranked regexes, usenet `cacheAndPlay` |
 
-The two AIOMetadata files are **two different profiles, not two halves of one config** —
-different catalog sets, different manager accounts, different defaults. Import the one you want.
+The two AIOMetadata files are **two different profiles, not two halves of one config** — different
+catalog sets, different manager accounts, different defaults. Import the one you want.
 
-Two later additions, same current state: `aiometadata-setup-2026-09-29.json` is the main profile
-re-exported after 45 MDBList catalogs were added (396 catalogs), and
-`genres-wide-dannyrutledge.nuvio.json` is the 52-tile Genres collection on its own — the same one
-already merged into `nuvio-collections.json`.
+## What's inside
 
-`aiometadata-setup-2026-09-29-v2.json` (352 catalogs) prunes the removed genre tiles' catalogs;
-`aiometadata-setup-2026-09-29-v3.json` is v2 with the Franchises collection's 69 franchise
-catalogs set to `released`/`desc` (release order, oldest first) — import v3 if you want that too.
-`aiometadata-setup-2026-09-29-v4.json` (330 catalogs) is v3 without the Starz, Shudder and
-Adult Swim folders and their 22 catalogs.
+**`aiometadata-collections.json`** — main profile, 423 catalogs, all enabled, none pinned to home.
 
-The `-v10` … `-v20` files are successive rewrites of the main profile from this same day; **v20 is
-current**: 437 catalogs, built from his latest live export with the house rules applied — catalog names
-truncated to the franchise name, every catalog tagged with the collection group it serves (Collections /
-Genres / Decades / Awards palette), the duplicate MDBList pairs removed, and `customPosterUrlPattern` =
-`https://btttr.cc/poster/imdb/poster-default/{imdb_id}.jpg` with `posterRatingProvider: custom`
-(verified live by calling AIO's own `resolvePosterPattern`). **Media types are plural on both sides**:
-every catalog carries `displayType: "movies" | "series"` (that value *is* the published manifest type —
-`catalogType = displayType || type`) and every Nuvio source says `"type": "movies" | "series"`, because
-AIO matches a folder source to a catalog by id **and** type string. Change one file alone and that
-folder's rows stop resolving: v20 is 282/282 sources resolving, the singular spelling was 212/282.
-`v17` briefly embedded the five collections in the config and was withdrawn: AIO then publishes one
-`type: collection` catalog per collection (`aiom.collection.<id>`), which broke the Genres / Decades /
-Collections groups in Nuvio, so the export carries none — the Nuvio file is the only source of the
-collections, imported through AIO's **Collections** tab when you want AIO to know about them. Rebuild
-from his latest export, never from an older file of ours: he changes dashboard settings (timezone,
-`hideUnreleased*`, `posterRatingProvider`) that an old file regresses on import.
+- Sources: tmdb 158, mdblist 154, tvdb 108, mal 2, anilist 1.
+- Every catalog carries `displayType` — plural, `"movies" | "series"` (270 / 147, plus 3 `anime` and
+  3 `all`), because that value *is* the published manifest type (`catalogType = displayType || type`).
+- `config.collections` is **empty on purpose**: embedding collections makes AIO publish one
+  `type: collection` catalog each, which breaks the Genres / Decades / Collections groups in Nuvio.
+  The collections live in `nuvio-collections.json` and reach AIO through its **Collections** tab.
+- House rules applied: catalog name = the collection folder title, catalogs tagged with the group
+  they serve (`config.tags`, 4 entries), poster art from
+  `customPosterUrlPattern = https://btttr.cc/poster/imdb/poster-default/{imdb_id}.jpg` with
+  `posterRatingProvider: custom` and `usePosterProxy: true`.
+- One manager account (`Angel`, `https://aiomanager.angel.is`), timezone `America/Los_Angeles`, `sfw: false`.
+
+**`aiometadata-no-collections.json`** — Friends profile, 46 catalogs, 27 enabled, 19 on home.
+
+- Sources: mal 18 (all off), streaming 12, tmdb 10, tvdb 5, tvmaze 1.
+- Five manager accounts on `https://aiomanager.angel.is` (Test, Alexa, Jordan, Maddy, Simon).
+- Same custom poster pattern; `sfw: true`. No `displayType` on the mal / streaming / tvmaze rows.
+
+**`nuvio-collections.json`** — Nuvio client / AIO Collections tab.
+
+- 4 top collections, 112 folders, 270 sources. Every source is `provider: addon` → `aio-metadata`,
+  spelled `"type": "movies" | "series"` to match the catalogs above — a singular/plural mismatch
+  silently drops that folder's rows.
+- **Streaming Services** — 8: Netflix, Disney+, Apple TV, Prime Video, HBO Max, Hulu, Paramount+, Peacock
+- **Genres** — 22: Action, Animation, Anime, Comedy, Crime, Documentary, Drama, Fantasy, Horror,
+  Myths and Legends, Nature, Reality, Robots and AI, Romance, Sci-Fi, Short Films, Spies, Thriller,
+  War Stories, Westerns, Whodunits, Zombie Orama
+- **Decades** — 6: 20s, 10s, 00s, 90s, 80s, 70s (movies + a per-decade popular-series catalog)
+- **Collections** — 76 folders, TVDB lists ([thetvdb.com/lists](https://www.thetvdb.com/lists)), one
+  folder per list with a `Movies` and/or `Series` source (`tvdb.list.<id>.movies` / `.series`). Only
+  lists that carry their own poster are in: the list poster is mirrored to `images/lists/<id>.webp`
+  and the folder is a `POSTER` tile with `hideTitle` on. Lists whose TVDB page serves the
+  `/images/missing/movie.jpg` placeholder are dropped — no movie-poster fallback, no blank tiles.
+- Tiles: 36 `LANDSCAPE` (Streaming Services, Genres, Decades) and 76 `POSTER` (Collections), every
+  folder `FOLLOW_LAYOUT` with `focusGlowEnabled` and a cover; no `pinToTop`.
 
 ## Importing
 
@@ -59,113 +71,37 @@ from his latest export, never from an older file of ours: he changes dashboard s
 A collections file in the Catalogs dialog fails with *Invalid configuration file format*, and a
 catalog export in the Collections dialog is rejected — one file per dialog.
 
+Order matters: a catalog import replaces the whole config, so it wipes the collections on the AIO
+side. Re-import the Nuvio file into the Collections tab after any catalog import.
+
 ## Credentials
 
-Nothing here holds a working credential. Every `apiKeys` block is empty, both AIOStreams
-`services[].credentials` are empty, and the TorBox key that the original exports carried inside the
-Comet and StremThru preset URLs has been replaced with `REPLACE_WITH_YOUR_OWN_TORBOX_API_KEY`.
-Substitute your own before importing, and expect the Comet/StremThru presets to fail until you do.
+Nothing here holds a working credential. Both AIOMetadata exports are `apiKeysExcluded` with every
+`apiKeys` entry empty, the AIOStreams `services[].credentials` are empty on all 18 services, and the
+Nuvio file's `addonBaseUrl` is `null`. The only URLs left across the three are the art host and the
+manager instance (`aiomanager.angel.is`). Substitute your own keys before importing.
 
-## Collections — what `nuvio-collections.json` builds
-
-5 top folders, 118 sub-folders, each with `coverImageUrl` and its catalog `sources`.
-
-
-**Streaming Services** — 8 folders, `FOLLOW_LAYOUT` view
-
-- Netflix, Disney+, Apple TV, Prime Video, HBO Max, Hulu, Paramount+, Peacock
-
-**Genres** — 22 folders, `FOLLOW_LAYOUT` view
-
-- Action, Animation, Anime, Comedy, Crime, Documentary, Drama, Fantasy, Horror, Myths and Legends, Nature, Reality, Robots and AI, Romance, Sci-Fi, Short Films, Spies, Thriller, War Stories, Westerns, Whodunits, Zombie Orama
-
-**Decades** — 6 folders, `FOLLOW_LAYOUT` view
-
-- 20s, 10s, 00s, 90s, 80s, 70s (each: movies + a per-decade popular-series catalog)
-
-**Collections** — 76 folders, `FOLLOW_LAYOUT` view
-
-- TVDB lists ([thetvdb.com/lists](https://www.thetvdb.com/lists)), one folder per list; each folder
-  gets a `Movies` and/or `Series` source (`tvdb.list.<id>.movies` / `.series`) depending on what the
-  list contains — a list holding both gets both catalogs, as separate rows.
-- **Only lists that have their own poster are included**: the 100 base folders are the TVDB lists
-  (by list id) whose page carries artwork. Lists whose TVDB page serves the
-  `/images/missing/movie.jpg` placeholder are dropped — no fallback to a movie poster, and no
-  blank tiles. Cover art is that list poster
-  (`artworks.thetvdb.com/banners/v4/list/unknown/posters/<hash>.jpg`), mirrored to
-  `images/lists/<id>.webp`; horizontal posters do not exist for these, so every folder is a `POSTER`
-  tile with `hideTitle` on.
-- The **other 5 folders are the Official Lists the API enumeration never reached** — Mission:
-  Impossible, Men in Black, Die Hard, Deadpool, Ghostbusters (Ghostbusters carries both catalogs).
-  They sit outside the `/v4/lists` page range, so they are resolved by slug
-  (`/v4/lists/slug/<slug>`) and their catalogs were added to the export.
-- Folder **titles are the franchise name only** — the trailing `Franchise`, `Trilogy`, `Mysteries`,
-  `Reboot` and Star Trek's `: Original Timeline` are stripped. Five keep a qualifier because dropping
-  it would merge or misname them: `Transformers: Film`, `Transformers: Generation 1`,
-  `Transformers: Beast Wars`, `Halloween (Rob Zombie)`, `Battlestar Galactica Reboot`. Note the AIO
-  *catalog* names were left as they were (`Star Wars Franchise - Movies`) — the folder title is what
-  the tile shows.
-- **Order** is popularity, not id: **25 folders carry a real TVDB ⭐** (the favorites count on
-  thetvdb.com/lists, which TVDB renders server-side only for the Official Lists — MCU 282, Star Wars
-  116 … Ghostbusters 32) and lead in that order; then 24 folders ordered by the TVDB API's `score`
-  (popularity — many lists are unscored and score 0, so it is a weak key); the remaining 37 unscored
-  folders keep their file order. Re-sort by rewriting the ranking in the build, not by hand.
-- Six covers are pinned to a chosen poster rather than the page default (MCU, Star Wars, Arrowverse,
-  Harry Potter, Star Trek, The Matrix) — same URL grammar, same mirror.
-- 29 lists were dropped by request: Culture LGBTQ+, Based on Jane Austen's Pride & Prejudice, Based on
-  Jane Austen's Emma, Arthur and the Invisibles, Martha's Vineyard Mysteries, Gourmet Detective, Reply,
-  The Kissing Booth, Romancing the Stone, Barbie, Tinker Bell, Monster High, To All the Boys, Law &
-  Order, Bill & Ted, Matchmaker Mysteries, Alex Cross, 9-1-1, The Tonight Show, Scooby-Doo, Superman,
-  Monsters, Sharknado, Descendants, Santa Buddies, Battlestar Galactica, Halloween (Rob Zombie),
-  The Amazing Spider-Man, Marvel's Spider-Man (the last ten pruned from AIO first, then here).
-
-**Awards** — 6 folders, `FOLLOW_LAYOUT` view
-
-- Academy Awards (newest first), BAFTA, Cannes, Emmy Awards, Golden Globes, Venice Film Festival (newest first)
+## Art
 
 `images/` is mirrored publicly at [antonangel/nuvio-template](https://github.com/antonangel/nuvio-template)
-and `nuvio-collections.json` now points at it — `raw.githubusercontent.com/antonangel/nuvio-template/main/images/<family>/<name>.webp`
-for 110 of the 112 folders, so a TV client can fetch the tiles with no login (`git.angel.is` sits
-behind OIDC and 302s raw file reads to a login). The other two folders (Alien vs Predator, Jurassic
-Park) keep their `elucidationvortex-source/nuviotemplate` hotlinks: upstream has no original for them.
-The rest of the mirror's sources: `adamswlon/nuvio-collections-art`,
-`itsitohere/nuvio-assets`, `illiyah/Images`, `itsrenoria/fusion-starter-kit`, and postimg for the
-Decades art. Fork this, host `images/` yourself, and swap the host in the URLs.
+and `nuvio-collections.json` points at it —
+`raw.githubusercontent.com/antonangel/nuvio-template/main/images/<family>/<name>.webp` for all 112
+folders, so a TV client can fetch the tiles with no login (`git.angel.is` sits behind OIDC and 302s
+raw file reads to a login). Fork this, host `images/` yourself, and swap the host in the URLs.
 
-Every file here is **WebP** at **q90 and native resolution** — posters stay 852 wide, wide art keeps
-its 1920/2560 pixels: **104.5 MB of originals → 29.8 MB**. (The first repack at q78–82 with posters
-downscaled to 500 wide read as over-processed on a 4K TV and was superseded on 2026-09-28; the art is
-re-encoded from the upstream originals, since the local copies were deleted.) `images/genres/` holds all
-56 dannyrutledge wide tiles of the new Genres collection, re-encoded from the kit's own files (which
-ship as WebP bytes under `.png` names, 993×557 native). The mirror's names end
-in `.webp` while the URLs still point at upstream's `.png`/`.jpg` — a host swap means swapping those
-extensions too.
+Every file is **WebP at q90 and native resolution** — posters stay 852 wide, wide art keeps its
+1920/2560 pixels: 104.5 MB of originals → 29.8 MB. `images/genres/` holds all 56 wide tiles of the
+Genres collection; `images/networks/` (69 files, 30 networks × cover/hero/logo) is the exception and
+keeps an earlier q78/500-wide encode. `images/awards/` (7 files) is unused since the Awards
+collection was dropped — it stays as art you can reuse if you build that collection back.
 
-`images/networks/` (69 files — 30 networks × cover/hero/logo) is the exception: those originals exist in no
-upstream repository, so it keeps the earlier q78/500-wide encode. Only two of the files are used at all —
-the Adult Swim cover and the Starz hero, both rebuilt from upstream.
+## The older files
 
-## Catalogs
-
-### Main profile — `aiometadata-collections.json`
-
-351 catalogs, 351 enabled. Sources: recommendations 2, mdblist 168, anilist 1, mal 2, tmdb 178.
-
-- **recommendations** (2): For You (`recommendations.movies`, movie), For You (`recommendations.series`, series)
-- **mdblist** (168): Popular 2020s Movies (movie), Popular 2010s Movies (movie), Popular 2000s Movies (movie), Popular 1990s Movies (movie), Popular 1980s Movies (movie), Popular 1970s Movies (movie), Popular 1960s Movies (movie), Popular Sci-Fi Movies (movie), Popular Sci-Fi Shows (series), Popular Action Movies (movie), Popular Action Shows (series), Popular Crime Movies (movie), Popular Crime Shows (series), Popular Comedy Movies (movie), Popular Comedy Shows (series), Popular Drama Movies (movie), Popular Drama Shows (series), Popular Horror Movies (movie), Popular Horror Shows (series), Popular Thriller Movies (movie), Popular Thriller Shows (series), Popular Mystery Movies (movie), Popular Mystery Shows (series), Popular History Movies (movie), History TV Shows (series), Popular Romance Movies (movie), Popular Romance Shows (series), Popular Reality Shows (series), Latest Nature Documentaries (series), Popular Documentary Movies (movie), Popular Documentary Shows (series), Popular Animated Movies (movie), Popular Animated Shows (series), Popular Family Movies (movie), Popular Family Shows (series), Mindfuck (movie), Adult Swim (series), Shudder Movies (movie), Shudder Series (series), James Bond Collection (movie), Harry Potter Collection (movie), Jurassic Park Collection (all), The Matrix Collection (movie), Pirates of the Caribbean Collection (movie), Lord of the Rings and Hobbit Collection (movie), Alien vs Predator Collection (all), The Terminator Collection (all), Mission Impossible Collection (movie), A Nightmare on Elm Street (movie), A Quiet Place Collection (movie), Alien (movie), American Pie (movie), Are You Afraid of the Dark? (movie), Avatar Collection (movie), Back to the future (movie), Bad Boys (movie), Blair Witch Collection (movie), Bourne Collection (movie), Candyman (movie), Chucky (movie), DC Universe (movie), Dexter (movie), Die Hard (movie), Dune (movie), Eberhofer-Krimis (movie), Expendables (movie), Fast and Furious Collection (movie), Final Destination (movie), Friday the 13th (movie), Ghostbusters (movie), Gremlins (movie), Halloween Collection (movie), Hannibal Lecter (movie), Happy Death Day Collection (movie), Hunger Games (movie), Indiana Jones (movie), It Collection (movie), John Wick (movie), Jurassic Park (movie), Karate Kid (movie), Kingsman (movie), Mad Max (movie), Marvel (movie), Monsterverse (movie), Now You See Me (movie), Ocean's Collection (movie), Paranormal Activity (movie), Planet of The Apes (movie), Police Academy (movie), Predator Collection (movie), Psycho (movie), Quarantine Collection (movie), Rambo (movie), Resident Evil (movie), Rocky (movie), Saw (movie), Scream (movie), Sherlock Holmes (movie), Star Trek (movie), Star Wars Collection (movie), Taken (movie), Universe - The Terminator (movie), Terrifier (movie), The Conjuring Universe (movie), The Exorcist (movie), The Godfather (movie), The Purge (movie), The Shining Collection (movie), Transformers (movie), xXx Collection (movie), BAFTA Award Nominees (movie), Cannes 2000 (movie), Cannes 2001 (movie), Cannes Film Festival - 2005 (movie), Cannes Film Festival - All Films (movie), Cannes Film Festival Non-Retro Screenings 1946-2025 (movie), Emmy Awards - Outstanding Comedy Series (series), Emmy Awards - Outstanding Drama Series (series), Emmy Awards - Outstanding Miniseries (movie), Emmy Nominees (series), Emmy Nominees and Winners (movie), Golden Globe Award: Animated Feature Film (movie), Golden Globe Award: Best Actor in a Motion Picture – Drama (movie), Golden Globe Award: Best Actor in a Motion Picture – Musical or Comedy (movie), Golden Globe Award: Best Actress in a Motion Picture – Drama (movie), Golden Globe Award: Best Actress in a Motion Picture – Musical or Comedy (movie), Golden Globe Award: Best Director – Motion Picture (movie), Golden Globe Award: Best Motion Picture - Drama (movie), Golden Globe Award: Best Motion Picture - Foreign Language (movie), Golden Globe Award: Best Motion Picture - Musical or Comedy (movie), Golden Globe Award: Best Original Score in a Motion Picture (movie), Golden Globe Award: Best Original Song in a Motion Picture (movie), Golden Globe Award: Best Screenplay in a Motion Picture (movie), Golden Globe Award: Best Supporting Actor in a Motion Picture (movie), Golden Globe Award: Best Supporting Actress in a Motion Picture (movie), Golden Globe Nominees 2026 (movie), Golden Globe Winners (movie), Academy Award for Best Actor (movie), Academy Award for Best Actress (movie), Academy Award for Best Adapted Screenplay (movie), Academy Award for Best Animated Feature (movie), Academy Award for Best Cinematography (movie), Academy Award for Best Costume Design (movie), Academy Award for Best Director (movie), Academy Award for Best Documentary Feature Film (movie), Academy Award for Best Film Editing (movie), Academy Award for Best Foreign Language Film (movie), Academy Award for Best Makeup and Hairstyling (movie), Academy Award for Best Original Score (movie), Academy Award for Best Original Screenplay (movie), Academy Award for Best Original Song (movie), Academy Award for Best Picture (movie), Academy Award for Best Production Design (movie), Academy Award for Best Sound (movie), Academy Award for Best Supporting Actor (movie), Academy Award for Best Supporting Actress (movie), Academy Award for Best Visual Effects (movie), Academy Award Nominees (movie), Academy Award Nominees & Winners (movie), Academy Award Nominees (movie), Venice Film Festival - All Films (movie), 20s Movies (movie), 10s Movies (movie), 00s Movies (movie), 90s Movies (movie), 80s Movies (movie), 70s Movies (movie), Latest TV Shows (series)
-- **anilist** (1): Trending Anime (`anilist.trending`, anime)
-- **mal** (2): Top Anime (`mal.discover.anime.top_anime.mnxr57of`, anime), Top Anime Movies (`mal.discover.anime.top_anime_movies.mnxr68mk`, anime)
-- **tmdb** (178): Netflix — New (movie), Netflix — New (series), Netflix — Popular (movie), Netflix — Popular (series), Netflix — Top Rated (movie), Netflix — Top Rated (series), Netflix — Originals (movie), Netflix — Originals (series), Disney+ — New (movie), Disney+ — New (series), Disney+ — Popular (movie), Disney+ — Popular (series), Disney+ — Top Rated (movie), Disney+ — Top Rated (series), Disney+ — Originals (series), Apple TV — New (movie), Apple TV — New (series), Apple TV — Popular (movie), Apple TV — Popular (series), Apple TV — Top Rated (movie), Apple TV — Top Rated (series), Apple TV — Originals (movie), Apple TV — Originals (series), Prime Video — New (movie), Prime Video — New (series), Prime Video — Popular (movie), Prime Video — Popular (series), Prime Video — Top Rated (movie), Prime Video — Top Rated (series), Prime Video — Originals (movie), Prime Video — Originals (series), HBO Max — New (movie), HBO Max — New (series), HBO Max — Popular (movie), HBO Max — Popular (series), HBO Max — Top Rated (movie), HBO Max — Top Rated (series), HBO Max — Originals (movie), HBO Max — Originals (series), Hulu — New (movie), Hulu — New (series), Hulu — Popular (movie), Hulu — Popular (series), Hulu — Top Rated (movie), Hulu — Top Rated (series), Hulu — Originals (series), Paramount+ — New (movie), Paramount+ — New (series), Paramount+ — Popular (movie), Paramount+ — Popular (series), Paramount+ — Top Rated (movie), Paramount+ — Top Rated (series), Paramount+ — Originals (series), Peacock — New (movie), Peacock — New (series), Peacock — Popular (movie), Peacock — Popular (series), Peacock — Top Rated (movie), Peacock — Top Rated (series), Peacock — Originals (series), Starz — New (movie), Starz — New (series), Starz — Popular (movie), Starz — Popular (series), Starz — Top Rated (movie), Starz — Top Rated (series), Starz — Originals (series), Shudder — New (movie), Shudder — New (series), Shudder — Popular (movie), Shudder — Popular (series), Shudder — Top Rated (movie), Shudder — Top Rated (series), Shudder — Originals (series), Adult Swim — New (movie), Adult Swim — New (series), Adult Swim — Popular (movie), Adult Swim — Popular (series), Adult Swim — Top Rated (movie), Adult Swim — Top Rated (series), Adult Swim — Originals (movie), Adult Swim — Originals (series), Action — New (movie), Action — New (series), Action — Popular (movie), Action — Popular (series), Action — Top Rated (movie), Action — Top Rated (series), Animation — New (movie), Animation — New (series), Animation — Popular (movie), Animation — Popular (series), Animation — Top Rated (movie), Animation — Top Rated (series), Comedy — New (movie), Comedy — New (series), Comedy — Popular (movie), Comedy — Popular (series), Comedy — Top Rated (movie), Comedy — Top Rated (series), Crime — New (movie), Crime — New (series), Crime — Popular (movie), Crime — Popular (series), Crime — Top Rated (movie), Crime — Top Rated (series), Documentary — New (movie), Documentary — New (series), Documentary — Popular (movie), Documentary — Popular (series), Documentary — Top Rated (movie), Documentary — Top Rated (series), Drama — New (movie), Drama — New (series), Drama — Popular (movie), Drama — Popular (series), Drama — Top Rated (movie), Drama — Top Rated (series), Family — New (movie), Family — New (series), Family — Popular (movie), Family — Popular (series), Family — Top Rated (movie), Family — Top Rated (series), History — New (movie), History — New (series), History — Popular (movie), History — Popular (series), History — Top Rated (movie), History — Top Rated (series), Horror — New (movie), Horror — New (series), Horror — Popular (movie), Horror — Popular (series), Horror — Top Rated (movie), Horror — Top Rated (series), Mystery — New (movie), Mystery — New (series), Mystery — Popular (movie), Mystery — Popular (series), Mystery — Top Rated (movie), Mystery — Top Rated (series), Romance — New (movie), Romance — New (series), Romance — Popular (movie), Romance — Popular (series), Romance — Top Rated (movie), Romance — Top Rated (series), Sci-Fi — New (movie), Sci-Fi — New (series), Sci-Fi — Popular (movie), Sci-Fi — Popular (series), Sci-Fi — Top Rated (movie), Sci-Fi — Top Rated (series), Thriller — New (movie), Thriller — Popular (movie), Thriller — Top Rated (movie), Reality TV — New (series), Reality TV — Popular (series), Reality TV — Top Rated (series), Nature — New (movie), Nature — New (series), Nature — Popular (movie), Nature — Popular (series), Nature — Top Rated (movie), Nature — Top Rated (series), Anime — New (movie), Anime — Popular (movie), Anime — Top Rated (movie), Anime — New (series), Anime — Popular (series), Anime — Top Rated (series), Trending Movies (movie), Trending Series (series), Popular Movies (movie), Popular Series (series), Top Rated Movies (movie), Top Rated Series (series)
-
-### Friends profile — `aiometadata-no-collections.json`
-
-46 catalogs, 27 enabled. Sources: tmdb 10, tvdb 5, tvmaze 1, mal 18, streaming 12.
-
-- **tmdb** (10): Popular (`tmdb.top`, movie), Popular (`tmdb.top`, series), Trending (`tmdb.trending`, movie), Trending (`tmdb.trending`, series), Top Rated (`tmdb.top_rated`, movie), Top Rated (`tmdb.top_rated`, series), TMDB By Year (`tmdb.year`, movie), TMDB By Year (`tmdb.year`, series), TMDB By Language (`tmdb.language`, movie), TMDB By Language (`tmdb.language`, series)
-- **tvdb** (5): TVDB Trending (`tvdb.trending`, movie), TVDB Trending (`tvdb.trending`, series), TVDB Genres (`tvdb.genres`, movie), TVDB Genres (`tvdb.genres`, series), TVDB Collections (`tvdb.collections`, movie)
-- **tvmaze** (1): TVmaze Daily Schedule (`tvmaze.schedule`, series, off)
-- **mal** (18): MAL Airing Now (`mal.airing`, anime, off), MAL Upcoming Season (`mal.upcoming`, anime, off), MAL Airing Schedule (`mal.schedule`, anime, off), MAL Seasons (`mal.seasons`, anime, off), MAL Best of 80s (`mal.80sDecade`, anime, off), MAL Best of 90s (`mal.90sDecade`, anime, off), MAL Best of 2000s (`mal.00sDecade`, anime, off), MAL Best of 2010s (`mal.10sDecade`, anime, off), MAL Best of 2020s (`mal.20sDecade`, anime, off), MAL Genres (`mal.genres`, anime, off), MAL By Studio (`mal.studios`, anime, off), MAL Top Movies (`mal.top_movies`, anime, off), MAL Top Series (`mal.top_series`, anime, off), MAL Most Favorites (`mal.most_favorites`, anime, off), MAL Most Popular (`mal.most_popular`, anime, off), MAL Top Anime (`mal.top_anime`, anime, off), MAL Top Rated This Week (`mal.season_top`, anime, off), MAL Top New This Week (`mal.season_top_new`, anime, off)
-- **streaming** (12): Netflix (Movies) (`streaming.nfx`, movie), Netflix (Series) (`streaming.nfx`, series), HBO Max (Movies) (`streaming.hbm`, movie), HBO Max (Series) (`streaming.hbm`, series), Disney+ (Movies) (`streaming.dnp`, movie), Disney+ (Series) (`streaming.dnp`, series), Prime Video (Movies) (`streaming.amp`, movie), Prime Video (Series) (`streaming.amp`, series), Apple TV+ (Movies) (`streaming.atp`, movie), Apple TV+ (Series) (`streaming.atp`, series), Crave (Movies) (`streaming.crv`, movie), Crave (Series) (`streaming.crv`, series)
+`aiometadata-setup-2026-09-29.json`, `aiometadata-setup-2026-09-29-v2…v20.json` and
+`genres-wide-dannyrutledge.nuvio.json` are superseded drafts from the day the four current files
+were built — the dated one is the main profile after 45 MDBList catalogs were added (396 catalogs),
+`v20` is the previous main profile (437 catalogs), and the `genres-wide` file is the 52-tile Genres
+collection on its own. Nothing in the current set depends on them; they stay for history.
 
 ## Provenance
 
@@ -178,4 +114,3 @@ live instance had moved to **3.2.3**.
 History has been rewritten twice — to purge a debrid key that an export carried, then to repack the
 art (114.9 MB → 21.0 MB) — so every pre-repack commit SHA is gone. Re-clone rather than pull if your
 copy predates that.
-
