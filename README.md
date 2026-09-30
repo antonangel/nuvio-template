@@ -32,12 +32,16 @@ catalogs set to `released`/`desc` (release order, oldest first) — import v3 if
 `aiometadata-setup-2026-09-29-v4.json` (330 catalogs) is v3 without the Starz, Shudder and
 Adult Swim folders and their 22 catalogs.
 
-The `-v10` … `-v19` files are successive rewrites of the main profile from this same day; **v19 is
+The `-v10` … `-v20` files are successive rewrites of the main profile from this same day; **v20 is
 current**: 437 catalogs, built from his latest live export with the house rules applied — catalog names
 truncated to the franchise name, every catalog tagged with the collection group it serves (Collections /
-Genres / Decades / Awards palette), `displayType` set on all list catalogs, the duplicate MDBList pairs
-removed, and `customPosterUrlPattern` = `https://btttr.cc/poster/imdb/poster-default/{imdb_id}.jpg`
-with `posterRatingProvider: custom` (verified live by calling AIO's own `resolvePosterPattern`).
+Genres / Decades / Awards palette), the duplicate MDBList pairs removed, and `customPosterUrlPattern` =
+`https://btttr.cc/poster/imdb/poster-default/{imdb_id}.jpg` with `posterRatingProvider: custom`
+(verified live by calling AIO's own `resolvePosterPattern`). **Media types are plural on both sides**:
+every catalog carries `displayType: "movies" | "series"` (that value *is* the published manifest type —
+`catalogType = displayType || type`) and every Nuvio source says `"type": "movies" | "series"`, because
+AIO matches a folder source to a catalog by id **and** type string. Change one file alone and that
+folder's rows stop resolving: v20 is 282/282 sources resolving, the singular spelling was 212/282.
 `v17` briefly embedded the five collections in the config and was withdrawn: AIO then publishes one
 `type: collection` catalog per collection (`aiom.collection.<id>`), which broke the Genres / Decades /
 Collections groups in Nuvio, so the export carries none — the Nuvio file is the only source of the

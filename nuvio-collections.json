@@ -8,7 +8,7 @@
     "title": "Netflix",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -22,7 +22,7 @@
       "catalogId": "tmdb.discover.series.netflix-new.99f5eb2d"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -36,7 +36,7 @@
       "catalogId": "tmdb.discover.series.netflix.42185b36"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -50,7 +50,7 @@
       "catalogId": "tmdb.discover.series.netflix-toprated.33a16c06"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -118,7 +118,7 @@
     "title": "Disney+",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -132,7 +132,7 @@
       "catalogId": "tmdb.discover.series.disney-new.e2f99faa"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -146,7 +146,7 @@
       "catalogId": "tmdb.discover.series.disney.c3be9f3f"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -216,7 +216,7 @@
     "title": "Apple TV",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -230,7 +230,7 @@
       "catalogId": "tmdb.discover.series.apple-tv-new.d17be8db"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -244,7 +244,7 @@
       "catalogId": "tmdb.discover.series.apple-tv.bc118253"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -258,7 +258,7 @@
       "catalogId": "tmdb.discover.series.apple-tv-toprated.ad1e5b14"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -326,7 +326,7 @@
     "title": "Prime Video",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -340,7 +340,7 @@
       "catalogId": "tmdb.discover.series.prime-video-new.c1a7f0b6"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -354,7 +354,7 @@
       "catalogId": "tmdb.discover.series.prime-video.3ef9a62d"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -368,7 +368,7 @@
       "catalogId": "tmdb.discover.series.prime-video-toprated.4caea2e0"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -436,7 +436,7 @@
     "title": "HBO Max",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -450,7 +450,7 @@
       "catalogId": "tmdb.discover.series.hbo-max-new.3f413739"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -464,7 +464,7 @@
       "catalogId": "tmdb.discover.series.hbo-max.da125adf"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -478,7 +478,7 @@
       "catalogId": "tmdb.discover.series.hbo-max-toprated.3b246808"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -546,7 +546,7 @@
     "title": "Hulu",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -560,7 +560,7 @@
       "catalogId": "tmdb.discover.series.hulu-new.a48fbb68"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -574,7 +574,7 @@
       "catalogId": "tmdb.discover.series.hulu.6e8e5da2"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -644,7 +644,7 @@
     "title": "Paramount+",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -658,7 +658,7 @@
       "catalogId": "tmdb.discover.series.paramount-new.78e36c04"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -672,7 +672,7 @@
       "catalogId": "tmdb.discover.series.paramount.0672dd12"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -742,7 +742,7 @@
     "title": "Peacock",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -756,7 +756,7 @@
       "catalogId": "tmdb.discover.series.peacock-new.1a0ff1c3"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -770,7 +770,7 @@
       "catalogId": "tmdb.discover.series.peacock.450b3a7f"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -862,7 +862,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.action-new.f615b30b",
       "catalogName": "Action \u2014 New",
       "title": "Action \u2014 New",
@@ -884,7 +884,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "mdblist.91211",
       "catalogName": "Popular Action Movies",
       "title": "Popular Action Movies",
@@ -906,7 +906,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.action-toprated.ed834732",
       "catalogName": "Action \u2014 Top Rated",
       "title": "Action \u2014 Top Rated",
@@ -969,7 +969,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.animation-new.ae2101e4",
       "catalogName": "Animation \u2014 New",
       "title": "Animation \u2014 New",
@@ -991,7 +991,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.animation.9e938461",
       "catalogName": "Animation \u2014 Popular",
       "title": "Animation \u2014 Popular",
@@ -1013,7 +1013,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.animation-toprated.a933979e",
       "catalogName": "Animation \u2014 Top Rated",
       "title": "Animation \u2014 Top Rated",
@@ -1076,7 +1076,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.anime-new.17418960",
       "catalogName": "Anime \u2014 New",
       "title": "Anime \u2014 New",
@@ -1098,7 +1098,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.anime.9def1714",
       "catalogName": "Anime \u2014 Popular",
       "title": "Anime \u2014 Popular",
@@ -1120,7 +1120,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.anime-toprated.035596fe",
       "catalogName": "Anime \u2014 Top Rated",
       "title": "Anime \u2014 Top Rated",
@@ -1183,7 +1183,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.comedy-new.e54f1978",
       "catalogName": "Comedy \u2014 New",
       "title": "Comedy \u2014 New",
@@ -1205,7 +1205,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "mdblist.91223",
       "catalogName": "Popular Comedy Movies",
       "title": "Popular Comedy Movies",
@@ -1227,7 +1227,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.comedy-toprated.12e38149",
       "catalogName": "Comedy \u2014 Top Rated",
       "title": "Comedy \u2014 Top Rated",
@@ -1290,7 +1290,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.crime-new.a9ce07e8",
       "catalogName": "Crime \u2014 New",
       "title": "Crime \u2014 New",
@@ -1312,7 +1312,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "mdblist.3108",
       "catalogName": "Popular Crime Movies",
       "title": "Popular Crime Movies",
@@ -1334,7 +1334,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.crime-toprated.6c5d6985",
       "catalogName": "Crime \u2014 Top Rated",
       "title": "Crime \u2014 Top Rated",
@@ -1397,7 +1397,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.documentary-new.885f5e44",
       "catalogName": "Documentary \u2014 New",
       "title": "Documentary \u2014 New",
@@ -1419,7 +1419,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "mdblist.128051",
       "catalogName": "Popular Documentary Movies",
       "title": "Popular Documentary Movies",
@@ -1441,7 +1441,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.documentary-toprated.6ca3e536",
       "catalogName": "Documentary \u2014 Top Rated",
       "title": "Documentary \u2014 Top Rated",
@@ -1504,7 +1504,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.drama-new.8ff83f73",
       "catalogName": "Drama \u2014 New",
       "title": "Drama \u2014 New",
@@ -1526,7 +1526,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "mdblist.91296",
       "catalogName": "Popular Drama Movies",
       "title": "Popular Drama Movies",
@@ -1548,7 +1548,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.drama-toprated.73821c69",
       "catalogName": "Drama \u2014 Top Rated",
       "title": "Drama \u2014 Top Rated",
@@ -1611,7 +1611,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "mdblist.6637",
       "catalogName": "Fantasy Movies",
       "title": "Fantasy Movies",
@@ -1654,7 +1654,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.horror-new.b8bd78b5",
       "catalogName": "Horror \u2014 New",
       "title": "Horror \u2014 New",
@@ -1676,7 +1676,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "mdblist.91215",
       "catalogName": "Popular Horror Movies",
       "title": "Popular Horror Movies",
@@ -1698,7 +1698,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.horror-toprated.eeb85c7a",
       "catalogName": "Horror \u2014 Top Rated",
       "title": "Horror \u2014 Top Rated",
@@ -1761,7 +1761,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "mdblist.131939",
       "catalogName": "Folklore, Fantasy, Mythology & Fairytales",
       "title": "Folklore, Fantasy, Mythology & Fairytales",
@@ -1788,7 +1788,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.nature-new.fdc12acb",
       "catalogName": "Nature \u2014 New",
       "title": "Nature \u2014 New",
@@ -1810,7 +1810,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.nature.1822f510",
       "catalogName": "Nature \u2014 Popular",
       "title": "Nature \u2014 Popular",
@@ -1832,7 +1832,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.nature-toprated.2b1f19aa",
       "catalogName": "Nature \u2014 Top Rated",
       "title": "Nature \u2014 Top Rated",
@@ -1954,7 +1954,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "mdblist.52490",
       "catalogName": "Artificial Intelligence",
       "title": "Artificial Intelligence",
@@ -1993,7 +1993,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.romance-new.d9ead370",
       "catalogName": "Romance \u2014 New",
       "title": "Romance \u2014 New",
@@ -2015,7 +2015,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "mdblist.128262",
       "catalogName": "Popular Romance Movies",
       "title": "Popular Romance Movies",
@@ -2037,7 +2037,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.romance-toprated.ca69a390",
       "catalogName": "Romance \u2014 Top Rated",
       "title": "Romance \u2014 Top Rated",
@@ -2100,7 +2100,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.sci-fi-new.3d13f061",
       "catalogName": "Sci-Fi \u2014 New",
       "title": "Sci-Fi \u2014 New",
@@ -2122,7 +2122,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "mdblist.91220",
       "catalogName": "Popular Sci-Fi Movies",
       "title": "Popular Sci-Fi Movies",
@@ -2144,7 +2144,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.sci-fi-toprated.b868414a",
       "catalogName": "Sci-Fi \u2014 Top Rated",
       "title": "Sci-Fi \u2014 Top Rated",
@@ -2203,21 +2203,21 @@
     "coverImageUrl": "https://raw.githubusercontent.com/antonangel/nuvio-template/main/images/genres/short-films.webp",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
       "catalogId": "mdblist.4595"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
       "catalogId": "mdblist.149579"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -2254,7 +2254,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "mdblist.52489",
       "catalogName": "Spy & Espionage Movies",
       "title": "Spy & Espionage Movies",
@@ -2293,7 +2293,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.thriller-new.ad1237db",
       "catalogName": "Thriller \u2014 New",
       "title": "Thriller \u2014 New",
@@ -2304,7 +2304,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "mdblist.91893",
       "catalogName": "Popular Thriller Movies",
       "title": "Popular Thriller Movies",
@@ -2326,7 +2326,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "tmdb.discover.movie.thriller-toprated.f497cfb5",
       "catalogName": "Thriller \u2014 Top Rated",
       "title": "Thriller \u2014 Top Rated",
@@ -2368,7 +2368,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "mdblist.3112",
       "catalogName": "War",
       "title": "War",
@@ -2411,7 +2411,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "mdblist.6647",
       "catalogName": "Western Movies",
       "title": "Western Movies",
@@ -2454,7 +2454,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "mdblist.83280",
       "catalogName": "Whodunit and Murder Mysteries",
       "title": "Whodunit and Murder Mysteries",
@@ -2497,7 +2497,7 @@
       "addonId": "aio-metadata",
       "addonBaseUrl": null,
       "addonName": "AIOMetadata",
-      "type": "movie",
+      "type": "movies",
       "catalogId": "mdblist.52950",
       "catalogName": "Zombie - Movies",
       "title": "Zombie - Movies",
@@ -2523,7 +2523,7 @@
     "title": "20s",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -2560,7 +2560,7 @@
     "title": "10s",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -2597,7 +2597,7 @@
     "title": "00s",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -2634,7 +2634,7 @@
     "title": "90s",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -2671,7 +2671,7 @@
     "title": "80s",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -2708,7 +2708,7 @@
     "title": "70s",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -2755,7 +2755,7 @@
     "title": "Marvel Cinematic Universe",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -2791,7 +2791,7 @@
     "title": "Star Wars",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -2851,7 +2851,7 @@
     "title": "James Bond",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -2875,7 +2875,7 @@
     "title": "Harry Potter",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -2899,7 +2899,7 @@
     "title": "Star Trek",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -2935,7 +2935,7 @@
     "title": "The Matrix",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -2971,7 +2971,7 @@
     "title": "Back to the Future",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3007,7 +3007,7 @@
     "title": "Alien",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3043,7 +3043,7 @@
     "title": "Indiana Jones",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3079,7 +3079,7 @@
     "title": "Mission: Impossible",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3103,7 +3103,7 @@
     "title": "X-Men",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3127,7 +3127,7 @@
     "title": "Spider-Man",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3151,7 +3151,7 @@
     "title": "DC Extended Universe",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3187,7 +3187,7 @@
     "title": "Men in Black",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3211,7 +3211,7 @@
     "title": "The Fast & The Furious",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3259,7 +3259,7 @@
     "title": "Transformers: Film",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3283,7 +3283,7 @@
     "title": "Breaking Bad",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3319,7 +3319,7 @@
     "title": "Die Hard",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3343,7 +3343,7 @@
     "title": "Deadpool",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3367,7 +3367,7 @@
     "title": "Predator",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3391,7 +3391,7 @@
     "title": "The Lord of the Rings",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3415,7 +3415,7 @@
     "title": "The Eastrail 177",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3439,7 +3439,7 @@
     "title": "Ghostbusters",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3475,7 +3475,7 @@
     "title": "Shrek",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3511,7 +3511,7 @@
     "title": "Frozen",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3547,7 +3547,7 @@
     "title": "Captain America",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3583,7 +3583,7 @@
     "title": "Toy Story",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3619,7 +3619,7 @@
     "title": "The Simpsons",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3655,7 +3655,7 @@
     "title": "Jumanji",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3691,7 +3691,7 @@
     "title": "Jurassic Park",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3727,7 +3727,7 @@
     "title": "It",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3763,7 +3763,7 @@
     "title": "John Wick",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3799,7 +3799,7 @@
     "title": "Hotel Transylvania",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3835,7 +3835,7 @@
     "title": "Cars",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3871,7 +3871,7 @@
     "title": "Duniverse",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3907,7 +3907,7 @@
     "title": "Rocky",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3943,7 +3943,7 @@
     "title": "Terminator",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -3979,7 +3979,7 @@
     "title": "Jack Ryan",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4015,7 +4015,7 @@
     "title": "Blade Runner",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4051,7 +4051,7 @@
     "title": "Stargate",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4087,7 +4087,7 @@
     "title": "DC Animated Universe",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4123,7 +4123,7 @@
     "title": "Veronica Mars",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4159,7 +4159,7 @@
     "title": "Free Willy",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4195,7 +4195,7 @@
     "title": "Babylon 5",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4231,7 +4231,7 @@
     "title": "Transformers: Generation 1",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4267,7 +4267,7 @@
     "title": "Despicable Me",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4315,7 +4315,7 @@
     "title": "Finding Nemo",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4339,7 +4339,7 @@
     "title": "Wreck-It Ralph",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4363,7 +4363,7 @@
     "title": "Annabelle",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4387,7 +4387,7 @@
     "title": "Paranormal Activity",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4411,7 +4411,7 @@
     "title": "Final Destination",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4483,7 +4483,7 @@
     "title": "Lethal Weapon",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4507,7 +4507,7 @@
     "title": "Alien vs. Predator",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4531,7 +4531,7 @@
     "title": "Ice Age",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4555,7 +4555,7 @@
     "title": "Mad Max",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4627,7 +4627,7 @@
     "title": "Batman",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4651,7 +4651,7 @@
     "title": "Avengers",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4675,7 +4675,7 @@
     "title": "I Spit on Your Grave",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4699,7 +4699,7 @@
     "title": "Air Buddies",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4723,7 +4723,7 @@
     "title": "Kickboxer",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4747,7 +4747,7 @@
     "title": "Death Race",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4771,7 +4771,7 @@
     "title": "Planet of the Apes",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4795,7 +4795,7 @@
     "title": "Alvin and the Chipmunks",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4819,7 +4819,7 @@
     "title": "Man of Steel",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4843,7 +4843,7 @@
     "title": "Teenage Mutant Ninja Turtles",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4867,7 +4867,7 @@
     "title": "Police Story",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4891,7 +4891,7 @@
     "title": "Lucky Stars",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4915,7 +4915,7 @@
     "title": "Armour of God",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4939,7 +4939,7 @@
     "title": "Once Upon a Time in China",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -4973,21 +4973,21 @@
     "title": "Academy Awards",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
       "catalogId": "mdblist.159412"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
       "catalogId": "mdblist.99658"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -5021,14 +5021,14 @@
     "title": "BAFTA",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
       "catalogId": "mdblist.160235"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -5057,14 +5057,14 @@
     "title": "Cannes",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
       "catalogId": "mdblist.160006"
      },
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -5129,7 +5129,7 @@
     "title": "Golden Globes",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
@@ -5165,7 +5165,7 @@
     "title": "Venice Film Festival",
     "sources": [
      {
-      "type": "movie",
+      "type": "movies",
       "genre": "",
       "addonId": "aio-metadata",
       "provider": "addon",
