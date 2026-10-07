@@ -7,7 +7,7 @@ add your own API keys and install addons in Nuvio.
 ## What you need first
 
 1. **Nuvio** — the client, on the device you watch on ([nuvio.tv](https://nuvio.tv)). Any
-   Stremio-addon-compatible client works the same way.
+   Stremio-addon-compatible client should work in the same way. 
 2. **A debrid service** — TorBox, Real-Debrid, AllDebrid, Premiumize… Streams play from *your*
    debrid account, so without one you only get the free and peer-to-peer results.
    *(Usenet is optional — the AIOStreams files already carry a cache-and-play setup for it.)*
