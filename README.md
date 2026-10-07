@@ -1,7 +1,7 @@
 # nuvio-template
 
 A complete **Nuvio** setup you can import in about ten minutes: four addons would cover most of
-your needs. High-quality streams, rich metadata and personal recommendations. Import the files, then
+your needs. Designed to be used with debrid service. High-quality streams, rich metadata and personal recommendations. Import the files, then
 add your own API keys and install addons in Nuvio.
 
 ## What you need first
