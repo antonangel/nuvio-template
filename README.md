@@ -74,26 +74,33 @@ use the copy button in the corner of the box:
 https://posters.angel.is/poster?shape={shape}&top_gradient=medium&top_vignette_sash_only=true&sash_mode=notch&landscape_vignette_poster_color_top=0&landscape_vignette_poster_color_bottom=0&landscape_hide_year=1&landscape_sash_mode=sash&badge_pos=top_left&landscape_score_out_of_10=true&landscape_rating_separator=star&landscape_badge_shape=chip&landscape_winner_star=true&landscape_badge_glass_opacity=0.80&fallback_to_imdb=true&imdb_rating_source=dataset&tmdb_rating_source=direct&rating_display_mode=2&numeric_score_font_size_ratio=0.070&numeric_score_y_offset=0.91&score_out_of_10=true&movie_weights=lb:.3,tk:.1,rt:.25,pc:.35&tv_weights=tk:.1,rt:.35,pc:.45,im:.1&fallback_bg_style=photoreal&logo_max_h_ratio=0.20&logo_bottom_ratio=0.21&logo_bottom_anchor=true&cinema_greyscale=false&hide_unreleased_rating=true&sash_winner_star=true&sash_badge_size_w=1.00&sash_badge_size_h=0.90&sash_badge_font_ratio=0.45&sash_badge_frost_opacity=0.35&sash_badge_pos=left&sash_priority=wins,gg_wins,festival,pic_noms,metacritic,gg_noms,trending,trending_broad,premiere,new_release,just_added,new_season,season_finale,studio,director,watchlist,cast,blockbuster,cult,foreign,true_story,short_film,mini_series,binge_ready,returning,airing,cancelled,ended,physical,streaming,cinema,production,renewed&landscape_sash_priority=wins,gg_wins,festival,pic_noms,metacritic,gg_noms,premiere,new_release,just_added,new_season,season_finale,studio,director,watchlist,cast,blockbuster,cult,foreign,true_story,short_film,mini_series,binge_ready,returning,airing,cancelled,ended,physical,streaming,cinema,production,renewed,-trending,-trending_broad&badge_display_mode=7&badge_group1=chip:4:res,video,audio:22:0.01&badge_group2=below_logo:4:network,studio:20&badge_group3=chip:4:cinema:45&landscape_badge_display_mode=7&landscape_badge_group2=above_logo:4:network,studio&quality_after_digital=true&badge_cinema_style=frosted&badge_quality_style=frosted&wait_for_quality=true&imdb_id={imdb_id}&type={type}&access_key=IMnf1Y6BFE5zFdtoyQ6N72rfDf9PutMtemVi1zLHAz8
 ```
 
-Then add your **Google Gemini** key and choose **gemini-3.5-flash** in the model field (or any
-other supported AI provider).
+Then add your **Google Gemini** key and, in the model field, type
+`gemini-3.5-flash`.
 
 On the next page, **Catalogues**, keep the defaults on: **For you**, **Because you watched**, and
 the genre and keyword rows.
 
 Press **Save & Install**, then the **Nuvio** button.
 
-Watchly is a standalone addon. Keep it **first** in your addon list — that is what puts its rows
-above the collections.
+### 7. Import the AIOMetadata setup
 
-### 7. Import AIOMetadata
+Open [aiometadata.angel.is/configure](https://aiometadata.angel.is/configure). On the
+first page, scroll to the bottom and choose **Import a setup**. Paste this link:
 
-Open [aiometadata.angel.is/configure](https://aiometadata.angel.is/configure) → **Import & Export**
-→ **Import Configuration** → upload `aiometadata.json` → **Save**.
+```
+https://raw.githubusercontent.com/antonangel/nuvio-template/main/aiometadata-setup.json
+```
 
-Then open the **API keys** section and paste your **TMDB**, **TVDB** and **MDBList** keys from
-step 5, and save. That keeps each account on its own free limits.
+Review the lineup, then apply it. That fills the collection folders with catalogs.
 
-Copy the **manifest URL** it gives you, then add it in Nuvio: **Add addon** → paste → install.
+Then open the **API keys** section and paste your **TMDB**, **TVDB** and **MDBList**
+keys from step 5, and save. That keeps each account on its own free limits.
+
+Next, set the posters: **Art Providers → Art URL Overrides**, choose **Custom Art
+URLs**, and paste the same `posters.angel.is` address you used in step 6.
+
+Copy the **manifest URL** it gives you, then add it in Nuvio: **Add addon** → paste →
+install.
 
 ### 8. Import AIOStreams
 
