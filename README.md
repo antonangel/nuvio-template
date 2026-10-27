@@ -102,14 +102,16 @@ URLs**, and paste the same `posters.angel.is` address you used in step 6.
 Copy the **manifest URL** it gives you, then add it in Nuvio: **Add addon** → paste →
 install.
 
-### 8. Import AIOStreams
+### 8. Add the ready-made stream setup
 
-Open [aiostreams.angel.is](https://aiostreams.angel.is) → **Save & Install** → **Import Config** →
-upload `aiostreams.json`.
+Open [aiostreams.angel.is](https://aiostreams.angel.is) and choose **Angel's setup** from the
+setup list. It already has the sources connected — Comet, StremThru and Meteor — so there is
+nothing to upload and no debrid account to add.
 
-Debrid is already wired to the shared account on the instance — **don't add a key of your own**.
+**Don't add a debrid key of your own.** The shared account is already connected; adding yours
+will not make it faster and may break it.
 
-Save, copy the **manifest URL**, and add it in Nuvio the same way.
+Press **Save & Install**, copy the **manifest URL**, and add it in Nuvio the same way.
 
 ### 9. Sort the addons
 
@@ -139,10 +141,7 @@ Set the same badge URL inside the client itself:
 | `collections.json` | Nuvio → **Import collections** | the folder layout — the Streaming Services, Genres, Decades and Collections folders you browse in Nuvio |
 | `badge.json` | Nuvio web → **Fusion badge URLs** | the badge pack Nuvio prints on every stream |
 | `aiometadata.json` | AIOMetadata → **Import & Export** | the catalogs that fill those folders with movies and series |
-| `aiostreams.json` | AIOStreams → **Save & Install** | the streams — which sources to search and what quality to keep |
-
-`aiostreams-a.json` is my personal variant of the streams config (it adds a private Prowlarr
-source). **Don't import it** — use `aiostreams.json`.
+| — | built into AIOStreams | **Angel's setup** is a template on the instance, not a file in this repo. Pick it from the setup list in step 8. |
 
 Everything `collections.json` and `badge.json` point at — tiles, posters, badges — lives in
 [`images/`](images/) in this repo, served from GitHub so a TV client can fetch it with no login.
@@ -161,8 +160,10 @@ Everything `collections.json` and `badge.json` point at — tiles, posters, badg
   audio, channels, encoder and streaming service, so you can tell what a release is at a glance.
 - **`aiometadata.json`** — 423 catalogs (tmdb 158, mdblist 154, tvdb 108, mal 2, anilist 1), with
   the names, tags and poster art the folders ask for.
-- **`aiostreams.json`** — the stream list: seven sources (Library, Meteor, Comet, StremThru Torz,
-  Torrentio, Knaben, Zilean), deduplicated, with quality filtering and a short result list.
+- **Angel's setup** (a template on `aiostreams.angel.is`) — the stream list: Comet (self-hosted
+  and public), StremThru Torz, and Meteor, deduplicated, with quality filtering and a short
+  result list. It lives on the instance, not in this repo, because the preset URLs carry the
+  shared debrid credential.
 
 Each person imports their own copy, so your settings and watch history stay yours. Streams use the
 shared debrid account.
