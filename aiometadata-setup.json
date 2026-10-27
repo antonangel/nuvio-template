@@ -1,9 +1,9 @@
 {
   "kind": "aiometadata.setupTemplate",
   "version": 1,
-  "exportedAt": "2026-10-27T10:24:01.005954+00:00",
+  "exportedAt": "2026-10-27T10:49:23.792558+00:00",
   "template": {
-    "id": "shared.1a17ce369ed",
+    "id": "shared.1a17cfaa650",
     "name": "Angel's Setup",
     "tagline": "423 catalogs",
     "lineup": {
@@ -9072,10 +9072,14 @@
       "sfw": false,
       "includeAdult": false
     },
-    "requires": [],
+    "requires": [
+      "tmdb",
+      "tvdb",
+      "mdblist"
+    ],
     "source": {
       "kind": "imported",
-      "importedAt": "2026-10-27T10:24:01.005944+00:00"
+      "importedAt": "2026-10-27T10:49:23.792550+00:00"
     }
   }
 }
